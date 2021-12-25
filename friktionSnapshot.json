@@ -1,11 +1,11 @@
 {
-  "totalTvlUSD": 31154376.7,
+  "totalTvlUSD": 31159164.15,
   "coinsByCoingeckoId": {
     "solana": 61099.602403664,
     "msol": 55800.52619435,
     "bitcoin": 147.5118,
     "ethereum": 30.013254,
-    "ftx-token": 13707.026422,
+    "ftx-token": 14218.582967,
     "serum": 67960.729748,
     "mango-markets": 228221.3778
   }

@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 42745914.54,
+  "totalTvlUSD": 42814610.36,
   "coinsByCoingeckoId": {
     "solana": 67304.327413664,
     "msol": 84055.049636147,
@@ -10,14 +10,14 @@
     "mango-markets": 931551.27549
   },
   "pricesByCoingeckoId": {
-    "BTC": 51028,
-    "SOL": 198.72,
-    "ETH": 4084.55,
-    "mSOL": 203.34,
-    "FTT": 42.67,
+    "BTC": 51110,
+    "SOL": 199.14,
+    "ETH": 4089.89,
+    "mSOL": 203.6,
+    "FTT": 42.76,
     "SRM": 4.05,
     "USDC": 1,
-    "MNGO": 0.269339
+    "MNGO": 0.269644
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.02193,

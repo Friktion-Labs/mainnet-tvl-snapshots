@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 47446412.61,
+  "totalTvlUSD": 47446001.61,
   "coinsByCoingeckoId": {
     "solana": 83265.184403664,
     "msol": 84055.059636147,
@@ -17,7 +17,7 @@
     "FTT": 42.81,
     "SRM": 4.09,
     "USDC": 1,
-    "MNGO": 0.260886
+    "MNGO": 0.260623
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.02193,

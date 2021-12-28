@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 46059180.83,
+  "totalTvlUSD": 46059354.36,
   "coinsByCoingeckoId": {
     "solana": 83862.563503664,
     "msol": 84999.999902565,
@@ -11,11 +11,11 @@
   },
   "pricesByCoingeckoId": {
     "BTC": 49648,
-    "SOL": 188.82,
-    "ETH": 3956.38,
-    "mSOL": 193.45,
+    "SOL": 188.9,
+    "ETH": 3951.23,
+    "mSOL": 193.42,
     "FTT": 41.09,
-    "SRM": 3.86,
+    "SRM": 3.85,
     "USDC": 1,
     "MNGO": 0.254424
   },

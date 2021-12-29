@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 47581073.81,
+  "totalTvlUSD": 47557688.39,
   "coinsByCoingeckoId": {
     "usd-coin": 900499.9303259999,
     "socean-staked-sol": 1000.267692387,
@@ -12,11 +12,11 @@
     "mango-markets": 1812561.751595
   },
   "pricesByCoingeckoId": {
-    "BTC": 47792,
+    "BTC": 47757,
     "SOL": 174.77,
-    "ETH": 3778.37,
-    "mSOL": 179,
-    "FTT": 39.7,
+    "ETH": 3772.35,
+    "mSOL": 178.86,
+    "FTT": 39.68,
     "SRM": 3.49,
     "USDC": 1,
     "MNGO": 0.227155,

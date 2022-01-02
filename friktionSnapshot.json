@@ -1,11 +1,11 @@
 {
-  "totalTvlUSD": 76194430.38,
+  "totalTvlUSD": 76397561.17,
   "coinsByCoingeckoId": {
     "solana": 83999.999963016,
     "msol": 84999.988883945,
     "bitcoin": 313.962449,
     "ethereum": 856.378145,
-    "ftx-token": 45335.797764,
+    "ftx-token": 45835.797764,
     "usd-coin": 7870436.609805001,
     "saber": 11000000,
     "terra-luna": 9999.995722,
@@ -14,17 +14,17 @@
     "mango-markets": 2992132.494291
   },
   "pricesByCoingeckoId": {
-    "BTC": 47315,
-    "SOL": 175.67,
-    "ETH": 3750.3,
-    "mSOL": 180.44,
+    "BTC": 47513,
+    "SOL": 176.3,
+    "ETH": 3767.97,
+    "mSOL": 180.14,
     "FTT": 40,
-    "SRM": 3.71,
+    "SRM": 3.73,
     "USDC": 1,
-    "MNGO": 0.209408,
+    "MNGO": 0.209173,
     "scnSOL": 179.23,
-    "SBR": 0.135112,
-    "LUNA": 90.49
+    "SBR": 0.135319,
+    "LUNA": 90.44
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.03196,

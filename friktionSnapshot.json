@@ -1,7 +1,7 @@
 {
-  "totalTvlUSD": 84710198.77,
+  "totalTvlUSD": 84655936.2,
   "coinsByCoingeckoId": {
-    "solana": 90891.088403016,
+    "solana": 90892.088403016,
     "msol": 114925.713793283,
     "bitcoin": 319.676702,
     "raydium": 3221.175004,
@@ -15,18 +15,18 @@
     "mango-markets": 5999999.808277
   },
   "pricesByCoingeckoId": {
-    "BTC": 46641,
-    "SOL": 170.9,
-    "ETH": 3767.22,
+    "BTC": 46579,
+    "SOL": 170.65,
+    "ETH": 3761.76,
     "mSOL": 175.37,
-    "FTT": 40.33,
+    "FTT": 40.29,
     "SRM": 3.67,
     "USDC": 1,
     "MNGO": 0.218175,
     "scnSOL": 173.89,
-    "SBR": 0.115703,
-    "LUNA": 92.16,
-    "RAY": 6.7
+    "SBR": 0.115471,
+    "LUNA": 92.07,
+    "RAY": 6.69
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.03196,
@@ -45,7 +45,7 @@
     "mainnet_income_put_btc": 1
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 90891.088403016,
+    "mainnet_income_call_sol": 90892.088403016,
     "mainnet_income_call_marinade": 114925.713793283,
     "mainnet_income_call_btc": 319.676702,
     "mainnet_income_call_ray": 3221.175004,
@@ -61,15 +61,15 @@
     "mainnet_income_put_btc": 2429161.44
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 15533287.01,
+    "mainnet_income_call_sol": 15510734.89,
     "mainnet_income_call_marinade": 20154522.43,
-    "mainnet_income_call_btc": 14910041.06,
-    "mainnet_income_call_ray": 21581.87,
-    "mainnet_income_call_eth": 3424130.53,
-    "mainnet_income_call_ftt": 2564536.18,
+    "mainnet_income_call_btc": 14890221.1,
+    "mainnet_income_call_ray": 21549.66,
+    "mainnet_income_call_eth": 3419167.79,
+    "mainnet_income_call_ftt": 2561992.63,
     "mainnet_income_put_mngo": 267753.62,
-    "mainnet_income_call_sbr": 1272733,
-    "mainnet_income_call_luna": 1843176.85,
+    "mainnet_income_call_sbr": 1270181,
+    "mainnet_income_call_luna": 1841376.87,
     "mainnet_income_call_socean": 956394.99,
     "mainnet_income_call_srm": 14316443.37,
     "mainnet_income_call_mngo": 1309049.96,

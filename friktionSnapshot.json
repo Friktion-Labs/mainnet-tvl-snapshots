@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 84001967.09,
+  "totalTvlUSD": 84001982.09,
   "coinsByCoingeckoId": {
     "solana": 88731.185603016,
     "msol": 111212.756373158,
@@ -7,7 +7,7 @@
     "raydium": 0.019988,
     "ethereum": 888.741424,
     "ftx-token": 63288.858957,
-    "usd-coin": 8283961.509376001,
+    "usd-coin": 8283976.509376001,
     "saber": 11000000,
     "terra-luna": 16692.404117,
     "socean-staked-sol": 5499.999393146,
@@ -57,7 +57,7 @@
     "mainnet_income_call_socean": 5499.999393146,
     "mainnet_income_call_srm": 3896686.173897,
     "mainnet_income_call_mngo": 5999999.808277,
-    "mainnet_income_put_sol": 5592191.52,
+    "mainnet_income_put_sol": 5592206.52,
     "mainnet_income_put_btc": 2424161.44
   },
   "usdValueByGlobalId": {
@@ -73,7 +73,7 @@
     "mainnet_income_call_socean": 970034.89,
     "mainnet_income_call_srm": 14573606.29,
     "mainnet_income_call_mngo": 1287101.96,
-    "mainnet_income_put_sol": 5592191.52,
+    "mainnet_income_put_sol": 5592206.52,
     "mainnet_income_put_btc": 2424161.44
   }
 }

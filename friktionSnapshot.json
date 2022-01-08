@@ -1,7 +1,7 @@
 {
-  "totalTvlUSD": 89599065.59,
+  "totalTvlUSD": 89559331.63,
   "coinsByCoingeckoId": {
-    "solana": 124836.769450644,
+    "solana": 124839.969450644,
     "msol": 135968.009910147,
     "bitcoin": 354.279198,
     "saber": 11000000,
@@ -16,17 +16,17 @@
   },
   "pricesByCoingeckoId": {
     "BTC": 41754,
-    "SOL": 138.91,
+    "SOL": 138.72,
     "ETH": 3205.26,
     "mSOL": 142.41,
-    "FTT": 35.84,
+    "FTT": 35.8,
     "SRM": 3.14,
     "USDC": 1,
-    "MNGO": 0.192608,
+    "MNGO": 0.192394,
     "scnSOL": 140.92,
-    "SBR": 0.089985,
-    "LUNA": 69.67,
-    "RAY": 5.42
+    "SBR": 0.089464,
+    "LUNA": 69.51,
+    "RAY": 5.41
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.03708,
@@ -45,7 +45,7 @@
     "mainnet_income_put_btc": 1
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 124836.769450644,
+    "mainnet_income_call_sol": 124839.969450644,
     "mainnet_income_call_marinade": 135968.009910147,
     "mainnet_income_call_btc": 354.279198,
     "mainnet_income_call_sbr": 11000000,
@@ -61,17 +61,17 @@
     "mainnet_income_put_btc": 2351024.08
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 17341075.64,
+    "mainnet_income_call_sol": 17317800.56,
     "mainnet_income_call_marinade": 19363204.29,
     "mainnet_income_call_btc": 14792573.63,
-    "mainnet_income_call_sbr": 989835,
-    "mainnet_income_call_ftt": 2557811.58,
+    "mainnet_income_call_sbr": 984104,
+    "mainnet_income_call_ftt": 2554956.88,
     "mainnet_income_put_mngo": 423015.84,
-    "mainnet_income_call_luna": 2786799.26,
+    "mainnet_income_call_luna": 2780399.26,
     "mainnet_income_call_socean": 775041.69,
     "mainnet_income_call_srm": 12451467,
-    "mainnet_income_call_mngo": 1155647.84,
-    "mainnet_income_call_ray": 102536.1,
+    "mainnet_income_call_mngo": 1154363.84,
+    "mainnet_income_call_ray": 102346.92,
     "mainnet_income_call_eth": 4509033.77,
     "mainnet_income_put_sol": 9999999.86,
     "mainnet_income_put_btc": 2351024.08

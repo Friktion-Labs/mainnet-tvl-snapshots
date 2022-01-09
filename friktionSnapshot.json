@@ -1,7 +1,7 @@
 {
-  "totalTvlUSD": 92386245.05,
+  "totalTvlUSD": 92352190.96,
   "coinsByCoingeckoId": {
-    "solana": 128914.777350644,
+    "solana": 128921.277350644,
     "msol": 136540.283304751,
     "bitcoin": 355.195506,
     "saber": 11000000,
@@ -15,17 +15,17 @@
     "ethereum": 1467.167941
   },
   "pricesByCoingeckoId": {
-    "BTC": 42322,
-    "SOL": 145.51,
+    "BTC": 42282,
+    "SOL": 145.24,
     "ETH": 3188.31,
-    "mSOL": 148.26,
-    "FTT": 37.21,
+    "mSOL": 148.35,
+    "FTT": 37.19,
     "SRM": 3.08,
     "USDC": 1,
-    "MNGO": 0.192507,
+    "MNGO": 0.192592,
     "scnSOL": 147.05,
-    "SBR": 0.087381,
-    "LUNA": 73.69,
+    "SBR": 0.087333,
+    "LUNA": 73.77,
     "RAY": 5.42
   },
   "sharePricesByGlobalId": {
@@ -45,7 +45,7 @@
     "mainnet_income_put_btc": 1
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 128914.777350644,
+    "mainnet_income_call_sol": 128921.277350644,
     "mainnet_income_call_marinade": 136540.283304751,
     "mainnet_income_call_btc": 355.195506,
     "mainnet_income_call_sbr": 11000000,
@@ -61,16 +61,16 @@
     "mainnet_income_put_btc": 2352308.65
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 18758389.25,
-    "mainnet_income_call_marinade": 20243462.4,
-    "mainnet_income_call_btc": 15032584.2,
-    "mainnet_income_call_sbr": 961191,
-    "mainnet_income_call_ftt": 2705089.04,
+    "mainnet_income_call_sol": 18724526.32,
+    "mainnet_income_call_marinade": 20255751.03,
+    "mainnet_income_call_btc": 15018376.38,
+    "mainnet_income_call_sbr": 960663,
+    "mainnet_income_call_ftt": 2703635.08,
     "mainnet_income_put_mngo": 425033.57,
-    "mainnet_income_call_luna": 2947599.96,
+    "mainnet_income_call_luna": 2950799.96,
     "mainnet_income_call_socean": 808773.54,
     "mainnet_income_call_srm": 12216449.31,
-    "mainnet_income_call_mngo": 1155041.84,
+    "mainnet_income_call_mngo": 1155551.84,
     "mainnet_income_call_ray": 102536.1,
     "mainnet_income_call_eth": 4677786.22,
     "mainnet_income_put_sol": 9999999.97,

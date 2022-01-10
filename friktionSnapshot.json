@@ -1,13 +1,13 @@
 {
-  "totalTvlUSD": 88982723.28,
+  "totalTvlUSD": 88992786.01,
   "coinsByCoingeckoId": {
-    "solana": 131051.440759574,
-    "msol": 139027.369061701,
+    "solana": 131055.170759574,
+    "msol": 139049.369061701,
     "bitcoin": 365.936469,
     "saber": 11000000,
     "ftx-token": 72925.868942,
     "usd-coin": 12830743.740575,
-    "terra-luna": 40627.197363,
+    "terra-luna": 40637.197363,
     "socean-staked-sol": 5510.724904431,
     "serum": 3966619.586914,
     "mango-markets": 5999999.159277,
@@ -15,7 +15,7 @@
     "ethereum": 1469.626585
   },
   "pricesByCoingeckoId": {
-    "BTC": 41583,
+    "BTC": 41599,
     "SOL": 133.68,
     "ETH": 3049.76,
     "mSOL": 137.06,
@@ -45,13 +45,13 @@
     "mainnet_income_put_btc": 1
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 131051.440759574,
-    "mainnet_income_call_marinade": 139027.369061701,
+    "mainnet_income_call_sol": 131055.170759574,
+    "mainnet_income_call_marinade": 139049.369061701,
     "mainnet_income_call_btc": 365.936469,
     "mainnet_income_call_sbr": 11000000,
     "mainnet_income_call_ftt": 72925.868942,
     "mainnet_income_put_mngo": 428507.75,
-    "mainnet_income_call_luna": 40627.197363,
+    "mainnet_income_call_luna": 40637.197363,
     "mainnet_income_call_socean": 5510.724904431,
     "mainnet_income_call_srm": 3966619.586914,
     "mainnet_income_call_mngo": 5999999.159277,
@@ -61,13 +61,13 @@
     "mainnet_income_put_btc": 2354377.79
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 17518956.6,
-    "mainnet_income_call_marinade": 19055091.2,
-    "mainnet_income_call_btc": 15216736.19,
+    "mainnet_income_call_sol": 17519455.23,
+    "mainnet_income_call_marinade": 19058106.52,
+    "mainnet_income_call_btc": 15222591.17,
     "mainnet_income_call_sbr": 894476,
     "mainnet_income_call_ftt": 2696798.63,
     "mainnet_income_put_mngo": 428507.75,
-    "mainnet_income_call_luna": 2818714.95,
+    "mainnet_income_call_luna": 2819408.75,
     "mainnet_income_call_socean": 753150.77,
     "mainnet_income_call_srm": 11463530.61,
     "mainnet_income_call_mngo": 1156925.84,

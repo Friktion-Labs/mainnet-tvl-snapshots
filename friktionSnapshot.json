@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 106588374.43,
+  "totalTvlUSD": 106588374.47,
   "coinsByCoingeckoId": {
     "solana": 140780.20111187,
     "msol": 158783.555876085,
@@ -12,7 +12,7 @@
     "serum": 4059672.252408,
     "mango-markets": 8713377.314498,
     "raydium": 16338.626813,
-    "ethereum": 1688.539992
+    "ethereum": 1688.540002
   },
   "pricesByCoingeckoId": {
     "BTC": 43142,
@@ -56,7 +56,7 @@
     "mainnet_income_call_srm": 4059672.252408,
     "mainnet_income_call_mngo": 8713377.314498,
     "mainnet_income_call_ray": 16338.626813,
-    "mainnet_income_call_eth": 1688.539992,
+    "mainnet_income_call_eth": 1688.540002,
     "mainnet_income_put_sol": 10507207.35,
     "mainnet_income_put_btc": 1124484.14
   },
@@ -72,7 +72,7 @@
     "mainnet_income_call_srm": 12990951.21,
     "mainnet_income_call_mngo": 1729039.03,
     "mainnet_income_call_ray": 87738.43,
-    "mainnet_income_call_eth": 5612554.96,
+    "mainnet_income_call_eth": 5612555,
     "mainnet_income_put_sol": 10507207.35,
     "mainnet_income_put_btc": 1124484.14
   },

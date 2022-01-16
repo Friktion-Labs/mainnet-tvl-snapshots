@@ -1,7 +1,7 @@
 {
-  "totalTvlUSD": 108743480.83,
+  "totalTvlUSD": 108451256.31,
   "coinsByCoingeckoId": {
-    "solana": 142681.39521187,
+    "solana": 142685.39521187,
     "msol": 159842.655823367,
     "bitcoin": 417.029802,
     "saber": 19999999.492037,
@@ -15,18 +15,18 @@
     "ethereum": 1697.802116
   },
   "pricesByCoingeckoId": {
-    "BTC": 43090,
-    "SOL": 147.27,
-    "ETH": 3326.7,
-    "mSOL": 151.24,
-    "FTT": 45.55,
-    "SRM": 3.22,
+    "BTC": 43020,
+    "SOL": 146.95,
+    "ETH": 3318.37,
+    "mSOL": 150.92,
+    "FTT": 45.46,
+    "SRM": 3.19,
     "USDC": 1,
-    "MNGO": 0.19471,
-    "scnSOL": 150.62,
-    "SBR": 0.1015,
-    "LUNA": 86.01,
-    "RAY": 5.46
+    "MNGO": 0.194439,
+    "scnSOL": 150.51,
+    "SBR": 0.101589,
+    "LUNA": 85.69,
+    "RAY": 5.44
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.04444,
@@ -45,7 +45,7 @@
     "mainnet_income_put_btc": 1.00329
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 142681.39521187,
+    "mainnet_income_call_sol": 142685.39521187,
     "mainnet_income_call_marinade": 159842.655823367,
     "mainnet_income_call_btc": 417.029802,
     "mainnet_income_call_sbr": 19999999.492037,
@@ -61,18 +61,18 @@
     "mainnet_income_put_btc": 1124484.14
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 21012689.07,
-    "mainnet_income_call_marinade": 24174603.27,
-    "mainnet_income_call_btc": 17969814.17,
-    "mainnet_income_call_sbr": 2029999.95,
-    "mainnet_income_call_ftt": 3092334.4,
+    "mainnet_income_call_sol": 20967618.83,
+    "mainnet_income_call_marinade": 24123453.62,
+    "mainnet_income_call_btc": 17940622.08,
+    "mainnet_income_call_sbr": 2031779.95,
+    "mainnet_income_call_ftt": 3086224.41,
     "mainnet_income_put_mngo": 392112.07,
-    "mainnet_income_call_luna": 6031493.77,
-    "mainnet_income_call_socean": 1656818.14,
-    "mainnet_income_call_srm": 13089229.34,
-    "mainnet_income_call_mngo": 1717609.35,
-    "mainnet_income_call_ray": 95485.04,
-    "mainnet_income_call_eth": 5648078.3,
+    "mainnet_income_call_luna": 6009053.62,
+    "mainnet_income_call_socean": 1655608.14,
+    "mainnet_income_call_srm": 12967280,
+    "mainnet_income_call_mngo": 1715218.75,
+    "mainnet_income_call_ray": 95135.28,
+    "mainnet_income_call_eth": 5633935.61,
     "mainnet_income_put_sol": 10708729.83,
     "mainnet_income_put_btc": 1124484.14
   },

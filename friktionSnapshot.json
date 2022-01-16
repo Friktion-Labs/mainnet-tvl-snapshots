@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 108342323.34,
+  "totalTvlUSD": 108473298.09,
   "coinsByCoingeckoId": {
     "solana": 142690.29521187,
     "msol": 159852.685179518,
@@ -16,19 +16,19 @@
     "ethereum": 1697.802136
   },
   "pricesByCoingeckoId": {
-    "BTC": 42998,
-    "SOL": 146.74,
-    "ETH": 3316.83,
-    "mSOL": 150.37,
-    "FTT": 45.43,
-    "SRM": 3.19,
+    "BTC": 43043,
+    "SOL": 146.84,
+    "ETH": 3319.76,
+    "mSOL": 150.58,
+    "FTT": 45.48,
+    "SRM": 3.2,
     "USDC": 1,
-    "MNGO": 0.193735,
-    "scnSOL": 149.72,
-    "SBR": 0.101651,
-    "LUNA": 86.03,
+    "MNGO": 0.194162,
+    "scnSOL": 149.95,
+    "SBR": 0.101428,
+    "LUNA": 86.22,
     "UST": 1,
-    "RAY": 5.41
+    "RAY": 5.42
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.04444,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1124484.14
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 20938373.92,
-    "mainnet_income_call_marinade": 24037048.27,
-    "mainnet_income_call_btc": 17931447.43,
-    "mainnet_income_call_sbr": 2033019.95,
-    "mainnet_income_call_ftt": 3084187.74,
+    "mainnet_income_call_sol": 20952642.95,
+    "mainnet_income_call_marinade": 24070617.33,
+    "mainnet_income_call_btc": 17950213.77,
+    "mainnet_income_call_sbr": 2028559.95,
+    "mainnet_income_call_ftt": 3087582.18,
     "mainnet_income_put_mngo": 392112.07,
-    "mainnet_income_call_luna": 6032909.19,
+    "mainnet_income_call_luna": 6046233.06,
     "mainnet_income_put_luna": 510,
-    "mainnet_income_call_socean": 1646918.15,
-    "mainnet_income_call_srm": 12972399.71,
-    "mainnet_income_call_mngo": 1709008.51,
-    "mainnet_income_call_ray": 94610.63,
-    "mainnet_income_call_eth": 5631321.06,
+    "mainnet_income_call_socean": 1649448.15,
+    "mainnet_income_call_srm": 13013065.54,
+    "mainnet_income_call_mngo": 1712775.23,
+    "mainnet_income_call_ray": 94785.51,
+    "mainnet_income_call_eth": 5636295.62,
     "mainnet_income_put_sol": 10713972.58,
     "mainnet_income_put_btc": 1124484.14
   },

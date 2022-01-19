@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 110592941.48,
+  "totalTvlUSD": 111134343.53,
   "coinsByCoingeckoId": {
     "solana": 175665.10247887,
     "msol": 164042.804530275,
@@ -16,19 +16,19 @@
     "ethereum": 1788.487625
   },
   "pricesByCoingeckoId": {
-    "BTC": 41558,
-    "SOL": 133.98,
-    "ETH": 3079.71,
-    "mSOL": 137.12,
-    "FTT": 43.9,
-    "SRM": 2.88,
+    "BTC": 41633,
+    "SOL": 134.54,
+    "ETH": 3090.65,
+    "mSOL": 138.23,
+    "FTT": 43.97,
+    "SRM": 2.9,
     "USDC": 1,
-    "MNGO": 0.199174,
-    "scnSOL": 136.77,
-    "SBR": 0.113991,
-    "LUNA": 78.8,
+    "MNGO": 0.199272,
+    "scnSOL": 137.08,
+    "SBR": 0.114276,
+    "LUNA": 80.08,
     "UST": 1,
-    "RAY": 4.94
+    "RAY": 4.95
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05342,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1125804.04
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 23535610.43,
-    "mainnet_income_call_marinade": 22493549.36,
-    "mainnet_income_call_btc": 17822779.15,
-    "mainnet_income_call_sbr": 2279819.95,
-    "mainnet_income_call_ftt": 3286797.53,
-    "mainnet_income_call_luna": 6747675.05,
+    "mainnet_income_call_sol": 23633982.89,
+    "mainnet_income_call_marinade": 22675636.87,
+    "mainnet_income_call_btc": 17854944.04,
+    "mainnet_income_call_sbr": 2285519.95,
+    "mainnet_income_call_ftt": 3292038.43,
+    "mainnet_income_call_luna": 6857281.96,
     "mainnet_income_put_luna": 157494.19,
     "mainnet_income_put_mngo": 397677.27,
-    "mainnet_income_call_socean": 1504469.93,
-    "mainnet_income_call_srm": 12119708.59,
-    "mainnet_income_call_mngo": 1799188.39,
-    "mainnet_income_call_ray": 100489.65,
-    "mainnet_income_call_eth": 5508023.22,
+    "mainnet_income_call_socean": 1507879.93,
+    "mainnet_income_call_srm": 12203873.24,
+    "mainnet_income_call_mngo": 1800073.65,
+    "mainnet_income_call_ray": 100693.07,
+    "mainnet_income_call_eth": 5527589.28,
     "mainnet_income_put_sol": 11713854.74,
     "mainnet_income_put_btc": 1125804.04
   },

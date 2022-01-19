@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 110506286.54,
+  "totalTvlUSD": 110443187.31,
   "coinsByCoingeckoId": {
     "solana": 175644.87447887,
     "msol": 164040.048608589,
@@ -16,19 +16,19 @@
     "ethereum": 1769.487625
   },
   "pricesByCoingeckoId": {
-    "BTC": 41385,
-    "SOL": 134.62,
-    "ETH": 3074.88,
-    "mSOL": 138.09,
-    "FTT": 43.5,
-    "SRM": 2.88,
+    "BTC": 41362,
+    "SOL": 134.4,
+    "ETH": 3072.87,
+    "mSOL": 138.3,
+    "FTT": 43.44,
+    "SRM": 2.87,
     "USDC": 1,
-    "MNGO": 0.199776,
-    "scnSOL": 138.03,
-    "SBR": 0.113594,
-    "LUNA": 76.53,
+    "MNGO": 0.19933,
+    "scnSOL": 137.82,
+    "SBR": 0.113633,
+    "LUNA": 76.61,
     "UST": 1,
-    "RAY": 4.96
+    "RAY": 4.95
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05342,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1125804.04
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 23645313,
-    "mainnet_income_call_marinade": 22652290.31,
-    "mainnet_income_call_btc": 17748585.47,
-    "mainnet_income_call_sbr": 2271879.95,
-    "mainnet_income_call_ftt": 3256849.48,
-    "mainnet_income_call_luna": 6552564.44,
+    "mainnet_income_call_sol": 23606671.13,
+    "mainnet_income_call_marinade": 22686738.72,
+    "mainnet_income_call_btc": 17738721.58,
+    "mainnet_income_call_sbr": 2272659.95,
+    "mainnet_income_call_ftt": 3252357.28,
+    "mainnet_income_call_luna": 6559414.11,
     "mainnet_income_put_luna": 157494.19,
     "mainnet_income_put_mngo": 397677.27,
-    "mainnet_income_call_socean": 1518329.93,
-    "mainnet_income_call_srm": 12119158.72,
-    "mainnet_income_call_mngo": 1804626.41,
-    "mainnet_income_call_ray": 100896.49,
-    "mainnet_income_call_eth": 5440962.11,
+    "mainnet_income_call_socean": 1516019.93,
+    "mainnet_income_call_srm": 12077078.3,
+    "mainnet_income_call_mngo": 1800597.58,
+    "mainnet_income_call_ray": 100693.07,
+    "mainnet_income_call_eth": 5437405.44,
     "mainnet_income_put_sol": 11713854.74,
     "mainnet_income_put_btc": 1125804.04
   },

@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 114645247.54,
+  "totalTvlUSD": 114839655.32,
   "coinsByCoingeckoId": {
     "solana": 179282.62657887,
     "msol": 166271.78318727,
@@ -16,19 +16,19 @@
     "ethereum": 1800.821251
   },
   "pricesByCoingeckoId": {
-    "BTC": 42008,
-    "SOL": 137.61,
-    "ETH": 3140.52,
-    "mSOL": 141.3,
-    "FTT": 47.79,
-    "SRM": 2.92,
+    "BTC": 42080,
+    "SOL": 137.94,
+    "ETH": 3146.86,
+    "mSOL": 141.42,
+    "FTT": 47.92,
+    "SRM": 2.93,
     "USDC": 1,
-    "MNGO": 0.202043,
-    "scnSOL": 140.17,
-    "SBR": 0.111958,
-    "LUNA": 82.3,
+    "MNGO": 0.201862,
+    "scnSOL": 140.68,
+    "SBR": 0.112048,
+    "LUNA": 82.47,
     "UST": 1,
-    "RAY": 4.99
+    "RAY": 5
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05342,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1125864.04
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 24671082.24,
-    "mainnet_income_call_marinade": 23494202.96,
-    "mainnet_income_call_btc": 18187092.69,
-    "mainnet_income_call_sbr": 2239159.97,
-    "mainnet_income_call_ftt": 3593701.85,
-    "mainnet_income_call_luna": 7155052.39,
+    "mainnet_income_call_sol": 24730245.51,
+    "mainnet_income_call_marinade": 23514155.58,
+    "mainnet_income_call_btc": 18218264.63,
+    "mainnet_income_call_sbr": 2240959.97,
+    "mainnet_income_call_ftt": 3603477.56,
+    "mainnet_income_call_luna": 7169831.96,
     "mainnet_income_put_luna": 175809.4,
     "mainnet_income_put_mngo": 397710.67,
-    "mainnet_income_call_socean": 1541870,
-    "mainnet_income_call_srm": 12312651.8,
-    "mainnet_income_call_mngo": 1827665.59,
-    "mainnet_income_call_ray": 103873.33,
-    "mainnet_income_call_eth": 5655515.16,
+    "mainnet_income_call_socean": 1547480,
+    "mainnet_income_call_srm": 12354818.41,
+    "mainnet_income_call_mngo": 1826028.28,
+    "mainnet_income_call_ray": 104081.49,
+    "mainnet_income_call_eth": 5666932.36,
     "mainnet_income_put_sol": 12163995.45,
     "mainnet_income_put_btc": 1125864.04
   },

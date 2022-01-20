@@ -155,7 +155,7 @@ if __name__ == "__main__":
     # Grab metadata for all vaults
     for globalId, payload in MAINNET_REGISTRY.items():
         for col in DESIRED_COLS:
-            datastream_file = Path('analytics_data/{}_{}.json'.format(globalId, col))
+            datastream_file = Path('derived_timeseries/{}_{}.json'.format(globalId, col))
             datastream_file.touch(exist_ok=True)
         print(globalId)
 
@@ -182,7 +182,7 @@ if __name__ == "__main__":
 
     for metadata in info:
         for idx, col in enumerate(DESIRED_COLS):
-            fname = "analytics_data/{}_{}.json".format(metadata["globalId"], col)
+            fname = "derived_timeseries/{}_{}.json".format(metadata["globalId"], col)
             output = metadata["output"]
             with open(fname, 'r') as openfile:
                 try:

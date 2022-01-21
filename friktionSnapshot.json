@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 92771253.3,
+  "totalTvlUSD": 92593581.13,
   "coinsByCoingeckoId": {
     "solana": 182780.426958812,
     "msol": 159628.183452622,
@@ -16,19 +16,19 @@
     "ethereum": 1737.777492
   },
   "pricesByCoingeckoId": {
-    "BTC": 35952,
-    "SOL": 106.86,
-    "ETH": 2541.28,
-    "mSOL": 111.2,
-    "FTT": 37.61,
-    "SRM": 2.38,
+    "BTC": 35762,
+    "SOL": 106.72,
+    "ETH": 2531.94,
+    "mSOL": 111.41,
+    "FTT": 37.57,
+    "SRM": 2.37,
     "USDC": 1,
-    "MNGO": 0.183966,
+    "MNGO": 0.182632,
     "scnSOL": 113.42,
-    "SBR": 0.090215,
-    "LUNA": 62.29,
-    "UST": 0.983271,
-    "RAY": 4.17
+    "SBR": 0.089471,
+    "LUNA": 62.03,
+    "UST": 0.983314,
+    "RAY": 4.16
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1136162.46
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 19531916.42,
-    "mainnet_income_call_marinade": 17750654,
-    "mainnet_income_call_btc": 15244378.72,
-    "mainnet_income_call_sbr": 1655703.31,
-    "mainnet_income_call_ftt": 2466264.56,
-    "mainnet_income_call_luna": 4716138.97,
-    "mainnet_income_put_luna": 201920,
+    "mainnet_income_call_sol": 19506327.17,
+    "mainnet_income_call_marinade": 17784175.92,
+    "mainnet_income_call_btc": 15163814.86,
+    "mainnet_income_call_sbr": 1642048.79,
+    "mainnet_income_call_ftt": 2463641.57,
+    "mainnet_income_call_luna": 4696453.69,
+    "mainnet_income_put_luna": 201928.83,
     "mainnet_income_put_mngo": 248683.41,
     "mainnet_income_call_socean": 1247619.97,
-    "mainnet_income_call_srm": 10059370.25,
-    "mainnet_income_call_mngo": 1431537.73,
-    "mainnet_income_call_ray": 87291.59,
-    "mainnet_income_call_eth": 4416179.18,
+    "mainnet_income_call_srm": 10017103.99,
+    "mainnet_income_call_mngo": 1421157.16,
+    "mainnet_income_call_ray": 87082.25,
+    "mainnet_income_call_eth": 4399948.34,
     "mainnet_income_put_sol": 12577432.72,
     "mainnet_income_put_btc": 1136162.46
   },

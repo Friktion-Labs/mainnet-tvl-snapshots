@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 110084160.07,
+  "totalTvlUSD": 109836824.23,
   "coinsByCoingeckoId": {
     "solana": 181598.74277887,
     "msol": 168345.81974652,
@@ -16,19 +16,19 @@
     "ethereum": 1866.276605
   },
   "pricesByCoingeckoId": {
-    "BTC": 40185,
-    "SOL": 127.52,
-    "ETH": 2950.56,
-    "mSOL": 129.81,
-    "FTT": 44.53,
-    "SRM": 2.73,
+    "BTC": 40231,
+    "SOL": 126.99,
+    "ETH": 2940.94,
+    "mSOL": 129.84,
+    "FTT": 43.91,
+    "SRM": 2.71,
     "USDC": 1,
-    "MNGO": 0.20096,
-    "scnSOL": 126.34,
-    "SBR": 0.109104,
-    "LUNA": 78.6,
+    "MNGO": 0.199783,
+    "scnSOL": 129.09,
+    "SBR": 0.108813,
+    "LUNA": 78.16,
     "UST": 1.01,
-    "RAY": 4.74
+    "RAY": 4.71
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05342,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1125864.04
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 23157471.68,
-    "mainnet_income_call_marinade": 21852970.86,
-    "mainnet_income_call_btc": 17438792.18,
-    "mainnet_income_call_sbr": 2182080,
-    "mainnet_income_call_ftt": 3387817.87,
-    "mainnet_income_call_luna": 6962310.24,
+    "mainnet_income_call_sol": 23061224.35,
+    "mainnet_income_call_marinade": 21858021.24,
+    "mainnet_income_call_btc": 17458754.47,
+    "mainnet_income_call_sbr": 2176260,
+    "mainnet_income_call_ftt": 3340648.61,
+    "mainnet_income_call_luna": 6923335.47,
     "mainnet_income_put_luna": 195364.61,
     "mainnet_income_put_mngo": 410509.79,
-    "mainnet_income_call_socean": 1389740,
-    "mainnet_income_call_srm": 11601846.18,
-    "mainnet_income_call_mngo": 1845694.7,
-    "mainnet_income_call_ray": 99275.5,
-    "mainnet_income_call_eth": 5506561.1,
+    "mainnet_income_call_socean": 1419990,
+    "mainnet_income_call_srm": 11516850.97,
+    "mainnet_income_call_mngo": 1834884.68,
+    "mainnet_income_call_ray": 98647.18,
+    "mainnet_income_call_eth": 5488607.52,
     "mainnet_income_put_sol": 12927861.31,
     "mainnet_income_put_btc": 1125864.04
   },

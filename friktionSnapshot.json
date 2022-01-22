@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 86788675.34,
+  "totalTvlUSD": 87239093.39,
   "coinsByCoingeckoId": {
     "solana": 183903.049158812,
     "msol": 159802.545656065,
@@ -16,19 +16,19 @@
     "ethereum": 1754.805352
   },
   "pricesByCoingeckoId": {
-    "BTC": 35159,
-    "SOL": 94.86,
-    "ETH": 2407.15,
-    "mSOL": 97.6,
-    "FTT": 33.7,
-    "SRM": 2.22,
+    "BTC": 35281,
+    "SOL": 95.6,
+    "ETH": 2418.57,
+    "mSOL": 98.26,
+    "FTT": 33.78,
+    "SRM": 2.23,
     "USDC": 1,
-    "MNGO": 0.159205,
-    "scnSOL": 96.71,
-    "SBR": 0.070507,
-    "LUNA": 63.16,
+    "MNGO": 0.16039,
+    "scnSOL": 96.92,
+    "SBR": 0.071044,
+    "LUNA": 64.03,
     "UST": 1.01,
-    "RAY": 3.74
+    "RAY": 3.72
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1138190.84
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 17445043.24,
-    "mainnet_income_call_marinade": 15596728.46,
-    "mainnet_income_call_btc": 15109168.26,
-    "mainnet_income_call_sbr": 1306081.21,
-    "mainnet_income_call_ftt": 2210836.71,
-    "mainnet_income_call_luna": 4922747.39,
+    "mainnet_income_call_sol": 17581131.5,
+    "mainnet_income_call_marinade": 15702198.14,
+    "mainnet_income_call_btc": 15161596.33,
+    "mainnet_income_call_sbr": 1316028.67,
+    "mainnet_income_call_ftt": 2216084.99,
+    "mainnet_income_call_luna": 4990555.97,
     "mainnet_income_put_luna": 209691.08,
     "mainnet_income_put_mngo": 248683.41,
-    "mainnet_income_call_socean": 1063809.98,
-    "mainnet_income_call_srm": 9383996.74,
-    "mainnet_income_call_mngo": 1239592.1,
-    "mainnet_income_call_ray": 78349.85,
-    "mainnet_income_call_eth": 4224079.7,
+    "mainnet_income_call_socean": 1066119.98,
+    "mainnet_income_call_srm": 9426267,
+    "mainnet_income_call_mngo": 1248818.67,
+    "mainnet_income_call_ray": 77930.87,
+    "mainnet_income_call_eth": 4244119.58,
     "mainnet_income_put_sol": 12611676.37,
     "mainnet_income_put_btc": 1138190.84
   },

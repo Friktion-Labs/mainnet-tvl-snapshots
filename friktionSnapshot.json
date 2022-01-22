@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 94190723.16,
+  "totalTvlUSD": 94100567.02,
   "coinsByCoingeckoId": {
     "solana": 183226.376958812,
     "msol": 159688.183452622,
@@ -16,19 +16,19 @@
     "ethereum": 1740.177641
   },
   "pricesByCoingeckoId": {
-    "BTC": 36273,
-    "SOL": 109.16,
-    "ETH": 2562.2,
-    "mSOL": 112.53,
-    "FTT": 38.54,
+    "BTC": 36250,
+    "SOL": 109.02,
+    "ETH": 2561.57,
+    "mSOL": 112.47,
+    "FTT": 38.52,
     "SRM": 2.43,
     "USDC": 1,
-    "MNGO": 0.1808,
-    "scnSOL": 112.54,
-    "SBR": 0.089037,
-    "LUNA": 64.05,
-    "UST": 0.998111,
-    "RAY": 4.17
+    "MNGO": 0.180724,
+    "scnSOL": 112.5,
+    "SBR": 0.089095,
+    "LUNA": 64.04,
+    "UST": 0.998239,
+    "RAY": 4.16
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1137191.84
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 20030307.53,
-    "mainnet_income_call_marinade": 17969711.28,
-    "mainnet_income_call_btc": 15468643.34,
-    "mainnet_income_call_sbr": 1638940.66,
-    "mainnet_income_call_ftt": 2528974.92,
-    "mainnet_income_call_luna": 4889874.02,
-    "mainnet_income_put_luna": 205018.81,
+    "mainnet_income_call_sol": 19975339.62,
+    "mainnet_income_call_marinade": 17960129.99,
+    "mainnet_income_call_btc": 15458834.98,
+    "mainnet_income_call_sbr": 1639216.64,
+    "mainnet_income_call_ftt": 2526351.5,
+    "mainnet_income_call_luna": 4886059.17,
+    "mainnet_income_put_luna": 204993.75,
     "mainnet_income_put_mngo": 248683.41,
-    "mainnet_income_call_socean": 1237939.97,
+    "mainnet_income_call_socean": 1237499.97,
     "mainnet_income_call_srm": 10270814.67,
-    "mainnet_income_call_mngo": 1407483.91,
-    "mainnet_income_call_ray": 87291.59,
-    "mainnet_income_call_eth": 4465957.09,
+    "mainnet_income_call_mngo": 1406892.27,
+    "mainnet_income_call_ray": 87082.25,
+    "mainnet_income_call_eth": 4457586.84,
     "mainnet_income_put_sol": 12603890.11,
     "mainnet_income_put_btc": 1137191.84
   },

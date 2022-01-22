@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 91426490.47,
+  "totalTvlUSD": 91217302.82,
   "coinsByCoingeckoId": {
     "solana": 183255.368958812,
     "msol": 159719.183452622,
@@ -16,19 +16,19 @@
     "ethereum": 1740.177641
   },
   "pricesByCoingeckoId": {
-    "BTC": 35851,
-    "SOL": 103.94,
-    "ETH": 2506.53,
-    "mSOL": 108.01,
-    "FTT": 37.11,
-    "SRM": 2.34,
+    "BTC": 35857,
+    "SOL": 102.89,
+    "ETH": 2508.87,
+    "mSOL": 107.65,
+    "FTT": 37.07,
+    "SRM": 2.35,
     "USDC": 1,
-    "MNGO": 0.17759,
-    "scnSOL": 108.55,
-    "SBR": 0.084713,
-    "LUNA": 60.99,
+    "MNGO": 0.176151,
+    "scnSOL": 108.48,
+    "SBR": 0.084671,
+    "LUNA": 61.08,
     "UST": 1,
-    "RAY": 4.01
+    "RAY": 4.02
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1137191.84
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 19047563.05,
-    "mainnet_income_call_marinade": 17251269,
-    "mainnet_income_call_btc": 15288681.18,
-    "mainnet_income_call_sbr": 1558658.64,
-    "mainnet_income_call_ftt": 2433876.02,
-    "mainnet_income_call_luna": 4737612.28,
+    "mainnet_income_call_sol": 18855144.91,
+    "mainnet_income_call_marinade": 17193770.1,
+    "mainnet_income_call_btc": 15291239.88,
+    "mainnet_income_call_sbr": 1557885.87,
+    "mainnet_income_call_ftt": 2431252.6,
+    "mainnet_income_call_luna": 4744603.34,
     "mainnet_income_put_luna": 205355.39,
     "mainnet_income_put_mngo": 248683.41,
-    "mainnet_income_call_socean": 1194049.97,
-    "mainnet_income_call_srm": 9890414.13,
-    "mainnet_income_call_mngo": 1382494.84,
-    "mainnet_income_call_ray": 83942.27,
-    "mainnet_income_call_eth": 4361807.46,
+    "mainnet_income_call_socean": 1193279.97,
+    "mainnet_income_call_srm": 9932680.86,
+    "mainnet_income_call_mngo": 1371292.58,
+    "mainnet_income_call_ray": 84151.6,
+    "mainnet_income_call_eth": 4365879.48,
     "mainnet_income_put_sol": 12604890.99,
     "mainnet_income_put_btc": 1137191.84
   },

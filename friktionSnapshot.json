@@ -1,7 +1,7 @@
 {
-  "totalTvlUSD": 88706004.61,
+  "totalTvlUSD": 88703658.34,
   "coinsByCoingeckoId": {
-    "solana": 187472.842158812,
+    "solana": 187474.342158812,
     "msol": 162304.33098336,
     "bitcoin": 432.197839,
     "saber": 18780013.595862,
@@ -16,16 +16,16 @@
     "ethereum": 1762.014934
   },
   "pricesByCoingeckoId": {
-    "BTC": 35471,
+    "BTC": 35470,
     "SOL": 96.24,
     "ETH": 2430,
-    "mSOL": 98.5,
-    "FTT": 34.72,
+    "mSOL": 98.52,
+    "FTT": 34.65,
     "SRM": 2.19,
     "USDC": 1,
     "MNGO": 0.157116,
     "scnSOL": 98.88,
-    "SBR": 0.071779,
+    "SBR": 0.071744,
     "LUNA": 66.52,
     "UST": 1.01,
     "RAY": 3.64
@@ -48,7 +48,7 @@
     "mainnet_income_put_btc": 1.00606
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 187472.842158812,
+    "mainnet_income_call_sol": 187474.342158812,
     "mainnet_income_call_marinade": 162304.33098336,
     "mainnet_income_call_btc": 432.197839,
     "mainnet_income_call_sbr": 18780013.595862,
@@ -65,11 +65,11 @@
     "mainnet_income_put_btc": 1138210.83
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 18042386.33,
-    "mainnet_income_call_marinade": 15986976.6,
-    "mainnet_income_call_btc": 15330489.55,
-    "mainnet_income_call_sbr": 1348010.6,
-    "mainnet_income_call_ftt": 2305022.3,
+    "mainnet_income_call_sol": 18042530.69,
+    "mainnet_income_call_marinade": 15990222.69,
+    "mainnet_income_call_btc": 15330057.35,
+    "mainnet_income_call_sbr": 1347353.3,
+    "mainnet_income_call_ftt": 2300375.08,
     "mainnet_income_call_luna": 5489826.9,
     "mainnet_income_put_luna": 209884.59,
     "mainnet_income_put_mngo": 248683.41,

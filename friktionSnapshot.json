@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 87901249.04,
+  "totalTvlUSD": 87902028.61,
   "coinsByCoingeckoId": {
     "solana": 185848.033158812,
     "msol": 161863.194781868,
@@ -26,7 +26,7 @@
     "MNGO": 0.159402,
     "scnSOL": 97.51,
     "SBR": 0.066434,
-    "LUNA": 66.48,
+    "LUNA": 66.49,
     "UST": 1,
     "RAY": 3.69
   },
@@ -70,7 +70,7 @@
     "mainnet_income_call_btc": 15198956.84,
     "mainnet_income_call_sbr": 1237681.56,
     "mainnet_income_call_ftt": 2256135.01,
-    "mainnet_income_call_luna": 5182537.61,
+    "mainnet_income_call_luna": 5183317.18,
     "mainnet_income_put_luna": 207614.93,
     "mainnet_income_put_mngo": 248683.41,
     "mainnet_income_call_socean": 1072609.98,

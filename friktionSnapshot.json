@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 90357545.09,
+  "totalTvlUSD": 90439844.45,
   "coinsByCoingeckoId": {
     "solana": 185949.598158812,
     "msol": 161863.199953721,
@@ -16,19 +16,19 @@
     "ethereum": 1755.995973
   },
   "pricesByCoingeckoId": {
-    "BTC": 35831,
-    "SOL": 100.53,
-    "ETH": 2503.67,
-    "mSOL": 102.59,
-    "FTT": 35.31,
-    "SRM": 2.25,
+    "BTC": 35750,
+    "SOL": 100.76,
+    "ETH": 2500.83,
+    "mSOL": 102.68,
+    "FTT": 35.72,
+    "SRM": 2.26,
     "USDC": 1,
-    "MNGO": 0.16019,
-    "scnSOL": 100.84,
-    "SBR": 0.073353,
-    "LUNA": 69.13,
+    "MNGO": 0.160143,
+    "scnSOL": 100.79,
+    "SBR": 0.073322,
+    "LUNA": 69.09,
     "UST": 1.01,
-    "RAY": 3.79
+    "RAY": 3.8
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1138190.84
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 18693513.1,
-    "mainnet_income_call_marinade": 16605545.68,
-    "mainnet_income_call_btc": 15407073.38,
-    "mainnet_income_call_sbr": 1367804.57,
-    "mainnet_income_call_ftt": 2317500.91,
-    "mainnet_income_call_luna": 5390661.06,
+    "mainnet_income_call_sol": 18736281.51,
+    "mainnet_income_call_marinade": 16620113.37,
+    "mainnet_income_call_btc": 15372243.96,
+    "mainnet_income_call_sbr": 1367226.52,
+    "mainnet_income_call_ftt": 2344410.44,
+    "mainnet_income_call_luna": 5387541.92,
     "mainnet_income_put_luna": 209783.84,
     "mainnet_income_put_mngo": 248683.41,
-    "mainnet_income_call_socean": 1109239.98,
-    "mainnet_income_call_srm": 9511608.2,
-    "mainnet_income_call_mngo": 1247311.94,
-    "mainnet_income_call_ray": 79414.43,
-    "mainnet_income_call_eth": 4396434.44,
+    "mainnet_income_call_socean": 1108689.98,
+    "mainnet_income_call_srm": 9553882.01,
+    "mainnet_income_call_mngo": 1246945.97,
+    "mainnet_income_call_ray": 79623.97,
+    "mainnet_income_call_eth": 4391447.41,
     "mainnet_income_put_sol": 12634779.31,
     "mainnet_income_put_btc": 1138190.84
   },

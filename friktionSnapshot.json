@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 83483549.78,
+  "totalTvlUSD": 82845618.9,
   "coinsByCoingeckoId": {
     "solana": 188586.776558812,
     "msol": 162379.140826415,
@@ -16,19 +16,19 @@
     "ethereum": 1770.30413
   },
   "pricesByCoingeckoId": {
-    "BTC": 34474,
-    "SOL": 85.76,
-    "ETH": 2263.83,
-    "mSOL": 88.35,
-    "FTT": 32.79,
-    "SRM": 2,
+    "BTC": 34417,
+    "SOL": 85.07,
+    "ETH": 2252.18,
+    "mSOL": 86.91,
+    "FTT": 32.48,
+    "SRM": 1.98,
     "USDC": 1,
-    "MNGO": 0.145512,
-    "scnSOL": 86.42,
-    "SBR": 0.065238,
-    "LUNA": 65.2,
+    "MNGO": 0.145655,
+    "scnSOL": 86.32,
+    "SBR": 0.064688,
+    "LUNA": 64.96,
     "UST": 1,
-    "RAY": 3.26
+    "RAY": 3.25
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1138210.83
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 16173201.96,
-    "mainnet_income_call_marinade": 14380296.71,
-    "mainnet_income_call_btc": 14946256.67,
-    "mainnet_income_call_sbr": 1268808.4,
-    "mainnet_income_call_ftt": 2182313.94,
-    "mainnet_income_call_luna": 5410363.69,
+    "mainnet_income_call_sol": 16043077.08,
+    "mainnet_income_call_marinade": 14112371.13,
+    "mainnet_income_call_btc": 14911163.43,
+    "mainnet_income_call_sbr": 1258111.5,
+    "mainnet_income_call_ftt": 2159706.18,
+    "mainnet_income_call_luna": 5391275.12,
     "mainnet_income_put_luna": 207897.56,
     "mainnet_income_put_mngo": 248683.41,
-    "mainnet_income_call_socean": 950619.98,
-    "mainnet_income_call_srm": 8512691.51,
-    "mainnet_income_call_mngo": 1138063.46,
-    "mainnet_income_call_ray": 70688.86,
-    "mainnet_income_call_eth": 4014430.16,
+    "mainnet_income_call_socean": 949519.98,
+    "mainnet_income_call_srm": 8385636.41,
+    "mainnet_income_call_mngo": 1141857.76,
+    "mainnet_income_call_ray": 70042.32,
+    "mainnet_income_call_eth": 3987043.56,
     "mainnet_income_put_sol": 12841022.64,
     "mainnet_income_put_btc": 1138210.83
   },

@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 87145427.41,
+  "totalTvlUSD": 86778111.48,
   "coinsByCoingeckoId": {
     "solana": 187738.776158812,
     "msol": 162310.00167484,
@@ -16,19 +16,19 @@
     "ethereum": 1762.055973
   },
   "pricesByCoingeckoId": {
-    "BTC": 35315,
-    "SOL": 92.12,
-    "ETH": 2449.33,
-    "mSOL": 94.77,
-    "FTT": 34.74,
+    "BTC": 35206,
+    "SOL": 91.47,
+    "ETH": 2439.74,
+    "mSOL": 93.82,
+    "FTT": 34.71,
     "SRM": 2.17,
     "USDC": 1,
-    "MNGO": 0.156776,
-    "scnSOL": 94.5,
-    "SBR": 0.070604,
-    "LUNA": 66.05,
-    "UST": 0.995652,
-    "RAY": 3.59
+    "MNGO": 0.15658,
+    "scnSOL": 94.21,
+    "SBR": 0.070314,
+    "LUNA": 65.88,
+    "UST": 0.99258,
+    "RAY": 3.58
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1138210.83
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 17294496.06,
-    "mainnet_income_call_marinade": 15382118.86,
-    "mainnet_income_call_btc": 15263066.68,
-    "mainnet_income_call_sbr": 1327357.9,
-    "mainnet_income_call_ftt": 2306350.08,
-    "mainnet_income_call_luna": 5466301.69,
-    "mainnet_income_put_luna": 206915.06,
+    "mainnet_income_call_sol": 17172465.86,
+    "mainnet_income_call_marinade": 15227924.36,
+    "mainnet_income_call_btc": 15215957.12,
+    "mainnet_income_call_sbr": 1321905.89,
+    "mainnet_income_call_ftt": 2304358.41,
+    "mainnet_income_call_luna": 5452232.48,
+    "mainnet_income_put_luna": 206276.64,
     "mainnet_income_put_mngo": 248683.41,
-    "mainnet_income_call_socean": 1039499.98,
+    "mainnet_income_call_socean": 1036309.98,
     "mainnet_income_call_srm": 9190101.48,
-    "mainnet_income_call_mngo": 1225968.38,
-    "mainnet_income_call_ray": 75223.7,
-    "mainnet_income_call_eth": 4315856.56,
+    "mainnet_income_call_mngo": 1224435.68,
+    "mainnet_income_call_ray": 75014.16,
+    "mainnet_income_call_eth": 4298958.44,
     "mainnet_income_put_sol": 12665276.75,
     "mainnet_income_put_btc": 1138210.83
   },

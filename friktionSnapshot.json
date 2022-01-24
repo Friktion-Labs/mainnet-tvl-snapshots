@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 83842760.78,
+  "totalTvlUSD": 84577441.88,
   "coinsByCoingeckoId": {
     "solana": 188587.901558812,
     "msol": 162379.140826415,
@@ -16,19 +16,19 @@
     "ethereum": 1770.30413
   },
   "pricesByCoingeckoId": {
-    "BTC": 34973,
-    "SOL": 86.15,
-    "ETH": 2282.13,
-    "mSOL": 88.02,
-    "FTT": 33.6,
-    "SRM": 2.01,
+    "BTC": 35474,
+    "SOL": 86.86,
+    "ETH": 2315.4,
+    "mSOL": 88.73,
+    "FTT": 33.95,
+    "SRM": 2.04,
     "USDC": 1,
-    "MNGO": 0.147085,
-    "scnSOL": 88.03,
-    "SBR": 0.06539,
-    "LUNA": 65.82,
+    "MNGO": 0.147537,
+    "scnSOL": 87.65,
+    "SBR": 0.06502,
+    "LUNA": 66.62,
     "UST": 1.01,
-    "RAY": 3.27
+    "RAY": 3.3
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1138210.83
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 16246847.72,
-    "mainnet_income_call_marinade": 14292611.98,
-    "mainnet_income_call_btc": 15152050.4,
-    "mainnet_income_call_sbr": 1271769.86,
-    "mainnet_income_call_ftt": 2234178.81,
-    "mainnet_income_call_luna": 5462781.4,
+    "mainnet_income_call_sol": 16380745.13,
+    "mainnet_income_call_marinade": 14407901.17,
+    "mainnet_income_call_btc": 15369108.62,
+    "mainnet_income_call_sbr": 1264573.73,
+    "mainnet_income_call_ftt": 2257451.5,
+    "mainnet_income_call_luna": 5529178.01,
     "mainnet_income_put_luna": 209976.53,
     "mainnet_income_put_mngo": 248683.41,
-    "mainnet_income_call_socean": 968329.98,
-    "mainnet_income_call_srm": 8512691.51,
-    "mainnet_income_call_mngo": 1153068.2,
-    "mainnet_income_call_ray": 70473.35,
-    "mainnet_income_call_eth": 4040064.16,
+    "mainnet_income_call_socean": 964149.98,
+    "mainnet_income_call_srm": 8639746.61,
+    "mainnet_income_call_mngo": 1156611.64,
+    "mainnet_income_call_ray": 71119.89,
+    "mainnet_income_call_eth": 4098962.18,
     "mainnet_income_put_sol": 12841022.64,
     "mainnet_income_put_btc": 1138210.83
   },

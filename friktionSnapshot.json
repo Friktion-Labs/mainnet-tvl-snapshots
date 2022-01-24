@@ -16,19 +16,19 @@
     "ethereum": 1770.30413
   },
   "pricesByCoingeckoId": {
-    "BTC": 34421,
-    "SOL": 87.18,
-    "ETH": 2276.17,
-    "mSOL": 89.34,
-    "FTT": 32.56,
-    "SRM": 2.02,
+    "BTC": 34351,
+    "SOL": 87.11,
+    "ETH": 2273.71,
+    "mSOL": 89.25,
+    "FTT": 32.54,
+    "SRM": 2.01,
     "USDC": 1,
-    "MNGO": 0.145623,
+    "MNGO": 0.145417,
     "scnSOL": 88.92,
     "SBR": 0.064753,
-    "LUNA": 64.81,
+    "LUNA": 64.73,
     "UST": 1.01,
-    "RAY": 3.32
+    "RAY": 3.28
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,

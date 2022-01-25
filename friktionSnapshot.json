@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 90898194.87,
+  "totalTvlUSD": 91222220.49,
   "coinsByCoingeckoId": {
     "solana": 189987.002008812,
     "msol": 163115.77847308,
@@ -16,19 +16,19 @@
     "ethereum": 1767.889112
   },
   "pricesByCoingeckoId": {
-    "BTC": 37403,
-    "SOL": 98.32,
-    "ETH": 2494.43,
-    "mSOL": 100.26,
-    "FTT": 36.92,
-    "SRM": 2.14,
+    "BTC": 37435,
+    "SOL": 98.62,
+    "ETH": 2499.33,
+    "mSOL": 101.38,
+    "FTT": 36.99,
+    "SRM": 2.15,
     "USDC": 1,
-    "MNGO": 0.155385,
-    "scnSOL": 99.83,
-    "SBR": 0.066584,
-    "LUNA": 65.89,
+    "MNGO": 0.155476,
+    "scnSOL": 99.89,
+    "SBR": 0.066581,
+    "LUNA": 66.05,
     "UST": 1,
-    "RAY": 3.6
+    "RAY": 3.61
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05252,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1138721.52
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 18679522.04,
-    "mainnet_income_call_marinade": 16353987.95,
-    "mainnet_income_call_btc": 16301838.42,
-    "mainnet_income_call_sbr": 1331680,
-    "mainnet_income_call_ftt": 2463538.54,
-    "mainnet_income_call_luna": 5425487.49,
+    "mainnet_income_call_sol": 18736518.14,
+    "mainnet_income_call_marinade": 16536677.62,
+    "mainnet_income_call_btc": 16315785.4,
+    "mainnet_income_call_sbr": 1331620,
+    "mainnet_income_call_ftt": 2468209.38,
+    "mainnet_income_call_luna": 5438662.15,
     "mainnet_income_put_luna": 214584.39,
     "mainnet_income_put_mngo": 249185.27,
-    "mainnet_income_call_socean": 1098129.98,
-    "mainnet_income_call_srm": 9063636.86,
-    "mainnet_income_call_mngo": 1219638.25,
-    "mainnet_income_call_ray": 78120.77,
-    "mainnet_income_call_eth": 4409875.64,
+    "mainnet_income_call_socean": 1098789.98,
+    "mainnet_income_call_srm": 9105990.31,
+    "mainnet_income_call_mngo": 1220352.52,
+    "mainnet_income_call_ray": 78337.77,
+    "mainnet_income_call_eth": 4418538.29,
     "mainnet_income_put_sol": 12870247.75,
     "mainnet_income_put_btc": 1138721.52
   },

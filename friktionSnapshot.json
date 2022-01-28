@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 92937731.03,
+  "totalTvlUSD": 93105510,
   "coinsByCoingeckoId": {
     "solana": 197323.430008812,
     "msol": 167106.544922706,
@@ -16,19 +16,19 @@
     "ethereum": 1782.621732
   },
   "pricesByCoingeckoId": {
-    "BTC": 37385,
-    "SOL": 93.1,
-    "ETH": 2454.44,
-    "mSOL": 95.63,
-    "FTT": 39.07,
+    "BTC": 37481,
+    "SOL": 93.34,
+    "ETH": 2460.07,
+    "mSOL": 95.83,
+    "FTT": 39.22,
     "SRM": 2.18,
     "USDC": 1,
-    "MNGO": 0.154708,
-    "scnSOL": 95.07,
-    "SBR": 0.064908,
-    "LUNA": 54.38,
-    "UST": 0.999223,
-    "RAY": 3.63
+    "MNGO": 0.155037,
+    "scnSOL": 95.23,
+    "SBR": 0.065603,
+    "LUNA": 54.56,
+    "UST": 1,
+    "RAY": 3.64
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.0587,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1142164.15
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 18372784.57,
-    "mainnet_income_call_marinade": 15997109.55,
-    "mainnet_income_call_btc": 16878411.84,
-    "mainnet_income_call_sbr": 1298219.97,
-    "mainnet_income_call_ftt": 2660169.39,
-    "mainnet_income_call_luna": 5054216.3,
-    "mainnet_income_put_luna": 222406.4,
+    "mainnet_income_call_sol": 18418168.96,
+    "mainnet_income_call_marinade": 16013820.2,
+    "mainnet_income_call_btc": 16925828.19,
+    "mainnet_income_call_sbr": 1312059.97,
+    "mainnet_income_call_ftt": 2671066.14,
+    "mainnet_income_call_luna": 5071878.63,
+    "mainnet_income_put_luna": 222587.81,
     "mainnet_income_put_mngo": 250058.78,
-    "mainnet_income_call_socean": 1045660,
+    "mainnet_income_call_socean": 1047530,
     "mainnet_income_call_srm": 9290781.88,
-    "mainnet_income_call_mngo": 1221536.98,
-    "mainnet_income_call_ray": 86550.74,
-    "mainnet_income_call_eth": 4374393.29,
+    "mainnet_income_call_mngo": 1224134.69,
+    "mainnet_income_call_ray": 86789.18,
+    "mainnet_income_call_eth": 4385374.24,
     "mainnet_income_put_sol": 15043267.19,
     "mainnet_income_put_btc": 1142164.15
   },

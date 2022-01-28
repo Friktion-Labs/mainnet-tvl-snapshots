@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 89993106.26,
+  "totalTvlUSD": 90241673.37,
   "coinsByCoingeckoId": {
     "solana": 196108.913008812,
     "msol": 166704.007997538,
@@ -8,7 +8,7 @@
     "ftx-token": 67786.91977,
     "terra-luna": 91746.905062,
     "terrausd": 221852.809918,
-    "usd-coin": 15868116.542007001,
+    "usd-coin": 16116683.657212,
     "socean-staked-sol": 11000,
     "serum": 4242136.367456,
     "mango-markets": 7884058.358746,
@@ -61,7 +61,7 @@
     "mainnet_income_call_mngo": 7884058.358746,
     "mainnet_income_call_ray": 23843.179952,
     "mainnet_income_call_eth": 1775.982632,
-    "mainnet_income_put_sol": 14479955.64,
+    "mainnet_income_put_sol": 14728522.76,
     "mainnet_income_put_btc": 1138723.52
   },
   "usdValueByGlobalId": {
@@ -78,7 +78,7 @@
     "mainnet_income_call_mngo": 1212481.45,
     "mainnet_income_call_ray": 83927.99,
     "mainnet_income_call_eth": 4266656.19,
-    "mainnet_income_put_sol": 14479955.64,
+    "mainnet_income_put_sol": 14728522.76,
     "mainnet_income_put_btc": 1138723.52
   },
   "globalIdToDepositTokenCoingeckoId": {

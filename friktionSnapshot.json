@@ -1,5 +1,5 @@
 {
-  "totalTvlUSD": 91979339.11,
+  "totalTvlUSD": 91985507,
   "coinsByCoingeckoId": {
     "solana": 197211.958008812,
     "msol": 167102.544922705,
@@ -16,19 +16,19 @@
     "ethereum": 1782.621732
   },
   "pricesByCoingeckoId": {
-    "BTC": 37170,
-    "SOL": 91.97,
-    "ETH": 2434.34,
-    "mSOL": 94.55,
-    "FTT": 38.55,
+    "BTC": 37189,
+    "SOL": 91.98,
+    "ETH": 2434.45,
+    "mSOL": 94.5,
+    "FTT": 38.56,
     "SRM": 2.14,
     "USDC": 1,
-    "MNGO": 0.154308,
-    "scnSOL": 94.03,
-    "SBR": 0.066571,
-    "LUNA": 53.66,
-    "UST": 0.997292,
-    "RAY": 3.58
+    "MNGO": 0.154275,
+    "scnSOL": 93.98,
+    "SBR": 0.066848,
+    "LUNA": 53.64,
+    "UST": 0.997368,
+    "RAY": 3.59
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.0587,
@@ -65,19 +65,19 @@
     "mainnet_income_put_btc": 1138723.52
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 18137583.78,
-    "mainnet_income_call_marinade": 15799545.62,
-    "mainnet_income_call_btc": 16722485.83,
-    "mainnet_income_call_sbr": 1331419.96,
-    "mainnet_income_call_ftt": 2622233.44,
-    "mainnet_income_call_luna": 4986428.79,
-    "mainnet_income_put_luna": 221985.04,
+    "mainnet_income_call_sol": 18139555.9,
+    "mainnet_income_call_marinade": 15791190.5,
+    "mainnet_income_call_btc": 16731033.77,
+    "mainnet_income_call_sbr": 1336959.96,
+    "mainnet_income_call_ftt": 2622913.66,
+    "mainnet_income_call_luna": 4984570.27,
+    "mainnet_income_put_luna": 222001.96,
     "mainnet_income_put_mngo": 249437.37,
-    "mainnet_income_call_socean": 1034330,
+    "mainnet_income_call_socean": 1033780,
     "mainnet_income_call_srm": 9119918.73,
-    "mainnet_income_call_mngo": 1216573.28,
-    "mainnet_income_call_ray": 85358.58,
-    "mainnet_income_call_eth": 4339507.39,
+    "mainnet_income_call_mngo": 1216313.1,
+    "mainnet_income_call_ray": 85597.02,
+    "mainnet_income_call_eth": 4339703.48,
     "mainnet_income_put_sol": 14973807.77,
     "mainnet_income_put_btc": 1138723.52
   },

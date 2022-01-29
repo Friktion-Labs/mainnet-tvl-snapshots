@@ -1,5 +1,5 @@
 {
-  "updateTime": 1643471502,
+  "updateTime": 1643471569,
   "totalTvlUSD": 88881695.27,
   "coinsByCoingeckoId": {
     "solana": 219801.102915986,
@@ -18,10 +18,10 @@
   },
   "pricesByCoingeckoId": {
     "BTC": 37597,
-    "SOL": 95.05,
+    "SOL": 94.96,
     "ETH": 2546.58,
     "mSOL": 97.8,
-    "FTT": 40.6,
+    "FTT": 40.56,
     "SRM": 2.26,
     "USDC": 1,
     "MNGO": 0.152057,

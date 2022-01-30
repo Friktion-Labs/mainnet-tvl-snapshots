@@ -1,6 +1,6 @@
 {
-  "updateTime": 1643571099,
-  "totalTvlUSD": 88859120.23,
+  "updateTime": 1643571171,
+  "totalTvlUSD": 88860845.46,
   "coinsByCoingeckoId": {
     "solana": 220584.192515986,
     "msol": 114738.831270297,
@@ -17,7 +17,7 @@
     "ethereum": 1713.468177
   },
   "pricesByCoingeckoId": {
-    "BTC": 37660,
+    "BTC": 37663,
     "SOL": 92.8,
     "ETH": 2580,
     "mSOL": 95.31,
@@ -70,7 +70,7 @@
   "usdValueByGlobalId": {
     "mainnet_income_call_sol": 20470213.07,
     "mainnet_income_call_marinade": 10935758.01,
-    "mainnet_income_call_btc": 21657271.59,
+    "mainnet_income_call_btc": 21658996.81,
     "mainnet_income_call_sbr": 1275874.42,
     "mainnet_income_call_ftt": 2600014.73,
     "mainnet_income_call_luna": 3860037.38,

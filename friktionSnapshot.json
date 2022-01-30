@@ -1,6 +1,6 @@
 {
-  "updateTime": 1643517426,
-  "totalTvlUSD": 89523514.33,
+  "updateTime": 1643517709,
+  "totalTvlUSD": 89579686.38,
   "coinsByCoingeckoId": {
     "solana": 219377.707915986,
     "msol": 114598.307665759,
@@ -17,19 +17,19 @@
     "ethereum": 1710.407215
   },
   "pricesByCoingeckoId": {
-    "BTC": 38092,
-    "SOL": 95.06,
-    "ETH": 2581.91,
-    "mSOL": 97.46,
-    "FTT": 41.28,
+    "BTC": 38102,
+    "SOL": 95.14,
+    "ETH": 2584.05,
+    "mSOL": 97.69,
+    "FTT": 41.29,
     "SRM": 2.3,
     "USDC": 1,
-    "MNGO": 0.153109,
-    "scnSOL": 96.18,
-    "SBR": 0.063854,
-    "LUNA": 50.23,
+    "MNGO": 0.153063,
+    "scnSOL": 96.17,
+    "SBR": 0.063902,
+    "LUNA": 50.25,
     "UST": 1,
-    "RAY": 3.9
+    "RAY": 3.91
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05809,
@@ -68,19 +68,19 @@
     "mainnet_income_put_eth": 10
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 20854044.91,
-    "mainnet_income_call_marinade": 11168751.07,
-    "mainnet_income_call_btc": 21772403.17,
-    "mainnet_income_call_sbr": 1209915.8,
-    "mainnet_income_call_ftt": 2642260.17,
-    "mainnet_income_call_luna": 3933611,
+    "mainnet_income_call_sol": 20871595.13,
+    "mainnet_income_call_marinade": 11195108.68,
+    "mainnet_income_call_btc": 21778118.91,
+    "mainnet_income_call_sbr": 1210825.32,
+    "mainnet_income_call_ftt": 2642900.25,
+    "mainnet_income_call_luna": 3935177.24,
     "mainnet_income_put_luna": 173576.73,
     "mainnet_income_put_mngo": 149949.02,
-    "mainnet_income_call_socean": 927784.02,
+    "mainnet_income_call_socean": 927687.56,
     "mainnet_income_call_srm": 9773201.69,
-    "mainnet_income_call_mngo": 1209036.64,
-    "mainnet_income_call_ray": 90511.04,
-    "mainnet_income_call_eth": 4416117.49,
+    "mainnet_income_call_mngo": 1208673.39,
+    "mainnet_income_call_ray": 90743.12,
+    "mainnet_income_call_eth": 4419777.76,
     "mainnet_income_put_sol": 10108033.79,
     "mainnet_income_put_btc": 1094307.78,
     "mainnet_income_put_eth": 10

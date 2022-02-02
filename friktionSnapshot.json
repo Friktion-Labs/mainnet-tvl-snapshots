@@ -1,6 +1,6 @@
 {
-  "updateTime": 1643825018,
-  "totalTvlUSD": 95567829.09,
+  "updateTime": 1643825756,
+  "totalTvlUSD": 95669166.6,
   "coinsByCoingeckoId": {
     "solana": 225902.786915986,
     "msol": 114592.479280295,
@@ -17,19 +17,19 @@
     "ethereum": 1735.895878
   },
   "pricesByCoingeckoId": {
-    "BTC": 37515,
-    "SOL": 105.96,
-    "ETH": 2683.02,
-    "mSOL": 109.08,
-    "FTT": 44.48,
+    "BTC": 37562,
+    "SOL": 106.15,
+    "ETH": 2687.42,
+    "mSOL": 109.3,
+    "FTT": 44.46,
     "SRM": 2.33,
     "USDC": 1,
-    "MNGO": 0.149662,
-    "scnSOL": 108.03,
-    "SBR": 0.061588,
-    "LUNA": 49.54,
+    "MNGO": 0.149498,
+    "scnSOL": 108.13,
+    "SBR": 0.061171,
+    "LUNA": 49.63,
     "UST": 1,
-    "RAY": 3.65
+    "RAY": 3.66
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05809,
@@ -68,19 +68,19 @@
     "mainnet_income_put_eth": 165989.53
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 23936659.3,
-    "mainnet_income_call_marinade": 12499747.64,
-    "mainnet_income_call_btc": 21720186.95,
-    "mainnet_income_call_sbr": 1231095.84,
-    "mainnet_income_call_ftt": 3049849.69,
-    "mainnet_income_call_luna": 4465133.14,
+    "mainnet_income_call_sol": 23979580.83,
+    "mainnet_income_call_marinade": 12524957.99,
+    "mainnet_income_call_btc": 21747398.7,
+    "mainnet_income_call_sbr": 1222760.33,
+    "mainnet_income_call_ftt": 3048478.35,
+    "mainnet_income_call_luna": 4473245.01,
     "mainnet_income_put_luna": 193453.3,
     "mainnet_income_put_mngo": 150149.02,
-    "mainnet_income_call_socean": 1089081.13,
+    "mainnet_income_call_socean": 1090089.26,
     "mainnet_income_call_srm": 9943119.63,
-    "mainnet_income_call_mngo": 1183286.91,
-    "mainnet_income_call_ray": 87393.1,
-    "mainnet_income_call_eth": 4657443.36,
+    "mainnet_income_call_mngo": 1181990.26,
+    "mainnet_income_call_ray": 87632.53,
+    "mainnet_income_call_eth": 4665081.3,
     "mainnet_income_put_sol": 10060528.49,
     "mainnet_income_put_btc": 1134712.05,
     "mainnet_income_put_eth": 165989.53

@@ -1,6 +1,6 @@
 {
-  "updateTime": 1643784704,
-  "totalTvlUSD": 97222371.38,
+  "updateTime": 1643784934,
+  "totalTvlUSD": 97118148.88,
   "coinsByCoingeckoId": {
     "solana": 225573.040815986,
     "msol": 114547.545142402,
@@ -17,19 +17,19 @@
     "ethereum": 1733.65776
   },
   "pricesByCoingeckoId": {
-    "BTC": 38398,
-    "SOL": 108.84,
-    "ETH": 2758.18,
-    "mSOL": 112.25,
-    "FTT": 44.59,
+    "BTC": 38341,
+    "SOL": 108.72,
+    "ETH": 2754.95,
+    "mSOL": 111.76,
+    "FTT": 44.6,
     "SRM": 2.38,
     "USDC": 1,
-    "MNGO": 0.157466,
-    "scnSOL": 111.52,
-    "SBR": 0.061372,
-    "LUNA": 51.48,
+    "MNGO": 0.157385,
+    "scnSOL": 111.37,
+    "SBR": 0.061269,
+    "LUNA": 51.45,
     "UST": 1,
-    "RAY": 3.79
+    "RAY": 3.78
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.05809,
@@ -68,19 +68,19 @@
     "mainnet_income_put_eth": 167678.62
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 24551369.76,
-    "mainnet_income_call_marinade": 12857961.94,
-    "mainnet_income_call_btc": 22229500.56,
-    "mainnet_income_call_sbr": 1227439.98,
+    "mainnet_income_call_sol": 24540091.11,
+    "mainnet_income_call_marinade": 12801833.65,
+    "mainnet_income_call_btc": 22201712.24,
+    "mainnet_income_call_sbr": 1225079.98,
     "mainnet_income_call_ftt": 2983053.05,
-    "mainnet_income_call_luna": 4330041.29,
+    "mainnet_income_call_luna": 4330882.41,
     "mainnet_income_put_luna": 193330.34,
     "mainnet_income_put_mngo": 150149.02,
-    "mainnet_income_call_socean": 1100119.93,
+    "mainnet_income_call_socean": 1098640.22,
     "mainnet_income_call_srm": 10135594.11,
-    "mainnet_income_call_mngo": 1244988.42,
-    "mainnet_income_call_ray": 90636.19,
-    "mainnet_income_call_eth": 4781740.16,
+    "mainnet_income_call_mngo": 1244798.67,
+    "mainnet_income_call_ray": 90397.04,
+    "mainnet_income_call_eth": 4776140.45,
     "mainnet_income_put_sol": 10044055.96,
     "mainnet_income_put_btc": 1134712.05,
     "mainnet_income_put_eth": 167678.62

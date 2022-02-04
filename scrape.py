@@ -112,29 +112,18 @@ def process_diff(diff, info):
         if len(row) >= len(DESIRED_COLS)+1:
             output.append(row)
 
-        # for symbol, data, fname in info:
-        #     # Don't add history if utc_time already in json        
-        #     # if str(utc_time) in data.keys():
-        #     #     return
 
-        #     row = [utc_time]
-        #     assert symbol in MAPPING, "symbol not found in manual mapping list. Please update scrape.py"
-        #     preknown_fields = MAPPING[symbol]
-        #     for col_name in DESIRED_COLS:
-        #         if col_name in content and content[col_name]:
-        #             for field in preknown_fields:
-        #                 if field in cont
-        # ent[col_name].keys():
-        #                     row.append(content[col_name][field])
-        #                 # Check substring in globalId
-        #                 for key in content[col_name].keys():
-        #                     if "GlobalId" in col_name and field in key:
-        #                         row.append(content[col_name][key])
-        #     # print(len(row))
-        #     if len(row) > 1:
-        #         data.append(row)
-        #         with open(fname, 'w') as fl:
-        #             json.dump(data, fl, separators=(',', ':'), indent=2)
+def parse_tvls(diff, tvls):
+    utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
+    row = [utc_time]
+    try:
+        content = eval(diff[2])
+        if "totalTvlUSD" in content:
+            row.append(content["totalTvlUSD"])
+        tvls.append(row)
+    except Exception as e:
+        print(" is ill formatted. Skipped...")
+        return
 
 
 
@@ -152,6 +141,7 @@ if __name__ == "__main__":
     diffs = iterate_file_versions(args.path_to_repo, args.input_file)
 
     info = []
+    tvls = []
     # Grab metadata for all vaults
     for globalId, payload in MAINNET_REGISTRY.items():
         for col in DESIRED_COLS:
@@ -178,7 +168,16 @@ if __name__ == "__main__":
 
     for diff in diffs:
         process_diff(diff, info)
+        parse_tvls(diff, tvls)
     
+
+    # Write TVLs
+    print(tvls)
+    tvl_filename = Path('derived_timeseries/tvl.json')
+    tvl_filename.touch(exist_ok=True)
+    with open('derived_timeseries/tvl.json', 'w') as fl:
+        json.dump(tvls, fl, separators=(',', ':'), indent=2)    
+
 
     for metadata in info:
         for idx, col in enumerate(DESIRED_COLS):

@@ -1,5 +1,5 @@
 {
-  "updateTime": 1643962540,
+  "updateTime": 1643962560,
   "totalTvlUSD": 94044244.99,
   "coinsByCoingeckoId": {
     "solana": 211159.653658274,
@@ -46,7 +46,7 @@
     "mainnet_income_call_ray": 1.02439,
     "mainnet_income_call_eth": 1.02351,
     "mainnet_income_put_sol": 0.93671,
-    "mainnet_income_put_btc": 1.01599,
+    "mainnet_income_put_btc": 1.00636,
     "mainnet_income_put_eth": 1
   },
   "depositTokenByGlobalId": {

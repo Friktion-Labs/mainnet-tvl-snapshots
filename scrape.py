@@ -125,6 +125,18 @@ def parse_tvls(diff, tvls):
         print(" is ill formatted. Skipped...")
         return
 
+def parse_spot(diff, spots):
+    utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
+    row = [utc_time]
+    try:
+        content = eval(diff[2])
+        if "pricesByCoingeckoId" in content:
+            row.append(content["pricesByCoingeckoId"])
+        spots.append(row)
+    except Exception as e:
+        print(" is ill formatted. Skipped...")
+        return
+
 
 
 def parse_args():
@@ -142,6 +154,7 @@ if __name__ == "__main__":
 
     info = []
     tvls = []
+    spot = []
     # Grab metadata for all vaults
     for globalId, payload in MAINNET_REGISTRY.items():
         for col in DESIRED_COLS:
@@ -169,15 +182,20 @@ if __name__ == "__main__":
     for diff in diffs:
         process_diff(diff, info)
         parse_tvls(diff, tvls)
+        parse_spot(diff, spot)
     
-
     # Write TVLs
-    print(tvls)
     tvl_filename = Path('derived_timeseries/tvl.json')
     tvl_filename.touch(exist_ok=True)
     with open('derived_timeseries/tvl.json', 'w') as fl:
         json.dump(tvls, fl, separators=(',', ':'), indent=2)    
 
+    # Write spot
+    print(spot)
+    spot_filename = Path('derived_timeseries/spot.json')
+    spot_filename.touch(exist_ok=True)
+    with open('derived_timeseries/spot.json', 'w') as fl:
+        json.dump(spot, fl, separators=(',', ':'), indent=2)    
 
     for metadata in info:
         for idx, col in enumerate(DESIRED_COLS):

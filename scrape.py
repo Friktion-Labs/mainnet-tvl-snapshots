@@ -71,12 +71,18 @@ def populate_registry():
         
 
 MAINNET_REGISTRY = populate_registry()
+EXCLUDE_COMMITS = [
+    "218c73176ca660b8592695d055d5db669fd413da", 
+    "4c57939521ea45765becdae22fc809e4491dfb4a"
+]
 
 
 def process_diff(diff, info):
     assert len(diff) == 3
     utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
     commit_hash = diff[1]
+    if commit_hash in EXCLUDE_COMMITS:
+        return
     try:
         content = eval(diff[2])
     except Exception as e:

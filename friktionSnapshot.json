@@ -1,10 +1,10 @@
 {
-  "updateTime": 1644531260,
-  "totalTvlUSD": 104013215.9,
+  "updateTime": 1644531344,
+  "totalTvlUSD": 104045393.79,
   "coinsByCoingeckoId": {
     "solana": 223983.048477262,
     "msol": 96239.152815204,
-    "bitcoin": 569.809606,
+    "bitcoin": 569.927009,
     "saber": 19999998.524374,
     "ftx-token": 82035.325474,
     "terra-luna": 96693.068398,
@@ -17,8 +17,8 @@
     "ethereum": 1540.761341
   },
   "pricesByCoingeckoId": {
-    "BTC": 43936,
-    "SOL": 108.31,
+    "BTC": 43957,
+    "SOL": 108.38,
     "ETH": 3125.45,
     "mSOL": 111.55,
     "FTT": 45.42,
@@ -26,9 +26,9 @@
     "USDC": 1,
     "tsUSDC": 1,
     "MNGO": 0.178577,
-    "scnSOL": 111.3,
-    "SBR": 0.050899,
-    "LUNA": 52.79,
+    "scnSOL": 110.74,
+    "SBR": 0.050914,
+    "LUNA": 52.84,
     "UST": 1,
     "RAY": 4.15
   },
@@ -54,7 +54,7 @@
   "depositTokenByGlobalId": {
     "mainnet_income_call_sol": 223983.048477262,
     "mainnet_income_call_marinade": 96239.152815204,
-    "mainnet_income_call_btc": 569.809606,
+    "mainnet_income_call_btc": 569.927009,
     "mainnet_income_call_sbr": 19999998.524374,
     "mainnet_income_call_ftt": 82035.325474,
     "mainnet_income_call_luna": 96693.068398,
@@ -71,15 +71,15 @@
     "mainnet_income_put_mngo": 424905.13
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 24259603.98,
+    "mainnet_income_call_sol": 24275282.79,
     "mainnet_income_call_marinade": 10735477.5,
-    "mainnet_income_call_btc": 25035154.85,
-    "mainnet_income_call_sbr": 1017979.92,
+    "mainnet_income_call_btc": 25052281.53,
+    "mainnet_income_call_sbr": 1018279.92,
     "mainnet_income_call_ftt": 3726044.48,
-    "mainnet_income_call_luna": 5104427.08,
+    "mainnet_income_call_luna": 5109261.73,
     "mainnet_income_put_luna": 216560.95,
     "mainnet_income_put_tsUSDC": 4198790.83,
-    "mainnet_income_call_socean": 1145249.44,
+    "mainnet_income_call_socean": 1139487.18,
     "mainnet_income_call_srm": 10715759,
     "mainnet_income_call_mngo": 1201955.59,
     "mainnet_income_call_ray": 119336.99,

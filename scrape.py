@@ -114,6 +114,8 @@ def process_diff(diff, info):
         for col in DESIRED_COLS[2:]:
             if col in content and globalId in content[col]:
                 row.append(content[col][globalId])
+                if content[col][globalId]==0.76029:
+                    print(commit_hash)
     
         if len(row) >= len(DESIRED_COLS)+1:
             output.append(row)
@@ -197,7 +199,6 @@ if __name__ == "__main__":
         json.dump(tvls, fl, separators=(',', ':'), indent=2)    
 
     # Write spot
-    print(spot)
     spot_filename = Path('derived_timeseries/spot.json')
     spot_filename.touch(exist_ok=True)
     with open('derived_timeseries/spot.json', 'w') as fl:
@@ -218,7 +219,6 @@ if __name__ == "__main__":
             last_timestamp = writedata[-1][0] if len(writedata) else 0
 
             filtered_rows = list(filter(lambda x: x[0] not in cached_rows and x[0] > last_timestamp, output))
-            print(metadata["globalId"], col)
             filtered_data = [[x[0], x[idx+1]] for x in filtered_rows]
             if not len(filtered_data):
                 continue

@@ -116,8 +116,8 @@ def process_diff(diff, info):
         for col in DESIRED_COLS[2:]:
             if col in content and globalId in content[col]:
                 row.append(content[col][globalId])
-                if content[col][globalId]==1.05422:
-                    print(commit_hash)
+                # if content[col][globalId]==1.05422:
+                #     print(commit_hash)
     
         if len(row) >= len(DESIRED_COLS)+1:
             output.append(row)

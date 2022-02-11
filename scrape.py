@@ -73,7 +73,9 @@ def populate_registry():
 MAINNET_REGISTRY = populate_registry()
 EXCLUDE_COMMITS = [
     "218c73176ca660b8592695d055d5db669fd413da", 
-    "4c57939521ea45765becdae22fc809e4491dfb4a"
+    "4c57939521ea45765becdae22fc809e4491dfb4a",
+    "a21d5be807b7444c79744597202baabe55624cfd",
+    "40f62eeb528ae099b14a30c8dbdb2b0770b92fe3",
 ]
 
 
@@ -114,7 +116,7 @@ def process_diff(diff, info):
         for col in DESIRED_COLS[2:]:
             if col in content and globalId in content[col]:
                 row.append(content[col][globalId])
-                if content[col][globalId]==0.76029:
+                if content[col][globalId]==1.05422:
                     print(commit_hash)
     
         if len(row) >= len(DESIRED_COLS)+1:

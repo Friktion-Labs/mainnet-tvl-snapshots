@@ -221,15 +221,14 @@ if __name__ == "__main__":
     columns = list(df_tvl.columns)
     # Some weird NaN -> None conversion going on in this comprehension b/c python is gay as fuck
     values = [[idx, [row[col] if not np.isnan(row[col]) else None for col in columns]] for idx, row in df_tvl.iterrows()]
-    print(values)
     tvl_final = []
     tvl_final.append(columns)
     tvl_final += values
     
     # Write TVLs for Birdy
-    tvl_filename = Path('derived_timeseries/tvl_agg.json')
+    tvl_filename = Path('derived_timeseries/tvl_usd_agg.json')
     tvl_filename.touch(exist_ok=True)
-    with open('derived_timeseries/tvl_agg.json', 'w') as fl:
+    with open('derived_timeseries/tvl_usd_agg.json', 'w') as fl:
         json.dump(tvl_final, fl, separators=(',', ':'), indent=2)    
 
     # Write TVLs

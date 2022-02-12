@@ -1,4 +1,5 @@
 from email.policy import default
+import pandas as pd
 import string
 import git
 import hashlib
@@ -9,7 +10,8 @@ import datetime
 import traceback
 import requests
 from collections import defaultdict
-
+import time
+import datetime
 
 
 def iterate_file_versions(
@@ -135,6 +137,20 @@ def parse_tvls(diff, tvls):
         print(" is ill formatted. Skipped...")
         return
 
+
+def accum(diff, birdy_tvls):
+    utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
+    row = {"timestamp": utc_time}
+    try:
+        content = eval(diff[2])
+        if "usdValueByGlobalId" in content:
+            row.update(content["usdValueByGlobalId"])
+            birdy_tvls.append(row)
+    except Exception as e:
+        print(" is ill formatted. Skipped...")
+        return
+
+
 def parse_spot(diff, spots):
     utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
     row = [utc_time]
@@ -165,6 +181,7 @@ if __name__ == "__main__":
     info = []
     tvls = []
     spot = []
+    tvls_birdy = []
     # Grab metadata for all vaults
     for globalId, payload in MAINNET_REGISTRY.items():
         for col in DESIRED_COLS:
@@ -193,7 +210,25 @@ if __name__ == "__main__":
         process_diff(diff, info)
         parse_tvls(diff, tvls)
         parse_spot(diff, spot)
+        accum(diff, tvls_birdy)
+
+    df_tvl = pd.DataFrame(tvls_birdy).fillna(0)
+    df_tvl["timestamp"] = pd.to_datetime(df_tvl.timestamp, unit='ms')
+    df_tvl = df_tvl.set_index("timestamp")
+    df_tvl = df_tvl.groupby(df_tvl.index.floor('H')).first()
+    df_tvl.index = (df_tvl.index.astype('int')/10**6).astype('int')
+    columns = list(df_tvl.columns)
+    values = [[idx, [row[col] for col in columns]] for idx, row in df_tvl.iterrows()]
+    tvl_final = []
+    tvl_final.append(columns)
+    tvl_final.append(values)
     
+    # Write TVLs for Birdy
+    tvl_filename = Path('derived_timeseries/tvl_agg.json')
+    tvl_filename.touch(exist_ok=True)
+    with open('derived_timeseries/tvl_agg.json', 'w') as fl:
+        json.dump(tvl_final, fl, separators=(',', ':'), indent=2)    
+
     # Write TVLs
     tvl_filename = Path('derived_timeseries/tvl.json')
     tvl_filename.touch(exist_ok=True)

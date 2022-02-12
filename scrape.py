@@ -212,7 +212,7 @@ if __name__ == "__main__":
         parse_spot(diff, spot)
         accum(diff, tvls_birdy)
 
-    df_tvl = pd.DataFrame(tvls_birdy).fillna(0)
+    df_tvl = pd.DataFrame(tvls_birdy).fillna(None)
     df_tvl["timestamp"] = pd.to_datetime(df_tvl.timestamp, unit='ms')
     df_tvl = df_tvl.set_index("timestamp")
     df_tvl = df_tvl.groupby(df_tvl.index.floor('H')).first()

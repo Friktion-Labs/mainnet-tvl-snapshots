@@ -12,6 +12,7 @@ import requests
 from collections import defaultdict
 import time
 import datetime
+import numpy as np
 
 
 def iterate_file_versions(
@@ -212,16 +213,18 @@ if __name__ == "__main__":
         parse_spot(diff, spot)
         accum(diff, tvls_birdy)
 
-    df_tvl = pd.DataFrame(tvls_birdy).fillna(None)
+    df_tvl = pd.DataFrame(tvls_birdy)
     df_tvl["timestamp"] = pd.to_datetime(df_tvl.timestamp, unit='ms')
     df_tvl = df_tvl.set_index("timestamp")
     df_tvl = df_tvl.groupby(df_tvl.index.floor('H')).first()
     df_tvl.index = (df_tvl.index.astype('int')/10**6).astype('int')
     columns = list(df_tvl.columns)
-    values = [[idx, [row[col] for col in columns]] for idx, row in df_tvl.iterrows()]
+    # Some weird NaN -> None conversion going on in this comprehension b/c python is gay as fuck
+    values = [[idx, [row[col] if not np.isnan(row[col]) else None for col in columns]] for idx, row in df_tvl.iterrows()]
+    print(values)
     tvl_final = []
     tvl_final.append(columns)
-    tvl_final.append(values)
+    tvl_final += values
     
     # Write TVLs for Birdy
     tvl_filename = Path('derived_timeseries/tvl_agg.json')

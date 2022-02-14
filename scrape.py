@@ -213,7 +213,7 @@ if __name__ == "__main__":
     for diff in diffs:
         process_diff(diff, info)
         parse_tvls(diff, tvls)
-        parse_spot(diff, spot)
+        # parse_spot(diff, spot)
         accum(diff, tvls_birdy)
 
     df_tvl = pd.DataFrame(tvls_birdy)

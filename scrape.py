@@ -71,7 +71,7 @@ def populate_registry():
         traceback.print_exc()
         with open('registry.json', 'r') as f:
             return dict(json.load(f))
-        
+
 
 MAINNET_REGISTRY = populate_registry()
 EXCLUDE_COMMITS = [
@@ -126,7 +126,7 @@ def process_diff(diff, info):
             output.append(row)
 
 
-def parse_tvls(diff, tvls):
+def parse_tvls(diff, tvls,):
     utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
     row = [utc_time]
     try:
@@ -135,7 +135,7 @@ def parse_tvls(diff, tvls):
             row.append(content["totalTvlUSD"])
         tvls.append(row)
     except Exception as e:
-        print(" is ill formatted. Skipped...")
+        print("     error parsing TVLs")
         return
 
 
@@ -167,6 +167,15 @@ def parse_spot(diff, spots):
         print(" is ill formatted. Skipped...")
         return
 
+
+def get_coingecko_mapping():
+    mapping = {}
+    for _, payload in MAINNET_REGISTRY.items():
+        if "volt01" in payload:
+            payload2 = payload["volt01"]
+            mapping[payload2["underlyingTokenSymbol"]] = payload2["underlyingTokenCoingeckoId"]
+
+    return mapping
 
 
 def parse_args():
@@ -210,11 +219,14 @@ if __name__ == "__main__":
         }
         info.append(metadata)
 
+    # Get symbol -> CoingeckoId mapping 
+    mapping = get_coingecko_mapping()
+
     for diff in diffs:
         process_diff(diff, info)
         parse_tvls(diff, tvls)
-        # parse_spot(diff, spot)
         accum(diff, tvls_birdy)
+        parse_spot(diff, spot)
 
     df_tvl = pd.DataFrame(tvls_birdy)
     df_tvl["timestamp"] = pd.to_datetime(df_tvl.timestamp, unit='ms')
@@ -243,9 +255,11 @@ if __name__ == "__main__":
     for symbol in spot.keys():
         spot_filename = Path('derived_timeseries/spot.json')
         spot_filename.touch(exist_ok=True)
-        print(symbol)
-        print("="*35)
-        with open('derived_timeseries/{}_pricesByCoingeckoId.json'.format(symbol), 'w') as fl:
+        coingeckoId = mapping[symbol] if symbol in mapping else 0
+        if not coingeckoId:
+            continue
+        print(coingeckoId)
+        with open('derived_timeseries/{}_pricesByCoingeckoId.json'.format(coingeckoId), 'w') as fl:
             json.dump(spot[symbol], fl, separators=(',', ':'), indent=2)    
 
 

@@ -154,13 +154,16 @@ def accum(diff, birdy_tvls):
 
 def parse_spot(diff, spots):
     utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
-    row = [utc_time]
     try:
         content = eval(diff[2])
         if "pricesByCoingeckoId" in content:
-            row.append(content["pricesByCoingeckoId"])
-        spots.append(row)
+            for symbol, price in content["pricesByCoingeckoId"].items():
+                if symbol in spots.keys():
+                    spots[symbol].append([utc_time, price])
+                else:
+                    spots[symbol] = [[utc_time, price]]
     except Exception as e:
+        traceback.print_exc()
         print(" is ill formatted. Skipped...")
         return
 
@@ -181,7 +184,7 @@ if __name__ == "__main__":
 
     info = []
     tvls = []
-    spot = []
+    spot = {}
     tvls_birdy = []
     # Grab metadata for all vaults
     for globalId, payload in MAINNET_REGISTRY.items():
@@ -237,11 +240,14 @@ if __name__ == "__main__":
     with open('derived_timeseries/tvl.json', 'w') as fl:
         json.dump(tvls, fl, separators=(',', ':'), indent=2)    
 
-    # Write spot
-    spot_filename = Path('derived_timeseries/spot.json')
-    spot_filename.touch(exist_ok=True)
-    with open('derived_timeseries/spot.json', 'w') as fl:
-        json.dump(spot, fl, separators=(',', ':'), indent=2)    
+    for symbol in spot.keys():
+        spot_filename = Path('derived_timeseries/spot.json')
+        spot_filename.touch(exist_ok=True)
+        print(symbol)
+        print("="*35)
+        with open('derived_timeseries/{}_pricesByCoingeckoId.json'.format(symbol), 'w') as fl:
+            json.dump(spot[symbol], fl, separators=(',', ':'), indent=2)    
+
 
     for metadata in info:
         for idx, col in enumerate(DESIRED_COLS):

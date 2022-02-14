@@ -1,8 +1,8 @@
 {
-  "updateTime": 1644808575,
-  "totalTvlUSD": 89447344.63,
+  "updateTime": 1644808675,
+  "totalTvlUSD": 89458079.5,
   "coinsByCoingeckoId": {
-    "solana": 217314.359750781,
+    "solana": 217335.225750781,
     "msol": 91804.198114803,
     "bitcoin": 516.6321,
     "saber": 19999999.372528,
@@ -17,18 +17,18 @@
     "ethereum": 1149.912388
   },
   "pricesByCoingeckoId": {
-    "BTC": 41905,
-    "SOL": 91.86,
+    "BTC": 41901,
+    "SOL": 91.9,
     "ETH": 2859.57,
     "mSOL": 94.78,
     "FTT": 43.7,
     "SRM": 2.21,
     "USDC": 1,
     "tsUSDC": 1.001,
-    "MNGO": 0.177324,
+    "MNGO": 0.177347,
     "scnSOL": 93.96,
-    "SBR": 0.04627549,
-    "LUNA": 52.35,
+    "SBR": 0.04628422,
+    "LUNA": 52.37,
     "UST": 1.002,
     "RAY": 3.44
   },
@@ -52,7 +52,7 @@
     "mainnet_income_put_mngo": 1.0313
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 217314.359750781,
+    "mainnet_income_call_sol": 217335.225750781,
     "mainnet_income_call_marinade": 91804.198114803,
     "mainnet_income_call_btc": 516.6321,
     "mainnet_income_call_sbr": 19999999.372528,
@@ -71,17 +71,17 @@
     "mainnet_income_put_mngo": 536725.48
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 19962497.09,
+    "mainnet_income_call_sol": 19973107.25,
     "mainnet_income_call_marinade": 8701201.9,
-    "mainnet_income_call_btc": 21649468.15,
-    "mainnet_income_call_sbr": 925509.77,
+    "mainnet_income_call_btc": 21647401.62,
+    "mainnet_income_call_sbr": 925684.37,
     "mainnet_income_call_ftt": 3407193.38,
-    "mainnet_income_call_luna": 4879275.29,
+    "mainnet_income_call_luna": 4881139.38,
     "mainnet_income_put_luna": 260655.51,
     "mainnet_income_put_tsUSDC": 4257410.22,
     "mainnet_income_call_socean": 902087.78,
     "mainnet_income_call_srm": 9267559.7,
-    "mainnet_income_call_mngo": 1176068.8,
+    "mainnet_income_call_mngo": 1176221.35,
     "mainnet_income_call_ray": 100813.95,
     "mainnet_income_call_eth": 3288254.97,
     "mainnet_income_put_sol": 8691303.46,

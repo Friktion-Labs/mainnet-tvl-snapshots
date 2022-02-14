@@ -25,6 +25,7 @@ jobs:
     - name: Run the scraper
       run: |
         cd $GITHUB_WORKSPACE
+        git pull --rebase
         python scrape.py
     - name: Commit files
       run: |

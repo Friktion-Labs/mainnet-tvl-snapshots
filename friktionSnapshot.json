@@ -1,5 +1,5 @@
 {
-  "updateTime": 1645041118,
+  "updateTime": 1645041188,
   "totalTvlUSD": 98060744.42,
   "coinsByCoingeckoId": {
     "solana": 220717.633950781,
@@ -17,11 +17,11 @@
     "ethereum": 1166.032307
   },
   "pricesByCoingeckoId": {
-    "BTC": 44263,
+    "BTC": 44262,
     "SOL": 103,
-    "ETH": 3169.54,
+    "ETH": 3166.1,
     "mSOL": 106.19,
-    "FTT": 46.9,
+    "FTT": 46.87,
     "SRM": 2.48,
     "USDC": 1,
     "tsUSDC": 1.002,

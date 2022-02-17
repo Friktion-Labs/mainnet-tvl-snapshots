@@ -204,6 +204,8 @@ if __name__ == "__main__":
 
         # Brittle hardcode to find the voltType
         payload_key = None
+        if type(payload) != dict:
+            continue
         for key in payload.keys():
             if "volt" in key and type(payload[key])==dict:
                 payload_key = key

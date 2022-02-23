@@ -16,7 +16,9 @@
     "mainnet_income_call_ray",
     "mainnet_income_put_luna",
     "mainnet_income_put_eth",
-    "mainnet_income_put_tsUSDC"
+    "mainnet_income_put_tsUSDC",
+    "mainnet_income_call_sol_high",
+    "mainnet_income_put_sol_high"
   ],
   [
     1641157200000,
@@ -34,6 +36,8 @@
       629424.44,
       5356031.59,
       2424151.44,
+      null,
+      null,
       null,
       null,
       null,
@@ -59,6 +63,8 @@
       null,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -78,6 +84,8 @@
       633473.98,
       5359519.51,
       2424151.44,
+      null,
+      null,
       null,
       null,
       null,
@@ -103,6 +111,8 @@
       null,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -122,6 +132,8 @@
       633434.51,
       5365626.76,
       2424161.44,
+      null,
+      null,
       null,
       null,
       null,
@@ -147,6 +159,8 @@
       null,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -166,6 +180,8 @@
       1250144.89,
       5456314.75,
       2424161.44,
+      null,
+      null,
       null,
       null,
       null,
@@ -191,6 +207,8 @@
       null,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -211,6 +229,8 @@
       5486987.24,
       2424161.44,
       0.14,
+      null,
+      null,
       null,
       null,
       null
@@ -235,6 +255,8 @@
       0.14,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -255,6 +277,8 @@
       5596206.52,
       2424161.44,
       6255.43,
+      null,
+      null,
       null,
       null,
       null
@@ -279,6 +303,8 @@
       6255.43,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -299,6 +325,8 @@
       5603221.6,
       2424161.44,
       6258.91,
+      null,
+      null,
       null,
       null,
       null
@@ -323,6 +351,8 @@
       6258.21,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -343,6 +373,8 @@
       5609579.1,
       2424161.44,
       6276.22,
+      null,
+      null,
       null,
       null,
       null
@@ -367,6 +399,8 @@
       6400.24,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -387,6 +421,8 @@
       5617144.22,
       2424161.44,
       6393.8,
+      null,
+      null,
       null,
       null,
       null
@@ -411,6 +447,8 @@
       6762.22,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -431,6 +469,8 @@
       5668337.65,
       2424161.44,
       19878.21,
+      null,
+      null,
       null,
       null,
       null
@@ -455,6 +495,8 @@
       19693.41,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -475,6 +517,8 @@
       5683672.33,
       2429161.44,
       20497.21,
+      null,
+      null,
       null,
       null,
       null
@@ -499,6 +543,8 @@
       20602.31,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -519,6 +565,8 @@
       5707386.47,
       2429161.44,
       20571.6,
+      null,
+      null,
       null,
       null,
       null
@@ -543,6 +591,8 @@
       21324.18,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -563,6 +613,8 @@
       5760600.05,
       2429161.44,
       21163.12,
+      null,
+      null,
       null,
       null,
       null
@@ -587,6 +639,8 @@
       21195.33,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -607,6 +661,8 @@
       5892753.02,
       2429161.44,
       22223.98,
+      null,
+      null,
       null,
       null,
       null
@@ -631,6 +687,8 @@
       22237.81,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -651,6 +709,8 @@
       5904686.36,
       2429161.44,
       22372.71,
+      null,
+      null,
       null,
       null,
       null
@@ -675,6 +735,8 @@
       22132.51,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -695,6 +757,8 @@
       5959666.56,
       2429161.44,
       22063.88,
+      null,
+      null,
       null,
       null,
       null
@@ -719,6 +783,8 @@
       22197.01,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -739,6 +805,8 @@
       6085123.51,
       2429161.44,
       22131.25,
+      null,
+      null,
       null,
       null,
       null
@@ -763,6 +831,8 @@
       23350.21,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -783,6 +853,8 @@
       6120216.38,
       2429161.44,
       23386.41,
+      null,
+      null,
       null,
       null,
       null
@@ -807,6 +879,8 @@
       23495.02,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -827,6 +901,8 @@
       6568113.76,
       2429161.44,
       23422.61,
+      null,
+      null,
       null,
       null,
       null
@@ -851,6 +927,8 @@
       23399.26,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -871,6 +949,8 @@
       6593177.63,
       2429161.44,
       29664.24,
+      null,
+      null,
       null,
       null,
       null
@@ -895,6 +975,8 @@
       29709.4,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -915,6 +997,8 @@
       6600517.81,
       2429161.44,
       29709.4,
+      null,
+      null,
       null,
       null,
       null
@@ -939,6 +1023,8 @@
       29754.55,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -959,6 +1045,8 @@
       6653060.81,
       2429161.44,
       30160.91,
+      null,
+      null,
       null,
       null,
       null
@@ -983,6 +1071,8 @@
       30633.09,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1003,6 +1093,8 @@
       6674508.94,
       2429161.44,
       31166.29,
+      null,
+      null,
       null,
       null,
       null
@@ -1027,6 +1119,8 @@
       117977.8,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1047,6 +1141,8 @@
       6703985.6,
       2429161.44,
       115671.47,
+      null,
+      null,
       null,
       null,
       null
@@ -1071,6 +1167,8 @@
       117440.38,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1091,6 +1189,8 @@
       6778860.63,
       2429461.44,
       121872.8,
+      null,
+      null,
       null,
       null,
       null
@@ -1115,6 +1215,8 @@
       121872.8,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1135,6 +1237,8 @@
       6803607.41,
       2429461.44,
       121501.8,
+      null,
+      null,
       null,
       null,
       null
@@ -1159,6 +1263,8 @@
       121501.8,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1179,6 +1285,8 @@
       6855710.35,
       2429461.44,
       121501.8,
+      null,
+      null,
       null,
       null,
       null
@@ -1203,6 +1311,8 @@
       120945.3,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1223,6 +1333,8 @@
       6860960.35,
       2429461.44,
       121797.22,
+      null,
+      null,
       null,
       null,
       null
@@ -1247,6 +1359,8 @@
       123079.12,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1267,6 +1381,8 @@
       6869189.5,
       2429461.44,
       123079.12,
+      null,
+      null,
       null,
       null,
       null
@@ -1291,6 +1407,8 @@
       123639.42,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1311,6 +1429,8 @@
       6875417.47,
       2429461.44,
       124386.48,
+      null,
+      null,
       null,
       null,
       null
@@ -1335,6 +1455,8 @@
       124386.48,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1355,6 +1477,8 @@
       6895768.31,
       2429461.44,
       124760.02,
+      null,
+      null,
       null,
       null,
       null
@@ -1379,6 +1503,8 @@
       126254.15,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1399,6 +1525,8 @@
       6912987.83,
       2429461.44,
       125983.31,
+      null,
+      null,
       null,
       null,
       null
@@ -1423,6 +1551,8 @@
       125235.64,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1443,6 +1573,8 @@
       6913388.76,
       2429461.44,
       125048.72,
+      null,
+      null,
       null,
       null,
       null
@@ -1467,6 +1599,8 @@
       125609.47,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1487,6 +1621,8 @@
       7162979.03,
       2429461.44,
       125796.39,
+      null,
+      null,
       null,
       null,
       null
@@ -1511,6 +1647,8 @@
       124834.81,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1531,6 +1669,8 @@
       7169846.79,
       2429461.44,
       124599.83,
+      null,
+      null,
       null,
       null,
       null
@@ -1555,6 +1695,8 @@
       120283.87,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1575,6 +1717,8 @@
       7235615.78,
       2429461.44,
       121222.12,
+      null,
+      null,
       null,
       null,
       null
@@ -1599,6 +1743,8 @@
       117093.82,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1619,6 +1765,8 @@
       8236568.41,
       2429516.44,
       116906.16,
+      null,
+      null,
       null,
       null,
       null
@@ -1643,6 +1791,8 @@
       115217.31,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1663,6 +1813,8 @@
       8236868.41,
       2429516.44,
       113528.46,
+      null,
+      null,
       null,
       null,
       null
@@ -1687,6 +1839,8 @@
       113776.71,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1707,6 +1861,8 @@
       8252892.15,
       2429516.44,
       113776.71,
+      null,
+      null,
       null,
       null,
       null
@@ -1731,6 +1887,8 @@
       112837.96,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1751,6 +1909,8 @@
       8346209.8,
       2429516.44,
       112575.68,
+      null,
+      null,
       null,
       null,
       null
@@ -1775,6 +1935,8 @@
       111257.9,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1795,6 +1957,8 @@
       8358209.28,
       2429516.44,
       111257.9,
+      null,
+      null,
       null,
       null,
       null
@@ -1819,6 +1983,8 @@
       111069.65,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1839,6 +2005,8 @@
       8424298.02,
       2429516.44,
       111257.9,
+      null,
+      null,
       null,
       null,
       null
@@ -1863,6 +2031,8 @@
       111277.54,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1883,6 +2053,8 @@
       8467479.13,
       2429516.44,
       110147.82,
+      null,
+      null,
       null,
       null,
       null
@@ -1907,6 +2079,8 @@
       109044.42,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1927,6 +2101,8 @@
       8468440.48,
       2429516.44,
       109232.75,
+      null,
+      null,
       null,
       null,
       null
@@ -1951,6 +2127,8 @@
       108291.09,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -1971,6 +2149,8 @@
       8468940.48,
       2429516.44,
       108667.76,
+      null,
+      null,
       null,
       null,
       null
@@ -1995,6 +2175,8 @@
       110577.94,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2015,6 +2197,8 @@
       8473694.04,
       2429516.44,
       109468.36,
+      null,
+      null,
       null,
       null,
       null
@@ -2039,6 +2223,8 @@
       109845.84,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2059,6 +2245,8 @@
       8575292.56,
       2429516.44,
       109657.1,
+      null,
+      null,
       null,
       null,
       null
@@ -2083,6 +2271,8 @@
       110789.53,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2103,6 +2293,8 @@
       8582410.37,
       2429516.44,
       111237.85,
+      null,
+      null,
       null,
       null,
       null
@@ -2127,6 +2319,8 @@
       111048.99,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2147,6 +2341,8 @@
       8586122.4,
       2429516.44,
       110293.55,
+      null,
+      null,
       null,
       null,
       null
@@ -2171,6 +2367,8 @@
       110482.41,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2191,6 +2389,8 @@
       8591930.81,
       2429516.44,
       111088.83,
+      null,
+      null,
       null,
       null,
       null
@@ -2215,6 +2415,8 @@
       109388.49,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2235,6 +2437,8 @@
       8932508.52,
       2429955.44,
       109010.63,
+      null,
+      null,
       null,
       null,
       null
@@ -2259,6 +2463,8 @@
       108443.85,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2279,6 +2485,8 @@
       8933010.39,
       2429955.44,
       104287.47,
+      null,
+      null,
       null,
       null,
       null
@@ -2303,6 +2511,8 @@
       104287.47,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2323,6 +2533,8 @@
       8979361.49,
       2429955.44,
       103909.62,
+      null,
+      null,
       null,
       null,
       null
@@ -2347,6 +2559,8 @@
       102165.35,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2367,6 +2581,8 @@
       8984709.24,
       2429955.44,
       103864.96,
+      null,
+      null,
       null,
       null,
       null
@@ -2391,6 +2607,8 @@
       104809.18,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2411,6 +2629,8 @@
       9875035.24,
       2350907.74,
       104979.6,
+      null,
+      null,
       null,
       null,
       null
@@ -2435,6 +2655,8 @@
       103466.38,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2455,6 +2677,8 @@
       9892413.86,
       2350907.74,
       104412.14,
+      null,
+      null,
       null,
       null,
       null
@@ -2479,6 +2703,8 @@
       104412.14,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2499,6 +2725,8 @@
       9999911.86,
       2350907.74,
       102709.77,
+      null,
+      null,
       null,
       null,
       null
@@ -2523,6 +2751,8 @@
       103088.07,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2543,6 +2773,8 @@
       9999911.86,
       2350907.74,
       100629.09,
+      null,
+      null,
       null,
       null,
       null
@@ -2567,6 +2799,8 @@
       103277.22,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2587,6 +2821,8 @@
       9999999.86,
       2350907.74,
       103466.38,
+      null,
+      null,
       null,
       null,
       null
@@ -2611,6 +2847,8 @@
       101953.16,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2631,6 +2869,8 @@
       9999999.86,
       2350907.74,
       102898.92,
+      null,
+      null,
       null,
       null,
       null
@@ -2655,6 +2895,8 @@
       102898.92,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2675,6 +2917,8 @@
       9999999.86,
       2351011.08,
       102142.31,
+      null,
+      null,
       null,
       null,
       null
@@ -2699,6 +2943,8 @@
       100639.73,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2719,6 +2965,8 @@
       9999999.86,
       2351024.08,
       102536.1,
+      null,
+      null,
       null,
       null,
       null
@@ -2743,6 +2991,8 @@
       103860.37,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2763,6 +3013,8 @@
       9999999.86,
       2351024.08,
       103103.64,
+      null,
+      null,
       null,
       null,
       null
@@ -2787,6 +3039,8 @@
       102725.28,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2807,6 +3061,8 @@
       9999999.86,
       2351024.08,
       102725.28,
+      null,
+      null,
       null,
       null,
       null
@@ -2831,6 +3087,8 @@
       103292.82,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2851,6 +3109,8 @@
       9999999.86,
       2351024.08,
       103103.64,
+      null,
+      null,
       null,
       null,
       null
@@ -2875,6 +3135,8 @@
       103671.19,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2895,6 +3157,8 @@
       9999999.86,
       2351024.08,
       103860.37,
+      null,
+      null,
       null,
       null,
       null
@@ -2919,6 +3183,8 @@
       104049.55,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2939,6 +3205,8 @@
       9999999.97,
       2351065.65,
       104427.91,
+      null,
+      null,
       null,
       null,
       null
@@ -2963,6 +3231,8 @@
       102725.28,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -2983,6 +3253,8 @@
       9999999.97,
       2351066.65,
       103103.64,
+      null,
+      null,
       null,
       null,
       null
@@ -3007,6 +3279,8 @@
       102914.46,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3027,6 +3301,8 @@
       9999999.97,
       2351066.65,
       102725.28,
+      null,
+      null,
       null,
       null,
       null
@@ -3051,6 +3327,8 @@
       101211.83,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3071,6 +3349,8 @@
       9999999.97,
       2351066.65,
       101779.38,
+      null,
+      null,
       null,
       null,
       null
@@ -3095,6 +3375,8 @@
       100076.75,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3115,6 +3397,8 @@
       9999999.97,
       2351066.65,
       97617.39,
+      null,
+      null,
       null,
       null,
       null
@@ -3139,6 +3423,8 @@
       97049.85,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3159,6 +3445,8 @@
       9999999.97,
       2351066.65,
       97239.03,
+      null,
+      null,
       null,
       null,
       null
@@ -3183,6 +3471,8 @@
       97806.57,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3203,6 +3493,8 @@
       9999999.97,
       2351066.65,
       101401.01,
+      null,
+      null,
       null,
       null,
       null
@@ -3227,6 +3519,8 @@
       100265.93,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3247,6 +3541,8 @@
       9999999.97,
       2351078.65,
       100076.75,
+      null,
+      null,
       null,
       null,
       null
@@ -3271,6 +3567,8 @@
       100833.47,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3291,6 +3589,8 @@
       9999999.97,
       2352078.65,
       100265.93,
+      null,
+      null,
       null,
       null,
       null
@@ -3315,6 +3615,8 @@
       101401.01,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3335,6 +3637,8 @@
       9999999.97,
       2352078.65,
       101211.83,
+      null,
+      null,
       null,
       null,
       null
@@ -3359,6 +3663,8 @@
       101401.01,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3379,6 +3685,8 @@
       9999999.97,
       2352078.65,
       100833.47,
+      null,
+      null,
       null,
       null,
       null
@@ -3403,6 +3711,8 @@
       100833.47,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3423,6 +3733,8 @@
       9999999.97,
       2352078.65,
       100644.29,
+      null,
+      null,
       null,
       null,
       null
@@ -3447,6 +3759,8 @@
       100265.93,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3467,6 +3781,8 @@
       9999999.97,
       2352078.65,
       99698.38,
+      null,
+      null,
       null,
       null,
       null
@@ -3491,6 +3807,8 @@
       99887.57,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3511,6 +3829,8 @@
       9999999.97,
       2352308.65,
       100076.75,
+      null,
+      null,
       null,
       null,
       null
@@ -3535,6 +3855,8 @@
       100455.11,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3555,6 +3877,8 @@
       9999999.97,
       2352308.65,
       99320.02,
+      null,
+      null,
       null,
       null,
       null
@@ -3579,6 +3903,8 @@
       99887.57,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3599,6 +3925,8 @@
       9999999.97,
       2352308.65,
       100833.47,
+      null,
+      null,
       null,
       null,
       null
@@ -3623,6 +3951,8 @@
       101590.19,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3643,6 +3973,8 @@
       9999999.97,
       2352308.65,
       102536.1,
+      null,
+      null,
       null,
       null,
       null
@@ -3667,6 +3999,8 @@
       101779.38,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3687,6 +4021,8 @@
       9999999.97,
       2352308.65,
       102914.46,
+      null,
+      null,
       null,
       null,
       null
@@ -3711,6 +4047,8 @@
       102536.1,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3731,6 +4069,8 @@
       9999999.97,
       2352563.65,
       102346.92,
+      null,
+      null,
       null,
       null,
       null
@@ -3755,6 +4095,8 @@
       101455.85,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3775,6 +4117,8 @@
       9999999.97,
       2354377.79,
       101266.57,
+      null,
+      null,
       null,
       null,
       null
@@ -3799,6 +4143,8 @@
       101266.57,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3819,6 +4165,8 @@
       10000000.0,
       2354377.79,
       100890.42,
+      null,
+      null,
       null,
       null,
       null
@@ -3843,6 +4191,8 @@
       101647.57,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3863,6 +4213,8 @@
       10000000.0,
       2354377.79,
       101458.29,
+      null,
+      null,
       null,
       null,
       null
@@ -3887,6 +4239,8 @@
       102215.44,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3907,6 +4261,8 @@
       10000000.0,
       2354377.79,
       101836.86,
+      null,
+      null,
       null,
       null,
       null
@@ -3931,6 +4287,8 @@
       102404.73,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3951,6 +4309,8 @@
       10000000.0,
       2354377.79,
       101836.86,
+      null,
+      null,
       null,
       null,
       null
@@ -3975,6 +4335,8 @@
       101269.0,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -3995,6 +4357,8 @@
       10000000.0,
       2354377.79,
       101269.0,
+      null,
+      null,
       null,
       null,
       null
@@ -4019,6 +4383,8 @@
       100133.27,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4039,6 +4405,8 @@
       10000000.0,
       2354377.79,
       98618.97,
+      null,
+      null,
       null,
       null,
       null
@@ -4063,6 +4431,8 @@
       97483.24,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4083,6 +4453,8 @@
       10000000.0,
       2354377.79,
       96536.8,
+      null,
+      null,
       null,
       null,
       null
@@ -4107,6 +4479,8 @@
       96347.52,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4127,6 +4501,8 @@
       10000000.0,
       2354377.79,
       96726.09,
+      null,
+      null,
       null,
       null,
       null
@@ -4151,6 +4527,8 @@
       97483.24,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4171,6 +4549,8 @@
       10000000.0,
       2354377.79,
       95590.36,
+      null,
+      null,
       null,
       null,
       null
@@ -4195,6 +4575,8 @@
       95779.65,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4215,6 +4597,8 @@
       10047878.2,
       2354377.79,
       94643.92,
+      null,
+      null,
       null,
       null,
       null
@@ -4239,6 +4623,8 @@
       96536.8,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4259,6 +4645,8 @@
       10047917.2,
       2354377.79,
       95973.76,
+      null,
+      null,
       null,
       null,
       null
@@ -4283,6 +4671,8 @@
       95784.47,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4303,6 +4693,8 @@
       10257537.94,
       2354377.79,
       95973.76,
+      null,
+      null,
       null,
       null,
       null
@@ -4327,6 +4719,8 @@
       96163.06,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4347,6 +4741,8 @@
       10257780.99,
       2354377.79,
       96730.95,
+      null,
+      null,
       null,
       null,
       null
@@ -4371,6 +4767,8 @@
       96920.25,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4391,6 +4789,8 @@
       10262110.63,
       2354377.79,
       96920.25,
+      null,
+      null,
       null,
       null,
       null
@@ -4415,6 +4815,8 @@
       96541.66,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4435,6 +4837,8 @@
       10263250.42,
       2354377.79,
       98082.1,
+      null,
+      null,
       null,
       null,
       null
@@ -4459,6 +4863,8 @@
       98849.87,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4479,6 +4885,8 @@
       10277594.91,
       2354377.79,
       98082.1,
+      null,
+      null,
       null,
       null,
       null
@@ -4503,6 +4911,8 @@
       98493.27,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4523,6 +4933,8 @@
       10288594.91,
       2354377.79,
       97725.29,
+      null,
+      null,
       null,
       null,
       null
@@ -4547,6 +4959,8 @@
       98493.27,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4567,6 +4981,8 @@
       10289333.37,
       2354377.79,
       98685.26,
+      null,
+      null,
       null,
       null,
       null
@@ -4591,6 +5007,8 @@
       98686.29,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4611,6 +5029,8 @@
       10295096.86,
       2354377.79,
       99070.28,
+      null,
+      null,
       null,
       null,
       null
@@ -4635,6 +5055,8 @@
       100990.25,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4655,6 +5077,8 @@
       10317099.53,
       2354377.79,
       102910.22,
+      null,
+      null,
       null,
       null,
       null
@@ -4679,6 +5103,8 @@
       102530.82,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4699,6 +5125,8 @@
       10383856.98,
       2354377.79,
       102914.83,
+      null,
+      null,
       null,
       null,
       null
@@ -4723,6 +5151,8 @@
       103534.94,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4743,6 +5173,8 @@
       10388383.09,
       2354377.79,
       103534.94,
+      null,
+      null,
       null,
       null,
       null
@@ -4767,6 +5199,8 @@
       103697.35,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4787,6 +5221,8 @@
       10400318.15,
       2354377.79,
       103697.35,
+      null,
+      null,
       null,
       null,
       null
@@ -4811,6 +5247,8 @@
       103311.14,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4831,6 +5269,8 @@
       10366107.54,
       2354377.79,
       103311.14,
+      null,
+      null,
       null,
       null,
       null
@@ -4855,6 +5295,8 @@
       103311.14,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4875,6 +5317,8 @@
       10566924.73,
       2354377.79,
       103697.35,
+      null,
+      null,
       null,
       null,
       null
@@ -4899,6 +5343,8 @@
       103504.25,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4919,6 +5365,8 @@
       10567315.9,
       2354377.79,
       103890.46,
+      null,
+      null,
       null,
       null,
       null
@@ -4943,6 +5391,8 @@
       103311.14,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -4963,6 +5413,8 @@
       10567677.32,
       2354377.79,
       103311.14,
+      null,
+      null,
       null,
       null,
       null
@@ -4987,6 +5439,8 @@
       103890.46,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5007,6 +5461,8 @@
       10626158.2,
       2354377.79,
       105049.09,
+      null,
+      null,
       null,
       null,
       null
@@ -5031,6 +5487,8 @@
       104469.77,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5051,6 +5509,8 @@
       10646528.68,
       2354377.79,
       105821.51,
+      null,
+      null,
       null,
       null,
       null
@@ -5075,6 +5535,8 @@
       106014.61,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5095,6 +5557,8 @@
       10647450.94,
       2354377.79,
       106593.93,
+      null,
+      null,
       null,
       null,
       null
@@ -5119,6 +5583,8 @@
       107173.24,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5139,6 +5605,8 @@
       10858188.4,
       2354377.79,
       106593.93,
+      null,
+      null,
       null,
       null,
       null
@@ -5163,6 +5631,8 @@
       107366.35,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5183,6 +5653,8 @@
       11128519.43,
       2354377.79,
       107173.24,
+      null,
+      null,
       null,
       null,
       null
@@ -5207,6 +5679,8 @@
       106980.14,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5227,6 +5701,8 @@
       11128519.43,
       2354387.79,
       107366.35,
+      null,
+      null,
       null,
       null,
       null
@@ -5251,6 +5727,8 @@
       107366.35,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5271,6 +5749,8 @@
       11210866.88,
       2354387.79,
       106980.14,
+      null,
+      null,
       null,
       null,
       null
@@ -5295,6 +5775,8 @@
       107173.24,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5315,6 +5797,8 @@
       11216457.27,
       2354387.79,
       106787.03,
+      null,
+      null,
       null,
       null,
       null
@@ -5339,6 +5823,8 @@
       106593.93,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5359,6 +5845,8 @@
       11227465.02,
       2354387.79,
       105821.51,
+      null,
+      null,
       null,
       null,
       null
@@ -5383,6 +5871,8 @@
       105821.51,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5403,6 +5893,8 @@
       11262751.38,
       2354387.79,
       106014.61,
+      null,
+      null,
       null,
       null,
       null
@@ -5427,6 +5919,8 @@
       106014.61,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5447,6 +5941,8 @@
       11264379.26,
       2354387.79,
       106400.82,
+      null,
+      null,
       null,
       null,
       null
@@ -5471,6 +5967,8 @@
       106787.03,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5491,6 +5989,8 @@
       11266085.99,
       2354387.79,
       106980.14,
+      null,
+      null,
       null,
       null,
       null
@@ -5515,6 +6015,8 @@
       107559.45,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5535,6 +6037,8 @@
       11278971.18,
       2354387.79,
       107752.56,
+      null,
+      null,
       null,
       null,
       null
@@ -5559,6 +6063,8 @@
       107752.56,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5579,6 +6085,8 @@
       11297036.02,
       2354487.79,
       106593.93,
+      null,
+      null,
       null,
       null,
       null
@@ -5603,6 +6111,8 @@
       106980.14,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5623,6 +6133,8 @@
       11303396.82,
       2354487.79,
       108524.98,
+      null,
+      null,
       null,
       null,
       null
@@ -5647,6 +6159,8 @@
       108524.98,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5667,6 +6181,8 @@
       11350517.25,
       2354488.66,
       105821.51,
+      null,
+      null,
       null,
       null,
       null
@@ -5691,6 +6207,8 @@
       105628.4,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5711,6 +6229,8 @@
       11372898.25,
       2355889.79,
       104668.3,
+      null,
+      null,
       null,
       null,
       null
@@ -5735,6 +6255,8 @@
       104186.51,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5755,6 +6277,8 @@
       12174398.25,
       2355889.79,
       102640.14,
+      null,
+      null,
       null,
       null,
       null
@@ -5779,6 +6303,8 @@
       104186.51,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5799,6 +6325,8 @@
       12383546.59,
       2355889.79,
       103993.21,
+      null,
+      null,
       null,
       null,
       null
@@ -5823,6 +6351,8 @@
       103220.03,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5843,6 +6373,8 @@
       12414158.03,
       2355919.79,
       103225.37,
+      null,
+      null,
       null,
       null,
       null
@@ -5867,6 +6399,8 @@
       103225.37,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5887,6 +6421,8 @@
       12587360.31,
       2365919.79,
       103032.06,
+      null,
+      null,
       null,
       null,
       null
@@ -5911,6 +6447,8 @@
       103316.7,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5931,6 +6469,8 @@
       12597660.31,
       2365919.79,
       104092.06,
+      null,
+      null,
       null,
       null,
       null
@@ -5955,6 +6495,8 @@
       103704.38,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -5975,6 +6517,8 @@
       12632638.73,
       2366019.79,
       104285.9,
+      null,
+      null,
       null,
       null,
       null
@@ -5999,6 +6543,8 @@
       104673.58,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6019,6 +6565,8 @@
       12664441.18,
       2371658.97,
       103122.86,
+      null,
+      null,
       null,
       null,
       null
@@ -6043,6 +6591,8 @@
       86590.34,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6063,6 +6613,8 @@
       10045195.51,
       1124192.33,
       86428.49,
+      null,
+      null,
       null,
       null,
       null
@@ -6087,6 +6639,8 @@
       85619.24,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6107,6 +6661,8 @@
       10047440.13,
       1124192.33,
       84971.83,
+      null,
+      null,
       null,
       null,
       null
@@ -6131,6 +6687,8 @@
       85619.24,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6151,6 +6709,8 @@
       10050791.23,
       1124192.33,
       85295.54,
+      null,
+      null,
       null,
       null,
       null
@@ -6175,6 +6735,8 @@
       87075.9,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6195,6 +6757,8 @@
       10410597.12,
       1124192.33,
       86266.64,
+      null,
+      null,
       null,
       null,
       null
@@ -6219,6 +6783,8 @@
       86914.05,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6239,6 +6805,8 @@
       10415788.44,
       1124192.33,
       86266.64,
+      null,
+      null,
       null,
       null,
       null
@@ -6263,6 +6831,8 @@
       86914.05,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6283,6 +6853,8 @@
       10447291.5,
       1124192.33,
       87075.9,
+      null,
+      null,
       null,
       null,
       null
@@ -6307,6 +6879,8 @@
       87075.9,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6327,6 +6901,8 @@
       10464164.21,
       1124192.33,
       87507.6,
+      null,
+      null,
       null,
       null,
       null
@@ -6351,6 +6927,8 @@
       87507.6,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6371,6 +6949,8 @@
       10480198.56,
       1124192.33,
       86859.4,
+      null,
+      null,
       null,
       null,
       null
@@ -6395,6 +6975,8 @@
       87636.96,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6415,6 +6997,8 @@
       10483896.82,
       1124484.14,
       87474.36,
+      null,
+      null,
       null,
       null,
       null
@@ -6439,6 +7023,8 @@
       87799.55,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6459,6 +7045,8 @@
       10483906.82,
       1124484.14,
       87529.23,
+      null,
+      null,
       null,
       null,
       null
@@ -6483,6 +7071,8 @@
       87287.13,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6503,6 +7093,8 @@
       10491406.82,
       1124484.14,
       87575.04,
+      null,
+      null,
       null,
       null,
       null
@@ -6527,6 +7119,8 @@
       87738.43,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6547,6 +7141,8 @@
       10506707.35,
       1124484.14,
       87901.81,
+      null,
+      null,
       null,
       null,
       null
@@ -6571,6 +7167,8 @@
       87738.43,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6591,6 +7189,8 @@
       10609708.0,
       1124484.14,
       88093.86,
+      null,
+      null,
       null,
       null,
       null
@@ -6615,6 +7215,8 @@
       88414.98,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6635,6 +7237,8 @@
       10614756.09,
       1124484.14,
       89750.1,
+      null,
+      null,
       null,
       null,
       null
@@ -6659,6 +7263,8 @@
       88751.03,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6679,6 +7285,8 @@
       10614856.09,
       1124484.14,
       89583.59,
+      null,
+      null,
       null,
       null,
       null
@@ -6703,6 +7311,8 @@
       90422.42,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6723,6 +7333,8 @@
       10663586.49,
       1124484.14,
       91255.04,
+      null,
+      null,
       null,
       null,
       null
@@ -6747,6 +7359,8 @@
       92087.66,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6767,6 +7381,8 @@
       10676321.67,
       1124484.14,
       91921.13,
+      null,
+      null,
       null,
       null,
       null
@@ -6791,6 +7407,8 @@
       91754.61,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6811,6 +7429,8 @@
       10686779.64,
       1124484.14,
       92298.09,
+      null,
+      null,
       null,
       null,
       null
@@ -6835,6 +7455,8 @@
       96280.4,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6855,6 +7477,8 @@
       10708000.4,
       1124484.14,
       95757.14,
+      null,
+      null,
       null,
       null,
       null
@@ -6879,6 +7503,8 @@
       96534.32,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6899,6 +7525,8 @@
       10708229.83,
       1124484.14,
       95659.92,
+      null,
+      null,
       null,
       null,
       null
@@ -6923,6 +7551,8 @@
       95834.8,
       null,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6943,6 +7573,8 @@
       10708229.83,
       1124484.14,
       95485.04,
+      null,
+      null,
       null,
       null,
       null
@@ -6967,6 +7599,8 @@
       95135.28,
       500.0,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -6988,6 +7622,8 @@
       1124484.14,
       94960.4,
       510.0,
+      null,
+      null,
       null,
       null
     ]
@@ -7011,6 +7647,8 @@
       95069.0,
       510.0,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7032,6 +7670,8 @@
       1124484.14,
       95244.08,
       6435.7,
+      null,
+      null,
       null,
       null
     ]
@@ -7055,6 +7695,8 @@
       95594.24,
       6535.41,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7076,6 +7718,8 @@
       1124484.14,
       97299.73,
       7495.7,
+      null,
+      null,
       null,
       null
     ]
@@ -7099,6 +7743,8 @@
       96943.97,
       12478.68,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7120,6 +7766,8 @@
       1124484.14,
       97121.85,
       12478.68,
+      null,
+      null,
       null,
       null
     ]
@@ -7143,6 +7791,8 @@
       96588.21,
       12750.14,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7164,6 +7814,8 @@
       1124484.14,
       98667.55,
       18251.09,
+      null,
+      null,
       null,
       null
     ]
@@ -7187,6 +7839,8 @@
       99027.65,
       18251.09,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7208,6 +7862,8 @@
       1124484.14,
       98847.6,
       18433.61,
+      null,
+      null,
       null,
       null
     ]
@@ -7231,6 +7887,8 @@
       99027.65,
       19372.09,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7252,6 +7910,8 @@
       1124484.14,
       98487.5,
       26520.54,
+      null,
+      null,
       null,
       null
     ]
@@ -7275,6 +7935,8 @@
       98672.41,
       26520.54,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7296,6 +7958,8 @@
       1124484.14,
       98136.28,
       27591.08,
+      null,
+      null,
       null,
       null
     ]
@@ -7319,6 +7983,8 @@
       97596.08,
       28091.08,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7340,6 +8006,8 @@
       1124484.14,
       97238.65,
       48190.66,
+      null,
+      null,
       null,
       null
     ]
@@ -7363,6 +8031,8 @@
       97418.72,
       48290.66,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7384,6 +8054,8 @@
       1124484.14,
       98578.87,
       50934.87,
+      null,
+      null,
       null,
       null
     ]
@@ -7407,6 +8079,8 @@
       98578.87,
       66438.69,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7428,6 +8102,8 @@
       1124484.14,
       98466.38,
       71525.27,
+      null,
+      null,
       null,
       null
     ]
@@ -7451,6 +8127,8 @@
       97850.88,
       71455.89,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7472,6 +8150,8 @@
       1124484.14,
       97485.76,
       73580.27,
+      null,
+      null,
       null,
       null
     ]
@@ -7495,6 +8175,8 @@
       97303.2,
       74385.14,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7516,6 +8198,8 @@
       1124484.14,
       96390.42,
       74385.14,
+      null,
+      null,
       null,
       null
     ]
@@ -7539,6 +8223,8 @@
       96025.3,
       74815.31,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7560,6 +8246,8 @@
       1124484.14,
       95880.54,
       79815.31,
+      null,
+      null,
       null,
       null
     ]
@@ -7583,6 +8271,8 @@
       95885.79,
       80815.31,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7604,6 +8294,8 @@
       1124484.14,
       95703.15,
       81016.31,
+      null,
+      null,
       null,
       null
     ]
@@ -7627,6 +8319,8 @@
       96068.43,
       90786.27,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7648,6 +8342,8 @@
       1125275.54,
       95885.79,
       90786.27,
+      null,
+      null,
       null,
       null
     ]
@@ -7671,6 +8367,8 @@
       95703.15,
       90786.27,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7692,6 +8390,8 @@
       1125275.54,
       96574.2,
       91699.0,
+      null,
+      null,
       null,
       null
     ]
@@ -7715,6 +8415,8 @@
       96420.68,
       90791.09,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7736,6 +8438,8 @@
       1125275.54,
       96605.39,
       90791.09,
+      null,
+      null,
       null,
       null
     ]
@@ -7759,6 +8463,8 @@
       96436.08,
       92355.04,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7780,6 +8486,8 @@
       1125275.54,
       100651.51,
       92162.19,
+      null,
+      null,
       null,
       null
     ]
@@ -7803,6 +8511,8 @@
       101042.39,
       92516.11,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7824,6 +8534,8 @@
       1125275.54,
       100265.2,
       93434.21,
+      null,
+      null,
       null,
       null
     ]
@@ -7847,6 +8559,8 @@
       100878.65,
       94351.31,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7868,6 +8582,8 @@
       1125776.04,
       101480.37,
       94851.31,
+      null,
+      null,
       null,
       null
     ]
@@ -7891,6 +8607,8 @@
       101088.55,
       94851.31,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7912,6 +8630,8 @@
       1125776.04,
       100560.92,
       94851.31,
+      null,
+      null,
       null,
       null
     ]
@@ -7935,6 +8655,8 @@
       101350.19,
       95855.37,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -7956,6 +8678,8 @@
       1125776.04,
       103828.55,
       94906.31,
+      null,
+      null,
       null,
       null
     ]
@@ -7979,6 +8703,8 @@
       103828.55,
       94906.31,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8000,6 +8726,8 @@
       1125776.04,
       103429.21,
       94896.06,
+      null,
+      null,
       null,
       null
     ]
@@ -8023,6 +8751,8 @@
       103229.53,
       94906.31,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8044,6 +8774,8 @@
       1125776.04,
       102430.85,
       95268.91,
+      null,
+      null,
       null,
       null
     ]
@@ -8067,6 +8799,8 @@
       102031.51,
       95476.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8088,6 +8822,8 @@
       1125776.04,
       102440.91,
       95476.53,
+      null,
+      null,
       null,
       null
     ]
@@ -8111,6 +8847,8 @@
       102840.29,
       145476.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8132,6 +8870,8 @@
       1125804.04,
       102041.53,
       145227.18,
+      null,
+      null,
       null,
       null
     ]
@@ -8155,6 +8895,8 @@
       100843.39,
       145476.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8176,6 +8918,8 @@
       1125804.04,
       101442.46,
       146931.29,
+      null,
+      null,
       null,
       null
     ]
@@ -8199,6 +8943,8 @@
       100944.39,
       145476.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8220,6 +8966,8 @@
       1125804.04,
       101053.01,
       145476.53,
+      null,
+      null,
       null,
       null
     ]
@@ -8243,6 +8991,8 @@
       101253.12,
       145476.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8264,6 +9014,8 @@
       1125804.04,
       100629.01,
       145476.53,
+      null,
+      null,
       null,
       null
     ]
@@ -8287,6 +9039,8 @@
       102897.82,
       146961.59,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8308,6 +9062,8 @@
       1125804.04,
       102084.4,
       146105.82,
+      null,
+      null,
       null,
       null
     ]
@@ -8331,6 +9087,8 @@
       102694.47,
       146105.82,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8352,6 +9110,8 @@
       1125804.04,
       101901.09,
       146105.82,
+      null,
+      null,
       null,
       null
     ]
@@ -8375,6 +9135,8 @@
       102313.29,
       146478.36,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8396,6 +9158,8 @@
       1125804.04,
       102720.1,
       151543.54,
+      null,
+      null,
       null,
       null
     ]
@@ -8419,6 +9183,8 @@
       103940.54,
       155078.98,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8440,6 +9206,8 @@
       1125804.04,
       105160.98,
       153543.54,
+      null,
+      null,
       null,
       null
     ]
@@ -8463,6 +9231,8 @@
       105364.38,
       153893.54,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8484,6 +9254,8 @@
       1125804.04,
       104347.35,
       153893.54,
+      null,
+      null,
       null,
       null
     ]
@@ -8507,6 +9279,8 @@
       104550.76,
       153893.54,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8528,6 +9302,8 @@
       1125804.04,
       105371.73,
       153893.54,
+      null,
+      null,
       null,
       null
     ]
@@ -8551,6 +9327,8 @@
       104761.47,
       154193.54,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8572,6 +9350,8 @@
       1125804.04,
       103337.53,
       154193.54,
+      null,
+      null,
       null,
       null
     ]
@@ -8595,6 +9375,8 @@
       103744.37,
       157484.32,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8616,6 +9398,8 @@
       1125804.04,
       103540.95,
       157484.32,
+      null,
+      null,
       null,
       null
     ]
@@ -8639,6 +9423,8 @@
       102523.85,
       157150.92,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8660,6 +9446,8 @@
       1125804.04,
       100896.49,
       157494.19,
+      null,
+      null,
       null,
       null
     ]
@@ -8683,6 +9471,8 @@
       100489.65,
       157494.19,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8704,6 +9494,8 @@
       1125804.04,
       100896.49,
       157594.19,
+      null,
+      null,
       null,
       null
     ]
@@ -8727,6 +9519,8 @@
       102784.29,
       159170.13,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8748,6 +9542,8 @@
       1125804.04,
       103196.25,
       157594.19,
+      null,
+      null,
       null,
       null
     ]
@@ -8771,6 +9567,8 @@
       102990.27,
       157594.19,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8792,6 +9590,8 @@
       1125804.04,
       103251.36,
       157594.19,
+      null,
+      null,
       null,
       null
     ]
@@ -8815,6 +9615,8 @@
       104281.81,
       162364.95,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8836,6 +9638,8 @@
       1125814.04,
       102633.09,
       162077.56,
+      null,
+      null,
       null,
       null
     ]
@@ -8859,6 +9663,8 @@
       103251.36,
       163179.81,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8880,6 +9686,8 @@
       1125814.04,
       103869.63,
       164179.81,
+      null,
+      null,
       null,
       null
     ]
@@ -8903,6 +9711,8 @@
       103251.36,
       164485.47,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8924,6 +9734,8 @@
       1125864.04,
       103251.36,
       165717.56,
+      null,
+      null,
       null,
       null
     ]
@@ -8947,6 +9759,8 @@
       102839.18,
       165717.56,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -8968,6 +9782,8 @@
       1125864.04,
       102633.09,
       175709.4,
+      null,
+      null,
       null,
       null
     ]
@@ -8991,6 +9807,8 @@
       103251.36,
       175709.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9012,6 +9830,8 @@
       1125864.04,
       102633.09,
       175809.4,
+      null,
+      null,
       null,
       null
     ]
@@ -9035,6 +9855,8 @@
       102014.82,
       175809.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9056,6 +9878,8 @@
       1125864.04,
       102633.09,
       175809.4,
+      null,
+      null,
       null,
       null
     ]
@@ -9079,6 +9903,8 @@
       103496.49,
       175809.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9100,6 +9926,8 @@
       1125864.04,
       103703.48,
       175809.4,
+      null,
+      null,
       null,
       null
     ]
@@ -9123,6 +9951,8 @@
       103873.33,
       175809.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9144,6 +9974,8 @@
       1125864.04,
       103873.33,
       175809.4,
+      null,
+      null,
       null,
       null
     ]
@@ -9167,6 +9999,8 @@
       104081.49,
       175809.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9188,6 +10022,8 @@
       1125864.04,
       104914.14,
       185809.4,
+      null,
+      null,
       null,
       null
     ]
@@ -9211,6 +10047,8 @@
       104914.14,
       190809.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9232,6 +10070,8 @@
       1125864.04,
       105538.63,
       190809.4,
+      null,
+      null,
       null,
       null
     ]
@@ -9255,6 +10095,8 @@
       105799.1,
       190859.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9276,6 +10118,8 @@
       1125864.04,
       105392.68,
       190859.4,
+      null,
+      null,
       null,
       null
     ]
@@ -9299,6 +10143,8 @@
       105600.97,
       190859.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9320,6 +10166,8 @@
       1125864.04,
       107058.97,
       191367.73,
+      null,
+      null,
       null,
       null
     ]
@@ -9343,6 +10191,8 @@
       109387.29,
       193281.41,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9364,6 +10214,8 @@
       1125864.04,
       108886.77,
       191605.47,
+      null,
+      null,
       null,
       null
     ]
@@ -9387,6 +10239,8 @@
       108886.77,
       191617.73,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9408,6 +10262,8 @@
       1125864.04,
       107862.62,
       191617.73,
+      null,
+      null,
       null,
       null
     ]
@@ -9431,6 +10287,8 @@
       107862.62,
       192117.27,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9452,6 +10310,8 @@
       1125864.04,
       107443.74,
       192105.56,
+      null,
+      null,
       null,
       null
     ]
@@ -9475,6 +10335,8 @@
       106815.41,
       192117.27,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9496,6 +10358,8 @@
       1125864.04,
       101998.25,
       192283.64,
+      null,
+      null,
       null,
       null
     ]
@@ -9519,6 +10383,8 @@
       101998.25,
       192283.64,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9540,6 +10406,8 @@
       1125864.04,
       100322.71,
       193430.3,
+      null,
+      null,
       null,
       null
     ]
@@ -9563,6 +10431,8 @@
       96971.64,
       191974.55,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9584,6 +10454,8 @@
       1125864.04,
       99904.75,
       193436.5,
+      null,
+      null,
       null,
       null
     ]
@@ -9607,6 +10479,8 @@
       98419.96,
       199420.96,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9628,6 +10502,8 @@
       1129312.66,
       98426.56,
       202752.95,
+      null,
+      null,
       null,
       null
     ]
@@ -9651,6 +10527,8 @@
       98261.09,
       200745.49,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9672,6 +10550,8 @@
       1129356.64,
       96987.73,
       200745.49,
+      null,
+      null,
       null,
       null
     ]
@@ -9695,6 +10575,8 @@
       98475.9,
       200745.49,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9716,6 +10598,8 @@
       1136061.19,
       95690.67,
       201371.89,
+      null,
+      null,
       null,
       null
     ]
@@ -9739,6 +10623,8 @@
       95488.38,
       201010.63,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9760,6 +10646,8 @@
       1136061.19,
       95351.47,
       201010.63,
+      null,
+      null,
       null,
       null
     ]
@@ -9783,6 +10671,8 @@
       94099.59,
       200990.33,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9804,6 +10694,8 @@
       1136061.19,
       92221.77,
       201224.02,
+      null,
+      null,
       null,
       null
     ]
@@ -9827,6 +10719,8 @@
       92847.71,
       201918.04,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9848,6 +10742,8 @@
       1136162.46,
       93056.36,
       204899.89,
+      null,
+      null,
       null,
       null
     ]
@@ -9871,6 +10767,8 @@
       94725.53,
       205230.45,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9892,6 +10790,8 @@
       1136162.46,
       94516.89,
       205041.81,
+      null,
+      null,
       null,
       null
     ]
@@ -9915,6 +10815,8 @@
       94099.59,
       207408.94,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9936,6 +10838,8 @@
       1136162.46,
       93682.3,
       207408.94,
+      null,
+      null,
       null,
       null
     ]
@@ -9959,6 +10863,8 @@
       92106.23,
       205034.0,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -9980,6 +10886,8 @@
       1136162.46,
       92734.23,
       205355.39,
+      null,
+      null,
       null,
       null
     ]
@@ -10003,6 +10911,8 @@
       89175.58,
       204511.37,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10024,6 +10934,8 @@
       1136162.46,
       88547.58,
       209462.49,
+      null,
+      null,
       null,
       null
     ]
@@ -10047,6 +10959,8 @@
       88966.25,
       205019.01,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10068,6 +10982,8 @@
       1137191.84,
       88966.25,
       205355.39,
+      null,
+      null,
       null,
       null
     ]
@@ -10091,6 +11007,8 @@
       88966.25,
       205355.39,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10112,6 +11030,8 @@
       1137191.84,
       87291.59,
       205355.39,
+      null,
+      null,
       null,
       null
     ]
@@ -10135,6 +11055,8 @@
       86663.59,
       205355.39,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10156,6 +11078,8 @@
       1137191.84,
       83942.27,
       205355.39,
+      null,
+      null,
       null,
       null
     ]
@@ -10179,6 +11103,8 @@
       83104.94,
       205355.39,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10200,6 +11126,8 @@
       1137191.84,
       83732.94,
       207488.97,
+      null,
+      null,
       null,
       null
     ]
@@ -10223,6 +11151,8 @@
       83104.94,
       205342.18,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10244,6 +11174,8 @@
       1137191.84,
       77662.3,
       203666.24,
+      null,
+      null,
       null,
       null
     ]
@@ -10267,6 +11199,8 @@
       79964.95,
       207488.97,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10288,6 +11222,8 @@
       1137191.84,
       80802.28,
       207488.97,
+      null,
+      null,
       null,
       null
     ]
@@ -10311,6 +11247,8 @@
       81848.95,
       207488.97,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10332,6 +11270,8 @@
       1137191.84,
       80383.62,
       205103.46,
+      null,
+      null,
       null,
       null
     ]
@@ -10355,6 +11295,8 @@
       78708.96,
       204522.29,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10376,6 +11318,8 @@
       1138190.84,
       80403.06,
       209508.97,
+      null,
+      null,
       null,
       null
     ]
@@ -10399,6 +11343,8 @@
       78937.38,
       207428.81,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10420,6 +11366,8 @@
       1138190.84,
       77721.38,
       209691.08,
+      null,
+      null,
       null,
       null
     ]
@@ -10443,6 +11391,8 @@
       76673.92,
       207614.93,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10464,6 +11414,8 @@
       1138190.84,
       77302.39,
       207614.93,
+      null,
+      null,
       null,
       null
     ]
@@ -10487,6 +11439,8 @@
       78140.36,
       209691.08,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10508,6 +11462,8 @@
       1138190.84,
       78559.34,
       209691.08,
+      null,
+      null,
       null,
       null
     ]
@@ -10531,6 +11487,8 @@
       76673.92,
       207614.93,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10552,6 +11510,8 @@
       1138190.84,
       78980.04,
       207614.93,
+      null,
+      null,
       null,
       null
     ]
@@ -10575,6 +11535,8 @@
       78566.36,
       207614.93,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10596,6 +11558,8 @@
       1138190.84,
       76480.92,
       207614.93,
+      null,
+      null,
       null,
       null
     ]
@@ -10619,6 +11583,8 @@
       77109.53,
       209691.08,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10640,6 +11606,8 @@
       1138190.84,
       77319.06,
       207614.93,
+      null,
+      null,
       null,
       null
     ]
@@ -10663,6 +11631,8 @@
       78366.75,
       207664.94,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10684,6 +11654,8 @@
       1138190.84,
       78995.36,
       209783.84,
+      null,
+      null,
       null,
       null
     ]
@@ -10707,6 +11679,8 @@
       79414.43,
       207706.77,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10728,6 +11702,8 @@
       1138190.84,
       79833.5,
       207706.77,
+      null,
+      null,
       null,
       null
     ]
@@ -10751,6 +11727,8 @@
       80462.12,
       207706.77,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10772,6 +11750,8 @@
       1138190.84,
       80462.12,
       207706.77,
+      null,
+      null,
       null,
       null
     ]
@@ -10795,6 +11775,8 @@
       80043.04,
       207706.77,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10816,6 +11798,8 @@
       1138190.84,
       79833.5,
       207795.11,
+      null,
+      null,
       null,
       null
     ]
@@ -10839,6 +11823,8 @@
       80462.12,
       207795.11,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10860,6 +11846,8 @@
       1138190.84,
       77738.14,
       207230.94,
+      null,
+      null,
       null,
       null
     ]
@@ -10883,6 +11871,8 @@
       77738.14,
       207806.52,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10904,6 +11894,8 @@
       1138190.84,
       77947.67,
       207806.52,
+      null,
+      null,
       null,
       null
     ]
@@ -10927,6 +11919,8 @@
       77947.67,
       207806.52,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10948,6 +11942,8 @@
       1138190.84,
       76690.45,
       207806.52,
+      null,
+      null,
       null,
       null
     ]
@@ -10971,6 +11967,8 @@
       75642.77,
       207806.52,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -10992,6 +11990,8 @@
       1138210.83,
       76899.99,
       209884.59,
+      null,
+      null,
       null,
       null
     ]
@@ -11015,6 +12015,8 @@
       76480.92,
       207806.52,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11036,6 +12038,8 @@
       1138210.83,
       76271.38,
       207806.52,
+      null,
+      null,
       null,
       null
     ]
@@ -11059,6 +12063,8 @@
       78157.21,
       207661.06,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11080,6 +12086,8 @@
       1138210.83,
       76899.99,
       207806.52,
+      null,
+      null,
       null,
       null
     ]
@@ -11103,6 +12111,8 @@
       75433.23,
       207497.99,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11124,6 +12134,8 @@
       1138210.83,
       75014.16,
       206276.64,
+      null,
+      null,
       null,
       null
     ]
@@ -11147,6 +12159,8 @@
       76460.61,
       207818.65,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11168,6 +12182,8 @@
       1138210.83,
       74977.99,
       207204.97,
+      null,
+      null,
       null,
       null
     ]
@@ -11191,6 +12207,8 @@
       74977.99,
       207818.65,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11212,6 +12230,8 @@
       1138210.83,
       74557.91,
       207818.65,
+      null,
+      null,
       null,
       null
     ]
@@ -11235,6 +12255,8 @@
       73075.22,
       207522.51,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11256,6 +12278,8 @@
       1138210.83,
       74266.3,
       207681.91,
+      null,
+      null,
       null,
       null
     ]
@@ -11279,6 +12303,8 @@
       72328.91,
       206325.06,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11300,6 +12326,8 @@
       1138210.83,
       70257.83,
       206699.76,
+      null,
+      null,
       null,
       null
     ]
@@ -11323,6 +12351,8 @@
       70473.35,
       207176.08,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11344,6 +12374,8 @@
       1138210.83,
       69180.26,
       207818.65,
+      null,
+      null,
       null,
       null
     ]
@@ -11367,6 +12399,8 @@
       68749.23,
       207818.65,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11388,6 +12422,8 @@
       1138210.83,
       69826.8,
       207897.56,
+      null,
+      null,
       null,
       null
     ]
@@ -11411,6 +12447,8 @@
       71119.89,
       209976.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11432,6 +12470,8 @@
       1138210.83,
       70688.86,
       207897.56,
+      null,
+      null,
       null,
       null
     ]
@@ -11455,6 +12495,8 @@
       73706.07,
       209976.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11476,6 +12518,8 @@
       1138210.83,
       73490.55,
       207897.56,
+      null,
+      null,
       null,
       null
     ]
@@ -11499,6 +12543,8 @@
       72628.49,
       209976.53,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11520,6 +12566,8 @@
       1138210.83,
       75214.67,
       209976.53,
+      null,
+      null,
       null,
       null
     ]
@@ -11543,6 +12591,8 @@
       73490.8,
       207402.35,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11564,6 +12614,8 @@
       1138210.83,
       73045.49,
       206778.96,
+      null,
+      null,
       null,
       null
     ]
@@ -11587,6 +12639,8 @@
       73288.43,
       207897.66,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11608,6 +12662,8 @@
       1138210.93,
       72207.48,
       207729.05,
+      null,
+      null,
       null,
       null
     ]
@@ -11631,6 +12687,8 @@
       72444.61,
       207899.66,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11652,6 +12710,8 @@
       1138210.93,
       73093.37,
       207899.66,
+      null,
+      null,
       null,
       null
     ]
@@ -11675,6 +12735,8 @@
       73093.37,
       207899.66,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11696,6 +12758,8 @@
       1138210.93,
       72012.1,
       207393.01,
+      null,
+      null,
       null,
       null
     ]
@@ -11719,6 +12783,8 @@
       72660.86,
       207899.66,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11740,6 +12806,8 @@
       1138210.93,
       72444.61,
       207865.96,
+      null,
+      null,
       null,
       null
     ]
@@ -11763,6 +12831,8 @@
       73309.62,
       208008.66,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11784,6 +12854,8 @@
       1138210.93,
       73742.12,
       210233.3,
+      null,
+      null,
       null,
       null
     ]
@@ -11807,6 +12879,8 @@
       74390.88,
       212597.34,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11828,6 +12902,8 @@
       1138210.93,
       75472.14,
       211712.28,
+      null,
+      null,
       null,
       null
     ]
@@ -11851,6 +12927,8 @@
       75688.4,
       211840.02,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11872,6 +12950,8 @@
       1138210.93,
       76120.9,
       211840.02,
+      null,
+      null,
       null,
       null
     ]
@@ -11895,6 +12975,8 @@
       75472.14,
       211840.02,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11916,6 +12998,8 @@
       1138710.93,
       75472.14,
       209237.43,
+      null,
+      null,
       null,
       null
     ]
@@ -11939,6 +13023,8 @@
       76159.26,
       211583.89,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -11960,6 +13046,8 @@
       1138710.93,
       76376.23,
       214583.89,
+      null,
+      null,
       null,
       null
     ]
@@ -11983,6 +13071,8 @@
       77469.76,
       214584.39,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12004,6 +13094,8 @@
       1138721.52,
       78554.77,
       214584.39,
+      null,
+      null,
       null,
       null
     ]
@@ -12027,6 +13119,8 @@
       78398.57,
       214198.97,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12048,6 +13142,8 @@
       1138721.52,
       77964.23,
       214674.47,
+      null,
+      null,
       null,
       null
     ]
@@ -12071,6 +13167,8 @@
       76878.38,
       214674.47,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12092,6 +13190,8 @@
       1138721.52,
       77313.18,
       214674.47,
+      null,
+      null,
       null,
       null
     ]
@@ -12115,6 +13215,8 @@
       77747.52,
       214638.19,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12136,6 +13238,8 @@
       1138721.52,
       77096.01,
       214674.47,
+      null,
+      null,
       null,
       null
     ]
@@ -12159,6 +13263,8 @@
       77780.13,
       214674.47,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12180,6 +13286,8 @@
       1138721.52,
       77345.61,
       214767.42,
+      null,
+      null,
       null,
       null
     ]
@@ -12203,6 +13311,8 @@
       78649.18,
       214767.42,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12224,6 +13334,8 @@
       1138721.52,
       79952.76,
       216915.1,
+      null,
+      null,
       null,
       null
     ]
@@ -12247,6 +13359,8 @@
       79083.71,
       214767.42,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12268,6 +13382,8 @@
       1138721.52,
       78431.92,
       214762.05,
+      null,
+      null,
       null,
       null
     ]
@@ -12291,6 +13407,8 @@
       78649.18,
       214767.42,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12312,6 +13430,8 @@
       1138721.52,
       80140.44,
       214767.42,
+      null,
+      null,
       null,
       null
     ]
@@ -12335,6 +13455,8 @@
       79921.47,
       214634.27,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12356,6 +13478,8 @@
       1138721.52,
       81235.25,
       216915.1,
+      null,
+      null,
       null,
       null
     ]
@@ -12379,6 +13503,8 @@
       81454.31,
       214767.42,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12400,6 +13526,8 @@
       1138721.52,
       80797.42,
       215162.23,
+      null,
+      null,
       null,
       null
     ]
@@ -12423,6 +13551,8 @@
       82988.09,
       217313.85,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12444,6 +13574,8 @@
       1138721.52,
       82550.16,
       215162.23,
+      null,
+      null,
       null,
       null
     ]
@@ -12467,6 +13599,8 @@
       87053.82,
       215162.23,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12488,6 +13622,8 @@
       1138721.52,
       87520.59,
       215162.23,
+      null,
+      null,
       null,
       null
     ]
@@ -12511,6 +13647,8 @@
       86353.65,
       214962.5,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12532,6 +13670,8 @@
       1138721.52,
       87961.9,
       215067.88,
+      null,
+      null,
       null,
       null
     ]
@@ -12555,6 +13695,8 @@
       90542.28,
       219369.24,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12576,6 +13718,8 @@
       1138723.52,
       89830.04,
       214088.1,
+      null,
+      null,
       null,
       null
     ]
@@ -12599,6 +13743,8 @@
       87928.87,
       212266.9,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12620,6 +13766,8 @@
       1138723.52,
       84839.48,
       213400.09,
+      null,
+      null,
       null,
       null
     ]
@@ -12643,6 +13791,8 @@
       85552.42,
       214487.7,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12664,6 +13814,8 @@
       1138723.52,
       85314.77,
       215068.38,
+      null,
+      null,
       null,
       null
     ]
@@ -12687,6 +13839,8 @@
       81987.73,
       214730.94,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12708,6 +13862,8 @@
       1138723.52,
       82225.38,
       215068.38,
+      null,
+      null,
       null,
       null
     ]
@@ -12731,6 +13887,8 @@
       81037.15,
       214246.6,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12752,6 +13910,8 @@
       1138723.52,
       81812.13,
       215068.38,
+      null,
+      null,
       null,
       null
     ]
@@ -12775,6 +13935,8 @@
       81338.67,
       215068.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12796,6 +13958,8 @@
       1138723.52,
       81576.51,
       215068.38,
+      null,
+      null,
       null,
       null
     ]
@@ -12819,6 +13983,8 @@
       81814.34,
       215068.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12840,6 +14006,8 @@
       1138723.52,
       82290.0,
       217219.06,
+      null,
+      null,
       null,
       null
     ]
@@ -12863,6 +14031,8 @@
       83003.5,
       215068.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12884,6 +14054,8 @@
       1138723.52,
       82107.35,
       215832.54,
+      null,
+      null,
       null,
       null
     ]
@@ -12907,6 +14079,8 @@
       83297.31,
       215968.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12928,6 +14102,8 @@
       1138723.52,
       84011.28,
       220968.38,
+      null,
+      null,
       null,
       null
     ]
@@ -12951,6 +14127,8 @@
       84867.48,
       220968.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -12972,6 +14150,8 @@
       1138723.52,
       85582.66,
       220824.76,
+      null,
+      null,
       null,
       null
     ]
@@ -12995,6 +14175,8 @@
       84867.48,
       221093.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13016,6 +14198,8 @@
       1138723.52,
       85582.66,
       221093.38,
+      null,
+      null,
       null,
       null
     ]
@@ -13039,6 +14223,8 @@
       84390.7,
       221093.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13060,6 +14246,8 @@
       1138723.52,
       84390.7,
       221093.38,
+      null,
+      null,
       null,
       null
     ]
@@ -13083,6 +14271,8 @@
       83679.03,
       221093.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13104,6 +14294,8 @@
       1138723.52,
       82020.54,
       220820.33,
+      null,
+      null,
       null,
       null
     ]
@@ -13127,6 +14319,8 @@
       82258.97,
       221093.38,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13148,6 +14342,8 @@
       1138723.52,
       82974.27,
       220429.66,
+      null,
+      null,
       null,
       null
     ]
@@ -13171,6 +14367,8 @@
       84166.43,
       223304.31,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13192,6 +14390,8 @@
       1138723.52,
       85120.15,
       221285.92,
+      null,
+      null,
       null,
       null
     ]
@@ -13215,6 +14415,8 @@
       83927.99,
       221566.4,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13236,6 +14438,8 @@
       1138723.52,
       84404.86,
       221852.81,
+      null,
+      null,
       null,
       null
     ]
@@ -13259,6 +14463,8 @@
       85835.45,
       221811.1,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13280,6 +14486,8 @@
       1138723.52,
       85597.02,
       222151.98,
+      null,
+      null,
       null,
       null
     ]
@@ -13303,6 +14511,8 @@
       86312.31,
       222587.81,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13324,6 +14534,8 @@
       1142164.15,
       85120.15,
       221289.22,
+      null,
+      null,
       null,
       null
     ]
@@ -13347,6 +14559,8 @@
       85908.48,
       222098.55,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13368,6 +14582,8 @@
       1094296.78,
       81586.81,
       222335.16,
+      null,
+      null,
       null,
       null
     ]
@@ -13391,6 +14607,8 @@
       81131.02,
       134872.42,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13412,6 +14630,8 @@
       1094296.78,
       82978.25,
       134709.02,
+      null,
+      null,
       null,
       null
     ]
@@ -13435,6 +14655,8 @@
       82512.08,
       134209.89,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13456,6 +14678,8 @@
       1094296.78,
       81932.83,
       134215.3,
+      null,
+      null,
       null,
       null
     ]
@@ -13479,6 +14703,8 @@
       83887.4,
       134558.61,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13500,6 +14726,8 @@
       1094296.78,
       82952.72,
       134050.01,
+      null,
+      null,
       null,
       null
     ]
@@ -13523,6 +14751,8 @@
       84121.07,
       134971.17,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13544,6 +14774,8 @@
       1094296.78,
       84354.74,
       134797.48,
+      null,
+      null,
       null,
       null
     ]
@@ -13567,6 +14799,8 @@
       84121.07,
       135936.83,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13588,6 +14822,8 @@
       1094306.78,
       84822.08,
       136135.51,
+      null,
+      null,
       null,
       null
     ]
@@ -13611,6 +14847,8 @@
       85081.25,
       136221.08,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13632,6 +14870,8 @@
       1094306.78,
       85548.73,
       139219.04,
+      null,
+      null,
       null,
       null
     ]
@@ -13655,6 +14895,8 @@
       85782.47,
       138835.78,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13676,6 +14918,8 @@
       1094306.78,
       85314.99,
       138648.19,
+      null,
+      null,
       null,
       null
     ]
@@ -13699,6 +14943,8 @@
       85782.47,
       138998.72,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13720,6 +14966,8 @@
       1094306.78,
       86487.4,
       139028.53,
+      null,
+      null,
       null,
       null
     ]
@@ -13743,6 +14991,8 @@
       85324.51,
       138933.13,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13764,6 +15014,8 @@
       1094306.78,
       86656.27,
       139068.08,
+      null,
+      null,
       null,
       null
     ]
@@ -13787,6 +15039,8 @@
       87366.57,
       139266.11,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13808,6 +15062,8 @@
       1094306.78,
       87840.1,
       139230.04,
+      null,
+      null,
       null,
       null
     ]
@@ -13831,6 +15087,8 @@
       87603.34,
       139107.35,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13852,6 +15110,8 @@
       1094306.78,
       88076.87,
       139228.37,
+      null,
+      null,
       null,
       null
     ]
@@ -13875,6 +15135,8 @@
       89118.89,
       139266.11,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13896,6 +15158,8 @@
       1094306.78,
       88919.38,
       139234.67,
+      null,
+      null,
       null,
       null
     ]
@@ -13919,6 +15183,8 @@
       89630.73,
       139266.14,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13940,6 +15206,8 @@
       1094307.78,
       90104.97,
       139266.14,
+      null,
+      null,
       null,
       null
     ]
@@ -13963,6 +15231,8 @@
       90342.09,
       139266.14,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -13984,6 +15254,8 @@
       1094307.78,
       91053.44,
       145266.14,
+      null,
+      null,
       null,
       null
     ]
@@ -14007,6 +15279,8 @@
       92001.91,
       145266.14,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -14028,6 +15302,8 @@
       1094307.78,
       90579.2,
       144582.23,
+      null,
+      null,
       null,
       null
     ]
@@ -14051,6 +15327,8 @@
       90816.32,
       145326.62,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -14072,6 +15350,8 @@
       1094307.78,
       91053.44,
       146408.6,
+      null,
+      null,
       null,
       null
     ]
@@ -14095,6 +15375,8 @@
       91527.68,
       147446.8,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -14116,6 +15398,8 @@
       1094307.78,
       92239.03,
       147368.28,
+      null,
+      null,
       null,
       null
     ]
@@ -14139,6 +15423,8 @@
       92476.15,
       147503.56,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -14160,6 +15446,8 @@
       1094307.78,
       90694.88,
       147518.6,
+      null,
+      null,
       null,
       null
     ]
@@ -14183,6 +15471,8 @@
       91173.09,
       147443.37,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -14204,6 +15494,8 @@
       1094307.78,
       91174.29,
       147541.2,
+      null,
+      null,
       null,
       null
     ]
@@ -14227,6 +15519,8 @@
       91399.96,
       147581.73,
       null,
+      null,
+      null,
       null
     ]
   ],
@@ -14248,6 +15542,8 @@
       1094307.78,
       90008.08,
       148492.34,
+      null,
+      null,
       null,
       null
     ]
@@ -14271,6 +15567,8 @@
       90278.96,
       148576.73,
       10.0,
+      null,
+      null,
       null
     ]
   ],
@@ -14293,6 +15591,8 @@
       90511.04,
       173576.73,
       10.0,
+      null,
+      null,
       null
     ]
   ],
@@ -14315,6 +15615,8 @@
       90278.96,
       173576.73,
       10.0,
+      null,
+      null,
       null
     ]
   ],
@@ -14337,6 +15639,8 @@
       91395.2,
       173576.73,
       471.55,
+      null,
+      null,
       null
     ]
   ],
@@ -14359,6 +15663,8 @@
       91861.5,
       173576.73,
       471.55,
+      null,
+      null,
       null
     ]
   ],
@@ -14381,6 +15687,8 @@
       91765.85,
       173576.73,
       471.55,
+      null,
+      null,
       null
     ]
   ],
@@ -14403,6 +15711,8 @@
       91765.85,
       173576.73,
       471.55,
+      null,
+      null,
       null
     ]
   ],
@@ -14425,6 +15735,8 @@
       90834.22,
       173576.73,
       1195.36,
+      null,
+      null,
       null
     ]
   ],
@@ -14447,6 +15759,8 @@
       90601.31,
       173576.73,
       1967.16,
+      null,
+      null,
       null
     ]
   ],
@@ -14469,6 +15783,8 @@
       91067.12,
       173576.73,
       2167.16,
+      null,
+      null,
       null
     ]
   ],
@@ -14491,6 +15807,8 @@
       91067.12,
       183576.73,
       12167.16,
+      null,
+      null,
       null
     ]
   ],
@@ -14513,6 +15831,8 @@
       90368.4,
       183576.73,
       107369.97,
+      null,
+      null,
       null
     ]
   ],
@@ -14535,6 +15855,8 @@
       89902.58,
       183576.73,
       107369.97,
+      null,
+      null,
       null
     ]
   ],
@@ -14557,6 +15879,8 @@
       89517.85,
       182576.73,
       140155.75,
+      null,
+      null,
       null
     ]
   ],
@@ -14579,6 +15903,8 @@
       89984.09,
       182576.73,
       140155.75,
+      null,
+      null,
       null
     ]
   ],
@@ -14601,6 +15927,8 @@
       89051.61,
       182576.73,
       140156.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14623,6 +15951,8 @@
       89750.97,
       182576.73,
       146157.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14645,6 +15975,8 @@
       89166.32,
       182576.73,
       146157.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14667,6 +15999,8 @@
       87298.96,
       182576.73,
       146157.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14689,6 +16023,8 @@
       87538.27,
       172576.73,
       146157.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14711,6 +16047,8 @@
       87329.34,
       172576.73,
       146157.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14733,6 +16071,8 @@
       87562.84,
       172581.98,
       147049.47,
+      null,
+      null,
       null
     ]
   ],
@@ -14755,6 +16095,8 @@
       87871.54,
       172581.98,
       147049.47,
+      null,
+      null,
       null
     ]
   ],
@@ -14777,6 +16119,8 @@
       85534.53,
       172581.98,
       149698.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14799,6 +16143,8 @@
       85300.83,
       172581.98,
       149698.24,
+      null,
+      null,
       null
     ]
   ],
@@ -14821,6 +16167,8 @@
       85067.13,
       172581.98,
       149770.34,
+      null,
+      null,
       null
     ]
   ],
@@ -14843,6 +16191,8 @@
       85300.92,
       172581.98,
       149770.34,
+      null,
+      null,
       null
     ]
   ],
@@ -14865,6 +16215,8 @@
       84599.82,
       172581.98,
       150772.67,
+      null,
+      null,
       null
     ]
   ],
@@ -14887,6 +16239,8 @@
       84833.52,
       172581.98,
       150772.67,
+      null,
+      null,
       null
     ]
   ],
@@ -14909,6 +16263,8 @@
       84599.82,
       172681.98,
       150823.0,
+      null,
+      null,
       null
     ]
   ],
@@ -14931,6 +16287,8 @@
       84833.52,
       172681.98,
       157591.22,
+      null,
+      null,
       null
     ]
   ],
@@ -14953,6 +16311,8 @@
       85067.22,
       172681.98,
       157591.22,
+      null,
+      null,
       null
     ]
   ],
@@ -14975,6 +16335,8 @@
       85534.63,
       172681.98,
       157791.22,
+      null,
+      null,
       null
     ]
   ],
@@ -14997,6 +16359,8 @@
       85534.63,
       172681.98,
       157791.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15019,6 +16383,8 @@
       85665.92,
       172681.98,
       157791.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15041,6 +16407,8 @@
       85431.22,
       172772.9,
       157791.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15063,6 +16431,8 @@
       85900.63,
       171767.23,
       157791.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15085,6 +16455,8 @@
       86466.51,
       171772.9,
       158291.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15107,6 +16479,8 @@
       88111.25,
       171772.9,
       158555.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15129,6 +16503,8 @@
       89918.49,
       171729.79,
       158555.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15151,6 +16527,8 @@
       89918.49,
       171772.9,
       158555.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15173,6 +16551,8 @@
       89682.48,
       171772.9,
       158555.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15195,6 +16575,8 @@
       89918.49,
       171772.9,
       158555.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15217,6 +16599,8 @@
       89704.88,
       171600.79,
       159555.22,
+      null,
+      null,
       null
     ]
   ],
@@ -15239,6 +16623,8 @@
       89704.88,
       171656.78,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15261,6 +16647,8 @@
       89940.95,
       171450.14,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15283,6 +16671,8 @@
       90177.01,
       171595.46,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15305,6 +16695,8 @@
       90413.08,
       171772.9,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15327,6 +16719,8 @@
       90413.08,
       171772.9,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15349,6 +16743,8 @@
       90885.21,
       171772.9,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15371,6 +16767,8 @@
       92537.67,
       171775.01,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15393,6 +16791,8 @@
       91829.47,
       171776.08,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15415,6 +16815,8 @@
       91357.34,
       171560.33,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15437,6 +16839,8 @@
       91859.26,
       171786.08,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15459,6 +16863,8 @@
       92336.45,
       171786.08,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15481,6 +16887,8 @@
       93768.02,
       171786.08,
       160060.86,
+      null,
+      null,
       null
     ]
   ],
@@ -15503,6 +16911,8 @@
       91859.26,
       171595.23,
       160070.96,
+      null,
+      null,
       null
     ]
   ],
@@ -15525,6 +16935,8 @@
       92336.45,
       171786.08,
       160070.96,
+      null,
+      null,
       null
     ]
   ],
@@ -15547,6 +16959,8 @@
       92342.84,
       191786.08,
       165643.23,
+      null,
+      null,
       null
     ]
   ],
@@ -15569,6 +16983,8 @@
       92581.45,
       191681.75,
       165759.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15591,6 +17007,8 @@
       93535.9,
       191786.08,
       165759.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15613,6 +17031,8 @@
       93060.84,
       191705.91,
       165759.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15635,6 +17055,8 @@
       93538.08,
       191786.08,
       165759.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15657,6 +17079,8 @@
       93774.51,
       191786.08,
       165759.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15679,6 +17103,8 @@
       93119.9,
       191786.08,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15701,6 +17127,8 @@
       92642.36,
       194128.07,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15723,6 +17151,8 @@
       91687.29,
       194782.74,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15745,6 +17175,8 @@
       92164.82,
       194856.01,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15767,6 +17199,8 @@
       92164.82,
       194929.5,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15789,6 +17223,8 @@
       91781.98,
       191932.84,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15811,6 +17247,8 @@
       92020.99,
       192937.44,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15833,6 +17271,8 @@
       92051.81,
       193030.34,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15855,6 +17295,8 @@
       91334.53,
       193030.34,
       165769.75,
+      null,
+      null,
       null
     ]
   ],
@@ -15877,6 +17319,8 @@
       91573.62,
       193030.34,
       165778.62,
+      null,
+      null,
       null
     ]
   ],
@@ -15899,6 +17343,8 @@
       91573.62,
       193030.34,
       166778.62,
+      null,
+      null,
       null
     ]
   ],
@@ -15921,6 +17367,8 @@
       91334.53,
       193330.34,
       167178.62,
+      null,
+      null,
       null
     ]
   ],
@@ -15943,6 +17391,8 @@
       91592.77,
       193330.34,
       167678.62,
+      null,
+      null,
       null
     ]
   ],
@@ -15965,6 +17415,8 @@
       90397.04,
       193330.34,
       167678.62,
+      null,
+      null,
       null
     ]
   ],
@@ -15987,6 +17439,8 @@
       90157.9,
       193330.34,
       167678.62,
+      null,
+      null,
       null
     ]
   ],
@@ -16009,6 +17463,8 @@
       90875.34,
       193330.34,
       165809.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16031,6 +17487,8 @@
       90875.34,
       193340.32,
       165809.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16053,6 +17511,8 @@
       90875.34,
       193340.32,
       165809.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16075,6 +17535,8 @@
       90636.19,
       193340.32,
       165809.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16097,6 +17559,8 @@
       91353.63,
       193340.32,
       165814.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16119,6 +17583,8 @@
       90415.94,
       193438.0,
       165989.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16141,6 +17607,8 @@
       88263.18,
       193438.0,
       165989.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16163,6 +17631,8 @@
       87545.6,
       193453.3,
       165989.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16185,6 +17655,8 @@
       87393.1,
       193453.3,
       165989.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16207,6 +17679,8 @@
       87393.1,
       193453.3,
       165989.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16229,6 +17703,8 @@
       88590.27,
       193453.3,
       165989.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16251,6 +17727,8 @@
       89813.13,
       193453.3,
       165989.53,
+      null,
+      null,
       null
     ]
   ],
@@ -16273,6 +17751,8 @@
       90778.87,
       193453.3,
       164987.2,
+      null,
+      null,
       null
     ]
   ],
@@ -16295,6 +17775,8 @@
       89813.45,
       193453.3,
       164989.49,
+      null,
+      null,
       null
     ]
   ],
@@ -16317,6 +17799,8 @@
       88606.28,
       193453.3,
       164989.49,
+      null,
+      null,
       null
     ]
   ],
@@ -16339,6 +17823,8 @@
       88123.42,
       193453.3,
       165010.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16361,6 +17847,8 @@
       87640.55,
       193453.3,
       165010.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16383,6 +17871,8 @@
       86433.38,
       193453.3,
       165010.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16405,6 +17895,8 @@
       86916.25,
       193453.3,
       165010.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16427,6 +17919,8 @@
       85950.51,
       193453.3,
       165010.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16449,6 +17943,8 @@
       86433.38,
       193453.3,
       165010.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16471,6 +17967,8 @@
       86674.81,
       193453.3,
       166510.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16493,6 +17991,8 @@
       86191.94,
       193453.3,
       166510.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16515,6 +18015,8 @@
       86674.81,
       193453.3,
       156510.56,
+      null,
+      null,
       null
     ]
   ],
@@ -16537,6 +18039,8 @@
       86916.25,
       193453.3,
       156532.83,
+      null,
+      null,
       null
     ]
   ],
@@ -16559,6 +18063,8 @@
       86191.94,
       193202.59,
       156532.83,
+      null,
+      null,
       null
     ]
   ],
@@ -16581,6 +18087,8 @@
       84984.77,
       193453.3,
       156532.83,
+      null,
+      null,
       null
     ]
   ],
@@ -16603,6 +18111,8 @@
       85950.51,
       194468.9,
       156532.83,
+      null,
+      null,
       null
     ]
   ],
@@ -16625,6 +18135,8 @@
       85820.82,
       194468.9,
       156532.83,
+      null,
+      null,
       null
     ]
   ],
@@ -16647,6 +18159,8 @@
       85579.07,
       194468.9,
       156532.83,
+      null,
+      null,
       null
     ]
   ],
@@ -16669,6 +18183,8 @@
       85820.82,
       194468.9,
       156532.83,
+      null,
+      null,
       null
     ]
   ],
@@ -16691,6 +18207,8 @@
       86864.81,
       194481.07,
       173150.24,
+      null,
+      null,
       null
     ]
   ],
@@ -16713,6 +18231,8 @@
       86380.88,
       194481.07,
       173150.24,
+      null,
+      null,
       null
     ]
   ],
@@ -16735,6 +18255,8 @@
       86622.84,
       194481.07,
       173150.24,
+      null,
+      null,
       null
     ]
   ],
@@ -16757,6 +18279,8 @@
       86622.84,
       195481.21,
       173150.24,
+      null,
+      null,
       null
     ]
   ],
@@ -16779,6 +18303,8 @@
       86158.97,
       195481.21,
       173048.43,
+      null,
+      null,
       null
     ]
   ],
@@ -16801,6 +18327,8 @@
       85916.95,
       195481.21,
       181048.43,
+      null,
+      null,
       null
     ]
   ],
@@ -16823,6 +18351,8 @@
       87853.11,
       195481.21,
       181048.43,
+      null,
+      null,
       null
     ]
   ],
@@ -16845,6 +18375,8 @@
       87611.09,
       195481.21,
       281047.43,
+      null,
+      null,
       null
     ]
   ],
@@ -16867,6 +18399,8 @@
       88095.13,
       195481.21,
       281047.43,
+      null,
+      null,
       null
     ]
   ],
@@ -16889,6 +18423,8 @@
       87853.11,
       195481.21,
       282204.95,
+      null,
+      null,
       null
     ]
   ],
@@ -16911,6 +18447,8 @@
       87616.41,
       195481.21,
       282204.95,
+      null,
+      null,
       null
     ]
   ],
@@ -16933,6 +18471,8 @@
       87858.44,
       195481.21,
       282204.95,
+      null,
+      null,
       null
     ]
   ],
@@ -16955,6 +18495,8 @@
       87858.44,
       197212.8,
       283831.64,
+      null,
+      null,
       null
     ]
   ],
@@ -16977,6 +18519,8 @@
       87858.44,
       198242.79,
       283831.64,
+      null,
+      null,
       null
     ]
   ],
@@ -16999,6 +18543,8 @@
       89068.61,
       198242.79,
       283831.64,
+      null,
+      null,
       null
     ]
   ],
@@ -17021,6 +18567,8 @@
       89794.74,
       199236.35,
       283831.64,
+      null,
+      null,
       null
     ]
   ],
@@ -17043,6 +18591,8 @@
       89794.74,
       200736.35,
       286373.89,
+      null,
+      null,
       null
     ]
   ],
@@ -17065,6 +18615,8 @@
       86947.05,
       137393.04,
       287373.89,
+      null,
+      null,
       null
     ]
   ],
@@ -17087,6 +18639,8 @@
       87180.78,
       137393.04,
       287373.89,
+      null,
+      null,
       null
     ]
   ],
@@ -17109,6 +18663,8 @@
       91470.88,
       137418.48,
       437923.29,
+      null,
+      null,
       null
     ]
   ],
@@ -17131,7 +18687,9 @@
       91710.33,
       137418.48,
       437923.29,
-      0.01
+      0.01,
+      null,
+      null
     ]
   ],
   [
@@ -17153,7 +18711,9 @@
       91949.78,
       137418.48,
       437923.29,
-      0.01
+      0.01,
+      null,
+      null
     ]
   ],
   [
@@ -17175,7 +18735,9 @@
       91710.33,
       137418.48,
       437923.29,
-      2999352.21
+      2999352.21,
+      null,
+      null
     ]
   ],
   [
@@ -17197,7 +18759,9 @@
       92668.14,
       137418.48,
       437923.29,
-      3897384.82
+      3897384.82,
+      null,
+      null
     ]
   ],
   [
@@ -17219,7 +18783,9 @@
       93147.05,
       137418.48,
       437923.29,
-      3902065.07
+      3902065.07,
+      null,
+      null
     ]
   ],
   [
@@ -17241,7 +18807,9 @@
       93625.95,
       137418.48,
       437923.29,
-      3902075.56
+      3902075.56,
+      null,
+      null
     ]
   ],
   [
@@ -17263,7 +18831,9 @@
       94104.86,
       137418.48,
       437748.51,
-      3899776.94
+      3899776.94,
+      null,
+      null
     ]
   ],
   [
@@ -17285,7 +18855,9 @@
       94583.76,
       137418.48,
       437748.51,
-      3904211.47
+      3904211.47,
+      null,
+      null
     ]
   ],
   [
@@ -17307,7 +18879,9 @@
       93386.5,
       137418.48,
       437748.51,
-      3904211.47
+      3904211.47,
+      null,
+      null
     ]
   ],
   [
@@ -17329,7 +18903,9 @@
       93865.4,
       137418.48,
       437748.51,
-      3911504.02
+      3911504.02,
+      null,
+      null
     ]
   ],
   [
@@ -17351,7 +18927,9 @@
       94104.86,
       137418.48,
       437748.51,
-      3911504.02
+      3911504.02,
+      null,
+      null
     ]
   ],
   [
@@ -17373,7 +18951,9 @@
       94104.86,
       137418.48,
       437748.51,
-      3911504.02
+      3911504.02,
+      null,
+      null
     ]
   ],
   [
@@ -17395,7 +18975,9 @@
       94104.86,
       137418.48,
       437748.51,
-      3911504.02
+      3911504.02,
+      null,
+      null
     ]
   ],
   [
@@ -17417,7 +18999,9 @@
       94104.86,
       137418.48,
       437748.51,
-      3911504.02
+      3911504.02,
+      null,
+      null
     ]
   ],
   [
@@ -17439,7 +19023,9 @@
       94583.76,
       137418.48,
       337748.51,
-      3921494.04
+      3921494.04,
+      null,
+      null
     ]
   ],
   [
@@ -17461,7 +19047,9 @@
       95781.02,
       137418.48,
       337748.51,
-      3918047.04
+      3918047.04,
+      null,
+      null
     ]
   ],
   [
@@ -17483,7 +19071,9 @@
       96499.38,
       137418.48,
       337748.51,
-      3921494.04
+      3921494.04,
+      null,
+      null
     ]
   ],
   [
@@ -17505,7 +19095,9 @@
       94823.21,
       137366.95,
       337851.33,
-      3921643.65
+      3921643.65,
+      null,
+      null
     ]
   ],
   [
@@ -17527,7 +19119,9 @@
       94344.31,
       137418.48,
       337851.33,
-      3991643.65
+      3991643.65,
+      null,
+      null
     ]
   ],
   [
@@ -17549,7 +19143,9 @@
       94344.31,
       137418.48,
       337851.33,
-      3991643.65
+      3991643.65,
+      null,
+      null
     ]
   ],
   [
@@ -17571,7 +19167,9 @@
       94823.21,
       137418.48,
       337851.33,
-      3991643.65
+      3991643.65,
+      null,
+      null
     ]
   ],
   [
@@ -17593,7 +19191,9 @@
       95062.67,
       137418.48,
       337851.33,
-      3991643.65
+      3991643.65,
+      null,
+      null
     ]
   ],
   [
@@ -17615,7 +19215,9 @@
       94823.21,
       137418.48,
       337851.33,
-      3992594.02
+      3992594.02,
+      null,
+      null
     ]
   ],
   [
@@ -17637,7 +19239,9 @@
       95302.12,
       137418.48,
       337851.33,
-      3997338.07
+      3997338.07,
+      null,
+      null
     ]
   ],
   [
@@ -17659,7 +19263,9 @@
       95062.67,
       137418.48,
       337851.33,
-      4005523.85
+      4005523.85,
+      null,
+      null
     ]
   ],
   [
@@ -17681,7 +19287,9 @@
       95781.02,
       137438.16,
       338361.33,
-      4005598.77
+      4005598.77,
+      null,
+      null
     ]
   ],
   [
@@ -17703,7 +19311,9 @@
       112897.95,
       137989.57,
       338361.33,
-      4013589.93
+      4013589.93,
+      null,
+      null
     ]
   ],
   [
@@ -17725,7 +19335,9 @@
       112340.43,
       138399.57,
       338361.33,
-      4029015.92
+      4029015.92,
+      null,
+      null
     ]
   ],
   [
@@ -17747,7 +19359,9 @@
       112061.67,
       138399.57,
       338361.33,
-      4030313.97
+      4030313.97,
+      null,
+      null
     ]
   ],
   [
@@ -17769,7 +19383,9 @@
       110946.63,
       138399.57,
       338361.33,
-      4030313.97
+      4030313.97,
+      null,
+      null
     ]
   ],
   [
@@ -17791,7 +19407,9 @@
       111504.15,
       138399.57,
       338361.33,
-      4030660.98
+      4030660.98,
+      null,
+      null
     ]
   ],
   [
@@ -17813,7 +19431,9 @@
       110667.87,
       138399.57,
       338361.33,
-      4031550.5
+      4031550.5,
+      null,
+      null
     ]
   ],
   [
@@ -17835,7 +19455,9 @@
       110946.63,
       138399.57,
       338361.33,
-      4031585.46
+      4031585.46,
+      null,
+      null
     ]
   ],
   [
@@ -17857,7 +19479,9 @@
       110946.63,
       138399.57,
       338361.33,
-      4031585.46
+      4031585.46,
+      null,
+      null
     ]
   ],
   [
@@ -17879,7 +19503,9 @@
       111782.91,
       138399.57,
       338361.33,
-      4031645.39
+      4031645.39,
+      null,
+      null
     ]
   ],
   [
@@ -17901,7 +19527,9 @@
       111504.15,
       138576.39,
       338361.33,
-      4031883.41
+      4031883.41,
+      null,
+      null
     ]
   ],
   [
@@ -17923,7 +19551,9 @@
       110946.63,
       138576.39,
       338361.33,
-      4031893.41
+      4031893.41,
+      null,
+      null
     ]
   ],
   [
@@ -17945,7 +19575,9 @@
       110667.87,
       138166.39,
       338361.33,
-      4031893.41
+      4031893.41,
+      null,
+      null
     ]
   ],
   [
@@ -17967,7 +19599,9 @@
       110389.11,
       138576.39,
       338361.33,
-      4033220.81
+      4033220.81,
+      null,
+      null
     ]
   ],
   [
@@ -17989,7 +19623,9 @@
       107601.51,
       138576.39,
       338361.33,
-      4037262.94
+      4037262.94,
+      null,
+      null
     ]
   ],
   [
@@ -18011,7 +19647,9 @@
       107880.27,
       138576.39,
       338361.33,
-      4037262.94
+      4037262.94,
+      null,
+      null
     ]
   ],
   [
@@ -18033,7 +19671,9 @@
       108159.03,
       138578.39,
       338361.33,
-      4037262.94
+      4037262.94,
+      null,
+      null
     ]
   ],
   [
@@ -18055,7 +19695,9 @@
       107880.27,
       138602.97,
       338361.33,
-      4037662.5
+      4037662.5,
+      null,
+      null
     ]
   ],
   [
@@ -18077,7 +19719,9 @@
       106765.23,
       138607.75,
       338361.33,
-      4038665.19
+      4038665.19,
+      null,
+      null
     ]
   ],
   [
@@ -18099,7 +19743,9 @@
       107601.51,
       138607.75,
       338361.33,
-      4038765.07
+      4038765.07,
+      null,
+      null
     ]
   ],
   [
@@ -18121,7 +19767,9 @@
       107043.99,
       138607.75,
       338361.33,
-      4039863.8
+      4039863.8,
+      null,
+      null
     ]
   ],
   [
@@ -18143,7 +19791,9 @@
       107379.68,
       138607.75,
       338361.33,
-      4043744.14
+      4043744.14,
+      null,
+      null
     ]
   ],
   [
@@ -18165,7 +19815,9 @@
       106821.87,
       138607.75,
       338361.33,
-      4043744.14
+      4043744.14,
+      null,
+      null
     ]
   ],
   [
@@ -18187,7 +19839,9 @@
       109332.04,
       138607.75,
       338361.33,
-      4043744.14
+      4043744.14,
+      null,
+      null
     ]
   ],
   [
@@ -18209,7 +19863,9 @@
       107755.51,
       138607.75,
       338361.33,
-      4042936.83
+      4042936.83,
+      null,
+      null
     ]
   ],
   [
@@ -18231,7 +19887,9 @@
       108592.98,
       138607.75,
       338361.33,
-      4043794.12
+      4043794.12,
+      null,
+      null
     ]
   ],
   [
@@ -18253,7 +19911,9 @@
       109709.62,
       138607.75,
       338361.33,
-      4043122.85
+      4043122.85,
+      null,
+      null
     ]
   ],
   [
@@ -18275,7 +19935,9 @@
       112861.17,
       138607.75,
       338361.33,
-      4043794.12
+      4043794.12,
+      null,
+      null
     ]
   ],
   [
@@ -18297,7 +19959,9 @@
       113419.89,
       138607.75,
       338361.33,
-      4043794.12
+      4043794.12,
+      null,
+      null
     ]
   ],
   [
@@ -18319,7 +19983,9 @@
       113699.25,
       138607.75,
       338361.33,
-      4045542.25
+      4045542.25,
+      null,
+      null
     ]
   ],
   [
@@ -18341,7 +20007,9 @@
       113978.61,
       138607.75,
       338361.33,
-      4045542.25
+      4045542.25,
+      null,
+      null
     ]
   ],
   [
@@ -18363,7 +20031,9 @@
       113419.89,
       138607.75,
       338361.33,
-      4045542.25
+      4045542.25,
+      null,
+      null
     ]
   ],
   [
@@ -18385,7 +20055,9 @@
       113699.25,
       138607.75,
       338361.33,
-      4045542.25
+      4045542.25,
+      null,
+      null
     ]
   ],
   [
@@ -18407,7 +20079,9 @@
       113140.53,
       138607.75,
       338361.33,
-      4045642.12
+      4045642.12,
+      null,
+      null
     ]
   ],
   [
@@ -18429,7 +20103,9 @@
       113140.53,
       138607.75,
       338361.33,
-      4045642.12
+      4045642.12,
+      null,
+      null
     ]
   ],
   [
@@ -18451,7 +20127,9 @@
       113419.89,
       138607.75,
       338361.33,
-      4047639.63
+      4047639.63,
+      null,
+      null
     ]
   ],
   [
@@ -18473,7 +20151,9 @@
       112581.82,
       138607.75,
       338361.33,
-      4047639.63
+      4047639.63,
+      null,
+      null
     ]
   ],
   [
@@ -18495,7 +20175,9 @@
       114257.97,
       138607.75,
       338363.33,
-      4044643.35
+      4044643.35,
+      null,
+      null
     ]
   ],
   [
@@ -18517,7 +20199,9 @@
       116492.85,
       138607.75,
       343363.33,
-      4044643.35
+      4044643.35,
+      null,
+      null
     ]
   ],
   [
@@ -18539,7 +20223,9 @@
       117051.56,
       138607.75,
       343363.33,
-      4044643.35
+      4044643.35,
+      null,
+      null
     ]
   ],
   [
@@ -18561,7 +20247,9 @@
       116772.21,
       138607.75,
       368363.34,
-      4044643.35
+      4044643.35,
+      null,
+      null
     ]
   ],
   [
@@ -18583,7 +20271,9 @@
       117610.28,
       138607.75,
       367134.4,
-      4044643.35
+      4044643.35,
+      null,
+      null
     ]
   ],
   [
@@ -18605,7 +20295,9 @@
       116812.94,
       138607.75,
       367134.4,
-      4043634.51
+      4043634.51,
+      null,
+      null
     ]
   ],
   [
@@ -18627,7 +20319,9 @@
       117930.77,
       138607.75,
       367134.4,
-      4043948.14
+      4043948.14,
+      null,
+      null
     ]
   ],
   [
@@ -18649,7 +20343,9 @@
       116812.94,
       138607.75,
       367134.4,
-      4043948.14
+      4043948.14,
+      null,
+      null
     ]
   ],
   [
@@ -18671,7 +20367,9 @@
       116533.49,
       138585.3,
       367134.4,
-      4043163.62
+      4043163.62,
+      null,
+      null
     ]
   ],
   [
@@ -18693,7 +20391,9 @@
       117092.4,
       138640.34,
       367134.4,
-      4042007.05
+      4042007.05,
+      null,
+      null
     ]
   ],
   [
@@ -18715,7 +20415,9 @@
       117100.61,
       138707.75,
       367134.4,
-      4043948.14
+      4043948.14,
+      null,
+      null
     ]
   ],
   [
@@ -18737,7 +20439,9 @@
       115982.71,
       138713.61,
       367134.4,
-      4045008.11
+      4045008.11,
+      null,
+      null
     ]
   ],
   [
@@ -18759,7 +20463,9 @@
       117380.09,
       138713.61,
       367134.4,
-      4045008.11
+      4045008.11,
+      null,
+      null
     ]
   ],
   [
@@ -18781,7 +20487,9 @@
       116821.14,
       138813.59,
       367134.4,
-      4051858.98
+      4051858.98,
+      null,
+      null
     ]
   ],
   [
@@ -18803,7 +20511,9 @@
       117380.09,
       138813.59,
       367134.4,
-      4051858.98
+      4051858.98,
+      null,
+      null
     ]
   ],
   [
@@ -18825,7 +20535,9 @@
       118277.62,
       138813.59,
       367134.4,
-      4053153.34
+      4053153.34,
+      null,
+      null
     ]
   ],
   [
@@ -18847,7 +20559,9 @@
       119124.47,
       138813.59,
       367134.4,
-      4048441.71
+      4048441.71,
+      null,
+      null
     ]
   ],
   [
@@ -18869,7 +20583,9 @@
       119124.47,
       138813.59,
       367134.4,
-      4163460.16
+      4163460.16,
+      null,
+      null
     ]
   ],
   [
@@ -18891,7 +20607,9 @@
       117430.76,
       171665.59,
       367134.4,
-      4163461.16
+      4163461.16,
+      null,
+      null
     ]
   ],
   [
@@ -18913,7 +20631,9 @@
       113941.9,
       183446.67,
       367134.4,
-      4163461.16
+      4163461.16,
+      null,
+      null
     ]
   ],
   [
@@ -18935,7 +20655,9 @@
       113659.87,
       183665.59,
       367134.4,
-      4163661.11
+      4163661.11,
+      null,
+      null
     ]
   ],
   [
@@ -18957,7 +20679,9 @@
       113095.8,
       183665.59,
       367134.4,
-      4163661.11
+      4163661.11,
+      null,
+      null
     ]
   ],
   [
@@ -18979,7 +20703,9 @@
       113659.87,
       183665.59,
       367134.4,
-      4163661.11
+      4163661.11,
+      null,
+      null
     ]
   ],
   [
@@ -19001,7 +20727,9 @@
       112249.69,
       183665.59,
       367134.4,
-      4163661.11
+      4163661.11,
+      null,
+      null
     ]
   ],
   [
@@ -19023,7 +20751,9 @@
       112591.49,
       183665.59,
       367134.4,
-      4163661.11
+      4163661.11,
+      null,
+      null
     ]
   ],
   [
@@ -19045,7 +20775,9 @@
       112027.12,
       183665.59,
       367134.4,
-      4163661.11
+      4163661.11,
+      null,
+      null
     ]
   ],
   [
@@ -19067,7 +20799,9 @@
       112027.12,
       185665.59,
       367134.4,
-      4163661.11
+      4163661.11,
+      null,
+      null
     ]
   ],
   [
@@ -19089,7 +20823,9 @@
       111180.57,
       185665.59,
       367134.4,
-      4173648.05
+      4173648.05,
+      null,
+      null
     ]
   ],
   [
@@ -19111,7 +20847,9 @@
       111180.57,
       185665.59,
       367134.4,
-      4173648.05
+      4173648.05,
+      null,
+      null
     ]
   ],
   [
@@ -19133,7 +20871,9 @@
       111462.75,
       141813.59,
       367134.4,
-      4178644.6
+      4178644.6,
+      null,
+      null
     ]
   ],
   [
@@ -19155,7 +20895,9 @@
       110898.38,
       141813.59,
       367159.4,
-      4179643.21
+      4179643.21,
+      null,
+      null
     ]
   ],
   [
@@ -19177,7 +20919,9 @@
       112309.3,
       141813.59,
       367159.4,
-      4179842.94
+      4179842.94,
+      null,
+      null
     ]
   ],
   [
@@ -19199,7 +20943,9 @@
       113502.51,
       141937.82,
       367159.4,
-      4179743.01
+      4179743.01,
+      null,
+      null
     ]
   ],
   [
@@ -19221,7 +20967,9 @@
       113502.51,
       141937.82,
       367159.4,
-      4179743.01
+      4179743.01,
+      null,
+      null
     ]
   ],
   [
@@ -19243,7 +20991,9 @@
       113787.69,
       141937.82,
       367159.4,
-      4179743.01
+      4179743.01,
+      null,
+      null
     ]
   ],
   [
@@ -19265,7 +21015,9 @@
       114484.57,
       141937.82,
       367159.4,
-      4179942.73
+      4179942.73,
+      null,
+      null
     ]
   ],
   [
@@ -19287,7 +21039,9 @@
       113057.08,
       141878.91,
       367159.4,
-      4179942.73
+      4179942.73,
+      null,
+      null
     ]
   ],
   [
@@ -19309,7 +21063,9 @@
       112038.99,
       141937.82,
       367159.4,
-      4180099.62
+      4180099.62,
+      null,
+      null
     ]
   ],
   [
@@ -19331,7 +21087,9 @@
       111957.15,
       141937.82,
       367159.4,
-      4181421.9
+      4181421.9,
+      null,
+      null
     ]
   ],
   [
@@ -19353,7 +21111,9 @@
       111670.81,
       141937.82,
       367159.4,
-      4182375.83
+      4182375.83,
+      null,
+      null
     ]
   ],
   [
@@ -19375,7 +21135,9 @@
       111384.47,
       141937.82,
       367159.4,
-      4183894.58
+      4183894.58,
+      null,
+      null
     ]
   ],
   [
@@ -19397,7 +21159,9 @@
       111384.47,
       144937.82,
       367159.4,
-      4183894.58
+      4183894.58,
+      null,
+      null
     ]
   ],
   [
@@ -19419,7 +21183,9 @@
       111670.81,
       144937.82,
       367609.4,
-      4186391.56
+      4186391.56,
+      null,
+      null
     ]
   ],
   [
@@ -19441,7 +21207,9 @@
       111098.14,
       144937.82,
       367609.4,
-      4186391.56
+      4186391.56,
+      null,
+      null
     ]
   ],
   [
@@ -19463,7 +21231,9 @@
       111098.14,
       144937.82,
       372609.4,
-      4183800.18
+      4183800.18,
+      null,
+      null
     ]
   ],
   [
@@ -19485,7 +21255,9 @@
       111957.15,
       144937.82,
       372609.4,
-      4186391.56
+      4186391.56,
+      null,
+      null
     ]
   ],
   [
@@ -19507,7 +21279,9 @@
       112529.82,
       144937.82,
       372609.4,
-      4186391.56
+      4186391.56,
+      null,
+      null
     ]
   ],
   [
@@ -19529,7 +21303,9 @@
       113388.82,
       144937.82,
       372609.4,
-      4190293.83
+      4190293.83,
+      null,
+      null
     ]
   ],
   [
@@ -19551,7 +21327,9 @@
       113388.82,
       144715.19,
       372609.4,
-      4174889.45
+      4174889.45,
+      null,
+      null
     ]
   ],
   [
@@ -19573,7 +21351,9 @@
       114820.5,
       146903.16,
       372609.4,
-      4191049.44
+      4191049.44,
+      null,
+      null
     ]
   ],
   [
@@ -19595,7 +21375,9 @@
       114534.16,
       146903.16,
       372609.4,
-      4192152.82
+      4192152.82,
+      null,
+      null
     ]
   ],
   [
@@ -19617,7 +21399,9 @@
       115393.17,
       147918.16,
       372609.4,
-      4192152.82
+      4192152.82,
+      null,
+      null
     ]
   ],
   [
@@ -19639,7 +21423,9 @@
       115393.17,
       147918.16,
       372609.4,
-      4192152.82
+      4192152.82,
+      null,
+      null
     ]
   ],
   [
@@ -19661,7 +21447,9 @@
       115965.84,
       147918.16,
       372609.4,
-      4191750.37
+      4191750.37,
+      null,
+      null
     ]
   ],
   [
@@ -19683,7 +21471,9 @@
       116824.85,
       147918.16,
       372609.4,
-      4189629.14
+      4189629.14,
+      null,
+      null
     ]
   ],
   [
@@ -19705,7 +21495,9 @@
       117397.52,
       147918.16,
       372609.4,
-      4192242.92
+      4192242.92,
+      null,
+      null
     ]
   ],
   [
@@ -19727,7 +21519,9 @@
       116538.51,
       147908.86,
       372609.4,
-      4192242.92
+      4192242.92,
+      null,
+      null
     ]
   ],
   [
@@ -19749,7 +21543,9 @@
       117397.52,
       157927.99,
       372609.4,
-      4197235.46
+      4197235.46,
+      null,
+      null
     ]
   ],
   [
@@ -19771,7 +21567,9 @@
       116824.85,
       157928.56,
       372609.4,
-      4190858.13
+      4190858.13,
+      null,
+      null
     ]
   ],
   [
@@ -19793,7 +21591,9 @@
       116824.85,
       197828.56,
       372609.4,
-      4190868.12
+      4190868.12,
+      null,
+      null
     ]
   ],
   [
@@ -19815,7 +21615,9 @@
       116538.51,
       197828.56,
       372609.4,
-      4195862.05
+      4195862.05,
+      null,
+      null
     ]
   ],
   [
@@ -19837,7 +21639,9 @@
       115679.51,
       197638.25,
       372609.4,
-      4191057.79
+      4191057.79,
+      null,
+      null
     ]
   ],
   [
@@ -19859,7 +21663,9 @@
       115393.17,
       197828.56,
       372659.4,
-      4196063.88
+      4196063.88,
+      null,
+      null
     ]
   ],
   [
@@ -19881,7 +21687,9 @@
       115679.51,
       197828.56,
       372659.4,
-      4196063.88
+      4196063.88,
+      null,
+      null
     ]
   ],
   [
@@ -19903,7 +21711,9 @@
       115965.84,
       197828.56,
       372659.4,
-      4197297.75
+      4197297.75,
+      null,
+      null
     ]
   ],
   [
@@ -19925,7 +21735,9 @@
       116252.18,
       197828.56,
       372659.4,
-      4197297.75
+      4197297.75,
+      null,
+      null
     ]
   ],
   [
@@ -19947,7 +21759,9 @@
       117198.44,
       197828.56,
       372659.4,
-      4197297.75
+      4197297.75,
+      null,
+      null
     ]
   ],
   [
@@ -19969,7 +21783,9 @@
       117772.95,
       197828.56,
       372659.4,
-      4197297.75
+      4197297.75,
+      null,
+      null
     ]
   ],
   [
@@ -19991,7 +21807,9 @@
       118938.95,
       197828.56,
       372659.4,
-      4197297.75
+      4197297.75,
+      null,
+      null
     ]
   ],
   [
@@ -20013,7 +21831,9 @@
       123535.62,
       197828.56,
       372659.4,
-      4239270.73
+      4239270.73,
+      null,
+      null
     ]
   ],
   [
@@ -20035,7 +21855,9 @@
       123535.62,
       197828.56,
       372659.4,
-      4197297.75
+      4197297.75,
+      null,
+      null
     ]
   ],
   [
@@ -20057,7 +21879,9 @@
       122961.04,
       207876.26,
       372659.4,
-      4197297.75
+      4197297.75,
+      null,
+      null
     ]
   ],
   [
@@ -20079,7 +21903,9 @@
       117215.2,
       207534.31,
       372659.4,
-      4172218.48
+      4172218.48,
+      null,
+      null
     ]
   ],
   [
@@ -20101,7 +21927,9 @@
       117502.49,
       207876.26,
       372659.4,
-      4189314.54
+      4189314.54,
+      null,
+      null
     ]
   ],
   [
@@ -20123,7 +21951,9 @@
       119513.53,
       207650.09,
       372659.4,
-      4198391.46
+      4198391.46,
+      null,
+      null
     ]
   ],
   [
@@ -20145,7 +21975,9 @@
       121237.29,
       207876.26,
       372659.4,
-      4240778.74
+      4240778.74,
+      null,
+      null
     ]
   ],
   [
@@ -20167,7 +21999,9 @@
       125369.47,
       207876.26,
       372659.4,
-      4198790.83
+      4198790.83,
+      null,
+      null
     ]
   ],
   [
@@ -20189,7 +22023,9 @@
       123650.37,
       207904.75,
       372659.4,
-      4198790.83
+      4198790.83,
+      null,
+      null
     ]
   ],
   [
@@ -20211,7 +22047,9 @@
       122212.58,
       216399.95,
       372659.4,
-      4176978.12
+      4176978.12,
+      null,
+      null
     ]
   ],
   [
@@ -20233,7 +22071,9 @@
       120487.22,
       216560.95,
       372659.4,
-      4197560.59
+      4197560.59,
+      null,
+      null
     ]
   ],
   [
@@ -20255,7 +22095,9 @@
       118761.87,
       216560.95,
       372659.4,
-      4198790.83
+      4198790.83,
+      null,
+      null
     ]
   ],
   [
@@ -20277,7 +22119,9 @@
       119194.29,
       216560.95,
       372659.4,
-      4169718.41
+      4169718.41,
+      null,
+      null
     ]
   ],
   [
@@ -20299,7 +22143,9 @@
       117169.15,
       216560.95,
       372659.4,
-      4144286.33
+      4144286.33,
+      null,
+      null
     ]
   ],
   [
@@ -20321,7 +22167,9 @@
       116030.13,
       216415.64,
       372659.4,
-      4238462.74
+      4238462.74,
+      null,
+      null
     ]
   ],
   [
@@ -20343,7 +22191,9 @@
       115444.12,
       217590.74,
       372759.4,
-      4238462.74
+      4238462.74,
+      null,
+      null
     ]
   ],
   [
@@ -20365,7 +22215,9 @@
       113399.88,
       198928.59,
       372759.4,
-      4180700.97
+      4180700.97,
+      null,
+      null
     ]
   ],
   [
@@ -20387,7 +22239,9 @@
       113399.88,
       198928.59,
       372773.09,
-      4238462.74
+      4238462.74,
+      null,
+      null
     ]
   ],
   [
@@ -20409,7 +22263,9 @@
       113399.88,
       205942.59,
       373768.69,
-      4238462.74
+      4238462.74,
+      null,
+      null
     ]
   ],
   [
@@ -20431,7 +22287,9 @@
       113689.17,
       205737.06,
       373768.69,
-      4168939.24
+      4168939.24,
+      null,
+      null
     ]
   ],
   [
@@ -20453,7 +22311,9 @@
       113978.45,
       206599.47,
       373768.69,
-      4174754.41
+      4174754.41,
+      null,
+      null
     ]
   ],
   [
@@ -20475,7 +22335,9 @@
       114846.31,
       206393.49,
       373772.69,
-      4238462.74
+      4238462.74,
+      null,
+      null
     ]
   ],
   [
@@ -20497,7 +22359,9 @@
       114557.02,
       206187.51,
       261825.08,
-      4235118.6
+      4235118.6,
+      null,
+      null
     ]
   ],
   [
@@ -20519,7 +22383,9 @@
       115135.6,
       210758.27,
       261825.08,
-      4233847.06
+      4233847.06,
+      null,
+      null
     ]
   ],
   [
@@ -20541,7 +22407,9 @@
       115714.17,
       210969.03,
       261825.08,
-      4238085.52
+      4238085.52,
+      null,
+      null
     ]
   ],
   [
@@ -20563,7 +22431,9 @@
       115714.17,
       210649.1,
       261825.08,
-      4234593.03
+      4234593.03,
+      null,
+      null
     ]
   ],
   [
@@ -20585,7 +22455,9 @@
       116871.31,
       210974.34,
       261825.08,
-      4238462.74
+      4238462.74,
+      null,
+      null
     ]
   ],
   [
@@ -20607,7 +22479,9 @@
       118028.45,
       211233.05,
       261825.08,
-      4242701.21
+      4242701.21,
+      null,
+      null
     ]
   ],
   [
@@ -20629,7 +22503,9 @@
       117739.16,
       210955.28,
       261825.08,
-      4234898.2
+      4234898.2,
+      null,
+      null
     ]
   ],
   [
@@ -20651,7 +22527,9 @@
       117739.16,
       211377.19,
       261825.08,
-      4234388.05
+      4234388.05,
+      null,
+      null
     ]
   ],
   [
@@ -20673,7 +22551,9 @@
       117160.59,
       211166.24,
       261825.08,
-      4238881.26
+      4238881.26,
+      null,
+      null
     ]
   ],
   [
@@ -20695,7 +22575,9 @@
       116292.74,
       211166.24,
       261825.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20717,7 +22599,9 @@
       112242.74,
       211521.78,
       261825.08,
-      4230973.66
+      4230973.66,
+      null,
+      null
     ]
   ],
   [
@@ -20739,7 +22623,9 @@
       110796.31,
       211965.42,
       261825.08,
-      4247459.06
+      4247459.06,
+      null,
+      null
     ]
   ],
   [
@@ -20761,7 +22647,9 @@
       108754.34,
       212389.36,
       261825.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20783,7 +22671,9 @@
       107881.97,
       212601.32,
       261825.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20805,7 +22695,9 @@
       105555.68,
       212177.39,
       261825.08,
-      4237183.77
+      4237183.77,
+      null,
+      null
     ]
   ],
   [
@@ -20827,7 +22719,9 @@
       105846.47,
       212177.39,
       261825.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20849,7 +22743,9 @@
       106137.25,
       212389.36,
       261825.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20871,7 +22767,9 @@
       106718.83,
       212389.36,
       261825.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20893,7 +22791,9 @@
       106718.83,
       212389.36,
       262625.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20915,7 +22815,9 @@
       105846.47,
       212177.39,
       262625.08,
-      4238807.29
+      4238807.29,
+      null,
+      null
     ]
   ],
   [
@@ -20937,7 +22839,9 @@
       105555.68,
       212389.36,
       262625.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20959,7 +22863,9 @@
       104719.07,
       213169.1,
       262625.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -20981,7 +22887,9 @@
       104137.29,
       246448.06,
       262625.08,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -21003,7 +22911,9 @@
       103264.64,
       246694.01,
       262625.08,
-      4238981.09
+      4238981.09,
+      null,
+      null
     ]
   ],
   [
@@ -21025,7 +22935,9 @@
       104428.18,
       246448.06,
       262754.01,
-      4238981.09
+      4238981.09,
+      null,
+      null
     ]
   ],
   [
@@ -21047,7 +22959,9 @@
       104712.62,
       246448.06,
       262754.01,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -21069,7 +22983,9 @@
       103837.58,
       246694.01,
       262754.01,
-      4247459.06
+      4247459.06,
+      null,
+      null
     ]
   ],
   [
@@ -21091,7 +23007,9 @@
       104745.73,
       246694.01,
       262754.01,
-      4238981.09
+      4238981.09,
+      null,
+      null
     ]
   ],
   [
@@ -21113,7 +23031,9 @@
       103870.42,
       246202.1,
       262754.01,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -21135,7 +23055,9 @@
       103578.65,
       246202.1,
       262754.01,
-      4243220.07
+      4243220.07,
+      null,
+      null
     ]
   ],
   [
@@ -21157,7 +23079,9 @@
       103286.87,
       246694.01,
       262754.01,
-      4259226.3
+      4259226.3,
+      null,
+      null
     ]
   ],
   [
@@ -21179,7 +23103,9 @@
       103286.87,
       246448.06,
       262754.01,
-      4259226.3
+      4259226.3,
+      null,
+      null
     ]
   ],
   [
@@ -21201,7 +23127,9 @@
       105912.81,
       246939.97,
       262754.01,
-      4254975.57
+      4254975.57,
+      null,
+      null
     ]
   ],
   [
@@ -21223,7 +23151,9 @@
       106204.58,
       246449.1,
       262754.01,
-      4254975.57
+      4254975.57,
+      null,
+      null
     ]
   ],
   [
@@ -21245,7 +23175,9 @@
       106788.12,
       246899.33,
       262754.01,
-      4254975.57
+      4254975.57,
+      null,
+      null
     ]
   ],
   [
@@ -21267,7 +23199,9 @@
       106204.58,
       246899.33,
       262754.01,
-      4254975.57
+      4254975.57,
+      null,
+      null
     ]
   ],
   [
@@ -21289,7 +23223,9 @@
       106788.12,
       247145.98,
       262754.01,
-      4254975.57
+      4254975.57,
+      null,
+      null
     ]
   ],
   [
@@ -21311,7 +23247,9 @@
       105037.5,
       247145.98,
       262754.01,
-      4260178.75
+      4260178.75,
+      null,
+      null
     ]
   ],
   [
@@ -21333,7 +23271,9 @@
       106204.58,
       247639.28,
       262754.01,
-      4255927.07
+      4255927.07,
+      null,
+      null
     ]
   ],
   [
@@ -21355,7 +23295,9 @@
       105329.27,
       246899.33,
       262754.01,
-      4251271.56
+      4251271.56,
+      null,
+      null
     ]
   ],
   [
@@ -21377,7 +23319,9 @@
       106496.35,
       247145.98,
       262754.01,
-      4264577.54
+      4264577.54,
+      null,
+      null
     ]
   ],
   [
@@ -21399,7 +23343,9 @@
       105685.67,
       246899.33,
       262754.01,
-      4256073.9
+      4256073.9,
+      null,
+      null
     ]
   ],
   [
@@ -21421,7 +23367,9 @@
       105685.67,
       247145.98,
       262754.01,
-      4256073.9
+      4256073.9,
+      null,
+      null
     ]
   ],
   [
@@ -21443,7 +23391,9 @@
       105685.67,
       247145.98,
       262754.01,
-      4256073.9
+      4256073.9,
+      null,
+      null
     ]
   ],
   [
@@ -21465,7 +23415,9 @@
       105101.77,
       246899.33,
       262754.01,
-      4251822.08
+      4251822.08,
+      null,
+      null
     ]
   ],
   [
@@ -21487,7 +23439,9 @@
       105393.72,
       247392.63,
       262754.01,
-      4260325.72
+      4260325.72,
+      null,
+      null
     ]
   ],
   [
@@ -21509,7 +23463,9 @@
       106269.57,
       247145.98,
       262754.01,
-      4260325.72
+      4260325.72,
+      null,
+      null
     ]
   ],
   [
@@ -21531,7 +23487,9 @@
       105977.62,
       247145.98,
       262754.01,
-      4260325.72
+      4260325.72,
+      null,
+      null
     ]
   ],
   [
@@ -21553,7 +23511,9 @@
       106269.57,
       247145.98,
       266254.01,
-      4251822.08
+      4251822.08,
+      null,
+      null
     ]
   ],
   [
@@ -21575,7 +23535,9 @@
       105685.67,
       247145.98,
       266254.01,
-      4251822.08
+      4251822.08,
+      null,
+      null
     ]
   ],
   [
@@ -21597,7 +23559,9 @@
       106269.57,
       246899.33,
       266254.01,
-      4251822.08
+      4251822.08,
+      null,
+      null
     ]
   ],
   [
@@ -21619,7 +23583,9 @@
       106269.57,
       247145.98,
       266254.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -21641,7 +23607,9 @@
       106269.57,
       259130.67,
       266254.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -21663,7 +23631,9 @@
       106561.52,
       259389.8,
       266254.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -21685,7 +23655,9 @@
       105685.67,
       259389.8,
       266254.01,
-      4261663.38
+      4261663.38,
+      null,
+      null
     ]
   ],
   [
@@ -21707,7 +23679,9 @@
       105167.98,
       258988.67,
       266254.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -21729,7 +23703,9 @@
       103707.32,
       259648.93,
       266304.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -21751,7 +23727,9 @@
       103351.98,
       259648.93,
       266304.01,
-      4265916.54
+      4265916.54,
+      null,
+      null
     ]
   ],
   [
@@ -21773,7 +23751,9 @@
       101892.21,
       259036.87,
       266304.01,
-      4247100.57
+      4247100.57,
+      null,
+      null
     ]
   ],
   [
@@ -21795,7 +23775,9 @@
       101600.26,
       259648.93,
       266304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -21817,7 +23799,9 @@
       103158.46,
       259648.93,
       266304.01,
-      4251672.71
+      4251672.71,
+      null,
+      null
     ]
   ],
   [
@@ -21839,7 +23823,9 @@
       102865.4,
       259389.8,
       266304.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -21861,7 +23847,9 @@
       103158.46,
       259908.06,
       266304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -21883,7 +23871,9 @@
       102279.27,
       259130.67,
       266304.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -21905,7 +23895,9 @@
       102279.27,
       259648.93,
       266304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -21927,7 +23919,9 @@
       101107.01,
       260395.37,
       266304.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -21949,7 +23943,9 @@
       100520.89,
       260395.37,
       267304.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -21971,7 +23967,9 @@
       101107.01,
       263659.5,
       267304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -21993,7 +23991,9 @@
       100813.95,
       263759.7,
       267304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -22015,7 +24015,9 @@
       100227.82,
       263759.7,
       267304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -22037,7 +24039,9 @@
       101400.08,
       263496.47,
       267304.01,
-      4250447.8
+      4250447.8,
+      null,
+      null
     ]
   ],
   [
@@ -22059,7 +24063,9 @@
       101693.14,
       273779.7,
       267304.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -22081,7 +24087,9 @@
       101107.01,
       273506.47,
       268154.01,
-      4253157.06
+      4253157.06,
+      null,
+      null
     ]
   ],
   [
@@ -22103,7 +24111,9 @@
       100520.89,
       274571.28,
       268304.01,
-      4261663.38
+      4261663.38,
+      null,
+      null
     ]
   ],
   [
@@ -22125,7 +24135,9 @@
       101693.14,
       274571.28,
       268304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -22147,7 +24159,9 @@
       102279.27,
       274571.28,
       268304.01,
-      4257410.22
+      4257410.22,
+      null,
+      null
     ]
   ],
   [
@@ -22169,7 +24183,9 @@
       103161.98,
       274571.28,
       268304.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22191,7 +24207,9 @@
       104041.2,
       274571.28,
       268304.01,
-      4261729.33
+      4261729.33,
+      null,
+      null
     ]
   ],
   [
@@ -22213,7 +24231,9 @@
       104825.82,
       274023.24,
       268304.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22235,7 +24255,9 @@
       104336.13,
       274571.28,
       268304.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22257,7 +24279,9 @@
       105228.58,
       269296.82,
       268304.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22279,7 +24303,9 @@
       104934.65,
       282522.31,
       268304.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22301,7 +24327,9 @@
       103758.91,
       282018.09,
       268304.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22323,7 +24351,9 @@
       102583.17,
       282582.13,
       268304.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22345,7 +24375,9 @@
       102877.11,
       282582.13,
       268304.01,
-      4251104.78
+      4251104.78,
+      null,
+      null
     ]
   ],
   [
@@ -22367,7 +24399,9 @@
       104052.84,
       282582.13,
       268304.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22389,7 +24423,9 @@
       105228.58,
       282300.11,
       268304.01,
-      4261729.33
+      4261729.33,
+      null,
+      null
     ]
   ],
   [
@@ -22411,7 +24447,9 @@
       104923.94,
       282349.75,
       268304.01,
-      4261729.33
+      4261729.33,
+      null,
+      null
     ]
   ],
   [
@@ -22433,7 +24471,9 @@
       105217.84,
       282349.75,
       268304.01,
-      4251980.94
+      4251980.94,
+      null,
+      null
     ]
   ],
   [
@@ -22455,7 +24495,9 @@
       108156.89,
       283006.71,
       268304.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22477,7 +24519,9 @@
       108450.79,
       283572.16,
       268304.01,
-      4248833.56
+      4248833.56,
+      null,
+      null
     ]
   ],
   [
@@ -22499,7 +24543,9 @@
       108744.7,
       284808.51,
       268304.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22521,7 +24567,9 @@
       108450.79,
       289813.51,
       268304.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22543,7 +24591,9 @@
       108156.89,
       289921.43,
       268412.01,
-      4252040.49
+      4252040.49,
+      null,
+      null
     ]
   ],
   [
@@ -22565,7 +24615,9 @@
       108156.89,
       289936.22,
       268412.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22587,7 +24639,9 @@
       109332.51,
       289936.22,
       268412.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22609,7 +24663,9 @@
       109920.32,
       289936.22,
       268412.01,
-      4261729.33
+      4261729.33,
+      null,
+      null
     ]
   ],
   [
@@ -22631,7 +24687,9 @@
       110508.12,
       292379.52,
       268412.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22653,7 +24711,9 @@
       111389.84,
       306756.49,
       268412.01,
-      4261729.33
+      4261729.33,
+      null,
+      null
     ]
   ],
   [
@@ -22675,7 +24735,9 @@
       111095.93,
       305838.97,
       268412.01,
-      4252784.8
+      4252784.8,
+      null,
+      null
     ]
   ],
   [
@@ -22697,7 +24759,9 @@
       111095.93,
       306144.81,
       268412.01,
-      4253176.1
+      4253176.1,
+      null,
+      null
     ]
   ],
   [
@@ -22719,7 +24783,9 @@
       110508.12,
       306450.65,
       268412.01,
-      4252857.11
+      4252857.11,
+      null,
+      null
     ]
   ],
   [
@@ -22741,7 +24807,9 @@
       110802.03,
       306144.81,
       268412.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22763,7 +24831,9 @@
       110508.12,
       306144.81,
       268412.01,
-      4253222.88
+      4253222.88,
+      null,
+      null
     ]
   ],
   [
@@ -22785,7 +24855,9 @@
       110518.92,
       306144.81,
       268412.01,
-      4257476.11
+      4257476.11,
+      null,
+      null
     ]
   ],
   [
@@ -22807,7 +24879,9 @@
       109977.91,
       306450.65,
       268412.01,
-      4257724.85
+      4257724.85,
+      null,
+      null
     ]
   ],
   [
@@ -22829,7 +24903,9 @@
       110566.03,
       306144.81,
       268412.01,
-      4253471.38
+      4253471.38,
+      null,
+      null
     ]
   ],
   [
@@ -22851,7 +24927,9 @@
       110566.03,
       306144.81,
       268412.01,
-      4253471.38
+      4253471.38,
+      null,
+      null
     ]
   ],
   [
@@ -22873,7 +24951,9 @@
       110582.74,
       309560.86,
       268412.01,
-      4257724.85
+      4257724.85,
+      null,
+      null
     ]
   ],
   [
@@ -22895,7 +24975,9 @@
       110876.85,
       309251.92,
       268412.01,
-      4254469.39
+      4254469.39,
+      null,
+      null
     ]
   ],
   [
@@ -22917,7 +24999,9 @@
       111465.05,
       308964.76,
       268412.01,
-      4254469.39
+      4254469.39,
+      null,
+      null
     ]
   ],
   [
@@ -22939,7 +25023,9 @@
       112641.47,
       308802.55,
       268412.01,
-      4254095.0
+      4254095.0,
+      null,
+      null
     ]
   ],
   [
@@ -22961,7 +25047,9 @@
       111759.16,
       309281.77,
       268412.01,
-      4254469.39
+      4254469.39,
+      null,
+      null
     ]
   ],
   [
@@ -22983,7 +25071,9 @@
       111484.12,
       309281.77,
       268412.01,
-      4253963.11
+      4253963.11,
+      null,
+      null
     ]
   ],
   [
@@ -23005,7 +25095,9 @@
       111189.96,
       309281.77,
       268412.01,
-      4254469.39
+      4254469.39,
+      null,
+      null
     ]
   ],
   [
@@ -23027,7 +25119,9 @@
       111189.96,
       308972.79,
       268437.01,
-      4253941.84
+      4253941.84,
+      null,
+      null
     ]
   ],
   [
@@ -23049,7 +25143,9 @@
       109719.2,
       309281.77,
       268437.01,
-      4254469.39
+      4254469.39,
+      null,
+      null
     ]
   ],
   [
@@ -23071,7 +25167,9 @@
       110601.66,
       309281.77,
       268437.01,
-      4258723.86
+      4258723.86,
+      null,
+      null
     ]
   ],
   [
@@ -23093,7 +25191,9 @@
       110895.81,
       309386.11,
       268437.01,
-      4253512.14
+      4253512.14,
+      null,
+      null
     ]
   ],
   [
@@ -23115,7 +25215,9 @@
       112014.72,
       310004.27,
       268437.01,
-      4258723.86
+      4258723.86,
+      null,
+      null
     ]
   ],
   [
@@ -23137,7 +25239,9 @@
       113196.93,
       309386.11,
       268437.01,
-      4258723.86
+      4258723.86,
+      null,
+      null
     ]
   ],
   [
@@ -23159,7 +25263,9 @@
       112916.66,
       309386.11,
       268437.01,
-      4258723.86
+      4258723.86,
+      null,
+      null
     ]
   ],
   [
@@ -23181,7 +25287,9 @@
       112990.85,
       309695.19,
       268437.01,
-      4258723.86
+      4258723.86,
+      null,
+      null
     ]
   ],
   [
@@ -23203,7 +25311,9 @@
       112990.85,
       309386.11,
       268437.01,
-      4254469.39
+      4254469.39,
+      null,
+      null
     ]
   ],
   [
@@ -23225,7 +25335,9 @@
       112399.28,
       309386.11,
       268437.01,
-      4258723.86
+      4258723.86,
+      null,
+      null
     ]
   ],
   [
@@ -23247,7 +25359,9 @@
       110624.55,
       308933.32,
       268437.01,
-      4258823.31
+      4258823.31,
+      null,
+      null
     ]
   ],
   [
@@ -23269,7 +25383,9 @@
       110032.98,
       309695.19,
       268437.01,
-      4267332.45
+      4267332.45,
+      null,
+      null
     ]
   ],
   [
@@ -23291,7 +25407,9 @@
       110328.77,
       309695.19,
       268437.01,
-      4258823.31
+      4258823.31,
+      null,
+      null
     ]
   ],
   [
@@ -23313,7 +25431,9 @@
       110624.55,
       309815.43,
       268437.01,
-      4258823.31
+      4258823.31,
+      null,
+      null
     ]
   ],
   [
@@ -23335,7 +25455,9 @@
       110032.98,
       309506.23,
       268437.01,
-      4258823.31
+      4258823.31,
+      null,
+      null
     ]
   ],
   [
@@ -23357,7 +25479,9 @@
       110328.77,
       310814.64,
       268437.01,
-      4259074.76
+      4259074.76,
+      null,
+      null
     ]
   ],
   [
@@ -23379,7 +25503,9 @@
       112695.07,
       310814.64,
       268437.01,
-      4259074.76
+      4259074.76,
+      null,
+      null
     ]
   ],
   [
@@ -23401,7 +25527,9 @@
       111822.61,
       310514.76,
       268437.01,
-      4263329.58
+      4263329.58,
+      null,
+      null
     ]
   ],
   [
@@ -23423,7 +25551,9 @@
       110935.13,
       310824.96,
       268437.01,
-      4259174.66
+      4259174.66,
+      null,
+      null
     ]
   ],
   [
@@ -23445,7 +25575,9 @@
       114836.28,
       311826.96,
       268437.01,
-      4259174.66
+      4259174.66,
+      null,
+      null
     ]
   ],
   [
@@ -23467,7 +25599,9 @@
       114530.86,
       314018.26,
       268437.01,
-      4248682.02
+      4248682.02,
+      null,
+      null
     ]
   ],
   [
@@ -23489,7 +25623,9 @@
       115447.11,
       317022.34,
       270437.01,
-      4254879.44
+      4254879.44,
+      null,
+      null
     ]
   ],
   [
@@ -23511,7 +25647,9 @@
       115451.4,
       317022.34,
       270437.01,
-      4254921.99
+      4254921.99,
+      null,
+      null
     ]
   ],
   [
@@ -23533,7 +25671,9 @@
       114840.54,
       318351.33,
       270437.01,
-      4253181.73
+      4253181.73,
+      null,
+      null
     ]
   ],
   [
@@ -23555,7 +25695,9 @@
       113313.41,
       318934.63,
       270437.01,
-      4253220.02
+      4253220.02,
+      null,
+      null
     ]
   ],
   [
@@ -23577,7 +25719,9 @@
       111786.27,
       319405.7,
       270437.01,
-      4255898.49
+      4255898.49,
+      null,
+      null
     ]
   ],
   [
@@ -23599,7 +25743,9 @@
       111264.38,
       319405.7,
       270437.01,
-      4262524.35
+      4262524.35,
+      null,
+      null
     ]
   ],
   [
@@ -23621,7 +25767,9 @@
       112131.56,
       319405.7,
       270437.01,
-      4262524.35
+      4262524.35,
+      null,
+      null
     ]
   ],
   [
@@ -23643,7 +25791,9 @@
       112437.09,
       319724.79,
       270437.01,
-      4262524.35
+      4262524.35,
+      null,
+      null
     ]
   ],
   [
@@ -23665,7 +25815,9 @@
       109992.81,
       319724.79,
       270437.01,
-      4262524.35
+      4262524.35,
+      null,
+      null
     ]
   ],
   [
@@ -23687,7 +25839,9 @@
       109381.74,
       319906.2,
       270437.01,
-      4253854.52
+      4253854.52,
+      null,
+      null
     ]
   ],
   [
@@ -23709,7 +25863,9 @@
       109076.2,
       319525.25,
       270437.01,
-      4257499.6
+      4257499.6,
+      null,
+      null
     ]
   ],
   [
@@ -23731,7 +25887,9 @@
       109687.27,
       332193.39,
       270437.01,
-      4262524.35
+      4262524.35,
+      null,
+      null
     ]
   ],
   [
@@ -23753,7 +25911,9 @@
       109687.27,
       331530.33,
       270437.01,
-      4256684.39
+      4256684.39,
+      null,
+      null
     ]
   ],
   [
@@ -23775,7 +25935,9 @@
       107892.73,
       331530.33,
       270437.01,
-      4258294.03
+      4258294.03,
+      null,
+      null
     ]
   ],
   [
@@ -23797,7 +25959,9 @@
       107281.44,
       331530.33,
       270437.01,
-      4254797.97
+      4254797.97,
+      null,
+      null
     ]
   ],
   [
@@ -23819,7 +25983,9 @@
       107587.08,
       337539.92,
       270437.01,
-      4266810.62
+      4266810.62,
+      null,
+      null
     ]
   ],
   [
@@ -23841,7 +26007,9 @@
       107892.73,
       338530.33,
       270437.01,
-      4255998.81
+      4255998.81,
+      null,
+      null
     ]
   ],
   [
@@ -23863,7 +26031,9 @@
       106364.5,
       339848.67,
       270437.01,
-      4258294.03
+      4258294.03,
+      null,
+      null
     ]
   ],
   [
@@ -23885,7 +26055,9 @@
       107757.44,
       340866.18,
       270437.01,
-      4262552.32
+      4262552.32,
+      null,
+      null
     ]
   ],
   [
@@ -23907,7 +26079,9 @@
       107445.1,
       341852.67,
       270437.01,
-      4266810.62
+      4266810.62,
+      null,
+      null
     ]
   ],
   [
@@ -23929,7 +26103,9 @@
       106914.72,
       340288.94,
       270437.01,
-      4256488.51
+      4256488.51,
+      null,
+      null
     ]
   ],
   [
@@ -23951,7 +26127,9 @@
       106949.3,
       340301.11,
       270437.01,
-      4262552.32
+      4262552.32,
+      null,
+      null
     ]
   ],
   [
@@ -23973,7 +26151,9 @@
       107018.89,
       361262.28,
       270587.01,
-      4262552.32
+      4262552.32,
+      null,
+      null
     ]
   ],
   [
@@ -23995,7 +26175,9 @@
       106080.13,
       360901.74,
       270587.01,
-      4258294.03
+      4258294.03,
+      null,
+      null
     ]
   ],
   [
@@ -24017,7 +26199,9 @@
       106393.05,
       361622.82,
       270587.01,
-      4262552.32
+      4262552.32,
+      null,
+      null
     ]
   ],
   [
@@ -24039,7 +26223,9 @@
       110233.59,
       363196.68,
       270587.01,
-      4271068.91
+      4271068.91,
+      null,
+      null
     ]
   ],
   [
@@ -24061,7 +26247,9 @@
       109133.49,
       364681.8,
       270587.01,
-      4262552.32
+      4262552.32,
+      null,
+      null
     ]
   ],
   [
@@ -24083,7 +26271,9 @@
       109133.49,
       364318.21,
       270587.01,
-      4266810.62
+      4266810.62,
+      null,
+      null
     ]
   ],
   [
@@ -24105,7 +26295,9 @@
       108634.38,
       364459.2,
       270608.36,
-      4262552.32
+      4262552.32,
+      null,
+      null
     ]
   ],
   [
@@ -24127,7 +26319,9 @@
       108954.83,
       364459.2,
       271463.36,
-      4258294.03
+      4258294.03,
+      null,
+      null
     ]
   ],
   [
@@ -24149,7 +26343,9 @@
       109408.32,
       364459.2,
       273110.0,
-      4189119.77
+      4189119.77,
+      null,
+      null
     ]
   ],
   [
@@ -24171,7 +26367,9 @@
       109408.32,
       364459.2,
       273220.0,
-      4193308.89
+      4193308.89,
+      null,
+      null
     ]
   ],
   [
@@ -24193,7 +26391,9 @@
       110370.86,
       365186.67,
       172939.07,
-      4197498.01
+      4197498.01,
+      null,
+      null
     ]
   ],
   [
@@ -24215,7 +26415,9 @@
       110370.86,
       364459.2,
       172939.07,
-      4193308.89
+      4193308.89,
+      null,
+      null
     ]
   ],
   [
@@ -24237,7 +26439,9 @@
       110050.01,
       379609.44,
       192939.07,
-      4213283.21
+      4213283.21,
+      null,
+      null
     ]
   ],
   [
@@ -24259,7 +26463,9 @@
       108445.79,
       381029.22,
       192939.07,
-      4217492.28
+      4217492.28,
+      null,
+      null
     ]
   ],
   [
@@ -24281,7 +26487,9 @@
       108766.63,
       388077.41,
       192969.16,
-      4213287.79
+      4213287.79,
+      null,
+      null
     ]
   ],
   [
@@ -24303,7 +26511,9 @@
       108766.63,
       389267.12,
       192969.16,
-      4206923.67
+      4206923.67,
+      null,
+      null
     ]
   ],
   [
@@ -24325,7 +26535,9 @@
       107804.09,
       391983.84,
       192969.16,
-      4230124.11
+      4230124.11,
+      null,
+      null
     ]
   ],
   [
@@ -24347,7 +26559,9 @@
       105558.18,
       389267.12,
       192969.16,
-      4204495.03
+      4204495.03,
+      null,
+      null
     ]
   ],
   [
@@ -24369,7 +26583,9 @@
       104916.49,
       397772.56,
       192969.16,
-      4226710.45
+      4226710.45,
+      null,
+      null
     ]
   ],
   [
@@ -24391,7 +26607,9 @@
       105269.77,
       397375.97,
       192969.16,
-      4218282.32
+      4218282.32,
+      null,
+      null
     ]
   ],
   [
@@ -24413,7 +26631,9 @@
       106256.61,
       398169.14,
       192969.16,
-      4218282.32
+      4218282.32,
+      null,
+      null
     ]
   ],
   [
@@ -24435,7 +26655,9 @@
       106256.61,
       448246.66,
       192969.16,
-      4222496.39
+      4222496.39,
+      null,
+      null
     ]
   ],
   [
@@ -24457,7 +26679,9 @@
       105933.64,
       440242.8,
       192969.16,
-      4212243.56
+      4212243.56,
+      null,
+      null
     ]
   ],
   [
@@ -24479,7 +26703,9 @@
       106110.99,
       440685.9,
       192969.16,
-      4218282.32
+      4218282.32,
+      null,
+      null
     ]
   ],
   [
@@ -24501,7 +26727,9 @@
       105461.99,
       440686.75,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24523,7 +26751,9 @@
       104242.39,
       440247.82,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24545,7 +26775,9 @@
       102618.68,
       440247.82,
       192969.16,
-      4228307.9
+      4228307.9,
+      null,
+      null
     ]
   ],
   [
@@ -24567,7 +26799,9 @@
       102618.68,
       440246.82,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24589,7 +26823,9 @@
       102943.42,
       439812.93,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24611,7 +26847,9 @@
       101644.45,
       440251.86,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24633,7 +26871,9 @@
       100994.97,
       440251.86,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24655,7 +26895,9 @@
       100670.22,
       440407.88,
       192969.16,
-      4228307.9
+      4228307.9,
+      null,
+      null
     ]
   ],
   [
@@ -24677,7 +26919,9 @@
       190628.1,
       440407.88,
       192969.16,
-      4219783.77
+      4219783.77,
+      null,
+      null
     ]
   ],
   [
@@ -24699,7 +26943,9 @@
       191239.09,
       439968.79,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24721,7 +26967,9 @@
       189406.13,
       439968.79,
       192969.16,
-      4216631.53
+      4216631.53,
+      null,
+      null
     ]
   ],
   [
@@ -24743,7 +26991,9 @@
       189406.13,
       440407.88,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24765,7 +27015,9 @@
       188795.14,
       440407.88,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24787,7 +27039,9 @@
       185740.2,
       440846.97,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24809,7 +27063,9 @@
       183907.24,
       439968.79,
       192969.16,
-      4219868.17
+      4219868.17,
+      null,
+      null
     ]
   ],
   [
@@ -24831,7 +27087,9 @@
       186962.18,
       440407.88,
       192969.16,
-      4228307.9
+      4228307.9,
+      null,
+      null
     ]
   ],
   [
@@ -24853,7 +27111,9 @@
       186351.19,
       440407.88,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -24875,7 +27135,9 @@
       186962.18,
       440407.88,
       192969.16,
-      4219868.17
+      4219868.17,
+      null,
+      null
     ]
   ],
   [
@@ -24897,7 +27159,9 @@
       186963.97,
       439529.7,
       192969.16,
-      4219868.17
+      4219868.17,
+      null,
+      null
     ]
   ],
   [
@@ -24919,7 +27183,9 @@
       188185.96,
       440846.97,
       192969.16,
-      4219868.17
+      4219868.17,
+      null,
+      null
     ]
   ],
   [
@@ -24941,7 +27207,9 @@
       186352.98,
       440407.88,
       192969.16,
-      4219868.17
+      4219868.17,
+      null,
+      null
     ]
   ],
   [
@@ -24963,7 +27231,9 @@
       185130.99,
       439968.79,
       192969.16,
-      4228307.9
+      4228307.9,
+      null,
+      null
     ]
   ],
   [
@@ -24985,7 +27255,9 @@
       185741.99,
       432791.84,
       192969.16,
-      4219868.17
+      4219868.17,
+      null,
+      null
     ]
   ],
   [
@@ -25007,7 +27279,9 @@
       184520.0,
       432791.84,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -25029,7 +27303,9 @@
       185149.74,
       433223.34,
       192969.16,
-      4219868.17
+      4219868.17,
+      null,
+      null
     ]
   ],
   [
@@ -25051,7 +27327,9 @@
       185760.79,
       432791.84,
       192969.16,
-      4224088.03
+      4224088.03,
+      null,
+      null
     ]
   ],
   [
@@ -25073,7 +27351,9 @@
       183316.57,
       432791.84,
       192969.16,
-      4224179.24
+      4224179.24,
+      null,
+      null
     ]
   ],
   [
@@ -25095,7 +27375,9 @@
       183927.63,
       432791.84,
       192969.16,
-      4228399.2
+      4228399.2,
+      null,
+      null
     ]
   ],
   [
@@ -25117,7 +27399,9 @@
       182705.52,
       432791.84,
       192969.16,
-      4224179.24
+      4224179.24,
+      null,
+      null
     ]
   ],
   [
@@ -25139,7 +27423,9 @@
       181483.41,
       433142.89,
       192969.16,
-      4224179.24
+      4224179.24,
+      null,
+      null
     ]
   ],
   [
@@ -25161,7 +27447,9 @@
       179039.18,
       433147.37,
       192969.16,
-      4219849.56
+      4219849.56,
+      null,
+      null
     ]
   ],
   [
@@ -25183,7 +27471,9 @@
       177206.02,
       433579.22,
       192969.16,
-      4228399.2
+      4228399.2,
+      null,
+      null
     ]
   ],
   [
@@ -25205,7 +27495,9 @@
       175983.91,
       433147.37,
       192969.16,
-      4219959.28
+      4219959.28,
+      null,
+      null
     ]
   ],
   [
@@ -25227,7 +27519,9 @@
       177206.02,
       433579.22,
       192969.16,
-      4228399.2
+      4228399.2,
+      null,
+      null
     ]
   ],
   [
@@ -25249,7 +27543,9 @@
       175983.91,
       433579.22,
       192969.16,
-      4228399.2
+      4228399.2,
+      null,
+      null
     ]
   ],
   [
@@ -25271,7 +27567,9 @@
       176594.96,
       432715.51,
       192969.16,
-      4228399.2
+      4228399.2,
+      null,
+      null
     ]
   ],
   [
@@ -25293,7 +27591,9 @@
       175372.85,
       433147.37,
       192969.16,
-      4228399.2
+      4228399.2,
+      null,
+      null
     ]
   ],
   [
@@ -25315,7 +27615,9 @@
       176594.96,
       433579.22,
       192969.16,
-      4224179.24
+      4224179.24,
+      null,
+      null
     ]
   ],
   [
@@ -25337,7 +27639,9 @@
       175983.91,
       443177.37,
       192969.16,
-      4228399.2
+      4228399.2,
+      null,
+      null
     ]
   ],
   [
@@ -25359,7 +27663,9 @@
       175983.91,
       442735.51,
       192969.16,
-      4217258.5
+      4217258.5,
+      null,
+      null
     ]
   ],
   [
@@ -25381,7 +27687,9 @@
       174178.67,
       443619.22,
       192969.16,
-      4224179.24
+      4224179.24,
+      null,
+      null
     ]
   ],
   [
@@ -25403,7 +27711,9 @@
       176012.13,
       443619.22,
       192969.16,
-      4232619.16
+      4232619.16,
+      null,
+      null
     ]
   ],
   [
@@ -25425,7 +27735,9 @@
       176012.13,
       443177.37,
       192969.16,
-      4226176.29
+      4226176.29,
+      null,
+      null
     ]
   ],
   [
@@ -25447,7 +27759,9 @@
       176087.86,
       443619.22,
       192969.16,
-      4226176.29
+      4226176.29,
+      null,
+      null
     ]
   ],
   [
@@ -25469,7 +27783,9 @@
       177980.32,
       444640.99,
       192969.16,
-      4230398.24
+      4230398.24,
+      null,
+      null
     ]
   ],
   [
@@ -25491,7 +27807,9 @@
       176766.41,
       444198.12,
       192969.16,
-      4230398.24
+      4230398.24,
+      null,
+      null
     ]
   ],
   [
@@ -25513,7 +27831,9 @@
       176154.76,
       444198.12,
       193069.16,
-      4230398.24
+      4230398.24,
+      null,
+      null
     ]
   ],
   [
@@ -25535,7 +27855,9 @@
       175543.11,
       444198.12,
       193069.16,
-      4220789.07
+      4220789.07,
+      null,
+      null
     ]
   ],
   [
@@ -25557,7 +27879,9 @@
       177758.42,
       443755.25,
       193069.16,
-      4226176.29
+      4226176.29,
+      null,
+      null
     ]
   ],
   [
@@ -25579,7 +27903,9 @@
       175919.54,
       443312.38,
       193069.16,
-      4234620.2
+      4234620.2,
+      null,
+      null
     ]
   ],
   [
@@ -25601,7 +27927,9 @@
       179597.3,
       445526.72,
       193069.16,
-      4243064.1
+      4243064.1,
+      null,
+      null
     ]
   ],
   [
@@ -25623,7 +27951,9 @@
       180823.22,
       444198.12,
       193069.16,
-      4234620.2
+      4234620.2,
+      null,
+      null
     ]
   ],
   [
@@ -25645,7 +27975,9 @@
       180823.22,
       443955.22,
       193069.16,
-      4221211.27
+      4221211.27,
+      null,
+      null
     ]
   ],
   [
@@ -25667,7 +27999,9 @@
       180210.26,
       444398.29,
       193069.16,
-      4226176.29
+      4226176.29,
+      null,
+      null
     ]
   ],
   [
@@ -25689,7 +28023,1161 @@
       181434.98,
       445727.49,
       193069.16,
-      4234620.2
+      4234620.2,
+      null,
+      null
+    ]
+  ],
+  [
+    1645423200000,
+    [
+      19994390.74,
+      9666500.25,
+      20137867.62,
+      3187894.18,
+      3805770.67,
+      549999.09,
+      723795.87,
+      6016612.35,
+      935959.03,
+      8959133.57,
+      1130997.92,
+      8084698.02,
+      1153234.03,
+      180824.09,
+      444841.36,
+      193069.16,
+      4230398.24,
+      null,
+      null
+    ]
+  ],
+  [
+    1645426800000,
+    [
+      20122109.89,
+      9708217.58,
+      20121481.22,
+      3193764.07,
+      3813869.97,
+      549999.09,
+      724123.15,
+      6029448.41,
+      937894.03,
+      9001195.23,
+      1132298.09,
+      8084698.02,
+      1153234.03,
+      182045.87,
+      444398.29,
+      193069.16,
+      4230398.24,
+      null,
+      null
+    ]
+  ],
+  [
+    1645430400000,
+    [
+      20285430.29,
+      9796618.58,
+      20164495.53,
+      3198866.8,
+      3822869.19,
+      549999.09,
+      721772.0,
+      6078458.83,
+      948439.78,
+      9043256.89,
+      1131393.91,
+      8084698.02,
+      1153234.03,
+      182656.76,
+      445294.48,
+      193069.16,
+      4226176.29,
+      null,
+      null
+    ]
+  ],
+  [
+    1645434000000,
+    [
+      20137477.68,
+      9732056.05,
+      20065665.03,
+      3174166.79,
+      3805770.67,
+      549999.09,
+      732551.23,
+      6054861.5,
+      948719.32,
+      8959133.57,
+      1131598.5,
+      8084698.02,
+      1153234.03,
+      181434.98,
+      444408.32,
+      193069.16,
+      4219543.6,
+      null,
+      null
+    ]
+  ],
+  [
+    1645437600000,
+    [
+      19989670.25,
+      9669613.29,
+      19983733.0,
+      3160776.47,
+      3783272.62,
+      549999.09,
+      723725.95,
+      6038519.1,
+      941264.34,
+      8917071.91,
+      1131539.1,
+      8084698.02,
+      1155234.03,
+      180824.09,
+      444851.4,
+      193069.16,
+      4226176.29,
+      null,
+      null
+    ]
+  ],
+  [
+    1645441200000,
+    [
+      19733038.94,
+      9535520.04,
+      19651908.3,
+      3120663.65,
+      3726577.53,
+      549999.09,
+      707739.96,
+      5980153.36,
+      925192.56,
+      8790886.93,
+      1130463.33,
+      8084698.02,
+      1155234.03,
+      177769.63,
+      444408.32,
+      193069.16,
+      4219889.8,
+      null,
+      null
+    ]
+  ],
+  [
+    1645444800000,
+    [
+      18916484.77,
+      9172971.62,
+      19289871.16,
+      3054897.68,
+      3657283.52,
+      549999.09,
+      715474.45,
+      5872760.41,
+      886078.09,
+      8538516.97,
+      1124589.45,
+      8084698.02,
+      1155234.03,
+      172882.49,
+      444408.32,
+      193069.16,
+      4230398.24,
+      null,
+      null
+    ]
+  ],
+  [
+    1645448400000,
+    [
+      18717290.73,
+      9066690.3,
+      19261707.03,
+      3034788.97,
+      3649184.22,
+      549999.09,
+      702945.0,
+      5770036.71,
+      881430.83,
+      8496455.31,
+      1124365.06,
+      8084698.02,
+      1155234.03,
+      171660.7,
+      444851.4,
+      193069.16,
+      4234620.2,
+      null,
+      null
+    ]
+  ],
+  [
+    1645452000000,
+    [
+      18619754.38,
+      8997967.36,
+      19283223.9,
+      3036311.65,
+      3644684.61,
+      549999.09,
+      680109.4,
+      5867556.65,
+      872910.85,
+      8454393.65,
+      1113349.9,
+      8084698.02,
+      1155234.03,
+      169828.03,
+      445737.55,
+      193069.16,
+      4226176.29,
+      null,
+      null
+    ]
+  ],
+  [
+    1645455600000,
+    [
+      19281576.18,
+      9319820.02,
+      19890033.27,
+      3148653.12,
+      3745475.89,
+      549999.09,
+      697825.87,
+      6081279.89,
+      903698.97,
+      8748825.27,
+      1113178.3,
+      8084698.02,
+      1155234.03,
+      175936.95,
+      445353.4,
+      193069.16,
+      4230398.24,
+      null,
+      null
+    ]
+  ],
+  [
+    1645459200000,
+    [
+      19090690.48,
+      9257237.56,
+      19957115.15,
+      3171353.89,
+      3773373.48,
+      549999.09,
+      688627.42,
+      6126898.26,
+      897308.98,
+      8748825.27,
+      1115395.85,
+      8084698.02,
+      1155234.03,
+      176547.84,
+      445353.4,
+      193069.16,
+      4234620.2,
+      null,
+      null
+    ]
+  ],
+  [
+    1645462800000,
+    [
+      18931276.78,
+      9165847.3,
+      19875695.16,
+      3158323.91,
+      3756274.96,
+      549999.09,
+      693912.21,
+      6232710.51,
+      889079.45,
+      8664701.95,
+      1101852.94,
+      8084698.02,
+      1155234.03,
+      175326.06,
+      444909.82,
+      193069.16,
+      4221768.57,
+      null,
+      null
+    ]
+  ],
+  [
+    1645466400000,
+    [
+      18794111.8,
+      9088364.25,
+      19808613.28,
+      3143306.3,
+      3748175.66,
+      549999.09,
+      696157.79,
+      6216317.89,
+      882108.56,
+      8622640.29,
+      1101417.35,
+      8084698.02,
+      1155734.0,
+      174104.27,
+      445353.4,
+      193069.16,
+      4230398.24,
+      null,
+      null
+    ]
+  ],
+  [
+    1645470000000,
+    [
+      18484411.99,
+      8963199.32,
+      19394856.34,
+      3076749.93,
+      3675281.96,
+      549999.09,
+      690012.35,
+      6164798.21,
+      867585.86,
+      8496455.31,
+      1078166.05,
+      8084698.02,
+      1155734.0,
+      171049.81,
+      444909.82,
+      193069.16,
+      4241981.76,
+      null,
+      null
+    ]
+  ],
+  [
+    1645473600000,
+    [
+      18588878.12,
+      8988033.63,
+      19584836.32,
+      3089233.61,
+      3700479.78,
+      549999.09,
+      686080.17,
+      6223343.3,
+      870296.77,
+      8496455.31,
+      1073090.76,
+      8084698.02,
+      1155734.0,
+      171660.7,
+      446240.55,
+      193069.16,
+      4251145.91,
+      null,
+      null
+    ]
+  ],
+  [
+    1645477200000,
+    [
+      18519050.09,
+      8961212.58,
+      19618633.3,
+      3086525.38,
+      3708579.08,
+      549999.09,
+      679617.39,
+      6224514.2,
+      868166.77,
+      8496455.31,
+      1063646.36,
+      8084698.02,
+      1155734.0,
+      171049.81,
+      445353.4,
+      193069.16,
+      4242660.59,
+      null,
+      null
+    ]
+  ],
+  [
+    1645480800000,
+    [
+      18008492.27,
+      8785434.24,
+      19010799.78,
+      3004753.8,
+      3596988.74,
+      549999.09,
+      664984.33,
+      5999803.53,
+      853837.71,
+      8244085.35,
+      1042533.42,
+      8084698.02,
+      1155734.0,
+      166204.03,
+      440012.59,
+      193069.16,
+      4218163.47,
+      null,
+      null
+    ]
+  ],
+  [
+    1645484400000,
+    [
+      18152018.86,
+      8763579.93,
+      19286296.36,
+      3053770.25,
+      3658183.44,
+      549999.09,
+      667359.05,
+      6038443.95,
+      852094.99,
+      8286147.01,
+      1042724.81,
+      8084698.02,
+      1155734.0,
+      166851.77,
+      445836.65,
+      193069.16,
+      4239113.72,
+      null,
+      null
+    ]
+  ],
+  [
+    1645488000000,
+    [
+      17697701.17,
+      8568877.86,
+      19013872.23,
+      2996454.6,
+      3592489.13,
+      549999.09,
+      658247.59,
+      5901178.16,
+      829245.94,
+      8075838.71,
+      1036976.34,
+      8084698.02,
+      1155734.0,
+      163184.7,
+      445836.65,
+      193069.16,
+      4246903.25,
+      null,
+      null
+    ]
+  ],
+  [
+    1645491600000,
+    [
+      17823071.11,
+      8637420.93,
+      19093756.0,
+      3020968.64,
+      3715363.55,
+      549999.09,
+      658819.34,
+      5984359.34,
+      838734.11,
+      8117900.37,
+      1036481.35,
+      8084698.02,
+      1155734.0,
+      163795.88,
+      446280.27,
+      193069.16,
+      4251054.62,
+      null,
+      null
+    ]
+  ],
+  [
+    1645495200000,
+    [
+      17787469.99,
+      8603518.71,
+      19093243.92,
+      3023537.44,
+      3713518.32,
+      549999.09,
+      661070.76,
+      5944526.1,
+      835151.84,
+      8033777.05,
+      1033696.21,
+      8084737.24,
+      1155734.0,
+      162573.52,
+      446280.27,
+      193069.16,
+      4251054.62,
+      null,
+      null
+    ]
+  ],
+  [
+    1645498800000,
+    [
+      17715275.41,
+      8583545.49,
+      18987244.31,
+      2999011.78,
+      3683994.7,
+      549839.09,
+      619821.29,
+      5939899.71,
+      830601.4,
+      8033777.05,
+      1027657.34,
+      8084737.24,
+      1155734.0,
+      161962.34,
+      447538.86,
+      193069.16,
+      4246812.05,
+      null,
+      null
+    ]
+  ],
+  [
+    1645502400000,
+    [
+      17354302.52,
+      8380854.99,
+      18782926.22,
+      2936395.79,
+      3638786.65,
+      549839.09,
+      615094.29,
+      5736107.12,
+      811818.71,
+      7865530.41,
+      993628.47,
+      8084737.24,
+      1155734.0,
+      158798.33,
+      447984.17,
+      193069.16,
+      4251054.62,
+      null,
+      null
+    ]
+  ],
+  [
+    1645506000000,
+    [
+      17407468.75,
+      8411480.1,
+      18798800.56,
+      2930746.75,
+      3638061.07,
+      549939.09,
+      637114.72,
+      5890797.5,
+      819080.06,
+      7823468.75,
+      992031.3,
+      8084737.24,
+      1155734.0,
+      158798.33,
+      446648.24,
+      193069.16,
+      4239141.48,
+      null,
+      null
+    ]
+  ],
+  [
+    1645509600000,
+    [
+      17511525.75,
+      8466125.9,
+      18864858.29,
+      2924260.82,
+      3650055.69,
+      549939.09,
+      591684.65,
+      5953032.66,
+      814239.16,
+      7907592.07,
+      992222.7,
+      8084637.24,
+      1155734.0,
+      159409.1,
+      749554.24,
+      193069.16,
+      4246812.05,
+      null,
+      null
+    ]
+  ],
+  [
+    1645513200000,
+    [
+      17679179.59,
+      8549584.95,
+      18899167.34,
+      2944346.29,
+      3672199.61,
+      549939.09,
+      600047.48,
+      5955426.32,
+      828471.4,
+      7949653.73,
+      995106.83,
+      8084637.24,
+      1155734.0,
+      162462.91,
+      751048.86,
+      193069.16,
+      4242569.48,
+      82.43,
+      null
+    ]
+  ],
+  [
+    1645516800000,
+    [
+      17517667.67,
+      8484009.99,
+      18899167.34,
+      2937372.21,
+      3666663.63,
+      549939.09,
+      604338.48,
+      5889600.67,
+      819951.42,
+      7907592.07,
+      994644.84,
+      8084637.24,
+      1155734.0,
+      161852.15,
+      751048.86,
+      193069.16,
+      4246912.0,
+      741.87,
+      15.42
+    ]
+  ],
+  [
+    1645520400000,
+    [
+      17732316.85,
+      8546604.27,
+      19002606.58,
+      2960479.8,
+      3701724.83,
+      549939.09,
+      603906.71,
+      5959068.88,
+      825954.13,
+      7991715.39,
+      998023.97,
+      8084637.24,
+      1155734.0,
+      161852.15,
+      752543.49,
+      193069.16,
+      4242669.33,
+      917.84,
+      15.42
+    ]
+  ],
+  [
+    1645524000000,
+    [
+      17836508.33,
+      8613172.8,
+      19076345.43,
+      2967035.48,
+      3708183.48,
+      549939.09,
+      627762.81,
+      5965053.08,
+      834280.48,
+      8033777.05,
+      1001442.7,
+      8084737.24,
+      1155734.0,
+      163073.67,
+      751063.19,
+      193069.16,
+      4246912.0,
+      923.23,
+      15.42
+    ]
+  ],
+  [
+    1645527600000,
+    [
+      18083445.93,
+      8745316.3,
+      19323677.86,
+      3020771.09,
+      3763028.41,
+      549939.09,
+      646201.03,
+      6091746.76,
+      848609.54,
+      8159962.03,
+      1004287.24,
+      8084737.24,
+      1155734.0,
+      165516.73,
+      749568.54,
+      193069.16,
+      4242516.6,
+      953.01,
+      15.42
+    ]
+  ],
+  [
+    1645531200000,
+    [
+      18047385.22,
+      8709548.14,
+      19226383.53,
+      3012983.32,
+      3741289.56,
+      549939.09,
+      648018.74,
+      6199480.54,
+      846770.0,
+      8118483.83,
+      1005277.22,
+      8084937.24,
+      1155734.0,
+      164905.96,
+      748821.21,
+      193069.16,
+      4246912.0,
+      1315.92,
+      15.42
+    ]
+  ],
+  [
+    1645534800000,
+    [
+      18115641.48,
+      8741342.06,
+      19308315.6,
+      3030314.01,
+      3766533.1,
+      549939.09,
+      648875.5,
+      6288061.65,
+      849480.9,
+      8118529.91,
+      1007540.97,
+      8085937.24,
+      1155874.06,
+      165516.73,
+      752739.99,
+      193069.16,
+      4251154.67,
+      9840.26,
+      15.42
+    ]
+  ],
+  [
+    1645538400000,
+    [
+      18218830.64,
+      8773135.98,
+      19395368.42,
+      3039659.33,
+      3794221.41,
+      549939.09,
+      641937.14,
+      6344322.62,
+      848609.54,
+      8202659.75,
+      1010161.11,
+      8085937.24,
+      1155874.06,
+      166738.25,
+      752739.99,
+      193069.16,
+      4246912.0,
+      13405.3,
+      15.42
+    ]
+  ],
+  [
+    1645542000000,
+    [
+      18459239.97,
+      8911240.84,
+      19493174.82,
+      3068927.4,
+      3818260.18,
+      549939.09,
+      642823.92,
+      6413751.06,
+      1888527.38,
+      8286789.6,
+      1015355.2,
+      8085937.24,
+      1155874.06,
+      169181.3,
+      749002.45,
+      193069.16,
+      4242669.33,
+      13582.12,
+      15.42
+    ]
+  ],
+  [
+    1645545600000,
+    [
+      18306170.06,
+      8821869.66,
+      19369252.57,
+      3051480.47,
+      3797955.2,
+      549939.09,
+      641865.81,
+      6413056.8,
+      1888527.38,
+      8244724.68,
+      1014609.42,
+      8086437.24,
+      1155874.06,
+      167959.78,
+      749002.45,
+      193069.16,
+      4233971.86,
+      13469.45,
+      15.42
+    ]
+  ],
+  [
+    1645549200000,
+    [
+      18048845.87,
+      8715234.84,
+      19309339.75,
+      3022026.43,
+      3774881.35,
+      549939.09,
+      634636.63,
+      6372431.21,
+      1857588.9,
+      8160594.83,
+      1015652.19,
+      8086437.24,
+      1155874.06,
+      166127.49,
+      751244.97,
+      193069.16,
+      4235397.4,
+      14043.95,
+      15.42
+    ]
+  ],
+  [
+    1645552800000,
+    [
+      18085847.78,
+      8719209.41,
+      19311547.41,
+      3024816.08,
+      3778573.16,
+      549939.09,
+      637471.82,
+      6312949.36,
+      1860576.06,
+      8118529.91,
+      1007481.57,
+      8086437.24,
+      1155874.06,
+      165558.96,
+      751244.97,
+      193069.16,
+      4238689.71,
+      14063.81,
+      15.42
+    ]
+  ],
+  [
+    1645556400000,
+    [
+      18082263.13,
+      8732126.75,
+      19367877.5,
+      3020689.72,
+      3784110.89,
+      549939.09,
+      638553.96,
+      6449484.41,
+      1869750.92,
+      8076464.99,
+      998664.16,
+      8086437.24,
+      1155874.06,
+      165558.96,
+      752245.95,
+      193069.16,
+      4237510.25,
+      14400.38,
+      15.42
+    ]
+  ],
+  [
+    1645560000000,
+    [
+      18361041.97,
+      8844408.31,
+      19549757.15,
+      3064987.02,
+      3824720.86,
+      549939.09,
+      649738.03,
+      6475833.27,
+      1884900.11,
+      8118529.91,
+      995813.02,
+      8086732.2,
+      1155874.06,
+      166780.8,
+      754081.4,
+      193069.16,
+      4251154.67,
+      14639.65,
+      15.42
+    ]
+  ],
+  [
+    1645563600000,
+    [
+      18257688.48,
+      8790751.64,
+      19503646.82,
+      3034707.71,
+      3820515.24,
+      549939.09,
+      668440.37,
+      6444693.71,
+      1876365.35,
+      8034400.07,
+      992183.1,
+      8086757.2,
+      1155874.06,
+      166178.23,
+      754081.4,
+      193069.16,
+      4255397.34,
+      14904.04,
+      40.42
+    ]
+  ],
+  [
+    1645567200000,
+    [
+      18174689.31,
+      8770878.8,
+      19440629.36,
+      3038906.66,
+      3814947.33,
+      549939.09,
+      660566.52,
+      6390434.33,
+      1875938.62,
+      8076464.99,
+      990915.92,
+      8086757.2,
+      1155874.06,
+      165567.29,
+      752583.72,
+      193069.16,
+      4242669.33,
+      14836.29,
+      40.42
+    ]
+  ],
+  [
+    1645570800000,
+    [
+      18130023.01,
+      8741069.53,
+      19463684.53,
+      3033001.65,
+      3820515.24,
+      549939.09,
+      659667.74,
+      6402428.38,
+      1871884.61,
+      8076464.99,
+      988447.58,
+      8086757.2,
+      1155874.06,
+      165567.29,
+      751834.88,
+      193069.16,
+      4246912.0,
+      14799.8,
+      40.42
+    ]
+  ],
+  [
+    1645574400000,
+    [
+      18460663.43,
+      8874217.57,
+      19655939.31,
+      3079380.43,
+      3865058.53,
+      549939.09,
+      656331.84,
+      6605127.97,
+      1902396.35,
+      8244724.68,
+      986315.82,
+      8086757.2,
+      1155874.06,
+      168622.03,
+      753332.56,
+      193069.16,
+      4237408.42,
+      15089.89,
+      65.42
+    ]
+  ],
+  [
+    1645578000000,
+    [
+      18609851.93,
+      8979543.64,
+      19581769.49,
+      3063318.13,
+      3847426.81,
+      549939.09,
+      647999.47,
+      6647661.38,
+      1914558.37,
+      8202659.75,
+      983972.87,
+      8086757.2,
+      1155874.06,
+      168011.08,
+      752882.73,
+      193069.16,
+      4242669.33,
+      15211.69,
+      65.42
+    ]
+  ],
+  [
+    1645581600000,
+    [
+      18652732.58,
+      8968613.57,
+      19534121.54,
+      3056304.68,
+      3845570.84,
+      549939.09,
+      646789.01,
+      6640464.34,
+      1920532.7,
+      8160594.83,
+      990249.34,
+      8086757.2,
+      1155874.06,
+      168013.38,
+      752882.73,
+      193069.16,
+      4246912.0,
+      15246.49,
+      65.42
+    ]
+  ],
+  [
+    1645585200000,
+    [
+      18457043.15,
+      8900369.47,
+      19323036.01,
+      3042114.95,
+      3832579.05,
+      549939.09,
+      650640.23,
+      6664454.46,
+      1907517.2,
+      8118529.91,
+      989015.16,
+      8086757.2,
+      1155874.06,
+      166791.46,
+      753631.87,
+      193069.16,
+      4246912.0,
+      15129.76,
+      65.42
+    ]
+  ],
+  [
+    1645588800000,
+    [
+      18563485.15,
+      8953099.14,
+      19375807.39,
+      3055583.56,
+      3845570.84,
+      549939.09,
+      652797.9,
+      6686190.98,
+      1907303.83,
+      8160594.83,
+      989127.36,
+      8086757.2,
+      1155874.06,
+      167402.42,
+      752882.73,
+      193069.16,
+      4242669.33,
+      15217.01,
+      65.42
+    ]
+  ],
+  [
+    1645592400000,
+    [
+      18703988.59,
+      9033723.66,
+      19503380.93,
+      3089034.1,
+      3886402.19,
+      549939.09,
+      654596.7,
+      6784552.6,
+      1925440.18,
+      8202659.75,
+      997944.77,
+      8086757.2,
+      1155874.06,
+      169235.29,
+      753631.87,
+      193069.16,
+      4251154.67,
+      15332.19,
+      65.42
     ]
   ]
 ]

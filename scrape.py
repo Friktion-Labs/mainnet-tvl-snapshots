@@ -89,7 +89,8 @@ def process_diff(diff, info):
     if commit_hash in EXCLUDE_COMMITS:
         return
     try:
-        content = eval(diff[2])
+        content = json.loads(diff[2])
+        print(content)
     except Exception as e:
         print(commit_hash + " is ill formatted. Skipped...")
         return
@@ -130,7 +131,7 @@ def parse_tvls(diff, tvls,):
     utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
     row = [utc_time]
     try:
-        content = eval(diff[2])
+        content = json.loads(diff[2])
         if "totalTvlUSD" in content:
             row.append(content["totalTvlUSD"])
         tvls.append(row)
@@ -143,7 +144,7 @@ def accum(diff, birdy_tvls):
     utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
     row = {"timestamp": utc_time}
     try:
-        content = eval(diff[2])
+        content = json.loads(diff[2])
         if "usdValueByGlobalId" in content:
             row.update(content["usdValueByGlobalId"])
             birdy_tvls.append(row)
@@ -155,7 +156,7 @@ def accum(diff, birdy_tvls):
 def parse_spot(diff, spots):
     utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
     try:
-        content = eval(diff[2])
+        content = json.loads(diff[2])
         if "pricesByCoingeckoId" in content:
             for symbol, price in content["pricesByCoingeckoId"].items():
                 if symbol in spots.keys():

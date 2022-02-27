@@ -90,7 +90,6 @@ def process_diff(diff, info):
         return
     try:
         content = json.loads(diff[2])
-        print(content)
     except Exception as e:
         print(commit_hash + " is ill formatted. Skipped...")
         return

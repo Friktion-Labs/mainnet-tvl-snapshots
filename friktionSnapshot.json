@@ -526,7 +526,7 @@
       "underlyingTokenSymbol": "SOL",
       "underlyingTokenCoingeckoId": "solana",
       "voltType": 1,
-      "apy": 34.3
+      "apy": 34.4
     },
     {
       "globalId": "devnet_income_put_sol",

@@ -1,6 +1,6 @@
 {
-  "updateTime": 1646393527,
-  "totalTvlUSD": 90600499.97,
+  "updateTime": 1646393575,
+  "totalTvlUSD": 90601974.02,
   "coinsByCoingeckoId": {
     "solana": 219567.07087205802,
     "msol": 94830.265088596,
@@ -29,7 +29,7 @@
     "scnSOL": 95.72,
     "SBR": 0.03724709,
     "LUNA": 90.71,
-    "UST": 1.004,
+    "UST": 1.005,
     "RAY": 2.62
   },
   "sharePricesByGlobalId": {
@@ -82,7 +82,7 @@
     "mainnet_income_call_sbr": 682358.01,
     "mainnet_income_call_ftt": 5425646.57,
     "mainnet_income_call_luna": 7390401.48,
-    "mainnet_income_put_luna": 1479950.99,
+    "mainnet_income_put_luna": 1481425.04,
     "mainnet_income_put_tsUSDC": 4063706.34,
     "mainnet_income_call_socean": 2020181.34,
     "mainnet_income_call_srm": 8206551.82,

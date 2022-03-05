@@ -1,6 +1,6 @@
 {
-  "updateTime": 1646514219,
-  "totalTvlUSD": 88120272,
+  "updateTime": 1646514892,
+  "totalTvlUSD": 88079871.05,
   "coinsByCoingeckoId": {
     "solana": 220701.53545044,
     "msol": 94898.386167395,
@@ -9,7 +9,7 @@
     "ftx-token": 124414.493935,
     "terra-luna": 81982.99714,
     "terrausd": 1515440.267795,
-    "usd-coin": 14214780.648573002,
+    "usd-coin": 14214780.658573002,
     "socean-staked-sol": 21105.112187874,
     "serum": 4231386.569566,
     "mango-markets": 5763443.640978,
@@ -17,20 +17,20 @@
     "ethereum": 994.561504
   },
   "pricesByCoingeckoId": {
-    "BTC": 39548,
-    "SOL": 90.13,
-    "ETH": 2672.24,
-    "mSOL": 93.23,
-    "FTT": 41.29,
+    "BTC": 39551,
+    "SOL": 90.02,
+    "ETH": 2671.06,
+    "mSOL": 93,
+    "FTT": 41.25,
     "SRM": 1.88,
     "USDC": 1,
-    "tsUSDC": 1.001,
-    "MNGO": 0.159609,
-    "scnSOL": 92.73,
-    "SBR": 0.0365476,
-    "LUNA": 87.83,
+    "tsUSDC": 1.002,
+    "MNGO": 0.159643,
+    "scnSOL": 92.75,
+    "SBR": 0.03681407,
+    "LUNA": 87.85,
     "UST": 1.005,
-    "RAY": 2.56
+    "RAY": 2.55
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.08348,
@@ -49,6 +49,7 @@
     "mainnet_income_call_eth": 1.03053,
     "mainnet_income_put_sol": 0.94842,
     "mainnet_income_put_sol_high": 1.03432,
+    "mainnet_income_put_step_finance": 1,
     "mainnet_income_put_btc": 1.03192,
     "mainnet_income_put_eth": 1.01743,
     "mainnet_income_put_mngo": 1.04009
@@ -70,27 +71,29 @@
     "mainnet_income_call_eth": 994.561504,
     "mainnet_income_put_sol": 6740326.93,
     "mainnet_income_put_sol_high": 1232995.31,
+    "mainnet_income_put_step_finance": 0.01,
     "mainnet_income_put_btc": 1353322.71,
     "mainnet_income_put_eth": 278236.45,
     "mainnet_income_put_mngo": 549999.12
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 19425350.89,
-    "mainnet_income_call_sol_high": 466478.5,
-    "mainnet_income_call_marinade": 8847376.54,
-    "mainnet_income_call_btc": 16974279.66,
-    "mainnet_income_call_sbr": 671557.61,
-    "mainnet_income_call_ftt": 5137074.45,
-    "mainnet_income_call_luna": 7200566.64,
+    "mainnet_income_call_sol": 19401643.03,
+    "mainnet_income_call_sol_high": 465909.19,
+    "mainnet_income_call_marinade": 8825549.91,
+    "mainnet_income_call_btc": 16975567.28,
+    "mainnet_income_call_sbr": 676453.96,
+    "mainnet_income_call_ftt": 5132097.87,
+    "mainnet_income_call_luna": 7202206.3,
     "mainnet_income_put_luna": 1523017.47,
-    "mainnet_income_put_tsUSDC": 4063960.03,
-    "mainnet_income_call_socean": 1957077.05,
+    "mainnet_income_put_tsUSDC": 4068019.93,
+    "mainnet_income_call_socean": 1957499.16,
     "mainnet_income_call_srm": 7955006.75,
-    "mainnet_income_call_mngo": 919897.48,
-    "mainnet_income_call_ray": 166041.38,
-    "mainnet_income_call_eth": 2657707.03,
+    "mainnet_income_call_mngo": 920093.43,
+    "mainnet_income_call_ray": 165392.78,
+    "mainnet_income_call_eth": 2656533.45,
     "mainnet_income_put_sol": 6740326.93,
     "mainnet_income_put_sol_high": 1232995.31,
+    "mainnet_income_put_step_finance": 0.01,
     "mainnet_income_put_btc": 1353322.71,
     "mainnet_income_put_eth": 278236.45,
     "mainnet_income_put_mngo": 549999.12
@@ -112,6 +115,7 @@
     "mainnet_income_call_eth": "ethereum",
     "mainnet_income_put_sol": "usd-coin",
     "mainnet_income_put_sol_high": "usd-coin",
+    "mainnet_income_put_step_finance": "usd-coin",
     "mainnet_income_put_btc": "usd-coin",
     "mainnet_income_put_eth": "usd-coin",
     "mainnet_income_put_mngo": "usd-coin"
@@ -133,6 +137,7 @@
     "mainnet_income_call_eth": 19.413913178512853,
     "mainnet_income_put_sol": 29.39044254615097,
     "mainnet_income_put_sol_high": 232.67965408042093,
+    "mainnet_income_put_step_finance": 20.55,
     "mainnet_income_put_btc": 22.245896711466646,
     "mainnet_income_put_eth": 25.03963867935101,
     "mainnet_income_put_mngo": 74.97783378190461
@@ -141,6 +146,7 @@
     {
       "globalId": "mainnet_income_call_btc",
       "voltVaultId": "CdZ1Mgo3927bsYdKK5rnzGtwek3NLWdvoTSSm2TJjdqW",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
       "depositTokenMint": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
@@ -159,6 +165,7 @@
     {
       "globalId": "mainnet_income_call_sol",
       "voltVaultId": "CbPemKEEe7Y7YgBmYtFaZiECrVTP5sGrYzrrrviSewKY",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "So11111111111111111111111111111111111111112",
       "depositTokenMint": "So11111111111111111111111111111111111111112",
@@ -178,6 +185,7 @@
     {
       "globalId": "mainnet_income_call_sol_high",
       "voltVaultId": "6ESYJXX4tqSTZrTRQbHodQZEwU7jd4fKWvStBpttRB4c",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "So11111111111111111111111111111111111111112",
       "depositTokenMint": "So11111111111111111111111111111111111111112",
@@ -197,6 +205,7 @@
     {
       "globalId": "mainnet_income_call_marinade",
       "voltVaultId": "9RcdLHX8rkfjo4ze2uyvhfQGjX6wAZtbvmBf3aK6wqrG",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
       "depositTokenMint": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
@@ -215,6 +224,7 @@
     {
       "globalId": "mainnet_income_call_eth",
       "voltVaultId": "A2jbvwftkAzU5hLUmBePdfqZQsop7jydZirLS5NsRVtx",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
       "depositTokenMint": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
@@ -233,6 +243,7 @@
     {
       "globalId": "mainnet_income_call_ftt",
       "voltVaultId": "8qjBanq5cxc3FzsaEznKfpsbPwfMVoB6AxLXY7pe3fEX",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
       "depositTokenMint": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
@@ -252,6 +263,7 @@
     {
       "globalId": "mainnet_income_call_srm",
       "voltVaultId": "Ef2CD9yhQE7BvReQXct68uuYFW8GLKj62u2YPfmua3JY",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
       "depositTokenMint": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
@@ -271,6 +283,7 @@
     {
       "globalId": "mainnet_income_call_mngo",
       "voltVaultId": "DxSADpEUR8xULRdWwb37pN8mjPHHC5D8aRnyUAvVSYHa",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
       "depositTokenMint": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
@@ -290,6 +303,7 @@
     {
       "globalId": "mainnet_income_call_socean",
       "voltVaultId": "3ZYabzsHY2XGuVBBbAgrxitPhmHSKLDCKqEp3vpX9Jb1",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
       "depositTokenMint": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
@@ -308,6 +322,7 @@
     {
       "globalId": "mainnet_income_call_sbr",
       "voltVaultId": "5b2VBmdZAmnFpmWD6hi5xWFeaf4equVwNp25q1UWC9FP",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1",
       "depositTokenMint": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1",
@@ -327,6 +342,7 @@
     {
       "globalId": "mainnet_income_call_luna",
       "voltVaultId": "4jx7Fec8kmwvabqTYp9M7C2zPfhivFgiqqzajn9Ns2ba",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W",
       "depositTokenMint": "F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W",
@@ -345,6 +361,7 @@
     {
       "globalId": "mainnet_income_call_ray",
       "voltVaultId": "4LtxyBUH8PsRea21s7CaaYWtq7KutcZ4x8r6PTmUCcvs",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
       "depositTokenMint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
@@ -364,6 +381,7 @@
     {
       "globalId": "mainnet_income_put_luna",
       "voltVaultId": "3aL9h1PVt2rbUPo11QZpRbpLJhWHrHCpizsirWhMXiXB",
+      "extraVaultDataId": "",
       "quoteMint": "9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i",
       "underlyingMint": "F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W",
       "depositTokenMint": "9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i",
@@ -382,6 +400,7 @@
     {
       "globalId": "mainnet_income_put_sol",
       "voltVaultId": "2evPXRLaTZj92DM93sdryeszwqoC9C6DoWa1TKHn1AzU",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "So11111111111111111111111111111111111111112",
       "depositTokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
@@ -401,6 +420,7 @@
     {
       "globalId": "mainnet_income_put_sol_high",
       "voltVaultId": "BTuiZkgodmKKJtNDhVQGvAzqW1fdSNWasQADDTTyoAxN",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "So11111111111111111111111111111111111111112",
       "depositTokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
@@ -420,6 +440,7 @@
     {
       "globalId": "mainnet_income_put_mngo",
       "voltVaultId": "9SPz2yjNc9V4FmdHrkYF1GfikGbe5rfwg6VPzhQJpPyt",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
       "depositTokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
@@ -439,6 +460,7 @@
     {
       "globalId": "mainnet_income_put_btc",
       "voltVaultId": "CzFUVBXaAxWRQ3JeJwsZHqDQUxBbUJLZtdoBQ3KPtsuB",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E",
       "depositTokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
@@ -457,6 +479,7 @@
     {
       "globalId": "mainnet_income_put_tsUSDC",
       "voltVaultId": "FFhHmdwHS9myqQPQUMTu8hX56zQETNPC4Bu95ZGb1j5P",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "So11111111111111111111111111111111111111112",
       "depositTokenMint": "Cvvh8nsKZet59nsDDo3orMa3rZnPWQhpgrMCVcRDRgip",
@@ -475,6 +498,7 @@
     {
       "globalId": "mainnet_income_put_eth",
       "voltVaultId": "2QRujUdQwz5p7XNQWh48KbyZ9AMEbG7WbkuqMMS9KdE5",
+      "extraVaultDataId": "",
       "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "underlyingMint": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
       "depositTokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
@@ -489,12 +513,33 @@
       "underlyingTokenCoingeckoId": "ethereum",
       "voltType": 2,
       "apy": 25.05
+    },
+    {
+      "globalId": "mainnet_income_put_step_finance",
+      "voltVaultId": "DLZxZ9oStXCN9pKisKveLQemCwTSvjmirQb1zyykMg1H",
+      "extraVaultDataId": "Hc5KVPshDqkUmFZmeqZg3YjUQmv7KDiPnr1R6WWGm9EB",
+      "quoteMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "underlyingMint": "So11111111111111111111111111111111111111112",
+      "depositTokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "shareTokenMint": "Bikt7D3nMQmJSpxX7oczCDKgevrpWk3g4D3VhQZzqAT",
+      "shareTokenSymbol": "fpSOL_StepFinanceTreasury",
+      "shareTokenDecimals": 6,
+      "depositPool": "3C8SvZ9EcYNbEesWh5nF7hEBZgx632ntvkZk5MQ8Hk6h",
+      "premiumPool": "4ej5fJ2wP2yNbPpWKyjfaaKG3rm4StfPz84XJkTnYtaa",
+      "depositTokenSymbol": "USDC",
+      "depositTokenCoingeckoId": "usd-coin",
+      "underlyingTokenSymbol": "SOL",
+      "underlyingTokenCoingeckoId": "solana",
+      "voltType": 2,
+      "apy": 20.55,
+      "isInCircuits": true
     }
   ],
   "allDevnetVolts": [
     {
       "globalId": "devnet_income_call_btc",
       "voltVaultId": "AkiyRN63QjUqa39tJ1wNhZv6NRdn17AVEvZj4VqCVFX",
+      "extraVaultDataId": "",
       "quoteMint": "E6Z6zLzk8MWY3TY8E87mr88FhGowEPJTeMWzkqtL6qkF",
       "underlyingMint": "C6kYXcaRUMqeBF5fhg165RWU7AnpT9z92fvKNoMqjmz6",
       "depositTokenMint": "C6kYXcaRUMqeBF5fhg165RWU7AnpT9z92fvKNoMqjmz6",
@@ -513,6 +558,7 @@
     {
       "globalId": "devnet_income_call_sol",
       "voltVaultId": "FytmGAUpsk9sX3JDBjYYwpH1c3tmikNFQMTnBRCoFGfP",
+      "extraVaultDataId": "",
       "quoteMint": "E6Z6zLzk8MWY3TY8E87mr88FhGowEPJTeMWzkqtL6qkF",
       "underlyingMint": "So11111111111111111111111111111111111111112",
       "depositTokenMint": "So11111111111111111111111111111111111111112",
@@ -531,6 +577,7 @@
     {
       "globalId": "devnet_income_put_sol",
       "voltVaultId": "5G2SrVUbsDxAJbFABJPCam4AseRQALQCLLRVDEdXyxhk",
+      "extraVaultDataId": "",
       "quoteMint": "E6Z6zLzk8MWY3TY8E87mr88FhGowEPJTeMWzkqtL6qkF",
       "underlyingMint": "So11111111111111111111111111111111111111112",
       "depositTokenMint": "E6Z6zLzk8MWY3TY8E87mr88FhGowEPJTeMWzkqtL6qkF",

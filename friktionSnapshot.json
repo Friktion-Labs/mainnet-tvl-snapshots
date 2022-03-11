@@ -1,5 +1,5 @@
 {
-  "updateTime": 1646968524,
+  "updateTime": 1646968594,
   "totalTvlUSD": 99733255.85,
   "coinsByCoingeckoId": {
     "solana": 220484.22824115297,
@@ -40,7 +40,7 @@
     "mainnet_income_call_sbr": 1.05965,
     "mainnet_income_call_ftt": 1.05682,
     "mainnet_income_call_luna": 1.00762,
-    "mainnet_income_put_luna": 0.9655,
+    "mainnet_income_put_luna": 1.03257,
     "mainnet_income_put_tsUSDC": 1.01161,
     "mainnet_income_call_socean": 1.04396,
     "mainnet_income_call_srm": 1.04383,

@@ -4,18 +4,19 @@
 name: Python application
 
 on:
-  #push:
+  push:
     # schedule:
     # # * is a special character in YAML so you have to quote this string
     # - cron:  '* */2 * * *'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
+      with: 
+        ref: ${{ github.event.pull_request.head.sha }}
+        fetch-depth: 0
     - name: Set up Python 3.10
       uses: actions/setup-python@v2
       with:
@@ -41,9 +42,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
-        ref: ${{ github.event.pull_request.head.sha }}
-        fetch-depth: 0
+        # branch: ${{ github.ref }}
     # - name: Lint with flake8
     #   run: |
     #     # stop the build if there are Python syntax errors or undefined names

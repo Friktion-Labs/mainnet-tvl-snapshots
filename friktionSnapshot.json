@@ -1,6 +1,6 @@
 {
-  "updateTime": 1648236700,
-  "totalTvlUSD": 111959225.44,
+  "updateTime": 1648236776,
+  "totalTvlUSD": 111959154.42,
   "coinsByCoingeckoId": {
     "solana": 225128.982718098,
     "msol": 98321.995104972,
@@ -34,7 +34,7 @@
     "LUNA": 90.34,
     "UST": 1,
     "RAY": 3.03,
-    "STEP": 0.167826,
+    "STEP": 0.167802,
     "stSOL": 100.64,
     "AVAX": 83.53
   },
@@ -99,7 +99,7 @@
     "mainnet_income_call_btc": 19081562.14,
     "mainnet_income_call_avax": 61457.2,
     "mainnet_income_call_stsol": 198308.92,
-    "mainnet_income_call_step": 496671.91,
+    "mainnet_income_call_step": 496600.88,
     "mainnet_income_call_sbr": 705613.15,
     "mainnet_income_call_ftt": 8523791.33,
     "mainnet_income_call_luna": 5384120.37,

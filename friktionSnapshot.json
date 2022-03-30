@@ -1,9 +1,9 @@
 {
-  "updateTime": 1648677110,
-  "totalTvlUSD": 130076767.39,
+  "updateTime": 1648677188,
+  "totalTvlUSD": 130077626.94,
   "coinsByCoingeckoId": {
     "solana": 228109.01850209798,
-    "msol": 99192.759713692,
+    "msol": 99192.771410637,
     "bitcoin": 445.599223,
     "avalanche-2": 3202.54611443,
     "lido-staked-sol": 2523.809305211,
@@ -35,7 +35,7 @@
     "UST": 1,
     "RAY": 3.53,
     "STEP": 0.164135,
-    "stSOL": 123.68,
+    "stSOL": 124.02,
     "AVAX": 96.3
   },
   "sharePricesByGlobalId": {
@@ -70,7 +70,7 @@
   "depositTokenByGlobalId": {
     "mainnet_income_call_sol": 217202.780096774,
     "mainnet_income_call_sol_high": 10906.238405324,
-    "mainnet_income_call_marinade": 99192.759713692,
+    "mainnet_income_call_marinade": 99192.771410637,
     "mainnet_income_call_btc": 445.599223,
     "mainnet_income_call_avax": 3202.54611443,
     "mainnet_income_call_stsol": 2523.809305211,
@@ -99,10 +99,10 @@
   "usdValueByGlobalId": {
     "mainnet_income_call_sol": 26142526.61,
     "mainnet_income_call_sol_high": 1312674.85,
-    "mainnet_income_call_marinade": 12381240.27,
+    "mainnet_income_call_marinade": 12381241.73,
     "mainnet_income_call_btc": 20944945.88,
     "mainnet_income_call_avax": 308405.19,
-    "mainnet_income_call_stsol": 312144.73,
+    "mainnet_income_call_stsol": 313002.83,
     "mainnet_income_call_step": 490663.6,
     "mainnet_income_call_sbr": 801880.25,
     "mainnet_income_call_ftt": 9382589.51,

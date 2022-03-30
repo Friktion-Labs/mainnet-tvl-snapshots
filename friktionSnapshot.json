@@ -1,8 +1,8 @@
 {
-  "updateTime": 1648626710,
-  "totalTvlUSD": 125722597.96,
+  "updateTime": 1648626774,
+  "totalTvlUSD": 125747920.6,
   "coinsByCoingeckoId": {
-    "solana": 227735.265492098,
+    "solana": 227775.265492098,
     "msol": 98682.427834785,
     "bitcoin": 433.043054,
     "avalanche-2": 3044.78611443,
@@ -20,11 +20,11 @@
     "ethereum": 934.216956
   },
   "pricesByCoingeckoId": {
-    "BTC": 47402,
+    "BTC": 47395,
     "SOL": 112.39,
     "ETH": 3405.83,
-    "mSOL": 116.6,
-    "FTT": 50.99,
+    "mSOL": 116.8,
+    "FTT": 51.01,
     "SRM": 3.35,
     "USDC": 1,
     "tsUSDC": 1.001,
@@ -34,9 +34,9 @@
     "LUNA": 106.43,
     "UST": 0.998633,
     "RAY": 3.39,
-    "STEP": 0.160479,
+    "STEP": 0.160439,
     "stSOL": 115.49,
-    "AVAX": 93.75
+    "AVAX": 93.94
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.09824,
@@ -68,7 +68,7 @@
     "mainnet_income_put_mngo": 1.04728
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 216833.432086774,
+    "mainnet_income_call_sol": 216873.432086774,
     "mainnet_income_call_sol_high": 10901.833405324,
     "mainnet_income_call_marinade": 98682.427834785,
     "mainnet_income_call_btc": 433.043054,
@@ -97,15 +97,15 @@
     "mainnet_income_put_mngo": 550000
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 24369909.43,
+    "mainnet_income_call_sol": 24374405.03,
     "mainnet_income_call_sol_high": 1225257.06,
-    "mainnet_income_call_marinade": 11506371.09,
-    "mainnet_income_call_btc": 20527106.85,
-    "mainnet_income_call_avax": 285448.7,
+    "mainnet_income_call_marinade": 11526107.57,
+    "mainnet_income_call_btc": 20524075.54,
+    "mainnet_income_call_avax": 286027.21,
     "mainnet_income_call_stsol": 275774.69,
-    "mainnet_income_call_step": 479734.36,
+    "mainnet_income_call_step": 479614.78,
     "mainnet_income_call_sbr": 744637.05,
-    "mainnet_income_call_ftt": 9338634.38,
+    "mainnet_income_call_ftt": 9342297.3,
     "mainnet_income_call_luna": 6557108.21,
     "mainnet_income_put_luna": 2524481.97,
     "mainnet_income_put_tsUSDC": 1243273.28,

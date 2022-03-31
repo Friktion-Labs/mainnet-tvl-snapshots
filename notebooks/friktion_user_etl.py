@@ -45,7 +45,7 @@ class MyPortfolio:
         :deposit_cxl_fname:     output csv for deposit cancels
         :withdraw_fname:        output csv for withdrawals
         :withdraw_cxl_fname:    output csv for withdrawal cancels
-        :withdraw_claim_fname:    output csv for claiming pending withdrawal
+        :withdraw_claim_fname:  output csv for claiming pending withdrawal
         :batch_size_days:       batch size in days for query to keep query < 10k rows. Use bigger steps for larger data.
         :batch_size_transfers:  batch size transactions for query to keep query < 8kb
 
@@ -522,9 +522,9 @@ class MyPortfolio:
 
     def parse_all(self):
         self.get_ix_batch()
-        self.parse_claim_withdrawal()
-        self.parse_deposit_cancel()
-        self.parse_withdrawal_cancel()
+        # self.parse_claim_withdrawal()
+        # self.parse_deposit_cancel()
+        # self.parse_withdrawal_cancel()
         self.parse_deposits()
         self.parse_withdrawal()
 
@@ -557,8 +557,8 @@ class MyPortfolio:
 
 
 if __name__ == "__main__":
-    date_start = "2022-03-17T16:00:00Z"
-    date_end = "2022-03-18T00:00:00Z"
+    date_start = "2021-12-16T16:00:00Z"
+    date_end = "2022-04-01T00:00:00Z"
 
     x = MyPortfolio(date_start, date_end)
     x.parse_all()

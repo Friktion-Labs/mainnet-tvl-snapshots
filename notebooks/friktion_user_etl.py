@@ -36,8 +36,9 @@ class MyPortfolio:
         withdraw_fname="./friktion_withdraw.csv",
         withdraw_cxl_fname="./friktion_withdraw_cancel.csv",
         withdraw_claim_fname="./friktion_claim_withdrawal.csv",
-        batch_size_days=14,
-        batch_size_xfers=75,
+        batch_size_days=2,
+        batch_size_xfers=90,
+        skip_ix_scrape=False,
     ):
         """
         :ix_fname:              output csv for instructions
@@ -46,7 +47,7 @@ class MyPortfolio:
         :withdraw_fname:        output csv for withdrawals
         :withdraw_cxl_fname:    output csv for withdrawal cancels
         :withdraw_claim_fname:  output csv for claiming pending withdrawal
-        :batch_size_days:       batch size in days for query to keep query < 10k rows. Use bigger steps for larger data.
+        :batch_size_days:       batch size in days for query to keep query < 10k symbols. Use bigger steps for larger data.
         :batch_size_transfers:  batch size transactions for query to keep query < 8kb
 
         """
@@ -61,7 +62,9 @@ class MyPortfolio:
         self.withdraw_claim_fname = withdraw_claim_fname
         self.batch_size_days = batch_size_days
         self.batch_size_xfers = batch_size_xfers
-        self.df_ix = []
+        self.skip_ix_scrape = skip_ix_scrape
+
+        self.df_ix = pd.read_csv(ix_fname) if skip_ix_scrape else []
         self.friktion_metadata = self.get_friktion_snapshot()
 
     ########################################################################################################
@@ -77,6 +80,7 @@ class MyPortfolio:
                   time: {between: ["%s", "%s"]}
                   success: {is: true}
                   programId: {is: "VoLT1mJz1sbnxwq5Fv2SXjdVDgPXrb9tJyC8WpMDkSp"}
+                  options: {limit: 8700}
                 ) {
                   block {
                     timestamp {
@@ -148,46 +152,42 @@ class MyPortfolio:
         If timeerror
         """
         headers = {"X-API-KEY": "BQYCaXaMZlqZrPCSQVsiJrKtxKRVcSe4"}
-        request = requests.post(
-            "https://graphql.bitquery.io/", json={"query": query}, headers=headers
-        )
+
         retries_counter = 0
         try:
             request = requests.post(
                 "https://graphql.bitquery.io/", json={"query": query}, headers=headers
             )
+            result = request.json()
             # print(dir(request.content))
             # Make sure that there is no error message
             # assert not request.content.errors
+            assert "errors" not in result
         except:
             while (
-                request.status_code != 200
-                and retries_counter < 10
-                and not request.content.errors
-            ):
-                time.sleep(120)
-                print(f"Query failed for reason: {request.reason}. retrying...")
+                request.status_code != 200 or "errors" in result
+            ) and retries_counter < 10:
+                print(datetime.now(), f"Retry number {retries_counter}")
+                if "errors" in result:
+                    print(result["errors"])
+                print(
+                    datetime.now(),
+                    f"Query failed for reason: {request.reason}. sleeping for {60*retries_counter} seconds and retrying...",
+                )
+                time.sleep(120 * retries_counter)
                 request = requests.post(
                     "https://graphql.bitquery.io/",
                     json={"query": query},
                     headers=headers,
                 )
+                retries_counter += 1
             if retries_counter >= retries:
                 raise Exception(
                     "Query failed after {} retries and return code is {}.{}".format(
-                        retries, request.status_code, query
+                        retries_counter, request.status_code, query
                     )
                 )
         return request.json()
-
-    #         if request.status_code == 200:
-    #             return request.json()
-    #         else:
-    #             raise Exception(
-    #                 "Query failed and return code is {}.{}".format(
-    #                     request.status_code, query
-    #                 )
-    #             )
 
     @staticmethod
     def batch_iterable(iterable, n=1):
@@ -316,7 +316,9 @@ class MyPortfolio:
 
         """
         # Batch the days up nice and good so the graphql API calls don't bitch
-        dates_batched = pd.date_range(self.date_start, self.date_end, freq="7D")
+        dates_batched = pd.date_range(
+            self.date_start, self.date_end, freq=f"{self.batch_size_days}D"
+        )
         dates_batched = [
             str(x.isoformat())
             for x in dates_batched.append(pd.DatetimeIndex([self.date_end]))
@@ -375,7 +377,6 @@ class MyPortfolio:
             try:
                 df = pd.json_normalize(result["data"]["solana"]["transfers"])
             except:
-                print(datetime.now(), "Empty results... Try again...")
                 print(result)
                 traceback.print_exc()
                 raise Exception("Empty Results... Try Again")
@@ -521,11 +522,12 @@ class MyPortfolio:
         print(datetime.now(), "{} data size: {}".format(instructionType, df.shape[0]))
 
     def parse_all(self):
-        self.get_ix_batch()
-        # self.parse_claim_withdrawal()
-        # self.parse_deposit_cancel()
-        # self.parse_withdrawal_cancel()
-        self.parse_deposits()
+        if not self.skip_ix_scrape:
+            self.get_ix_batch()
+        #         self.parse_claim_withdrawal()
+        #         self.parse_deposit_cancel()
+        #         self.parse_withdrawal_cancel()
+        #         self.parse_deposits()
         self.parse_withdrawal()
 
     ########################################################################################################

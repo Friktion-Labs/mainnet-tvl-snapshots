@@ -42,11 +42,11 @@ def iterate_file_versions(
 
 
 # MAPPING = {
-#     "sol": ["solana", "SOL", "sol"], 
+#     "sol": ["solana", "SOL", "sol"],
 #     # "msol": ["msol", "mSOL", "marinade"],
 #     # "btc": ["bitcoin", "BTC", "btc"],
 #     # "sbr": ["saber", "SBR", "sbr"],
-#     # "ftt": ["ftx-token", "FTT", "ftt"], 
+#     # "ftt": ["ftx-token", "FTT", "ftt"],
 #     # "usdc": ["usd-coin", "USDC", "usdc"],
 #     # "luna": ["terra-luna", "LUNA", "luna"],
 #     # "scn": ["socean-staked-sol", "scnSOL", "socean"],
@@ -57,25 +57,30 @@ def iterate_file_versions(
 # }
 
 DESIRED_COLS = [
-    "coinsByCoingeckoId", 
-    "pricesByCoingeckoId", 
-    "sharePricesByGlobalId", 
+    "coinsByCoingeckoId",
+    "pricesByCoingeckoId",
+    "sharePricesByGlobalId",
     "depositTokenByGlobalId",
-    "usdValueByGlobalId"
+    "usdValueByGlobalId",
 ]
+
 
 def populate_registry():
     try:
-        return dict(json.loads(requests.get("https://app.friktion.fi/mainnet-registry.json").content))
+        return dict(
+            json.loads(
+                requests.get("https://app.friktion.fi/mainnet-registry.json").content
+            )
+        )
     except Exception as e:
         traceback.print_exc()
-        with open('registry.json', 'r') as f:
+        with open("registry.json", "r") as f:
             return dict(json.load(f))
 
 
 MAINNET_REGISTRY = populate_registry()
 EXCLUDE_COMMITS = [
-    "218c73176ca660b8592695d055d5db669fd413da", 
+    "218c73176ca660b8592695d055d5db669fd413da",
     "4c57939521ea45765becdae22fc809e4491dfb4a",
     "a21d5be807b7444c79744597202baabe55624cfd",
     "40f62eeb528ae099b14a30c8dbdb2b0770b92fe3",
@@ -84,7 +89,7 @@ EXCLUDE_COMMITS = [
 
 def process_diff(diff, info):
     assert len(diff) == 3
-    utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
+    utc_time = int(datetime.datetime.timestamp(diff[0]) * 1000)
     commit_hash = diff[1]
     if commit_hash in EXCLUDE_COMMITS:
         return
@@ -105,7 +110,7 @@ def process_diff(diff, info):
         coingeckoId = metadata["depositTokenCoingeckoId"]
         symbolId = metadata["depositTokenSymbol"]
         output = metadata["output"]
-        
+
         if DESIRED_COLS[0] in content and coingeckoId in content[DESIRED_COLS[0]]:
             row.append(content[DESIRED_COLS[0]][coingeckoId])
         else:
@@ -121,13 +126,16 @@ def process_diff(diff, info):
                 row.append(content[col][globalId])
                 # if content[col][globalId]==1.05422:
                 #     print(commit_hash)
-    
-        if len(row) >= len(DESIRED_COLS)+1:
+
+        if len(row) >= len(DESIRED_COLS) + 1:
             output.append(row)
 
 
-def parse_tvls(diff, tvls,):
-    utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
+def parse_tvls(
+    diff,
+    tvls,
+):
+    utc_time = int(datetime.datetime.timestamp(diff[0]) * 1000)
     row = [utc_time]
     try:
         content = json.loads(diff[2])
@@ -140,7 +148,7 @@ def parse_tvls(diff, tvls,):
 
 
 def accum(diff, birdy_tvls):
-    utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
+    utc_time = int(datetime.datetime.timestamp(diff[0]) * 1000)
     row = {"timestamp": utc_time}
     try:
         content = json.loads(diff[2])
@@ -153,7 +161,7 @@ def accum(diff, birdy_tvls):
 
 
 def parse_spot(diff, spots):
-    utc_time = int(datetime.datetime.timestamp(diff[0])*1000)
+    utc_time = int(datetime.datetime.timestamp(diff[0]) * 1000)
     try:
         content = json.loads(diff[2])
         if "pricesByCoingeckoId" in content:
@@ -173,16 +181,18 @@ def get_coingecko_mapping():
     for _, payload in MAINNET_REGISTRY.items():
         if "volt01" in payload:
             payload2 = payload["volt01"]
-            mapping[payload2["underlyingTokenSymbol"]] = payload2["underlyingTokenCoingeckoId"]
+            mapping[payload2["underlyingTokenSymbol"]] = payload2[
+                "underlyingTokenCoingeckoId"
+            ]
 
     return mapping
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Parse Args')
-    parser.add_argument('--input_file', type=str, default="friktionSnapshot.json")
-    parser.add_argument('--output_file', type=str)
-    parser.add_argument('--path_to_repo', type=str, default="./")
+    parser = argparse.ArgumentParser(description="Parse Args")
+    parser.add_argument("--input_file", type=str, default="friktionSnapshot.json")
+    parser.add_argument("--output_file", type=str)
+    parser.add_argument("--path_to_repo", type=str, default="./")
     # parser.add_argument('--append', type=str, default=True)
     return parser.parse_args()
 
@@ -198,7 +208,9 @@ if __name__ == "__main__":
     # Grab metadata for all vaults
     for globalId, payload in MAINNET_REGISTRY.items():
         for col in DESIRED_COLS:
-            datastream_file = Path('derived_timeseries/{}_{}.json'.format(globalId, col))
+            datastream_file = Path(
+                "derived_timeseries/{}_{}.json".format(globalId, col)
+            )
             datastream_file.touch(exist_ok=True)
         print(globalId)
 
@@ -207,21 +219,21 @@ if __name__ == "__main__":
         if type(payload) != dict:
             continue
         for key in payload.keys():
-            if "volt" in key and type(payload[key])==dict:
+            if "volt" in key and type(payload[key]) == dict:
                 payload_key = key
-                break        
+                break
         assert payload_key, "no valid volt type in payload. Contact dai"
 
         metadata = {
             "globalId": globalId,
-            "depositTokenCoingeckoId": payload[payload_key]["depositTokenCoingeckoId"], 
+            "depositTokenCoingeckoId": payload[payload_key]["depositTokenCoingeckoId"],
             "depositTokenSymbol": payload[payload_key]["depositTokenSymbol"],
             # Use this to store the output from diff processing
-            "output": []
+            "output": [],
         }
         info.append(metadata)
 
-    # Get symbol -> CoingeckoId mapping 
+    # Get symbol -> CoingeckoId mapping
     mapping = get_coingecko_mapping()
 
     for diff in diffs:
@@ -231,45 +243,49 @@ if __name__ == "__main__":
         parse_spot(diff, spot)
 
     df_tvl = pd.DataFrame(tvls_birdy)
-    df_tvl["timestamp"] = pd.to_datetime(df_tvl.timestamp, unit='ms')
+    df_tvl["timestamp"] = pd.to_datetime(df_tvl.timestamp, unit="ms")
     df_tvl = df_tvl.set_index("timestamp")
-    df_tvl = df_tvl.groupby(df_tvl.index.floor('H')).first()
-    df_tvl.index = (df_tvl.index.astype('int')/10**6).astype('int')
+    df_tvl = df_tvl.groupby(df_tvl.index.floor("H")).first()
+    df_tvl.index = (df_tvl.index.astype("int") / 10 ** 6).astype("int")
     columns = list(df_tvl.columns)
     # Some weird NaN -> None conversion going on in this comprehension b/c python is gay as fuck
-    values = [[idx, [row[col] if not np.isnan(row[col]) else None for col in columns]] for idx, row in df_tvl.iterrows()]
+    values = [
+        [idx, [row[col] if not np.isnan(row[col]) else None for col in columns]]
+        for idx, row in df_tvl.iterrows()
+    ]
     tvl_final = []
     tvl_final.append(columns)
     tvl_final += values
-    
+
     # Write TVLs for Birdy
-    tvl_filename = Path('derived_timeseries/tvl_usd_agg.json')
+    tvl_filename = Path("derived_timeseries/tvl_usd_agg.json")
     tvl_filename.touch(exist_ok=True)
-    with open('derived_timeseries/tvl_usd_agg.json', 'w') as fl:
-        json.dump(tvl_final, fl, separators=(',', ':'), indent=2)    
+    with open("derived_timeseries/tvl_usd_agg.json", "w") as fl:
+        json.dump(tvl_final, fl, separators=(",", ":"), indent=2)
 
     # Write TVLs
-    tvl_filename = Path('derived_timeseries/tvl.json')
+    tvl_filename = Path("derived_timeseries/tvl.json")
     tvl_filename.touch(exist_ok=True)
-    with open('derived_timeseries/tvl.json', 'w') as fl:
-        json.dump(tvls, fl, separators=(',', ':'), indent=2)    
+    with open("derived_timeseries/tvl.json", "w") as fl:
+        json.dump(tvls, fl, separators=(",", ":"), indent=2)
 
     for symbol in spot.keys():
-        spot_filename = Path('derived_timeseries/spot.json')
+        spot_filename = Path("derived_timeseries/spot.json")
         spot_filename.touch(exist_ok=True)
         coingeckoId = mapping[symbol] if symbol in mapping else 0
         if not coingeckoId:
             continue
         print(coingeckoId)
-        with open('derived_timeseries/{}_pricesByCoingeckoId.json'.format(coingeckoId), 'w') as fl:
-            json.dump(spot[symbol], fl, separators=(',', ':'), indent=2)    
-
+        with open(
+            "derived_timeseries/{}_pricesByCoingeckoId.json".format(coingeckoId), "w"
+        ) as fl:
+            json.dump(spot[symbol], fl, separators=(",", ":"), indent=2)
 
     for metadata in info:
         for idx, col in enumerate(DESIRED_COLS):
             fname = "derived_timeseries/{}_{}.json".format(metadata["globalId"], col)
             output = metadata["output"]
-            with open(fname, 'r') as openfile:
+            with open(fname, "r") as openfile:
                 try:
                     writedata = json.load(openfile)
                 except:
@@ -279,19 +295,23 @@ if __name__ == "__main__":
             cached_rows = [x[0] for x in writedata if len(x)]
             last_timestamp = writedata[-1][0] if len(writedata) else 0
 
-            filtered_rows = list(filter(lambda x: x[0] not in cached_rows and x[0] > last_timestamp, output))
-            filtered_data = [[x[0], x[idx+1]] for x in filtered_rows]
+            filtered_rows = list(
+                filter(
+                    lambda x: x[0] not in cached_rows and x[0] > last_timestamp, output
+                )
+            )
+            filtered_data = [[x[0], x[idx + 1]] for x in filtered_rows]
             if not len(filtered_data):
                 continue
             # Remove row if it's the same value as the one before
             duplicates_removed = []
             for data_idx, data in enumerate(filtered_data):
-                if data_idx == 0 or filtered_data[data_idx-1][1] == data[1]:
+                if data_idx == 0 or filtered_data[data_idx - 1][1] == data[1]:
                     continue
                 else:
                     duplicates_removed.append(data)
             print(len(duplicates_removed))
             writedata.extend(duplicates_removed)
             # print(writedata)
-            with open(fname, 'w') as fl:
-                json.dump(writedata, fl, separators=(',', ':'), indent=2)
+            with open(fname, "w") as fl:
+                json.dump(writedata, fl, separators=(",", ":"), indent=2)

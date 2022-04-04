@@ -38,6 +38,7 @@ def iterate_file_versions(
             yield commit.committed_datetime, commit.hexsha, blob.data_stream.read()
         except IndexError:
             # This commit doesn't have a copy of the requested file
+            print(f"commit {commit} was fucked.. Manually exclude it please")
             pass
 
 

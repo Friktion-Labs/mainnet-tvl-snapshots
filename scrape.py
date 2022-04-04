@@ -181,11 +181,11 @@ def parse_spot(diff, spots):
 def get_coingecko_mapping():
     mapping = {}
     for payload in MAINNET_REGISTRY["allMainnetVolts"]:
-        if payload["voltType"] == "volt01":
+        if payload["voltType"] == 1:
             mapping[payload["underlyingTokenSymbol"]] = payload[
                 "underlyingTokenCoingeckoId"
             ]
-
+    print(mapping)
     return mapping
 
 

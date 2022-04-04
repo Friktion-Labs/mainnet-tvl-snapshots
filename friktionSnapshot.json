@@ -1,19 +1,9 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "updateTime": 1649050470,
-  "totalTvlUSD": 132035939.28,
-=======
-  "updateTime": 1649049469,
-  "totalTvlUSD": 131879467.27,
->>>>>>> parent of 8163a09f6 (Friktion TVL Mon Apr  4 05:27:49 UTC 2022 $131,959,990)
-=======
-  "updateTime": 1649051571,
-  "totalTvlUSD": 132217527.46,
->>>>>>> 82603a7f276fe6044255703ef0cf6eb12538e724
+  "updateTime": 1649052952,
+  "totalTvlUSD": 132096287.98,
   "coinsByCoingeckoId": {
     "solana": 206895.46630365698,
-    "msol": 90739.958546675,
+    "msol": 181479.922881316,
     "bitcoin": 451.517096,
     "avalanche-2": 5547.12210985,
     "lido-staked-sol": 2381.456777697,
@@ -21,13 +11,8 @@
     "saber": 12700264.156226,
     "ftx-token": 180112.329094,
     "terra-luna": 60315.26873,
-<<<<<<< HEAD
-    "terrausd": 2639583.499754,
-    "usd-coin": 31483498.490244,
-=======
     "terrausd": 2639824.762763,
     "usd-coin": 31487498.490244,
->>>>>>> 82603a7f276fe6044255703ef0cf6eb12538e724
     "socean-staked-sol": 20767.982995206,
     "serum": 3428030.86678,
     "mango-markets": 5435023.218837,
@@ -35,59 +20,23 @@
     "ethereum": 909.135911
   },
   "pricesByCoingeckoId": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "BTC": 46195,
-    "SOL": 136.02,
-    "ETH": 3501.78,
-    "mSOL": 141.08,
-    "FTT": 50.11,
-    "SRM": 3.19,
-=======
-    "BTC": 46232,
-    "SOL": 136.28,
-    "ETH": 3506.24,
-    "mSOL": 141.66,
-    "FTT": 50.14,
+    "BTC": 46239,
+    "SOL": 135.94,
+    "ETH": 3507.09,
+    "mSOL": 141.13,
+    "FTT": 50.16,
     "SRM": 3.2,
->>>>>>> 82603a7f276fe6044255703ef0cf6eb12538e724
     "USDC": 1,
     "tsUSDC": 1.001,
-    "MNGO": 0.167397,
-    "scnSOL": 140.36,
-    "SBR": 0.03617577,
-    "LUNA": 114.72,
+    "MNGO": 0.167533,
+    "scnSOL": 140.63,
+    "SBR": 0.0362057,
+    "LUNA": 114.38,
     "UST": 1,
-<<<<<<< HEAD
-    "RAY": 3.54,
-    "STEP": 0.202604,
-    "stSOL": 140.21,
-    "AVAX": 97.06
-=======
-    "BTC": 46153,
-    "SOL": 135.84,
-    "ETH": 3497.08,
-    "mSOL": 140.82,
-    "FTT": 50.05,
-    "SRM": 3.18,
-    "USDC": 1,
-    "tsUSDC": 1.001,
-    "MNGO": 0.166716,
-    "scnSOL": 140.3,
-    "SBR": 0.03638599,
-    "LUNA": 113.99,
-    "UST": 0.999257,
-    "RAY": 3.54,
-    "STEP": 0.202383,
-    "stSOL": 140.04,
-    "AVAX": 96.75
->>>>>>> parent of 8163a09f6 (Friktion TVL Mon Apr  4 05:27:49 UTC 2022 $131,959,990)
-=======
-    "RAY": 3.55,
-    "STEP": 0.197243,
-    "stSOL": 140.74,
-    "AVAX": 97.19
->>>>>>> 82603a7f276fe6044255703ef0cf6eb12538e724
+    "RAY": 3.53,
+    "STEP": 0.19767,
+    "stSOL": 140.26,
+    "AVAX": 97.11
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.10078,
@@ -121,7 +70,7 @@
   "depositTokenByGlobalId": {
     "mainnet_income_call_sol": 201344.726410741,
     "mainnet_income_call_sol_high": 5550.739892916,
-    "mainnet_income_call_marinade": 90739.958546675,
+    "mainnet_income_call_marinade": 90739.960475997,
     "mainnet_income_call_btc": 451.517096,
     "mainnet_income_call_avax": 5547.12210985,
     "mainnet_income_call_stsol": 2381.456777697,
@@ -137,7 +86,7 @@
     "mainnet_income_call_ray": 86169.085525,
     "mainnet_income_call_eth": 909.135911,
     "mainnet_income_put_sol": 9015337.53,
-    "mainnet_income_put_sol_high": 3135777.59,
+    "mainnet_income_put_sol_high": 3139777.59,
     "mainnet_income_put_sol_step_circuits": 10000000,
     "mainnet_income_put_sol_parrot_circuits": 1009425.28,
     "mainnet_income_put_eth_parrot_circuits": 0,
@@ -148,65 +97,25 @@
     "mainnet_income_put_mngo": 549999.61
   },
   "usdValueByGlobalId": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "mainnet_income_call_sol": 27386909.69,
-    "mainnet_income_call_sol_high": 755011.64,
-    "mainnet_income_call_marinade": 12801593.35,
-    "mainnet_income_call_btc": 20857832.25,
-    "mainnet_income_call_avax": 538403.67,
-    "mainnet_income_call_stsol": 333904.05,
-    "mainnet_income_call_step": 608727.21,
-    "mainnet_income_call_sbr": 460100.72,
-    "mainnet_income_call_ftt": 9025428.81,
-    "mainnet_income_call_luna": 6895241.52,
-    "mainnet_income_put_luna": 2639583.5,
-    "mainnet_income_put_tsUSDC": 1129218.66,
-    "mainnet_income_call_socean": 2914371.05,
-    "mainnet_income_call_srm": 10935418.47,
-    "mainnet_income_call_mngo": 906154.25,
-    "mainnet_income_call_ray": 305038.56,
-    "mainnet_income_call_eth": 3183593.95,
-=======
-    "mainnet_income_call_sol": 27350667.64,
-    "mainnet_income_call_sol_high": 754012.51,
-    "mainnet_income_call_marinade": 12778000.96,
-    "mainnet_income_call_btc": 20838868.53,
-    "mainnet_income_call_avax": 536684.06,
-    "mainnet_income_call_stsol": 333499.21,
-    "mainnet_income_call_step": 608063.21,
-    "mainnet_income_call_sbr": 462111.68,
-    "mainnet_income_call_ftt": 9014622.07,
-    "mainnet_income_call_luna": 6875337.48,
-    "mainnet_income_put_luna": 2637622.29,
-    "mainnet_income_put_tsUSDC": 1129218.66,
-    "mainnet_income_call_socean": 2913748.01,
-    "mainnet_income_call_srm": 10901138.16,
-    "mainnet_income_call_mngo": 906105.33,
-    "mainnet_income_call_ray": 305038.56,
-    "mainnet_income_call_eth": 3179320.98,
->>>>>>> parent of 8163a09f6 (Friktion TVL Mon Apr  4 05:27:49 UTC 2022 $131,959,990)
-=======
-    "mainnet_income_call_sol": 27439259.32,
-    "mainnet_income_call_sol_high": 756454.83,
-    "mainnet_income_call_marinade": 12854222.53,
-    "mainnet_income_call_btc": 20874538.38,
-    "mainnet_income_call_avax": 539124.8,
-    "mainnet_income_call_stsol": 335166.23,
-    "mainnet_income_call_step": 592619.99,
-    "mainnet_income_call_sbr": 459441.84,
-    "mainnet_income_call_ftt": 9030832.18,
-    "mainnet_income_call_luna": 6919367.63,
+    "mainnet_income_call_sol": 27370802.11,
+    "mainnet_income_call_sol_high": 754567.58,
+    "mainnet_income_call_marinade": 12806130.62,
+    "mainnet_income_call_btc": 20877699,
+    "mainnet_income_call_avax": 538958.38,
+    "mainnet_income_call_stsol": 334023.13,
+    "mainnet_income_call_step": 593902.92,
+    "mainnet_income_call_sbr": 459821.95,
+    "mainnet_income_call_ftt": 9036235.55,
+    "mainnet_income_call_luna": 6902479.35,
     "mainnet_income_put_luna": 2639824.76,
     "mainnet_income_put_tsUSDC": 1129218.66,
-    "mainnet_income_call_socean": 2914994.09,
+    "mainnet_income_call_socean": 2920601.45,
     "mainnet_income_call_srm": 10969698.77,
-    "mainnet_income_call_mngo": 909806.58,
-    "mainnet_income_call_ray": 305900.25,
-    "mainnet_income_call_eth": 3187648.7,
->>>>>>> 82603a7f276fe6044255703ef0cf6eb12538e724
+    "mainnet_income_call_mngo": 910317.47,
+    "mainnet_income_call_ray": 304176.87,
+    "mainnet_income_call_eth": 3188421.46,
     "mainnet_income_put_sol": 9015337.53,
-    "mainnet_income_put_sol_high": 3135777.59,
+    "mainnet_income_put_sol_high": 3139777.59,
     "mainnet_income_put_sol_step_circuits": 10000000,
     "mainnet_income_put_sol_parrot_circuits": 1009425.28,
     "mainnet_income_put_eth_parrot_circuits": 0,

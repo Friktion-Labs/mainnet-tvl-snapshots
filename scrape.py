@@ -69,7 +69,9 @@ def populate_registry():
     try:
         return dict(
             json.loads(
-                requests.get("https://app.friktion.fi/mainnet-registry.json").content
+                requests.get(
+                    "https://friktion-labs.github.io/mainnet-tvl-snapshots/friktionSnapshot.json"
+                ).content
             )
         )
     except Exception as e:
@@ -178,10 +180,9 @@ def parse_spot(diff, spots):
 
 def get_coingecko_mapping():
     mapping = {}
-    for _, payload in MAINNET_REGISTRY.items():
-        if "volt01" in payload:
-            payload2 = payload["volt01"]
-            mapping[payload2["underlyingTokenSymbol"]] = payload2[
+    for payload in MAINNET_REGISTRY["allMainnetVolts"]:
+        if payload["voltType"] == "volt01":
+            mapping[payload["underlyingTokenSymbol"]] = payload[
                 "underlyingTokenCoingeckoId"
             ]
 
@@ -205,8 +206,11 @@ if __name__ == "__main__":
     tvls = []
     spot = {}
     tvls_birdy = []
+    assert "allMainnetVolts" in MAINNET_REGISTRY, "metadata parsing error. contact dai"
     # Grab metadata for all vaults
-    for globalId, payload in MAINNET_REGISTRY.items():
+    for payload in MAINNET_REGISTRY["allMainnetVolts"]:
+        # print(payload)
+        globalId = payload["globalId"]
         for col in DESIRED_COLS:
             datastream_file = Path(
                 "derived_timeseries/{}_{}.json".format(globalId, col)
@@ -214,20 +218,10 @@ if __name__ == "__main__":
             datastream_file.touch(exist_ok=True)
         print(globalId)
 
-        # Brittle hardcode to find the voltType
-        payload_key = None
-        if type(payload) != dict:
-            continue
-        for key in payload.keys():
-            if "volt" in key and type(payload[key]) == dict:
-                payload_key = key
-                break
-        assert payload_key, "no valid volt type in payload. Contact dai"
-
         metadata = {
             "globalId": globalId,
-            "depositTokenCoingeckoId": payload[payload_key]["depositTokenCoingeckoId"],
-            "depositTokenSymbol": payload[payload_key]["depositTokenSymbol"],
+            "depositTokenCoingeckoId": payload["depositTokenCoingeckoId"],
+            "depositTokenSymbol": payload["depositTokenSymbol"],
             # Use this to store the output from diff processing
             "output": [],
         }

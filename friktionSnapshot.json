@@ -1,6 +1,6 @@
 {
-  "updateTime": 1649321332,
-  "totalTvlUSD": 133351517.51,
+  "updateTime": 1649321510,
+  "totalTvlUSD": 133351685.91,
   "coinsByCoingeckoId": {
     "solana": 214624.592903657,
     "msol": 91577.686781706,
@@ -36,7 +36,7 @@
     "RAY": 3.06,
     "STEP": 0.147757,
     "stSOL": 120.04,
-    "AVAX": 84.76
+    "AVAX": 84.79
   },
   "sharePricesByGlobalId": {
     "mainnet_income_call_sol": 1.10078,
@@ -101,7 +101,7 @@
     "mainnet_income_call_sol_high": 650988.35,
     "mainnet_income_call_marinade": 11054342.57,
     "mainnet_income_call_btc": 19689844.04,
-    "mainnet_income_call_avax": 475792.81,
+    "mainnet_income_call_avax": 475961.21,
     "mainnet_income_call_stsol": 294710.5,
     "mainnet_income_call_step": 444021.37,
     "mainnet_income_call_sbr": 436324.04,

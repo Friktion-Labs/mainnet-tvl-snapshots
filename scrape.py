@@ -150,6 +150,7 @@ def parse_tvls(
             row.append(content["totalTvlUSD"])
         tvls.append(row)
     except Exception as e:
+        traceback.print_exc()
         print("     error parsing TVLs")
         return
 
@@ -242,10 +243,24 @@ if __name__ == "__main__":
         parse_spot(diff, spot)
 
     df_tvl = pd.DataFrame(tvls_birdy)
+    # df_tvl.loc[
+    #     df_tvl.timestamp.isin([1650765600, 1650762000]),
+    #     ["mainnet_income_call_ftt", "mainnet_income_call_eth"],
+    # ] /= 100
+    # print(
+    #     df_tvl.loc[
+    #         df_tvl.timestamp.isin([1650765600, 1650762000]),
+    #         ["mainnet_income_call_ftt", "mainnet_income_call_eth"],
+    #     ]
+    # )
+    # print(df_tvl.loc[df_tvl.index.isin([1650765600, 1650762000])])
+    # print(df_tvl.timestamp)
     df_tvl["timestamp"] = pd.to_datetime(df_tvl.timestamp, unit="ms")
+    # exclude problem rows
+    df_tvl = df_tvl.loc[df_tvl.sum(axis=1) < 3e8]
     df_tvl = df_tvl.set_index("timestamp")
     df_tvl = df_tvl.groupby(df_tvl.index.floor("H")).first()
-    df_tvl.index = (df_tvl.index.astype("int") / 10 ** 6).astype("int")
+    df_tvl.index = (df_tvl.index.astype("int") / 10**6).astype("int")
     columns = list(df_tvl.columns)
     # Some weird NaN -> None conversion going on in this comprehension b/c python is gay as fuck
     values = [

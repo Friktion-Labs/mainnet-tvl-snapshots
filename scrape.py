@@ -408,10 +408,20 @@ if __name__ == "__main__":
                 )
             )
             seed = list(map(lambda x: [int(x[0]), x[1]], seed))
+
+            filtered_seed = []
+            timestamps_seen = []
+            for item in seed:
+                if item[0] in timestamps_seen:
+                    continue
+                else:
+                    filtered_seed.append(item)
+                    timestamps_seen.append(item[0])
+
             print(metadata["globalId"])
-            print(seed)
+            print(filtered_seed)
             with open(fname, "w") as fl:
-                json.dump(seed, fl, separators=(",", ":"), indent=2)
+                json.dump(filtered_seed, fl, separators=(",", ":"), indent=2)
         except:
             print(metadata["globalId"])
             print(f"{metadata['globalId']} was borked")

@@ -1,6 +1,6 @@
 {
-  "updateTime": 1651486522,
-  "totalTvlUSD": 112566498.54,
+  "updateTime": 1651486616,
+  "totalTvlUSD": 112566462.35,
   "coinsByCoingeckoId": {
     "solana": 209945.156469374,
     "msol": 90949.886186942,
@@ -17,7 +17,7 @@
     "mango-markets": 4618353.454349,
     "raydium": 100368.761254,
     "lido-staked-sol": 2769.19433156,
-    "usd-coin": 34089884.40309859
+    "usd-coin": 68179774.04731816
   },
   "pricesByCoingeckoId": {
     "BTC": 38893,
@@ -30,14 +30,14 @@
     "tsUSDC": 0.998614,
     "PAI": 0.998614,
     "UXD": 0.998614,
-    "MNGO": 0.113922,
+    "MNGO": 0.113934,
     "scnSOL": 91.38,
-    "SBR": 0.02086409,
-    "LUNA": 82.8,
+    "SBR": 0.02086216,
+    "LUNA": 82.82,
     "UST": 1.002,
     "RAY": 2.18,
-    "STEP": 0.092187,
-    "stSOL": 91.19,
+    "STEP": 0.091769,
+    "stSOL": 91.04,
     "AVAX": 58
   },
   "sharePricesByGlobalId": {
@@ -69,8 +69,8 @@
     "mainnet_income_put_eth": 1.04962,
     "mainnet_income_put_mngo": 0.96135,
     "mainnet_income_put_tsUSDC": 1.0386,
-    "mainnet_income_perp_btc": 1.03038,
-    "mainnet_basis_usdc": 1.04668
+    "mainnet_income_perp_btc": 1.03039,
+    "mainnet_basis_usdc": 1.04664
   },
   "depositTokenByGlobalId": {
     "mainnet_income_call_sol": 204367.210620392,
@@ -101,7 +101,7 @@
     "mainnet_income_put_eth": 1493091.85,
     "mainnet_income_put_mngo": 474507.35,
     "mainnet_income_put_tsUSDC": 1167564.210595,
-    "mainnet_income_perp_btc": 633434.18,
+    "mainnet_income_perp_btc": 633436.6,
     "mainnet_basis_usdc": 120692.13
   },
   "usdValueByGlobalId": {
@@ -116,7 +116,7 @@
     "mainnet_income_call_srm": 6470589.41,
     "mainnet_income_call_eth": 3147910.67,
     "mainnet_income_call_step": 380734.7,
-    "mainnet_income_call_sbr": 417281.8,
+    "mainnet_income_call_sbr": 417243.2,
     "mainnet_income_put_luna": 2320276.04,
     "mainnet_income_call_mngo": 526132.06,
     "mainnet_income_call_ray": 218803.89,
@@ -133,7 +133,7 @@
     "mainnet_income_put_eth": 1493091.85,
     "mainnet_income_put_mngo": 474507.35,
     "mainnet_income_put_tsUSDC": 1165945.96,
-    "mainnet_income_perp_btc": 633434.18,
+    "mainnet_income_perp_btc": 633436.6,
     "mainnet_basis_usdc": 120692.13
   },
   "globalIdToDepositTokenCoingeckoId": {

@@ -62,7 +62,7 @@ def iterate_file_versions(
 DESIRED_COLS = [
     "coinsByCoingeckoId",
     "pricesByCoingeckoId",
-    "sharePricesByGlobalId",
+    # "sharePricesByGlobalId",
     "depositTokenByGlobalId",
     "usdValueByGlobalId",
 ]
@@ -318,110 +318,105 @@ if __name__ == "__main__":
             with open(fname, "w") as fl:
                 json.dump(writedata, fl, separators=(",", ":"), indent=2)
 
-    # One last pass over sharePricesByGlobalId to get rid of duplicates
-    MISSING_DATA = {
-        "mainnet_income_call_sol": [
-            [1639712846000, 1.0],
-            [1640317646000, 1.02585],
-            [1640922446000, 1.03005],
-        ],
-        "mainnet_income_call_btc": [
-            [1639712846000, 1.0],
-            [1640317646000, 1.05414],
-            [1640922446000, 1.05874],
-        ],
-        "mainnet_income_call_marinade": [
-            [1640317646000, 1.0],
-            [1640922446000, 1.01567],
-        ],
-        "mainnet_income_call_eth": [
-            [1640317646000, 1.0],
-            [1640922446000, 1.00736],
-        ],
-        "mainnet_income_call_srm": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_call_luna": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_call_ftt": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_call_socean": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_call_sbr": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_call_mngo": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_call_sol_high": [
-            [1645607584000, 1.0],
-        ],
-        "mainnet_income_call_stsol": [
-            [1648094950000, 1.0],
-        ],
-        "mainnet_income_call_avax": [
-            [1648094950000, 1.0],
-        ],
-        "mainnet_income_call_step": [
-            [1647490150000, 1.0],
-        ],
-        "mainnet_income_put_sol": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_put_mngo": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_put_btc": [
-            [1640922446000, 1.0],
-        ],
-        "mainnet_income_put_eth": [
-            [1643947750000, 1.0],
-        ],
-        "mainnet_income_put_tsUSDC": [
-            [1644552550000, 1.0],
-        ],
-        "mainnet_income_put_pai": [
-            [1651205350000, 1.0],
-        ],
-        "mainnet_income_put_luna": [
-            [1643342950000, 1.0],
-        ],
-    }
-    for metadata in info:
-        fname = "derived_timeseries/{}_sharePricesByGlobalId.json".format(
-            metadata["globalId"]
-        )
-        try:
-            seed = MISSING_DATA.get(metadata["globalId"])
-            if not seed:
-                seed = []
+    # # One last pass over sharePricesByGlobalId to get rid of duplicates
+    # MISSING_DATA = {
+    #     "mainnet_income_call_btc": [
+    #         [1639712846000, 1.0],
+    #         [1640317646000, 1.05414],
+    #         [1640922446000, 1.05874],
+    #     ],
+    #     "mainnet_income_call_marinade": [
+    #         [1640317646000, 1.0],
+    #         [1640922446000, 1.01567],
+    #     ],
+    #     "mainnet_income_call_eth": [
+    #         [1640317646000, 1.0],
+    #         [1640922446000, 1.00736],
+    #     ],
+    #     "mainnet_income_call_srm": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_call_luna": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_call_ftt": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_call_socean": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_call_sbr": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_call_mngo": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_call_sol_high": [
+    #         [1645607584000, 1.0],
+    #     ],
+    #     "mainnet_income_call_stsol": [
+    #         [1648094950000, 1.0],
+    #     ],
+    #     "mainnet_income_call_avax": [
+    #         [1648094950000, 1.0],
+    #     ],
+    #     "mainnet_income_call_step": [
+    #         [1647490150000, 1.0],
+    #     ],
+    #     "mainnet_income_put_sol": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_put_mngo": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_put_btc": [
+    #         [1640922446000, 1.0],
+    #     ],
+    #     "mainnet_income_put_eth": [
+    #         [1643947750000, 1.0],
+    #     ],
+    #     "mainnet_income_put_tsUSDC": [
+    #         [1644552550000, 1.0],
+    #     ],
+    #     "mainnet_income_put_pai": [
+    #         [1651205350000, 1.0],
+    #     ],
+    #     "mainnet_income_put_luna": [
+    #         [1643342950000, 1.0],
+    #     ],
+    # }
+    # for metadata in info:
+    #     fname = "derived_timeseries/{}_sharePricesByGlobalId.json".format(
+    #         metadata["globalId"]
+    #     )
+    #     try:
+    #         seed = MISSING_DATA.get(metadata["globalId"])
+    #         if not seed:
+    #             seed = []
 
-            df = pd.read_json(fname)
-            seed.extend(
-                (
-                    df.groupby(pd.to_datetime(df[0], unit="ms").dt.isocalendar().week)
-                    .first()
-                    .values.tolist()
-                )
-            )
-            seed = list(map(lambda x: [int(x[0]), x[1]], seed))
+    #         df = pd.read_json(fname)
+    #         seed.extend(
+    #             (
+    #                 df.groupby(pd.to_datetime(df[0], unit="ms").dt.isocalendar().week)
+    #                 .first()
+    #                 .values.tolist()
+    #             )
+    #         )
+    #         seed = list(map(lambda x: [int(x[0]), x[1]], seed))
 
-            filtered_seed = []
-            timestamps_seen = []
-            for item in seed:
-                if item[0] in timestamps_seen:
-                    continue
-                else:
-                    filtered_seed.append(item)
-                    timestamps_seen.append(item[0])
+    #         filtered_seed = []
+    #         timestamps_seen = []
+    #         for item in seed:
+    #             if item[0] in timestamps_seen:
+    #                 continue
+    #             else:
+    #                 filtered_seed.append(item)
+    #                 timestamps_seen.append(item[0])
 
-            print(metadata["globalId"])
-            print(filtered_seed)
-            with open(fname, "w") as fl:
-                json.dump(filtered_seed, fl, separators=(",", ":"), indent=2)
-        except:
-            print(metadata["globalId"])
-            print(f"{metadata['globalId']} was borked")
+    #         print(metadata["globalId"])
+    #         print(filtered_seed)
+    #         with open(fname, "w") as fl:
+    #             json.dump(filtered_seed, fl, separators=(",", ":"), indent=2)
+    #     except:
+    #         print(metadata["globalId"])
+    #         print(f"{metadata['globalId']} was borked")

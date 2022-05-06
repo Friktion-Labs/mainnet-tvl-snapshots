@@ -62,9 +62,9 @@ def iterate_file_versions(
 DESIRED_COLS = [
     "coinsByCoingeckoId",
     "pricesByCoingeckoId",
-    # "sharePricesByGlobalId",
     "depositTokenByGlobalId",
     "usdValueByGlobalId",
+    "sharePricesByGlobalId",
 ]
 
 
@@ -285,38 +285,42 @@ if __name__ == "__main__":
 
     for metadata in info:
         for idx, col in enumerate(DESIRED_COLS):
-            fname = "derived_timeseries/{}_{}.json".format(metadata["globalId"], col)
-            output = metadata["output"]
-            with open(fname, "r") as openfile:
-                try:
-                    writedata = json.load(openfile)
-                except:
-                    writedata = []
-
-            # Skip captured commits
-            cached_rows = [x[0] for x in writedata if len(x)]
-            last_timestamp = writedata[-1][0] if len(writedata) else 0
-
-            filtered_rows = list(
-                filter(
-                    lambda x: x[0] not in cached_rows and x[0] > last_timestamp, output
+            if "circuits" in metadata["globalId"] or col in DESIRED_COLS[:-1]:
+                fname = "derived_timeseries/{}_{}.json".format(
+                    metadata["globalId"], col
                 )
-            )
-            filtered_data = [[x[0], x[idx + 1]] for x in filtered_rows]
-            if not len(filtered_data):
-                continue
-            # Remove row if it's the same value as the one before
-            duplicates_removed = []
-            for data_idx, data in enumerate(filtered_data):
-                if data_idx == 0 or filtered_data[data_idx - 1][1] == data[1]:
+                output = metadata["output"]
+                with open(fname, "r") as openfile:
+                    try:
+                        writedata = json.load(openfile)
+                    except:
+                        writedata = []
+
+                # Skip captured commits
+                cached_rows = [x[0] for x in writedata if len(x)]
+                last_timestamp = writedata[-1][0] if len(writedata) else 0
+
+                filtered_rows = list(
+                    filter(
+                        lambda x: x[0] not in cached_rows and x[0] > last_timestamp,
+                        output,
+                    )
+                )
+                filtered_data = [[x[0], x[idx + 1]] for x in filtered_rows]
+                if not len(filtered_data):
                     continue
-                else:
-                    duplicates_removed.append(data)
-            print(len(duplicates_removed))
-            writedata.extend(duplicates_removed)
-            # print(writedata)
-            with open(fname, "w") as fl:
-                json.dump(writedata, fl, separators=(",", ":"), indent=2)
+                # Remove row if it's the same value as the one before
+                duplicates_removed = []
+                for data_idx, data in enumerate(filtered_data):
+                    if data_idx == 0 or filtered_data[data_idx - 1][1] == data[1]:
+                        continue
+                    else:
+                        duplicates_removed.append(data)
+                print(len(duplicates_removed))
+                writedata.extend(duplicates_removed)
+                # print(writedata)
+                with open(fname, "w") as fl:
+                    json.dump(writedata, fl, separators=(",", ":"), indent=2)
 
     # # One last pass over sharePricesByGlobalId to get rid of duplicates
     # MISSING_DATA = {

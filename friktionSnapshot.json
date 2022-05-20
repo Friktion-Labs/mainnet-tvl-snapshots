@@ -1,6 +1,6 @@
 {
-  "updateTime": 1653036453,
-  "totalTvlUSD": 71541818.74,
+  "updateTime": 1653036872,
+  "totalTvlUSD": 71536621.51,
   "coinsByCoingeckoId": {
     "solana": 328591.833328845,
     "bitcoin": 734.567538,
@@ -17,7 +17,7 @@
     "raydium": 101769.05582,
     "lido-staked-sol": 1717.255797075,
     "terra-luna": 179999.80976,
-    "usd-coin": 13692645.626978235,
+    "usd-coin": 13692693.408124523,
     "terrausd": 2057520.86864
   },
   "pricesByCoingeckoId": {
@@ -25,7 +25,7 @@
     "SOL": 51.38,
     "ETH": 2021.88,
     "mSOL": 53.86,
-    "FTT": 30.67,
+    "FTT": 30.64,
     "SAMO": 0.00587513,
     "SRM": 1.13,
     "USDC": 1,
@@ -76,7 +76,7 @@
     "mainnet_income_put_mngo": 0.6864,
     "mainnet_income_put_uxd": 1,
     "mainnet_income_put_luna": 1.04656,
-    "mainnet_income_perp_btc": 1.0401,
+    "mainnet_income_perp_btc": 1.04018,
     "mainnet_basis_usdc": 1.03773
   },
   "depositTokenByGlobalId": {
@@ -112,8 +112,8 @@
     "mainnet_income_put_mngo": 152444.46,
     "mainnet_income_put_uxd": 493.236629,
     "mainnet_income_put_luna": 2057520.86864,
-    "mainnet_income_perp_btc": 884544.29,
-    "mainnet_basis_usdc": 6394917.95
+    "mainnet_income_perp_btc": 884604.41,
+    "mainnet_basis_usdc": 6394905.61
   },
   "usdValueByGlobalId": {
     "mainnet_income_call_sol": 9148627.64,
@@ -123,7 +123,7 @@
     "mainnet_income_call_marinade": 4143578.05,
     "mainnet_income_call_avax": 819252.93,
     "mainnet_income_call_socean": 906565.21,
-    "mainnet_income_call_ftt": 5362144.91,
+    "mainnet_income_call_ftt": 5356899.9,
     "mainnet_income_call_srm": 4078648.43,
     "mainnet_income_call_step": 394265.71,
     "mainnet_income_call_samo": 53320.3,
@@ -148,8 +148,8 @@
     "mainnet_income_put_mngo": 152444.46,
     "mainnet_income_put_uxd": 494.71,
     "mainnet_income_put_luna": 152674.22,
-    "mainnet_income_perp_btc": 884544.29,
-    "mainnet_basis_usdc": 6394917.95
+    "mainnet_income_perp_btc": 884604.41,
+    "mainnet_basis_usdc": 6394905.61
   },
   "globalIdToDepositTokenCoingeckoId": {
     "mainnet_income_call_sol": "solana",

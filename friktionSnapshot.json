@@ -1,8 +1,8 @@
 {
-  "updateTime": 1653046030,
-  "totalTvlUSD": 72773998.53,
+  "updateTime": 1653046415,
+  "totalTvlUSD": 72774007.08,
   "coinsByCoingeckoId": {
-    "solana": 328984.789918845,
+    "solana": 328985.789918845,
     "bitcoin": 734.567538,
     "ethereum": 1086.09740065,
     "msol": 76932.3812001,
@@ -17,7 +17,7 @@
     "raydium": 101769.05582,
     "lido-staked-sol": 1717.255797075,
     "terra-luna": 179999.80976,
-    "usd-coin": 13692826.346326761,
+    "usd-coin": 13692781.670645323,
     "terrausd": 2057520.86864
   },
   "pricesByCoingeckoId": {
@@ -76,11 +76,11 @@
     "mainnet_income_put_mngo": 0.6864,
     "mainnet_income_put_uxd": 1,
     "mainnet_income_put_luna": 1.04656,
-    "mainnet_income_perp_btc": 1.04027,
+    "mainnet_income_perp_btc": 1.04019,
     "mainnet_basis_usdc": 1.03774
   },
   "depositTokenByGlobalId": {
-    "mainnet_income_call_sol": 178447.436651566,
+    "mainnet_income_call_sol": 178448.436651566,
     "mainnet_income_call_sol_high": 5705.573267279,
     "mainnet_income_call_btc": 656.640538,
     "mainnet_income_call_eth": 1086.09740065,
@@ -112,11 +112,11 @@
     "mainnet_income_put_mngo": 152444.46,
     "mainnet_income_put_uxd": 493.236629,
     "mainnet_income_put_luna": 2057520.86864,
-    "mainnet_income_perp_btc": 884664.45,
-    "mainnet_basis_usdc": 6394978.49
+    "mainnet_income_perp_btc": 884611.33,
+    "mainnet_basis_usdc": 6394986.93
   },
   "usdValueByGlobalId": {
-    "mainnet_income_call_sol": 9496972.57,
+    "mainnet_income_call_sol": 9497025.79,
     "mainnet_income_call_sol_high": 303650.6,
     "mainnet_income_call_btc": 19953336.02,
     "mainnet_income_call_eth": 2224501.25,
@@ -148,8 +148,8 @@
     "mainnet_income_put_mngo": 152444.46,
     "mainnet_income_put_uxd": 493.72,
     "mainnet_income_put_luna": 144699.27,
-    "mainnet_income_perp_btc": 884664.45,
-    "mainnet_basis_usdc": 6394978.49
+    "mainnet_income_perp_btc": 884611.33,
+    "mainnet_basis_usdc": 6394986.93
   },
   "globalIdToDepositTokenCoingeckoId": {
     "mainnet_income_call_sol": "solana",

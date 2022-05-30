@@ -290,6 +290,7 @@ if __name__ == "__main__":
                 "circuits" in metadata["globalId"]
                 or col in DESIRED_COLS[:-1]
                 or "perp" in metadata["globalId"]
+                or "basis" in metadata["globalId"]
             ):
                 fname = "derived_timeseries/{}_{}.json".format(
                     metadata["globalId"], col

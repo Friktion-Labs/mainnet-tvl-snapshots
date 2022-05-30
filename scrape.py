@@ -64,6 +64,7 @@ DESIRED_COLS = [
     "pricesByCoingeckoId",
     "depositTokenByGlobalId",
     "usdValueByGlobalId",
+    # Make sure this is last.
     "sharePricesByGlobalId",
 ]
 
@@ -285,7 +286,11 @@ if __name__ == "__main__":
 
     for metadata in info:
         for idx, col in enumerate(DESIRED_COLS):
-            if "circuits" in metadata["globalId"] or col in DESIRED_COLS[:-1]:
+            if (
+                "circuits" in metadata["globalId"]
+                or col in DESIRED_COLS[:-1]
+                or "perp" in metadata["globalId"]
+            ):
                 fname = "derived_timeseries/{}_{}.json".format(
                     metadata["globalId"], col
                 )

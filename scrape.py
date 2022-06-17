@@ -308,7 +308,9 @@ if __name__ == "__main__":
 
                 filtered_rows = list(
                     filter(
-                        lambda x: x[0] not in cached_rows and x[0] > last_timestamp,
+                        lambda x: x[0] not in cached_rows and x[0] > last_timestamp
+                        # null check
+                        and x[1],
                         output,
                     )
                 )

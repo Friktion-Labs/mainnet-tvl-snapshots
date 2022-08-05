@@ -20,6 +20,18 @@ This contains static data that generally doesn't change unless new volts are lau
 
 Public URL: https://friktion-labs.github.io/mainnet-tvl-snapshots/staticData.json
 
+## legacy-format-token-list.json
+
+A token list of all the Friktion fTokens, in the same format as the late [@solana-labs/token-list](https://github.com/solana-labs/token-list). This is kept up to date with the latest tokens, and is fully compatible with the old token list format. Icons are stored in the [metaplex-token-metadata](https://github.com/Friktion-Labs/mainnet-tvl-snapshots/tree/main/metaplex-token-metadata) folder.
+
+Public URL: https://friktion-labs.github.io/mainnet-tvl-snapshots/legacy-format-token-list.json
+
+## metaplex-metadata-token-list.json
+
+You'll already know if you want to use the metaplex format. We don't recommend using this because the metaplex format was designed for NFTs in mind and doesn't contain some useful information such as decimals (which is available in legacy-format-token-list.json and on-chain). A copy of each token json and logo png is also in the [metaplex-token-metadata](https://github.com/Friktion-Labs/mainnet-tvl-snapshots/tree/main/metaplex-token-metadata) folder.
+
+Public URL: https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-metadata-token-list.json
+
 ## How to use this data in an app or code
 
 We recommend making a network request to fetch the latest information so that you have the most up-to-date data.

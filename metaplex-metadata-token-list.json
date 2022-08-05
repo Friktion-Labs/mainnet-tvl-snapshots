@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Friktion BTC (Volt 04 Basis)",
+    "symbol": "fbasisBTC",
+    "description": "Friktion BTC (Volt 04 Basis)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/GjHfbkNE4WbCeiyq8SteXJgtgNH46zWX7zXMKjPbL4Py.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SOL (Volt 04 Basis)",
+    "symbol": "fbasisSOL",
+    "description": "Friktion SOL (Volt 04 Basis)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/5CNnTMrMmWHnpswWYdFANvP6QCu58azbRG1enAjeWohx.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion AVAX (Volt 01 Call)",
+    "symbol": "fcAVAX",
+    "description": "Friktion AVAX (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/HLfkEc6E2HEcABaWm3QZSfDvswzXjh1onF9xEzUAtWNS.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion BTC (Volt 01 Call)",
+    "symbol": "fcBTC",
+    "description": "Friktion BTC (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/3BjcHXvyzMsjmeqE2qFLx45K4XFx3JPiyRnjJiF5MAHt.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion ETH (Volt 01 Call)",
+    "symbol": "fcETH",
+    "description": "Friktion ETH (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/GjnoPUjQiEUYWuKAbMax2cM1Eony8Yutc133wuSun9hS.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion FTT (Volt 01 Call)",
+    "symbol": "fcFTT",
+    "description": "Friktion FTT (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/7wDh4VCTPwx41kvbLE6fkFgMEjnqw7NpGJvQtNabCm2B.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion LUNA (Volt 01 Call)",
+    "symbol": "fcLUNA",
+    "description": "Friktion LUNA (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/95sn4kgeJnnBfRCD8S2quu4HS9Y6vb7JDuXrarnmEjYE.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion MNGO (Volt 01 Call)",
+    "symbol": "fcMNGO",
+    "description": "Friktion MNGO (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/4sTuzTYfcE2NF7zy6Sy8XhVcNLa6JQSLrx3roy97n4sD.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion mSOL (Volt 01 Call)",
+    "symbol": "fcmSOL",
+    "description": "Friktion mSOL (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/6UA3yn28XecAHLTwoCtjfzy3WcyQj1x13bxnH8urUiKt.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion BTC (Volt 03 Crab)",
+    "symbol": "fcrabBTC",
+    "description": "Friktion BTC (Volt 03 Crab)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/86nx2WyrdC6VuWyfdG1gMLiiBduktBTJgToKZAYwcbct.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion RAY (Volt 01 Call)",
+    "symbol": "fcRAY",
+    "description": "Friktion RAY (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/SoAnGsHVqSyaN4MjWoPCcftC1V6oSeNxLJjF5TXrtuL.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SAMO (Volt 01 Call)",
+    "symbol": "fcSAMO",
+    "description": "Friktion SAMO (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/9Wtfq4A7nGxQ6c89xhPBj4ipQyj1jeXntPBzDQknhHas.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SBR (Volt 01 Call)",
+    "symbol": "fcSBR",
+    "description": "Friktion SBR (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/DPMCwE9z9jXaDVDti5aKhdgCWGgsvioz6ZvB9eZjH7UE.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion scnSOL (Volt 01 Call)",
+    "symbol": "fcscnSOL",
+    "description": "Friktion scnSOL (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/5VmdHqvRMbXivuC34w4Hux9zb1y9moiBEQmXDrTR1kV.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SOL (Volt 01 Call)",
+    "symbol": "fcSOL",
+    "description": "Friktion SOL (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/4Hnh1UCC6HLzx9NaGKnTVHR2bANcRrhydumdHCnrT3i2.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SOLHigh (Volt 01 Call)",
+    "symbol": "fcSOLHigh",
+    "description": "Friktion SOLHigh (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/DNa849drqW19uBV5X9ohpJ5brRGzq856gk3HDRqveFrA.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SRM (Volt 01 Call)",
+    "symbol": "fcSRM",
+    "description": "Friktion SRM (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/5SLqZSywodLS8ih6U2AAioZrxpgR149hR8SApmCB7r5X.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion STEP (Volt 01 Call)",
+    "symbol": "fcSTEP",
+    "description": "Friktion STEP (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/AQFLXqLLofcbUCoi5HPfuuvX6vMPafubZfBNBMumnKq2.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion stSOL (Volt 01 Call)",
+    "symbol": "fcstSOL",
+    "description": "Friktion stSOL (Volt 01 Call)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/EPoDdEcDQ478YNRAiMYMHLs7mEnmo5z9322Q2D5exKFU.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion BTC (Volt 02 Put)",
+    "symbol": "fpBTC",
+    "description": "Friktion BTC (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/THjfJ7GUeW6aMU6dzYYFVs5LnKNvmPzgk2wbh3bWagC.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion ETH (Volt 02 Put)",
+    "symbol": "fpETH",
+    "description": "Friktion ETH (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/2uTkms42P62dJ7JRaefc1HFkvyBeMP28J6MPmH1gVHoT.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion LUNA (Volt 02 Put)",
+    "symbol": "fpLUNA",
+    "description": "Friktion LUNA (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/74ozhToAS71nDVBtFZMMucdkNB95tV2o5fhtFGQeixwS.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion MNGO (Volt 02 Put)",
+    "symbol": "fpMNGO",
+    "description": "Friktion MNGO (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/CxHG1tPkeEHsAVmPF2UrjZK3W719J5DGFgMaLtUkBoeP.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion PAISOL (Volt 02 Put)",
+    "symbol": "fpPAISOL",
+    "description": "Friktion PAISOL (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/8R2L3r6N6odiUkztEzhxr9wkFio8UikYWbp36qdZvA9U.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SOL (Volt 02 Put)",
+    "symbol": "fpSOL",
+    "description": "Friktion SOL (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/EBPM7fvPN8EuA65Uc7DT9eGyDUZ1sqMLM8Rb8y2YxBYU.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion SOLHigh (Volt 02 Put)",
+    "symbol": "fpSOLHigh",
+    "description": "Friktion SOLHigh (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/G8jsAWUA2KdDn7XmV1sBqUdbEXESaPdjPWDEYCsnkRX2.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion tsUSDCSOL (Volt 02 Put)",
+    "symbol": "fptsUSDCSOL",
+    "description": "Friktion tsUSDCSOL (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/Fw8mw9zNyfngvBYuS2L6XWfvFE8fExQ3apZVw4Ery5oy.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion UXDSOL (Volt 02 Put)",
+    "symbol": "fpUXDSOL",
+    "description": "Friktion UXDSOL (Volt 02 Put)",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/7q415NG2DBRLTcTqMdRLWZ6FTVUzSunjfsjMkT3xneNL.png",
+    "external_url": "https://friktion.fi"
+  }
+]

@@ -1,0 +1,590 @@
+[
+  {
+    "chainId": 101,
+    "address": "GjHfbkNE4WbCeiyq8SteXJgtgNH46zWX7zXMKjPbL4Py",
+    "symbol": "fbasisBTC",
+    "name": "Friktion BTC (Volt 04 Basis)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/GjHfbkNE4WbCeiyq8SteXJgtgNH46zWX7zXMKjPbL4Py.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt04",
+      "volt-04-basis"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "5CNnTMrMmWHnpswWYdFANvP6QCu58azbRG1enAjeWohx",
+    "symbol": "fbasisSOL",
+    "name": "Friktion SOL (Volt 04 Basis)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/5CNnTMrMmWHnpswWYdFANvP6QCu58azbRG1enAjeWohx.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt04",
+      "volt-04-basis"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "HLfkEc6E2HEcABaWm3QZSfDvswzXjh1onF9xEzUAtWNS",
+    "symbol": "fcAVAX",
+    "name": "Friktion AVAX (Volt 01 Call)",
+    "decimals": 8,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/HLfkEc6E2HEcABaWm3QZSfDvswzXjh1onF9xEzUAtWNS.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "3BjcHXvyzMsjmeqE2qFLx45K4XFx3JPiyRnjJiF5MAHt",
+    "symbol": "fcBTC",
+    "name": "Friktion BTC (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/3BjcHXvyzMsjmeqE2qFLx45K4XFx3JPiyRnjJiF5MAHt.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "GjnoPUjQiEUYWuKAbMax2cM1Eony8Yutc133wuSun9hS",
+    "symbol": "fcETH",
+    "name": "Friktion ETH (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/GjnoPUjQiEUYWuKAbMax2cM1Eony8Yutc133wuSun9hS.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "7wDh4VCTPwx41kvbLE6fkFgMEjnqw7NpGJvQtNabCm2B",
+    "symbol": "fcFTT",
+    "name": "Friktion FTT (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/7wDh4VCTPwx41kvbLE6fkFgMEjnqw7NpGJvQtNabCm2B.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "95sn4kgeJnnBfRCD8S2quu4HS9Y6vb7JDuXrarnmEjYE",
+    "symbol": "fcLUNA",
+    "name": "Friktion LUNA (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/95sn4kgeJnnBfRCD8S2quu4HS9Y6vb7JDuXrarnmEjYE.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "4sTuzTYfcE2NF7zy6Sy8XhVcNLa6JQSLrx3roy97n4sD",
+    "symbol": "fcMNGO",
+    "name": "Friktion MNGO (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/4sTuzTYfcE2NF7zy6Sy8XhVcNLa6JQSLrx3roy97n4sD.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "6UA3yn28XecAHLTwoCtjfzy3WcyQj1x13bxnH8urUiKt",
+    "symbol": "fcmSOL",
+    "name": "Friktion mSOL (Volt 01 Call)",
+    "decimals": 9,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/6UA3yn28XecAHLTwoCtjfzy3WcyQj1x13bxnH8urUiKt.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "86nx2WyrdC6VuWyfdG1gMLiiBduktBTJgToKZAYwcbct",
+    "symbol": "fcrabBTC",
+    "name": "Friktion BTC (Volt 03 Crab)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/86nx2WyrdC6VuWyfdG1gMLiiBduktBTJgToKZAYwcbct.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt03",
+      "volt-03-crab"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "SoAnGsHVqSyaN4MjWoPCcftC1V6oSeNxLJjF5TXrtuL",
+    "symbol": "fcRAY",
+    "name": "Friktion RAY (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/SoAnGsHVqSyaN4MjWoPCcftC1V6oSeNxLJjF5TXrtuL.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "9Wtfq4A7nGxQ6c89xhPBj4ipQyj1jeXntPBzDQknhHas",
+    "symbol": "fcSAMO",
+    "name": "Friktion SAMO (Volt 01 Call)",
+    "decimals": 9,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/9Wtfq4A7nGxQ6c89xhPBj4ipQyj1jeXntPBzDQknhHas.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "DPMCwE9z9jXaDVDti5aKhdgCWGgsvioz6ZvB9eZjH7UE",
+    "symbol": "fcSBR",
+    "name": "Friktion SBR (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/DPMCwE9z9jXaDVDti5aKhdgCWGgsvioz6ZvB9eZjH7UE.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "5VmdHqvRMbXivuC34w4Hux9zb1y9moiBEQmXDrTR1kV",
+    "symbol": "fcscnSOL",
+    "name": "Friktion scnSOL (Volt 01 Call)",
+    "decimals": 9,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/5VmdHqvRMbXivuC34w4Hux9zb1y9moiBEQmXDrTR1kV.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "4Hnh1UCC6HLzx9NaGKnTVHR2bANcRrhydumdHCnrT3i2",
+    "symbol": "fcSOL",
+    "name": "Friktion SOL (Volt 01 Call)",
+    "decimals": 9,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/4Hnh1UCC6HLzx9NaGKnTVHR2bANcRrhydumdHCnrT3i2.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "DNa849drqW19uBV5X9ohpJ5brRGzq856gk3HDRqveFrA",
+    "symbol": "fcSOLHigh",
+    "name": "Friktion SOLHigh (Volt 01 Call)",
+    "decimals": 9,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/DNa849drqW19uBV5X9ohpJ5brRGzq856gk3HDRqveFrA.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "5SLqZSywodLS8ih6U2AAioZrxpgR149hR8SApmCB7r5X",
+    "symbol": "fcSRM",
+    "name": "Friktion SRM (Volt 01 Call)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/5SLqZSywodLS8ih6U2AAioZrxpgR149hR8SApmCB7r5X.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "AQFLXqLLofcbUCoi5HPfuuvX6vMPafubZfBNBMumnKq2",
+    "symbol": "fcSTEP",
+    "name": "Friktion STEP (Volt 01 Call)",
+    "decimals": 9,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/AQFLXqLLofcbUCoi5HPfuuvX6vMPafubZfBNBMumnKq2.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "EPoDdEcDQ478YNRAiMYMHLs7mEnmo5z9322Q2D5exKFU",
+    "symbol": "fcstSOL",
+    "name": "Friktion stSOL (Volt 01 Call)",
+    "decimals": 9,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/EPoDdEcDQ478YNRAiMYMHLs7mEnmo5z9322Q2D5exKFU.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt01",
+      "volt-01-call"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "THjfJ7GUeW6aMU6dzYYFVs5LnKNvmPzgk2wbh3bWagC",
+    "symbol": "fpBTC",
+    "name": "Friktion BTC (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/THjfJ7GUeW6aMU6dzYYFVs5LnKNvmPzgk2wbh3bWagC.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "2uTkms42P62dJ7JRaefc1HFkvyBeMP28J6MPmH1gVHoT",
+    "symbol": "fpETH",
+    "name": "Friktion ETH (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/2uTkms42P62dJ7JRaefc1HFkvyBeMP28J6MPmH1gVHoT.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "74ozhToAS71nDVBtFZMMucdkNB95tV2o5fhtFGQeixwS",
+    "symbol": "fpLUNA",
+    "name": "Friktion LUNA (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/74ozhToAS71nDVBtFZMMucdkNB95tV2o5fhtFGQeixwS.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "CxHG1tPkeEHsAVmPF2UrjZK3W719J5DGFgMaLtUkBoeP",
+    "symbol": "fpMNGO",
+    "name": "Friktion MNGO (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/CxHG1tPkeEHsAVmPF2UrjZK3W719J5DGFgMaLtUkBoeP.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "8R2L3r6N6odiUkztEzhxr9wkFio8UikYWbp36qdZvA9U",
+    "symbol": "fpPAISOL",
+    "name": "Friktion PAISOL (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/8R2L3r6N6odiUkztEzhxr9wkFio8UikYWbp36qdZvA9U.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "EBPM7fvPN8EuA65Uc7DT9eGyDUZ1sqMLM8Rb8y2YxBYU",
+    "symbol": "fpSOL",
+    "name": "Friktion SOL (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/EBPM7fvPN8EuA65Uc7DT9eGyDUZ1sqMLM8Rb8y2YxBYU.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "G8jsAWUA2KdDn7XmV1sBqUdbEXESaPdjPWDEYCsnkRX2",
+    "symbol": "fpSOLHigh",
+    "name": "Friktion SOLHigh (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/G8jsAWUA2KdDn7XmV1sBqUdbEXESaPdjPWDEYCsnkRX2.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "Fw8mw9zNyfngvBYuS2L6XWfvFE8fExQ3apZVw4Ery5oy",
+    "symbol": "fptsUSDCSOL",
+    "name": "Friktion tsUSDCSOL (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/Fw8mw9zNyfngvBYuS2L6XWfvFE8fExQ3apZVw4Ery5oy.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  },
+  {
+    "chainId": 101,
+    "address": "7q415NG2DBRLTcTqMdRLWZ6FTVUzSunjfsjMkT3xneNL",
+    "symbol": "fpUXDSOL",
+    "name": "Friktion UXDSOL (Volt 02 Put)",
+    "decimals": 6,
+    "logoURI": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/7q415NG2DBRLTcTqMdRLWZ6FTVUzSunjfsjMkT3xneNL.png",
+    "tags": [
+      "friktion",
+      "friktion-ftoken",
+      "volt02",
+      "volt-02-put"
+    ],
+    "extensions": {
+      "discord": "https://discord.com/invite/eSkK9X67Qj",
+      "github": "https://github.com/Friktion-Labs",
+      "medium": "https://friktionlabs.medium.com/",
+      "twitter": "https://twitter.com/friktion_labs",
+      "website": "https://friktion.fi"
+    }
+  }
+]

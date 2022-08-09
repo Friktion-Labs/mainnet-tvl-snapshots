@@ -32,6 +32,8 @@ You'll already know if you want to use the metaplex format. We don't recommend u
 
 Public URL: https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-metadata-token-list.json
 
+Example URL for a token: https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/4Hnh1UCC6HLzx9NaGKnTVHR2bANcRrhydumdHCnrT3i2.json
+
 ## How to use this data in an app or code
 
 We recommend making a network request to fetch the latest information so that you have the most up-to-date data.

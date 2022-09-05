@@ -33,7 +33,7 @@ function main(friktionSnapshot: { allMainnetVolts: MainnetVolt[] }) {
         tagLong = "volt-04-basis";
         tokenNameMiddle = token.shareTokenSymbol.replace("fbasis", "");
       } else if (token.voltType === 5) {
-        voltParentheses = "(Volt 05 Protection)";
+        voltParentheses = "(Volt 05 Prot.)";
         tagShort = "volt05";
         tagLong = "volt-05-prot";
         token.shareTokenSymbol = token.shareTokenSymbol.replace(

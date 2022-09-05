@@ -46,12 +46,32 @@ function main(friktionSnapshot: { allMainnetVolts: MainnetVolt[] }) {
         throw new Error("Unknown volt type");
       }
 
+      // Long symbols are unavoidable in some cases
+      if (token.shareTokenSymbol.length > 10) {
+        console.log(
+          `Warning: ${token.shareTokenSymbol} is ${
+            token.shareTokenSymbol.length
+          } characters long. Truncating to ${token.shareTokenSymbol.slice(
+            0,
+            10
+          )}`
+        );
+      }
+
+      const fullName = `Friktion ${tokenNameMiddle} ${voltParentheses}`;
+      if (fullName.length > 32) {
+        throw new Error(
+          `Token name for ${fullName} is too long. Metaplex only supports 32 characters`
+        );
+      }
+
       return {
         chainId: 101,
         address: token.shareTokenMint,
-        // Metaplex limits the name to 10 characters
+        // Metaplex limits symbol to 10 characters
         symbol: token.shareTokenSymbol.slice(0, 10),
-        name: `Friktion ${tokenNameMiddle} ${voltParentheses}`,
+        // Metaplex limits name to 32 characters
+        name: fullName,
         decimals: token.shareTokenDecimals,
         logoURI: `https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/${token.shareTokenMint}.png`,
         tags: ["friktion", "friktion-ftoken", tagShort, tagLong],

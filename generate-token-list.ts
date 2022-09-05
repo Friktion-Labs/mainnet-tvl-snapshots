@@ -32,6 +32,15 @@ function main(friktionSnapshot: { allMainnetVolts: MainnetVolt[] }) {
         tagShort = "volt04";
         tagLong = "volt-04-basis";
         tokenNameMiddle = token.shareTokenSymbol.replace("fbasis", "");
+      } else if (token.voltType === 5) {
+        voltParentheses = "(Volt 05 Protection)";
+        tagShort = "volt05";
+        tagLong = "volt-05-prot";
+        token.shareTokenSymbol = token.shareTokenSymbol.replace(
+          "fprotect",
+          "fprot"
+        );
+        tokenNameMiddle = token.shareTokenSymbol.replace("fprot", "");
       } else {
         console.log(token);
         throw new Error("Unknown volt type");
@@ -40,7 +49,8 @@ function main(friktionSnapshot: { allMainnetVolts: MainnetVolt[] }) {
       return {
         chainId: 101,
         address: token.shareTokenMint,
-        symbol: token.shareTokenSymbol,
+        // Metaplex limits the name to 10 characters
+        symbol: token.shareTokenSymbol.slice(0, 10),
         name: `Friktion ${tokenNameMiddle} ${voltParentheses}`,
         decimals: token.shareTokenDecimals,
         logoURI: `https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/${token.shareTokenMint}.png`,

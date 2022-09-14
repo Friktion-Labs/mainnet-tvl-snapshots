@@ -6,13 +6,25 @@ function main(friktionSnapshot: { allMainnetVolts: MainnetVolt[] }) {
     a.shareTokenSymbol.localeCompare(b.shareTokenSymbol)
   ) as MainnetVolt[];
   const legacyFormatTokenList = allVoltMints
-    .filter((token) => !token.shareTokenSymbol.includes("Treasury"))
+    // .filter((token) => !token.shareTokenSymbol.includes("Treasury"))
     .map((token) => {
       let voltParentheses;
-      let tagShort;
-      let tagLong;
+      let tagShort: string | undefined;
+      let tagLong: string | undefined;
       let tokenNameMiddle;
-      if (token.voltType === 1) {
+      if (token.globalId.includes("_circuits")) {
+        // console.log(token);
+        tokenNameMiddle = token.shareTokenSymbol.replace("fc", "");
+
+        voltParentheses = "";
+        tokenNameMiddle = token.shareTokenSymbol.replace("Treasury", "");
+        token.shareTokenSymbol = token.shareTokenSymbol
+          .replace("Treasury", "")
+          .slice(0, 10);
+        // console.log(
+        //   `${token.globalId} => ${token.shareTokenSymbol} ${tokenNameMiddle}`
+        // );
+      } else if (token.voltType === 1) {
         voltParentheses = "(Volt 01 Call)";
         tagShort = "volt01";
         tagLong = "volt-01-call";
@@ -58,7 +70,8 @@ function main(friktionSnapshot: { allMainnetVolts: MainnetVolt[] }) {
         );
       }
 
-      const fullName = `Friktion ${tokenNameMiddle} ${voltParentheses}`;
+      const fullName =
+        `Friktion ${tokenNameMiddle} ${voltParentheses}`.trimEnd();
       if (fullName.length > 32) {
         throw new Error(
           `Token name for ${fullName} is too long. Metaplex only supports 32 characters`
@@ -74,7 +87,9 @@ function main(friktionSnapshot: { allMainnetVolts: MainnetVolt[] }) {
         name: fullName,
         decimals: token.shareTokenDecimals,
         logoURI: `https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/${token.shareTokenMint}.png`,
-        tags: ["friktion", "friktion-ftoken", tagShort, tagLong],
+        tags: ["friktion", "friktion-ftoken", tagShort, tagLong].filter(
+          (x) => x !== undefined
+        ),
         extensions: {
           discord: "https://discord.com/invite/eSkK9X67Qj",
           github: "https://github.com/Friktion-Labs",

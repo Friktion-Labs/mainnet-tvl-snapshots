@@ -28,6 +28,13 @@
     "external_url": "https://friktion.fi"
   },
   {
+    "name": "Friktion fcBTC_StepFinance",
+    "symbol": "fcBTC_Step",
+    "description": "Friktion fcBTC_StepFinance",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/5TMXqdmLGfdbmeWDQ1BxZ16xxTcHTA766gnojnS1Cx2g.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
     "name": "Friktion ETH (Volt 01 Call)",
     "symbol": "fcETH",
     "description": "Friktion ETH (Volt 01 Call)",
@@ -112,6 +119,20 @@
     "external_url": "https://friktion.fi"
   },
   {
+    "name": "Friktion fcSOL_Parrot",
+    "symbol": "fcSOL_Parr",
+    "description": "Friktion fcSOL_Parrot",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/89JuYPSHEhskTvVf4rkdfmXyr6bdNA6Q21XtjSU7Urdi.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion fcSOL_StepFinance",
+    "symbol": "fcSOL_Step",
+    "description": "Friktion fcSOL_StepFinance",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/FGyxuV712gvc8DtxBrSSFXAU6yfqEzqs2intBYUNobWo.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
     "name": "Friktion SOLHigh (Volt 01 Call)",
     "symbol": "fcSOLHigh",
     "description": "Friktion SOLHigh (Volt 01 Call)",
@@ -144,6 +165,13 @@
     "symbol": "fpBTC",
     "description": "Friktion BTC (Volt 02 Put)",
     "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/THjfJ7GUeW6aMU6dzYYFVs5LnKNvmPzgk2wbh3bWagC.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion fpBTC_StepFinance",
+    "symbol": "fpBTC_Step",
+    "description": "Friktion fpBTC_StepFinance",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/ET4nQ6we7KDemfzni8dy2EkNCuYo1RryiRPjC6XwnnC3.png",
     "external_url": "https://friktion.fi"
   },
   {
@@ -186,6 +214,27 @@
     "symbol": "fpSOL",
     "description": "Friktion SOL (Volt 02 Put)",
     "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/EBPM7fvPN8EuA65Uc7DT9eGyDUZ1sqMLM8Rb8y2YxBYU.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion fpSOL_Parrot",
+    "symbol": "fpSOL_Parr",
+    "description": "Friktion fpSOL_Parrot",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/J1TX6c1R6WykW2wonvrL6xA2g8vZ2FLDqDDF1mLYrMYK.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion fpSOL_StepFinance",
+    "symbol": "fpSOL_Step",
+    "description": "Friktion fpSOL_StepFinance",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/Bikt7D3nMQmJSpxX7oczCDKgevrpWk3g4D3VhQZzqAT.png",
+    "external_url": "https://friktion.fi"
+  },
+  {
+    "name": "Friktion fpSOL_UXD",
+    "symbol": "fpSOL_UXD",
+    "description": "Friktion fpSOL_UXD",
+    "image": "https://friktion-labs.github.io/mainnet-tvl-snapshots/metaplex-token-metadata/BAyzqZuKUQ4k93Yfm3xp85SkAKtr4xghBsqZLBTZT14z.png",
     "external_url": "https://friktion.fi"
   },
   {

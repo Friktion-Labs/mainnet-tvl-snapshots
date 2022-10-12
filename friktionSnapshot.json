@@ -1,9 +1,9 @@
 {
-  "updateTime": 1665561301,
-  "totalTvlUSD": 28232230.54,
+  "updateTime": 1665561476,
+  "totalTvlUSD": 28233722.11,
   "coinsByCoingeckoId": {
     "solana": 216976.51826525902,
-    "bitcoin": 260.985453,
+    "bitcoin": 261.063358,
     "ethereum": 850.88871499,
     "lido-staked-sol": 40815.912948195,
     "avalanche-2": 12155.32377263,
@@ -18,7 +18,7 @@
     "raydium": 147942.772717,
     "socean-staked-sol": 13641.545544835,
     "terra-luna": 129704.507155,
-    "usd-coin": 4209319.348470224,
+    "usd-coin": 4209322.957013487,
     "terrausd": 131.561125
   },
   "pricesByCoingeckoId": {
@@ -88,7 +88,7 @@
   "depositTokenByGlobalId": {
     "mainnet_income_call_sol": 183216.048307721,
     "mainnet_income_call_sol_high": 33760.467221494,
-    "mainnet_income_call_btc": 180.332533,
+    "mainnet_income_call_btc": 180.410438,
     "mainnet_income_call_eth": 850.88871499,
     "mainnet_income_call_stsol": 40815.912948195,
     "mainnet_income_call_avax": 12155.32377263,
@@ -120,7 +120,7 @@
     "mainnet_income_put_mngo": 52915.15,
     "mainnet_income_put_uxd": 202.445251,
     "mainnet_income_put_luna": 131.561125,
-    "mainnet_income_perp_btc": 983030.28,
+    "mainnet_income_perp_btc": 983033.89,
     "mainnet_basis_usdc_sol": 210339.52,
     "mainnet_basis_usdc_btc": 23602.23,
     "mainnet_protection_usdc_sol": 299949.71
@@ -128,7 +128,7 @@
   "usdValueByGlobalId": {
     "mainnet_income_call_sol": 5727333.67,
     "mainnet_income_call_sol_high": 1055352.2,
-    "mainnet_income_call_btc": 3444286.46,
+    "mainnet_income_call_btc": 3445774.41,
     "mainnet_income_call_eth": 1101892.37,
     "mainnet_income_call_stsol": 1354271.99,
     "mainnet_income_call_avax": 194363.62,
@@ -160,7 +160,7 @@
     "mainnet_income_put_mngo": 52915.15,
     "mainnet_income_put_uxd": 202.43,
     "mainnet_income_put_luna": 6.68,
-    "mainnet_income_perp_btc": 983030.28,
+    "mainnet_income_perp_btc": 983033.89,
     "mainnet_basis_usdc_sol": 210339.52,
     "mainnet_basis_usdc_btc": 23602.23,
     "mainnet_protection_usdc_sol": 299949.71
@@ -271,8 +271,8 @@
       "highVoltage": "",
       "shareTokenPrice": 1.170263830284475,
       "depositTokenPrice": 19099.64,
-      "tvlUsd": 3444286.46058812,
-      "tvlDepositToken": 180.332533,
+      "tvlUsd": 3445774.41804232,
+      "tvlDepositToken": 180.410438,
       "capacityUsd": 15279712,
       "capacityDepositToken": 800,
       "latestEpochYield": 0.27,
@@ -1314,10 +1314,10 @@
       "isVoltage": false,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 1.1361700830829826,
+      "shareTokenPrice": 1.1361748197952903,
       "depositTokenPrice": 1,
-      "tvlUsd": 983030.2875899513,
-      "tvlDepositToken": 983030.2875899513,
+      "tvlUsd": 983033.8961332137,
+      "tvlDepositToken": 983033.8961332137,
       "capacityUsd": 1100000,
       "capacityDepositToken": 1100000,
       "latestEpochYield": 0.12,

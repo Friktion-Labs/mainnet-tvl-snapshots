@@ -1,6 +1,6 @@
 {
-  "updateTime": 1667258272,
-  "totalTvlUSD": 30533831.02,
+  "updateTime": 1667258376,
+  "totalTvlUSD": 30533805.01,
   "coinsByCoingeckoId": {
     "aptos": 4258.8360634,
     "solana": 212922.058514548,
@@ -19,7 +19,7 @@
     "raydium": 154300.738398,
     "socean-staked-sol": 13638.635698686,
     "terra-luna": 129584.696908,
-    "usd-coin": 4908237.767580347,
+    "usd-coin": 4908211.762129972,
     "terrausd": 131.561125
   },
   "pricesByCoingeckoId": {
@@ -83,7 +83,7 @@
     "mainnet_income_put_mngo": 0.71606,
     "mainnet_income_put_uxd": 1,
     "mainnet_income_put_luna": 0,
-    "mainnet_income_perp_btc": 1.14423,
+    "mainnet_income_perp_btc": 1.1442,
     "mainnet_basis_usdc_sol": 1.06317,
     "mainnet_basis_usdc_btc": 1.00934,
     "mainnet_protection_usdc_sol": 1.00498
@@ -124,7 +124,7 @@
     "mainnet_income_put_mngo": 50180.74,
     "mainnet_income_put_uxd": 202.445251,
     "mainnet_income_put_luna": 131.561125,
-    "mainnet_income_perp_btc": 1088055.64,
+    "mainnet_income_perp_btc": 1088029.63,
     "mainnet_basis_usdc_sol": 210339.52,
     "mainnet_basis_usdc_btc": 23602.23,
     "mainnet_protection_usdc_sol": 285717.92
@@ -165,7 +165,7 @@
     "mainnet_income_put_mngo": 50180.74,
     "mainnet_income_put_uxd": 202.64,
     "mainnet_income_put_luna": 4.93,
-    "mainnet_income_perp_btc": 1088055.64,
+    "mainnet_income_perp_btc": 1088029.63,
     "mainnet_basis_usdc_sol": 210339.52,
     "mainnet_basis_usdc_btc": 23602.23,
     "mainnet_protection_usdc_sol": 285717.92
@@ -1201,7 +1201,7 @@
       "isVoltage": false,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 0.7965103498723295,
+      "shareTokenPrice": 0.7965103498780564,
       "depositTokenPrice": 1.001,
       "tvlUsd": 110890.739857898,
       "tvlDepositToken": 110779.959898,
@@ -1361,10 +1361,10 @@
       "isVoltage": false,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 1.1442356672335932,
+      "shareTokenPrice": 1.1442081756844298,
       "depositTokenPrice": 1,
-      "tvlUsd": 1088055.643555074,
-      "tvlDepositToken": 1088055.643555074,
+      "tvlUsd": 1088029.6381046982,
+      "tvlDepositToken": 1088029.6381046982,
       "capacityUsd": 1100000,
       "capacityDepositToken": 1100000,
       "latestEpochYield": 0.33,

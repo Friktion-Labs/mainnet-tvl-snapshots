@@ -1,6 +1,6 @@
 {
-  "updateTime": 1667297899,
-  "totalTvlUSD": 30780217.69,
+  "updateTime": 1667298018,
+  "totalTvlUSD": 30780215.97,
   "coinsByCoingeckoId": {
     "aptos": 4258.8360634,
     "solana": 212918.768514548,
@@ -19,7 +19,7 @@
     "raydium": 154300.738398,
     "socean-staked-sol": 13638.635698686,
     "terra-luna": 129584.696908,
-    "usd-coin": 4914404.441082012,
+    "usd-coin": 4914402.718885091,
     "terrausd": 131.561125
   },
   "pricesByCoingeckoId": {
@@ -83,7 +83,7 @@
     "mainnet_income_put_mngo": 0.71606,
     "mainnet_income_put_uxd": 1,
     "mainnet_income_put_luna": 0,
-    "mainnet_income_perp_btc": 1.14441,
+    "mainnet_income_perp_btc": 1.14439,
     "mainnet_basis_usdc_sol": 1.06317,
     "mainnet_basis_usdc_btc": 1.00934,
     "mainnet_protection_usdc_sol": 1.00498
@@ -124,7 +124,7 @@
     "mainnet_income_put_mngo": 50180.74,
     "mainnet_income_put_uxd": 202.445251,
     "mainnet_income_put_luna": 131.561125,
-    "mainnet_income_perp_btc": 1091496.03,
+    "mainnet_income_perp_btc": 1091494.31,
     "mainnet_basis_usdc_sol": 210339.52,
     "mainnet_basis_usdc_btc": 23602.23,
     "mainnet_protection_usdc_sol": 285217.48
@@ -165,7 +165,7 @@
     "mainnet_income_put_mngo": 50180.74,
     "mainnet_income_put_uxd": 202.44,
     "mainnet_income_put_luna": 4.89,
-    "mainnet_income_perp_btc": 1091496.03,
+    "mainnet_income_perp_btc": 1091494.31,
     "mainnet_basis_usdc_sol": 210339.52,
     "mainnet_basis_usdc_btc": 23602.23,
     "mainnet_protection_usdc_sol": 285217.48
@@ -1361,10 +1361,10 @@
       "isVoltage": false,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 1.144419087652546,
+      "shareTokenPrice": 1.1444172670395347,
       "depositTokenPrice": 1,
-      "tvlUsd": 1091496.0388957385,
-      "tvlDepositToken": 1091496.0388957385,
+      "tvlUsd": 1091494.3166988178,
+      "tvlDepositToken": 1091494.3166988178,
       "capacityUsd": 1100000,
       "capacityDepositToken": 1100000,
       "latestEpochYield": 0.33,

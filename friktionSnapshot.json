@@ -1,5 +1,5 @@
 {
-  "updateTime": 1667668622,
+  "updateTime": 1667668855,
   "totalTvlUSD": 31539336.64,
   "coinsByCoingeckoId": {
     "aptos": 5370.15974812,
@@ -83,7 +83,7 @@
     "mainnet_income_put_mngo": 0.71606,
     "mainnet_income_put_uxd": 1,
     "mainnet_income_put_luna": 0,
-    "mainnet_income_perp_btc": 1.15857,
+    "mainnet_income_perp_btc": 1.15841,
     "mainnet_basis_usdc_sol": 1.06317,
     "mainnet_basis_usdc_btc": 1.00934,
     "mainnet_protection_usdc_sol": 1.00498
@@ -1361,7 +1361,7 @@
       "isVoltage": false,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 1.1585774313248882,
+      "shareTokenPrice": 1.158412827420675,
       "depositTokenPrice": 1,
       "tvlUsd": 1100000,
       "tvlDepositToken": 1100000,

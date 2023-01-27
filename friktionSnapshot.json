@@ -1,6 +1,6 @@
 {
-  "updateTime": 1674793054,
-  "totalTvlUSD": 4524452.27,
+  "updateTime": 1674793183,
+  "totalTvlUSD": 4524286.18,
   "coinsByCoingeckoId": {
     "solana": 59396.606707481,
     "ethereum": 300.04720875,
@@ -14,7 +14,7 @@
     "samoyedcoin": 724846.077566903,
     "raydium": 62523.307566,
     "serum": 299924.126448,
-    "usd-coin": 2100365.637751151,
+    "usd-coin": 2100033.4625661504,
     "ftx-token": 4949.57959857,
     "near": 35.299139018,
     "saber": 4092087.199762,
@@ -126,7 +126,7 @@
     "mainnet_income_call_luna": 125743.112711,
     "mainnet_income_put_pai": 10319.725199,
     "mainnet_income_put_tsUSDC": 1276.112646,
-    "mainnet_income_put_mngo": 44954.51,
+    "mainnet_income_put_mngo": 44788.42,
     "mainnet_income_put_luna": 131.543879
   },
   "usdValueByGlobalId": {
@@ -167,7 +167,7 @@
     "mainnet_income_call_luna": 21.46,
     "mainnet_income_put_pai": 10330.04,
     "mainnet_income_put_tsUSDC": 1277.38,
-    "mainnet_income_put_mngo": 44954.51,
+    "mainnet_income_put_mngo": 44788.42,
     "mainnet_income_put_luna": 2.83
   },
   "globalIdToDepositTokenCoingeckoId": {
@@ -1121,10 +1121,10 @@
       "isVoltage": false,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 0.7160698050600304,
+      "shareTokenPrice": 0.7160698050741747,
       "depositTokenPrice": 1,
-      "tvlUsd": 44954.513824,
-      "tvlDepositToken": 44954.513824,
+      "tvlUsd": 44788.425034,
+      "tvlDepositToken": 44788.425034,
       "capacityUsd": 550000,
       "capacityDepositToken": 550000,
       "latestEpochYield": 0.51,
@@ -1361,10 +1361,10 @@
       "isVoltage": false,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 1.114232609108756,
+      "shareTokenPrice": 1.1142326544932908,
       "depositTokenPrice": 1,
-      "tvlUsd": 29166.506732075264,
-      "tvlDepositToken": 29166.506732075264,
+      "tvlUsd": 29166.507920075266,
+      "tvlDepositToken": 29166.507920075266,
       "capacityUsd": 1100000,
       "capacityDepositToken": 1100000,
       "latestEpochYield": 0.33,

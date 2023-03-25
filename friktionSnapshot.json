@@ -1,5 +1,5 @@
 {
-  "updateTime": 1679748594,
+  "updateTime": 1679749040,
   "totalTvlUSD": 1616841.57,
   "coinsByCoingeckoId": {
     "solana": 24065.572474105997,
@@ -28,7 +28,7 @@
     "FTT": 1.32,
     "SAMO": 0.0034533,
     "NEAR": 1.95,
-    "SRM": 0.218071,
+    "SRM": 0.218079,
     "USDC": 1,
     "tsUSDC": 1.005,
     "PAI": 1.005,

@@ -1,8 +1,8 @@
 {
-  "updateTime": 1679975745,
-  "totalTvlUSD": 2062461.62,
+  "updateTime": 1679976419,
+  "totalTvlUSD": 2062119.19,
   "coinsByCoingeckoId": {
-    "solana": 23956.757677992,
+    "solana": 23946.786120019,
     "ethereum": 184.89654705,
     "avalanche-2": 487.57482805,
     "lido-staked-sol": 747.252294,
@@ -85,7 +85,7 @@
   },
   "depositTokenByGlobalId": {
     "mainnet_income_call_sol": 20624.942626016,
-    "mainnet_income_call_sol_high": 3331.812315932,
+    "mainnet_income_call_sol_high": 3321.840757959,
     "mainnet_income_call_eth": 184.89654705,
     "mainnet_income_call_avax": 487.57482805,
     "mainnet_income_call_stsol": 747.252294,
@@ -123,7 +123,7 @@
   },
   "usdValueByGlobalId": {
     "mainnet_income_call_sol": 708260.52,
-    "mainnet_income_call_sol_high": 114414.43,
+    "mainnet_income_call_sol_high": 114072.01,
     "mainnet_income_call_eth": 251401.98,
     "mainnet_income_call_avax": 8542.31,
     "mainnet_income_call_stsol": 27199.98,
@@ -299,10 +299,10 @@
       "isVoltage": true,
       "isInCircuits": false,
       "highVoltage": "",
-      "shareTokenPrice": 1.015900844522449,
+      "shareTokenPrice": 1.0159008445227544,
       "depositTokenPrice": 34.34,
-      "tvlUsd": 114414.43492910489,
-      "tvlDepositToken": 3331.812315932,
+      "tvlUsd": 114072.01162831206,
+      "tvlDepositToken": 3321.840757959,
       "capacityUsd": 2575500,
       "capacityDepositToken": 75000,
       "latestEpochYield": 0.08,

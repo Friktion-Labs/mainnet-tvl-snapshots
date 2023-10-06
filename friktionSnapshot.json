@@ -1,6 +1,6 @@
 {
-  "updateTime": 1696557583,
-  "totalTvlUSD": 795469.9,
+  "updateTime": 1696557845,
+  "totalTvlUSD": 795410.81,
   "coinsByCoingeckoId": {
     "solana": 11919.795399386,
     "ethereum": 46.75481698,
@@ -21,27 +21,27 @@
     "terrausd": 131.536594
   },
   "pricesByCoingeckoId": {
-    "BTC": 27521,
+    "BTC": 27536,
     "SOL": 23.14,
-    "ETH": 1621.99,
-    "mSOL": 26.32,
+    "ETH": 1622.34,
+    "mSOL": 26.3,
     "FTT": 1.22,
-    "SAMO": 0.00294088,
+    "SAMO": 0.0029398,
     "NEAR": 1.083,
-    "SRM": 0.04389549,
+    "SRM": 0.04396558,
     "USDC": 1,
-    "tsUSDC": 0.99995,
-    "PAI": 0.99995,
-    "UXD": 0.99995,
-    "MNGO": 0.01413216,
-    "MNDE": 0.04222487,
-    "scnSOL": 26.58,
-    "SBR": 0.00082858,
-    "LUNA": 0.00005797,
-    "UST": 0.01203251,
-    "RAY": 0.178763,
-    "STEP": 0.01553248,
-    "stSOL": 26.21,
+    "tsUSDC": 1,
+    "PAI": 1,
+    "UXD": 1,
+    "MNGO": 0.01414708,
+    "MNDE": 0.04209057,
+    "scnSOL": 26.51,
+    "SBR": 0.00082563,
+    "LUNA": 0.000058,
+    "UST": 0.01203191,
+    "RAY": 0.179272,
+    "STEP": 0.01555185,
+    "stSOL": 26.2,
     "AVAX": 10.19,
     "APT": 5.26
   },
@@ -124,15 +124,15 @@
   "usdValueByGlobalId": {
     "mainnet_income_call_sol": 237772.31,
     "mainnet_income_call_sol_high": 38051.68,
-    "mainnet_income_call_eth": 75835.84,
+    "mainnet_income_call_eth": 75852.2,
     "mainnet_income_call_avax": 2514.02,
-    "mainnet_income_call_stsol": 2361.2,
-    "mainnet_income_call_marinade": 62091.47,
-    "mainnet_income_call_socean": 9913.42,
+    "mainnet_income_call_stsol": 2360.29,
+    "mainnet_income_call_marinade": 62044.28,
+    "mainnet_income_call_socean": 9887.31,
     "mainnet_income_call_aptos": 107.83,
-    "mainnet_income_call_step": 628.23,
-    "mainnet_income_call_samo": 1515.22,
-    "mainnet_income_call_ray": 1283.09,
+    "mainnet_income_call_step": 629.01,
+    "mainnet_income_call_samo": 1514.67,
+    "mainnet_income_call_ray": 1286.74,
     "mainnet_income_put_sol": 184075.66,
     "mainnet_income_put_sol_high": 22194.53,
     "mainnet_income_put_btc": 52338.17,
@@ -145,17 +145,17 @@
     "mainnet_income_put_btc_circuits_e262dc86": 0,
     "mainnet_income_put_sol_uxd_circuits": 0.9,
     "mainnet_income_put_eth": 25346.15,
-    "mainnet_income_put_uxd": 100.19,
+    "mainnet_income_put_uxd": 100.2,
     "mainnet_income_perp_btc": 7695.21,
     "mainnet_basis_usdc_sol": 3889.99,
     "mainnet_basis_usdc_btc": 44.29,
     "mainnet_protection_usdc_sol": 53920.38,
     "mainnet_income_call_near": 5.44,
-    "mainnet_income_call_sbr": 2176.83,
-    "mainnet_income_call_mngo": 2414.04,
+    "mainnet_income_call_sbr": 2169.08,
+    "mainnet_income_call_mngo": 2416.58,
     "mainnet_income_call_luna": 7.26,
     "mainnet_income_put_pai": 18.75,
-    "mainnet_income_put_tsUSDC": 1052.95,
+    "mainnet_income_put_tsUSDC": 1053.01,
     "mainnet_income_put_mngo": 8113.07,
     "mainnet_income_put_luna": 1.58
   },
@@ -273,7 +273,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2ai4RjSNJU1c9bma3FW2ysvsY7atRydL66LhttzJMJyd"
     },
     {
@@ -313,7 +313,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "EcNLPyxt4FNXKyiP687KhATDxvFN4XYgbjEa8tfuaFhT"
     },
     {
@@ -340,10 +340,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 0.9435470858079595,
-      "depositTokenPrice": 26.32,
-      "tvlUsd": 62091.47142474584,
+      "depositTokenPrice": 26.3,
+      "tvlUsd": 62044.2894555781,
       "tvlDepositToken": 2359.098458387,
-      "capacityUsd": 2368800,
+      "capacityUsd": 2367000,
       "capacityDepositToken": 90000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -353,7 +353,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2MXpXc5v9eWmg9mf19e2R8Ln3NTqA65vpiDk6HfcRhT9"
     },
     {
@@ -380,10 +380,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 0.8234576937550228,
-      "depositTokenPrice": 0.00294088,
-      "tvlUsd": 1515.2293584065912,
+      "depositTokenPrice": 0.0029398,
+      "tvlUsd": 1514.6729100961945,
       "tvlDepositToken": 515229.917033878,
-      "capacityUsd": 58817.6,
+      "capacityUsd": 58796,
       "capacityDepositToken": 20000000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -393,7 +393,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "EnotnkXxiGrTLYTyoVeyVN9idQFkekpTa743pqmnaHwG"
     },
     {
@@ -434,7 +434,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "N/A"
     },
     {
@@ -461,10 +461,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 1.0419723616724181,
-      "depositTokenPrice": 1621.99,
-      "tvlUsd": 75835.8455933902,
+      "depositTokenPrice": 1622.34,
+      "tvlUsd": 75852.2097793332,
       "tvlDepositToken": 46.75481698,
-      "capacityUsd": 2108587,
+      "capacityUsd": 2109042,
       "capacityDepositToken": 1300,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -474,7 +474,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "FBwCsvMy1LpsvuTEL7X26R4PCFJHFtmUw7cQaor2i8ns"
     },
     {
@@ -502,10 +502,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 1.0860552066254667,
-      "depositTokenPrice": 0.01413216,
-      "tvlUsd": 2414.0402995074105,
+      "depositTokenPrice": 0.01414708,
+      "tvlUsd": 2416.5889177843515,
       "tvlDepositToken": 170818.919366,
-      "capacityUsd": 141321.6,
+      "capacityUsd": 141470.8,
       "capacityDepositToken": 10000000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -515,7 +515,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2kqsNXcX4KNboo3zourCSS2e6RRBVqf3xHMrNJ84TAEv"
     },
     {
@@ -542,10 +542,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 0.8966594581219716,
-      "depositTokenPrice": 26.58,
-      "tvlUsd": 9913.4245340322,
+      "depositTokenPrice": 26.51,
+      "tvlUsd": 9887.3169449659,
       "tvlDepositToken": 372.96555809,
-      "capacityUsd": 1116360,
+      "capacityUsd": 1113420,
       "capacityDepositToken": 42000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -555,7 +555,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "De7Umd9bLeN6i1JA3Nch2p5oXe9e6XB9Vhmfid4sygyH"
     },
     {
@@ -583,10 +583,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 1.2292002322616586,
-      "depositTokenPrice": 0.00082858,
-      "tvlUsd": 2176.8339570067596,
+      "depositTokenPrice": 0.00082563,
+      "tvlUsd": 2169.0837576618924,
       "tvlDepositToken": 2627186.218599,
-      "capacityUsd": 66286.4,
+      "capacityUsd": 66050.4,
       "capacityDepositToken": 80000000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -596,7 +596,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "4hbdobjEaCSAyipBny21BbZapi98ACzz4QhcmBnwG95V"
     },
     {
@@ -623,10 +623,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 1.060698041299338,
-      "depositTokenPrice": 0.00005797,
-      "tvlUsd": 7.26159951943668,
+      "depositTokenPrice": 0.000058,
+      "tvlUsd": 7.265357462952,
       "tvlDepositToken": 125264.783844,
-      "capacityUsd": 10.4346,
+      "capacityUsd": 10.44,
       "capacityDepositToken": 180000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -636,7 +636,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2XFHBnBpUhhAQLTNdDAmfgsYGC9JVf5eJfWNWPhSikHV"
     },
     {
@@ -664,10 +664,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 1.1047477603807578,
-      "depositTokenPrice": 0.178763,
-      "tvlUsd": 1283.092369937612,
+      "depositTokenPrice": 0.179272,
+      "tvlUsd": 1286.745777053728,
       "tvlDepositToken": 7177.617124,
-      "capacityUsd": 35752.6,
+      "capacityUsd": 35854.4,
       "capacityDepositToken": 200000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -677,7 +677,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "3nrwjiSasEAgp8czy7SLhmsHCMcGDaggsaPywhFvMEbN"
     },
     {
@@ -704,10 +704,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 1.0613261459419383,
-      "depositTokenPrice": 0.01553248,
-      "tvlUsd": 628.2314081036686,
+      "depositTokenPrice": 0.01555185,
+      "tvlUsd": 629.0148530123354,
       "tvlDepositToken": 40446.304009641,
-      "capacityUsd": 155324.8,
+      "capacityUsd": 155518.5,
       "capacityDepositToken": 10000000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -717,7 +717,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "AwgiJp3tsXrQpEEJxyc7Y25K4Asrz5XgN8vMqVJ1aGEL"
     },
     {
@@ -744,10 +744,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 0.8837111351398558,
-      "depositTokenPrice": 26.21,
-      "tvlUsd": 2361.20056631633,
+      "depositTokenPrice": 26.2,
+      "tvlUsd": 2360.2996885726,
       "tvlDepositToken": 90.087774373,
-      "capacityUsd": 1808490,
+      "capacityUsd": 1807800,
       "capacityDepositToken": 69000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -757,7 +757,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "8Awb9wWsh7XStasSQhXu2BgewvgDZumPZGHFDXMqBCNE"
     },
     {
@@ -797,7 +797,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2B9wjJm6AJQQnuMhgSri7YuhhFGX9XJsSK7zKCMLnfzg"
     },
     {
@@ -837,7 +837,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2Cu77aqKJBvJvms2EaYPJmHLNR5hdC9Ht8svG7dM9BzC"
     },
     {
@@ -864,10 +864,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 0.000005787079108215505,
-      "depositTokenPrice": 0.01203251,
-      "tvlUsd": 1.58271538267094,
+      "depositTokenPrice": 0.01203191,
+      "tvlUsd": 1.58263646071454,
       "tvlDepositToken": 131.536594,
-      "capacityUsd": 108292.59,
+      "capacityUsd": 108287.19,
       "capacityDepositToken": 9000000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -877,7 +877,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2VNqkwiKvyCg3raCe1sr3z1ddk6hQDhg7SQjPHe2eGJn"
     },
     {
@@ -917,7 +917,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "DjH3yQzidhjdw7EDorgLAvGfUJQJt6a42PS2AT6qkMzg"
     },
     {
@@ -957,7 +957,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "7HELDq2FECQdn6oZM5fRh65hS427n6VQq7c5HmbMYcAC"
     },
     {
@@ -998,7 +998,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "4JypMUvUaR1WgmA8NBa8YkG6g7bwRN1xeYTdoj7dZPxq"
     },
     {
@@ -1038,7 +1038,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "4fA8drj739VYndnu3TA1r8e4gWD7sovFjcUiTTCBX6Gd"
     },
     {
@@ -1065,10 +1065,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 0.43846989344961207,
-      "depositTokenPrice": 0.99995,
-      "tvlUsd": 1052.9596433853,
+      "depositTokenPrice": 1,
+      "tvlUsd": 1053.012294,
       "tvlDepositToken": 1053.012294,
-      "capacityUsd": 499975,
+      "capacityUsd": 500000,
       "capacityDepositToken": 500000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -1078,7 +1078,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "HppistK681viFkfJrjxvJeEKMN5AEJNfFf6czdd45uFo"
     },
     {
@@ -1105,10 +1105,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 0.513675897853103,
-      "depositTokenPrice": 0.99995,
-      "tvlUsd": 18.7566921185,
+      "depositTokenPrice": 1,
+      "tvlUsd": 18.75763,
       "tvlDepositToken": 18.75763,
-      "capacityUsd": 499975,
+      "capacityUsd": 500000,
       "capacityDepositToken": 500000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -1118,7 +1118,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "HUVV5ShDkJNiAzVuazbcCqfNYwRVUcDyMEoZLxCSs4jT"
     },
     {
@@ -1145,10 +1145,10 @@
       "isInCircuits": false,
       "highVoltage": "",
       "shareTokenPrice": 1,
-      "depositTokenPrice": 0.99995,
-      "tvlUsd": 100.19538998,
+      "depositTokenPrice": 1,
+      "tvlUsd": 100.2004,
       "tvlDepositToken": 100.2004,
-      "capacityUsd": 4999750,
+      "capacityUsd": 5000000,
       "capacityDepositToken": 5000000,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -1158,7 +1158,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1198,7 +1198,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "ByGxNrA3tFHBqu28K8sTcmpCQcReG5c882hc4gsqoK46"
     },
     {
@@ -1358,7 +1358,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1398,7 +1398,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1425,10 +1425,10 @@
       "isInCircuits": true,
       "highVoltage": "",
       "shareTokenPrice": 0,
-      "depositTokenPrice": 27521,
+      "depositTokenPrice": 27536,
       "tvlUsd": 0,
       "tvlDepositToken": 0,
-      "capacityUsd": 2752100,
+      "capacityUsd": 2753600,
       "capacityDepositToken": 100,
       "latestEpochYield": 0,
       "weeklyPy": 0,
@@ -1438,7 +1438,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "8C3mcJ44dZQsaewqvNcD1zXxH7XjTxJXyisMu5zr8vxG"
     },
     {
@@ -1478,7 +1478,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "394PMZV6Cxb4mpKzfNqCGTrYXaoididaEcDh9rdXy2Db"
     },
     {
@@ -1518,7 +1518,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1558,7 +1558,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "2o6gg5zDfg5DXaJ5fW6NfvGDq9FRsvPUhVnP77CzjkTn"
     },
     {
@@ -1598,7 +1598,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "9uCuPRZvusibp28ZE1aUbZo8JtYjnTQ3N5hqwobyZDwp"
     },
     {
@@ -1638,7 +1638,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "H37mY81JHwtUFCFz1M2D7f74zGruts8nGZ6awLngpkjp"
     },
     {
@@ -1678,7 +1678,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1696557599000,
+      "nextAutocompoundingTime": 1697162399000,
       "lastTradedOption": "EoQ69V5QSDYJzpxYD7ganQXthy9bjxVUBd47Hp9EAtNd"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "updateTime": 1709863065,
+  "updateTime": 1709863392,
   "totalTvlUSD": 1708493.1,
   "coinsByCoingeckoId": {
     "solana": 7348.682497546,
@@ -273,7 +273,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2ai4RjSNJU1c9bma3FW2ysvsY7atRydL66LhttzJMJyd"
     },
     {
@@ -313,7 +313,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "EcNLPyxt4FNXKyiP687KhATDxvFN4XYgbjEa8tfuaFhT"
     },
     {
@@ -353,7 +353,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2MXpXc5v9eWmg9mf19e2R8Ln3NTqA65vpiDk6HfcRhT9"
     },
     {
@@ -393,7 +393,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "EnotnkXxiGrTLYTyoVeyVN9idQFkekpTa743pqmnaHwG"
     },
     {
@@ -434,7 +434,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "N/A"
     },
     {
@@ -474,7 +474,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "FBwCsvMy1LpsvuTEL7X26R4PCFJHFtmUw7cQaor2i8ns"
     },
     {
@@ -515,7 +515,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2kqsNXcX4KNboo3zourCSS2e6RRBVqf3xHMrNJ84TAEv"
     },
     {
@@ -555,7 +555,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "De7Umd9bLeN6i1JA3Nch2p5oXe9e6XB9Vhmfid4sygyH"
     },
     {
@@ -596,7 +596,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "4hbdobjEaCSAyipBny21BbZapi98ACzz4QhcmBnwG95V"
     },
     {
@@ -636,7 +636,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2XFHBnBpUhhAQLTNdDAmfgsYGC9JVf5eJfWNWPhSikHV"
     },
     {
@@ -677,7 +677,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "3nrwjiSasEAgp8czy7SLhmsHCMcGDaggsaPywhFvMEbN"
     },
     {
@@ -717,7 +717,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "AwgiJp3tsXrQpEEJxyc7Y25K4Asrz5XgN8vMqVJ1aGEL"
     },
     {
@@ -757,7 +757,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "8Awb9wWsh7XStasSQhXu2BgewvgDZumPZGHFDXMqBCNE"
     },
     {
@@ -797,7 +797,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2B9wjJm6AJQQnuMhgSri7YuhhFGX9XJsSK7zKCMLnfzg"
     },
     {
@@ -837,7 +837,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2Cu77aqKJBvJvms2EaYPJmHLNR5hdC9Ht8svG7dM9BzC"
     },
     {
@@ -877,7 +877,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2VNqkwiKvyCg3raCe1sr3z1ddk6hQDhg7SQjPHe2eGJn"
     },
     {
@@ -917,7 +917,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "DjH3yQzidhjdw7EDorgLAvGfUJQJt6a42PS2AT6qkMzg"
     },
     {
@@ -957,7 +957,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "7HELDq2FECQdn6oZM5fRh65hS427n6VQq7c5HmbMYcAC"
     },
     {
@@ -998,7 +998,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "4JypMUvUaR1WgmA8NBa8YkG6g7bwRN1xeYTdoj7dZPxq"
     },
     {
@@ -1038,7 +1038,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "4fA8drj739VYndnu3TA1r8e4gWD7sovFjcUiTTCBX6Gd"
     },
     {
@@ -1078,7 +1078,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "HppistK681viFkfJrjxvJeEKMN5AEJNfFf6czdd45uFo"
     },
     {
@@ -1118,7 +1118,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "HUVV5ShDkJNiAzVuazbcCqfNYwRVUcDyMEoZLxCSs4jT"
     },
     {
@@ -1158,7 +1158,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1198,7 +1198,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "ByGxNrA3tFHBqu28K8sTcmpCQcReG5c882hc4gsqoK46"
     },
     {
@@ -1358,7 +1358,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1398,7 +1398,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1438,7 +1438,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "8C3mcJ44dZQsaewqvNcD1zXxH7XjTxJXyisMu5zr8vxG"
     },
     {
@@ -1478,7 +1478,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "394PMZV6Cxb4mpKzfNqCGTrYXaoididaEcDh9rdXy2Db"
     },
     {
@@ -1518,7 +1518,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "N/A"
     },
     {
@@ -1558,7 +1558,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "2o6gg5zDfg5DXaJ5fW6NfvGDq9FRsvPUhVnP77CzjkTn"
     },
     {
@@ -1598,7 +1598,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "9uCuPRZvusibp28ZE1aUbZo8JtYjnTQ3N5hqwobyZDwp"
     },
     {
@@ -1638,7 +1638,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "H37mY81JHwtUFCFz1M2D7f74zGruts8nGZ6awLngpkjp"
     },
     {
@@ -1678,7 +1678,7 @@
       "performanceFeeRate": 0.1,
       "withdrawalFeeRate": 0.001,
       "aumFeeRateAnnualized": 0,
-      "nextAutocompoundingTime": 1709863199000,
+      "nextAutocompoundingTime": 1710467999000,
       "lastTradedOption": "EoQ69V5QSDYJzpxYD7ganQXthy9bjxVUBd47Hp9EAtNd"
     }
   ],
